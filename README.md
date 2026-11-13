@@ -1,6 +1,6 @@
 # ProTrain portable workspace
 
-This private kit creates a separate Systeme Imrane workspace for ProTrain. It
+This ProTrain kit creates a separate Systeme Imrane workspace for ProTrain. It
 contains the reusable engine, 38 selected skills, and a reviewed ProTrain project
 snapshot. Your existing workspace and global Codex/Claude settings are untouched.
 
@@ -9,7 +9,7 @@ does not download packages, authenticate, publish, or build a network index.
 
 ## Start on Windows
 
-Clone this private repository with your own GitHub account into a folder such as
+Clone this repository with your own GitHub account into a folder such as
 `C:\Work\protrain-kit`. Open PowerShell in that clone, then run:
 
 ```powershell
@@ -104,7 +104,7 @@ snapshot. The snapshot copies existing memory and does not summarize it for you.
 
 There is **no automatic sync or push**. The bootstrap never copies working changes
 back to the repository. Use the manual review process in
-[working-copy backup](docs/WORKING_COPY_BACKUP.md). A private repository still
+[working-copy backup](docs/WORKING_COPY_BACKUP.md). A repository still
 needs an explicit content review before a commit or push. Binary media histories
 can make Git clones large; retain only deliberate deliverables and do not add
 caches, installed packages, private runtimes, account exports or secret files.

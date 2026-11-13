@@ -24,7 +24,7 @@ another computer, copy only reviewed ProTrain changes back into the checkout's
 6. Inspect `git status` and the full diff. Check new binary files, nested archives,
    private data, credentials, media rights and retained approval states. Run a new
    bootstrap `plan` against a fresh external destination to validate the payload.
-7. Commit only the reviewed snapshot. Push to the private repository only when the
+7. Commit only the reviewed snapshot. Push to the repository only when the
    owner has authorized that publication. Other PCs can fetch that commit and
    create a fresh installation, then transfer any separate local changes after
    comparison. Bootstrap refuses changed existing installations rather than merging.

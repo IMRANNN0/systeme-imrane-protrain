@@ -29,8 +29,8 @@ The portable copies use explicit workspace/project tokens, expanded during insta
 
 Use the included local assets where available. Existing legacy build scripts preserve their original behavior and can depend on original-host packages, proprietary Windows fonts or preservation hashes. Do not run those maintenance/checkpoint scripts blindly. The optional renderer above avoids the legacy Node/browser paths without changing their historical code or overwriting the original outputs. Font substitutions require a separate visual review, and proprietary fonts are not copied from Windows.
 
-## Private content and backup
+## Published content and backup
 
-This repository includes client work because its owner explicitly requested a private ProTrain-only transfer. Toolkit and third-party licenses do not automatically license client assets for public redistribution. Preserve source notices and per-asset permissions. Keep the repository private and review access before inviting anyone.
+This repository includes client work because its owner explicitly requested a ProTrain-only transfer, then explicitly confirmed public publication. Toolkit and third-party licenses do not automatically license client assets for public redistribution. Preserve source notices and per-asset permissions. The owner explicitly requested public publication of this reviewed ProTrain snapshot. Public availability is not a blanket reuse license for client or third-party assets.
 
 The kit and installed workspace are separate. Work in the installed project. Changes are not automatically uploaded to GitHub. Follow the top-level reviewed backup/sync instructions when moving completed project changes back into the kit, excluding secrets, dependency folders, host configs and caches.

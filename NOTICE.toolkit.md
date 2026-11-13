@@ -1,12 +1,7 @@
-# Toolkit and third-party notices
+# Distribution and source notices
 
-The generic engine retains LICENSE.toolkit.txt and tools/systeme-imrane/LICENSE.
-Media buying course adaptations retain kit/COURSE-NOTICE.md. Each third-party
-skill keeps its source license/notices, including upstream-license directories.
-See kit/skills-manifest.json for provenance and portable path changes.
+The toolkit uses the existing owner-authorized MIT distribution license, preserved in LICENSE, LICENSE.toolkit.txt and tools/systeme-imrane/LICENSE. Copyright attribution to Ashraf and Systeme Imrane contributors is retained. The original installed workspace is unchanged.
 
-This license notice does not apply to the private project/ProTrain payload.
-Client scripts, logos, media, fonts, research references and generated assets keep
-their own rights and limitations. Private delivery does not certify reuse rights.
+The owner explicitly requested public publication of the ProTrain snapshot on 13 November 2026 after being told this exposes strategies, scripts, images and videos. Generic third-party skills, adapted courses, fonts and client assets retain their own notices and limitations. The toolkit license does not automatically license the project/ProTrain media or third-party references for unrestricted reuse.
 
-No plugin cache, authentication, external account or installed runtime is bundled.
+No authentication, provider keys, plugin cache, dependency installation or private runtime snapshot is included. See kit/PROJECT_SNAPSHOT.json and kit/skills-manifest.json for the reviewed file scope and provenance.
