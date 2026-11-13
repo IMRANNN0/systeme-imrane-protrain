@@ -1,0 +1,4 @@
+interface:
+  display_name: "Customer Profile"
+  short_description: "Jobs, Pains et Gains par segment client"
+  default_prompt: "Utilise $media-buying-customer-profile pour établir un profil Jobs/Pains/Gains sourcé du segment et du marché indiqués."

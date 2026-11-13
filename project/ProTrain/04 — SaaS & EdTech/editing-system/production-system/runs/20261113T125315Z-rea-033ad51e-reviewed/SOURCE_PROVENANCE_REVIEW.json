@@ -1,0 +1,19 @@
+{
+  "artifact_sha256": "6f540262ea1d3e7e137c8b88d6a31c002c3e66c861752c0b77611fba7b897dcb",
+  "scope": "Actual sampled export frames plus saved project source/provenance; no listening or full-speed perception",
+  "source_facts": {
+    "generated_video_shots": 0,
+    "generated_still_images": 2,
+    "audio": "Generic Gemini Kore narration only per production records; no added music/SFX",
+    "caption_words": "Exact approved V3; candidate timing, no verified Darija ASR"
+  },
+  "unconfirmed_machine_findings": [
+    "SFX/transient candidates are not verified sound effects",
+    "Any end-tail music estimate conflicts with the narration-only source record",
+    "shot001 AI-video classification conflicts with known still-image provenance"
+  ],
+  "limitations": [
+    "Native apply-review fuses votes and may retain a contrary machine label. Read this source review if disagreement remains.",
+    "Five detected visual shots are not the same as the seven semantic storyboard beats."
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": 2,
+  "default_route": "standard_safe",
+  "failure_escalation_route": "deep_safe",
+  "routes": {
+    "mechanical_safe": {
+      "level": 1,
+      "label": "MECHANICAL",
+      "reasoning_effort": "low",
+      "agent": "route_mechanical_safe",
+      "codex_model": null,
+      "claude_model": null,
+      "claude_effort": "high"
+    },
+    "fast_safe": {
+      "level": 2,
+      "label": "SIMPLE",
+      "reasoning_effort": "medium",
+      "agent": "route_fast_safe",
+      "codex_model": null,
+      "claude_model": null,
+      "claude_effort": "high"
+    },
+    "focused_safe": {
+      "level": 3,
+      "label": "BOUNDED",
+      "reasoning_effort": "high",
+      "agent": "route_focused_safe",
+      "codex_model": null,
+      "claude_model": null,
+      "claude_effort": "high"
+    },
+    "balanced_safe": {
+      "level": 4,
+      "label": "INTERMEDIATE",
+      "reasoning_effort": "low",
+      "agent": "route_balanced_safe",
+      "codex_model": null,
+      "claude_model": null,
+      "claude_effort": "high"
+    },
+    "standard_safe": {
+      "level": 5,
+      "label": "COMPLEX",
+      "reasoning_effort": "medium",
+      "agent": "route_standard_safe",
+      "codex_model": null,
+      "claude_model": null,
+      "claude_effort": "high"
+    },
+    "deep_safe": {
+      "level": 6,
+      "label": "CRITICAL",
+      "reasoning_effort": "high",
+      "agent": "route_deep_safe",
+      "codex_model": null,
+      "claude_model": null,
+      "claude_effort": "high"
+    }
+  },
+  "aliases": {
+    "mechanical": "mechanical_safe",
+    "simple": "fast_safe",
+    "luna": "fast_safe",
+    "fast": "fast_safe",
+    "focused": "focused_safe",
+    "bounded": "focused_safe",
+    "balanced": "balanced_safe",
+    "intermediate": "balanced_safe",
+    "standard": "standard_safe",
+    "complex": "standard_safe",
+    "terra": "standard_safe",
+    "sol": "standard_safe",
+    "deep": "deep_safe",
+    "critical": "deep_safe"
+  },
+  "continuity_patterns": [
+    "^(continue[rz]?|vas[- ]?y|ok|alors|fais ca|try again|go ahead|ke?m{1,2}e?l|كمل|كمّل|زيد كمل)\\s*[.!?؟]*$",
+    "^(ok|safi|صافي)[,، ]+(fais|fait|continue|ke?m{1,2}e?l|كمل)\\s*(ca|cela|alors)?\\s*[.!?؟]*$"
+  ],
+  "failure_patterns": [
+    "^(?:(?:non|no|la|لا)[,، ]+)?(?:toujours pas|encore bloque|meme probleme|erreur persiste|probleme persiste|(?:ca|cela) ne (?:marche|fonctionne) (?:toujours )?pas|ca n['’]a pas marche)(?=\\s*(?:$|[.!?,:،؟؛\\n]))",
+    "^(?:echec|failed|still failed|timeout|same (?:issue|problem)|still not working|(?:it )?(?:still )?doesn['’]t work|(?:it |the (?:test|command) )?timed out)(?=\\s*(?:$|[.!?,:\\n]))",
+    "^(?:(?:la|لا)[,، ]+)?(?:ma\\s*zal\\s+ma\\s*(?:khdam|khedam|khdem|khddam|khedm|khadem)\\s*(?:ch|sh)|ma\\s*zal\\s+kayn\\s+nafs\\s+(?:l[- ]?)?mochkil|ما\\s*زال\\s+ما\\s*خدامش|ما\\s*زال\\s+ما\\s*خدمش|نفس\\s+المشكل|ما\\s*زال\\s+(?:كاين\\s+)?نفس\\s+المشكل)(?=\\s*(?:$|[.!?,:،؟؛\\n]))"
+  ],
+  "signals": {
+    "critical": [
+      "\\b(securite|security|authentification|authentication|permissions?|credential[s]?|secrets?|incident de production|production incident|fuite de donnees|data loss)\\b",
+      "\\b(migration|migrer|migrate|schema de donnees|database schema|suppression irreversible|irreversible deletion)\\b"
+    ],
+    "deep": [
+      "\\b(audit complet|analyse en profondeur|deep audit|deep analysis|audit exhaustif)\\b"
+    ],
+    "architecture": [
+      "\\b(architecture|gouvernance|governance|graphify|memoire du projet|structure du workspace|cross-project|inter-projet|base de donnees|database)\\b"
+    ],
+    "broad": [
+      "\\b(tout le site|tous les projets|tout le projet|dans tous les fichiers|partout dans le projet|plusieurs projets|entire site|all projects|across the workspace|refactorisation globale|reconstruire)\\b"
+    ],
+    "uncertainty": [
+      "\\b(cause inconnue|intermittent|intermittente|inexplique|inexpliquee|unknown cause|race condition|arbitrages?|contradictoires?|conflicting evidence|diagnostic incertain)\\b"
+    ],
+    "dependencies": [
+      "\\b(plusieurs systemes|plusieurs services|dependances importantes|multiple systems|multiple services|end.to.end|parcours complet)\\b"
+    ],
+    "implementation": [
+      "\\b(ajoute|ajouter|implemente|implementer|implement|add|developpe|developper|build|refactoriser|refactor|page categorie|gabarit de page|template)\\b"
+    ],
+    "bounded": [
+      "\\b(un seul composant|une fonction|une seule fonction|un composant isole|composant isole|single component|isolated component|single function|un seul fichier|one file)\\b"
+    ],
+    "simple": [
+      "\\b(marge|padding|espacement|alignement|taille du texte|taille du titre|couleur|libelle|spacing|label|local css)\\b"
+    ],
+    "mechanical": [
+      "\\b(faute d['’]orthographe|orthographe|typo|statut git|git status|extraire une liste|extract a list|corrige le texte|corriger le texte|renomme|rename)\\b"
+    ]
+  },
+  "note": "Deterministic advisory classifier, not a proof of task complexity. Inspect real scope and raise the route before execution when new evidence reveals risk. No service-tier change, Max or Ultra selection. Model bindings remain personal; an optional Codex preset supplies the owner-approved Sol/Luna mapping."
+}

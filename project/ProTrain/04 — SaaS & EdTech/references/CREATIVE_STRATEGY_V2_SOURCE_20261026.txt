@@ -1,0 +1,94 @@
+# Creative Strategy V2 — ProTrain Match
+
+Objectif: نبنيو الثقة فـProTrain، نوضحو القيمة ديال ProTrain Match، ونحوّلو الطلبة المهتمين بـCampus France إلى مشترين ديال Rapport personnalisé بـ199 DH.
+
+الاستراتيجية الجديدة فيها 19 Creative موزعين على 4 Content Pillars، ولكن غادي ننتجوهم على دفعات حسب الأولوية.
+
+## 1. Acquisition — 5 Creatives
+
+الهدف: جذب طلبة جداد، اختبار Angles مختلفة، وتشجيعهم يعمرو Profil académique.
+
+| #  | Titre / Angle                                     | Audience | Production            |
+| -- | ------------------------------------------------- | -------- | --------------------- |
+| 01 | واش اختيارات Campus France ديالك مناسبة لملفك؟    | Student  | Motion + VO           |
+| 02 | صاحبك اختار Formation… واش مناسبة حتى ليك؟        | Student  | Motion + VO           |
+| 03 | شنو داخل Rapport ديال ProTrain Match؟             | Student  | Screen Recording + VO |
+| 04 | علاش نخلص على Rapport والمعلومات كاينة فالإنترنت؟ | Student  | Motion + Demo         |
+| 05 | ولدك كيحضّر لـCampus France؟ كيفاش تعاونو يختار؟  | Parent   | Talking Head + Motion |
+
+Testing: نقارنو Problem Awareness وPersonalized Matching وProduct Demo وObjection Handling وParent Angle.
+
+## 2. Authority & Social Proof — 4 Creatives
+
+الهدف: نخليو الجمهور يتيق فالشركة ويفهم الفرق بين خبرة ProTrain وخدمة التطبيق.
+
+| #  | Titre                                             | Audience         | Production          |
+| -- | ------------------------------------------------- | ---------------- | ------------------- |
+| 06 | الحاج منذ 2009: شنو تعلم من مواكبة الطلبة؟        | Student + Parent | El Haj Talking Head |
+| 07 | تجربة طالب حقيقية مع ProTrain                     | Student + Parent | Testimonial         |
+| 08 | وراء Lettre d'admission حقيقية                    | Student + Parent | Case Study          |
+| 09 | كيفاش كنقراو الملف الدراسي قبل اقتراح الاختيارات؟ | Student + Parent | El Haj + Example    |
+
+فـ07 و08 نستعملو غير تجارب ووثائق حقيقية بموافقة أصحابها. ما ننسبوش نجاح الوكالة للتطبيق الجديد.
+
+## 3. Educational Content — 5 Creatives
+
+الهدف: نبنيو جمهور مؤهل، ونقدمو قيمة حقيقية قبل البيع.
+
+| #  | Titre                                     | Audience         | Production               |
+| -- | ----------------------------------------- | ---------------- | ------------------------ |
+| 10 | ثلاثة أخطاء فاختيار Formations            | Student          | El Haj                   |
+| 11 | كيفاش تقرا شروط القبول؟                   | Student          | El Haj + Official Source |
+| 12 | اسم المؤسسة ولا Formation المناسبة لملفك؟ | Student          | El Haj                   |
+| 13 | كيفاش ترتّب وتقارن اختياراتك؟             | Student          | El Haj                   |
+| 14 | شنو الفرق بين Campus France وParcoursup؟  | Student + Parent | El Haj + Visuals         |
+
+فـ14 خاصنا نعتمدو على الإجراءات الرسمية الحالية، حيث مسارات الترشيح كتختلف حسب التكوين والطالب.
+
+## 4. Retargeting & Conversion — 5 Creatives
+
+الهدف: نعالجو الاعتراضات ونرجعو الناس اللي مهتمين وما كملوش الشراء.
+
+| #  | Titre                                  | Audience        | Production         |
+| -- | -------------------------------------- | --------------- | ------------------ |
+| 15 | كيفاش ProTrain Match كيوصل للتوصيات؟   | Warm            | Demo + Explanation |
+| 16 | شنو غادي تاخد داخل Rapport؟            | Warm            | Report Walkthrough |
+| 17 | بديتي Profil وما كملتيهش؟              | Form Abandoners | Reminder           |
+| 18 | واش Rapport كيضمن القبول؟              | Hot             | El Haj             |
+| 19 | Rapport ولا Accompagnement: شنو الفرق؟ | Hot             | El Haj             |
+
+Retargeting ما نطلقوهش حتى يكون Tracking خدام وعندنا Audiences كافية.
+
+## 5. Distribution Strategy
+
+| Funnel        | Organic                 | Paid Ads              | KPI principal         |
+| ------------- | ----------------------- | --------------------- | --------------------- |
+| TOF           | Educational + Authority | Acquisition Creatives | Qualified Traffic     |
+| MOF           | Demo + Social Proof     | Warm Retargeting      | Form Completion       |
+| BOF           | FAQ + Product Value     | Hot Retargeting       | Purchase / CPA        |
+| Post-Purchase | Guidance                | Upsell عند الملاءمة   | Satisfaction / Upsell |
+
+## 6. Production Roadmap
+
+Batch 1 — 10 Creatives
+
+3 Acquisition (01–03)، 5 ديال الحاج (06، 09–12)، و2 Social Proof (07–08) بشرط توفر الأدلة.
+
+Batch 2 — 4 Creatives
+
+Acquisition إضافية (04–05) وEducational (13–14)، مع تعديل الرسائل حسب النتائج الأولية.
+
+Batch 3 — 5 Creatives
+
+Retargeting (15–19)، ملي تكون Audiences وEvents ديال Funnel جاهزة.
+
+## 7. قواعد التنفيذ
+
+- الإعلانات ما نذكروش فيها الثمن صوتياً ولا فالفيديو؛ 199 DH يكون واضح قبل الدفع.
+- ما نوعدوش بقبول مضمون ولا Admission Probability غير مثبتة.
+- Demo تكون مبنية على Rapport حقيقي أو مثال تجريبي واضح.
+- الحاج يشرح بأسلوبه، ماشي يحفظ Scripts.
+- ما نطلقوش Sales Ads حتى Payment وPurchase Tracking وReport Delivery يخدمو من الأول للآخر.
+- كل Creative خاصو Hook، Message، Proof، CTA وVisual Direction محددين.
+
+النتيجة: هادي هي النسخة V2 اللي نقترح نعتمدوها كـCreative Strategy Reference. المرحلة التالية هي تحضير Creative Briefs ديال Batch 1 باش كل واحد يعرف بالضبط شنو خاصو يصور أو يمونطي.

@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "pilot": "PTM-P001",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationInFrames": 1140,
+  "sourceVoiceSeconds": 35.84,
+  "captionTimingMethod": "Known approved script, observed silence boundaries and candidate internal phrase timings; NOTASR or forcedalignment, listening review pending",
+  "scenes": [
+    {
+      "id": "S01",
+      "startSeconds": 0,
+      "endSeconds": 4.1
+    },
+    {
+      "id": "S02",
+      "startSeconds": 4.1,
+      "endSeconds": 11.6
+    },
+    {
+      "id": "S03",
+      "startSeconds": 11.6,
+      "endSeconds": 17.3
+    },
+    {
+      "id": "S04",
+      "startSeconds": 17.3,
+      "endSeconds": 22.6
+    },
+    {
+      "id": "S05",
+      "startSeconds": 22.6,
+      "endSeconds": 27
+    },
+    {
+      "id": "S06",
+      "startSeconds": 27,
+      "endSeconds": 30
+    },
+    {
+      "id": "S07",
+      "startSeconds": 30,
+      "endSeconds": 38
+    }
+  ],
+  "captions": [
+    {
+      "text": "باغي تدفع لـCampus France،",
+      "startMs": 279,
+      "endMs": 1650,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "ولكن محتار فاختيار الـFormations؟",
+      "startMs": 1650,
+      "endMs": 3659,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "راه ماشي غير اسم الجامعة اللي مهم.",
+      "startMs": 4339,
+      "endMs": 6188,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "كل Formation عندها شروط،",
+      "startMs": 6374,
+      "endMs": 8300,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "وخاصك تشوف واش كتوافق الملف الدراسي ديالك.",
+      "startMs": 8300,
+      "endMs": 11195,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "وهنا كيجي دور ProTrain Match.",
+      "startMs": 11812,
+      "endMs": 13929,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "كتعمّر المعلومات الدراسية ديالك مجاناً،",
+      "startMs": 14179,
+      "endMs": 17250,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "وكتقدر تطلب Rapport مخصص",
+      "startMs": 17250,
+      "endMs": 19400,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "فيه حتى لسبعة Formations مقترحة حسب ملفك.",
+      "startMs": 19400,
+      "endMs": 22293,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "ومع كل Formation،",
+      "startMs": 22834,
+      "endMs": 23989,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "كتلقى علاش تقترحات ليك،",
+      "startMs": 24185,
+      "endMs": 25647,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "شنو شروط القبول،",
+      "startMs": 25901,
+      "endMs": 27120,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "وشنو الخطوات اللي خاصك تراجع قبل الترشيح.",
+      "startMs": 27120,
+      "endMs": 29712,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "عمّر ملفك مجاناً فـProTrain Match،",
+      "startMs": 30194,
+      "endMs": 32500,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "وشوف عرض التقرير الكامل قبل ما تقرر تشريه.",
+      "startMs": 32500,
+      "endMs": 35615,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "reportVisualStatus": "Owner-approved labelled explanation, not authentic report",
+  "landingPage": "https://protraincompany.com/en/etudier-en-france/campus-france"
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "file": "comparison.html",
+    "bytes": 597,
+    "sha256": "8ab8de9e1a23de2ed91f91bdf5b2d7a451b7d106ea0fc4dc27640884f5e5afdf"
+  },
+  {
+    "file": "Creative01V4-editable-source.zip",
+    "bytes": 2395342,
+    "sha256": "5972a23ee73c78142617acdd9d39094e7924ea94bcf2fe348df3a673d9cef72b"
+  },
+  {
+    "file": "Creative01V4-phone-preview.png",
+    "bytes": 202007,
+    "sha256": "1c3e6516dbee66c2538cec2cf214bb3214b7fdc4dcdb631e25b8a450030b6e6e"
+  },
+  {
+    "file": "Creative01V4.html",
+    "bytes": 4794,
+    "sha256": "34238ee4e606c86b1d75176d615e43bee6c4fbe27989753d3592dd66713bdfca"
+  },
+  {
+    "file": "Creative01V4.png",
+    "bytes": 775160,
+    "sha256": "8a98387030518d91ba457deaffa3a1b154017335ee0ab35af54055f8ab5e1f5b"
+  },
+  {
+    "file": "README.txt",
+    "bytes": 1000,
+    "sha256": "b2e1d6aa6029ce5b37320d03a2863bc469590f1221d6dbb398de1053280d4d74"
+  },
+  {
+    "file": "reference32-vs-Creative01V4-comparison.png",
+    "bytes": 1287215,
+    "sha256": "c1c9f4a6c3e27e05065f7d3b26bde33633df530ce71cba8dd2d5a39ae69a817f"
+  },
+  {
+    "file": "render-checks.json",
+    "bytes": 6134,
+    "sha256": "3c4c041f4866c679dda77f3765a6e55282fb3a029161812b9d80e5875e4100c1"
+  },
+  {
+    "file": "render.cjs",
+    "bytes": 2989,
+    "sha256": "0b59de8a68a69a0eca32245c37bd0bf5e4b6cda154f41d5a489b2011d00100ba"
+  },
+  {
+    "file": "review.json",
+    "bytes": 4057,
+    "sha256": "8fb44b41bd7ed280dbdd3c998c4d4223747a2254d19575fdb5e4c50e3d72eeba"
+  }
+]

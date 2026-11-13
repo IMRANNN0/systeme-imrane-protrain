@@ -1,0 +1,10 @@
+{
+  "creative": "Creative01V2",
+  "date": "2026-11-13",
+  "status": "AWAITING_IMRAN",
+  "prior_review_correction": "V1 logical string equality and worker visual judgment did not establish correct mixed-script reading; owner explicitly rejected the visual order. Historical V1 artifacts/reports remain unchanged as evidence.",
+  "PT11_implementation": "Each of two fixed headline rows uses Arabic phrase at right, isolated LTR French phrase in middle, isolated Arabic questionmark at left. Measured12px gaps and non-overlap, followed by actual full-size and phone-size inspection. CTA uses the same explicit-run technique with13px gaps.",
+  "hierarchy_response": "Photo650px to480px, support39px to55px. Illustrative qualifier23px to27px. No new generated asset or variation.",
+  "review_limit": "Geometry and source checks support the worker's current visual assessment; final owner approval is still required. No conversion performance measured.",
+  "future_review": "Do not call mixed-script output correct solely because textContent matches. Inspect actual French phrase LTR order, Arabic shaping, prefix separation and questionmark location at intended viewing size."
+}

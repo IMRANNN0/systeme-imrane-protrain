@@ -1,0 +1,11 @@
+node_modules/
+out/
+.remotion/
+bundle/
+.cache/
+public/practice/*.wav
+public/practice/*.mp4
+public/craft/*.wav
+public/darija-ad/*.wav
+public/darija-ad/*.mp3
+public/darija-ad/*.ogg

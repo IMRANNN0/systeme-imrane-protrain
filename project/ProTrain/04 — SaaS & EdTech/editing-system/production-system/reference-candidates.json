@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-13",
+  "status": "research_shortlist_not_owner_approved_styles",
+  "scope": "Primary creator titles/descriptions verified; full audiovisual playback not completed",
+  "candidates": [
+    {"id": "REF-C01", "title": "Vidico x Upfluence — Brand Video", "url": "https://vimeo.com/662494506", "study_focus": ["live action with animation", "UI/text integration"], "paid_meta_placement_verified": false},
+    {"id": "REF-C02", "title": "Vidico x Spotify: Podcasts Brand Video", "url": "https://vimeo.com/745288290", "study_focus": ["creation-to-artwork-to-listening transitions", "minimal colored sets"], "paid_meta_placement_verified": false},
+    {"id": "REF-C03", "title": "Bambee — Vidico App Video", "url": "https://vidico.com/case-studies/bambee/", "video_url_on_page": "https://vimeo.com/907631074", "study_focus": ["app UI animation", "product explanation"], "paid_meta_placement_verified": false, "recommended_first_external_test": true, "access": "browser origin permission denied; no bypass attempted; permitted local file needed"}
+  ]
+}

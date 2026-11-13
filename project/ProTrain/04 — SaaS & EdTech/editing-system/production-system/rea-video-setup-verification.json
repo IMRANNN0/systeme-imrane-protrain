@@ -1,0 +1,19 @@
+{
+  "commit": "ab8580e38a1255425b0d3b481866590766932079",
+  "source_files_hash_verified": 120,
+  "script_unchanged": true,
+  "preview_mp4_unchanged": true,
+  "required_reports_present": true,
+  "ascii_model_load_verified": true,
+  "video_md_validation": "passed via installed CLI",
+  "pip_check": "passed",
+  "new_video_generated": false,
+  "external_paid_api_calls": 0,
+  "missing_optional": [
+    "OCR",
+    "ASR",
+    "stems"
+  ],
+  "reviewed_output": "runs/20261113T125315Z-rea-033ad51e-reviewed",
+  "known_disagreement": "shot001 remains ai_video in native fusion despite source-confirmed animated still; SFX candidates not verified"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Customer Journey"
+  short_description: "Relier étapes, frictions et réponses marketing"
+  default_prompt: "Utilise $media-buying-customer-journey pour analyser ce parcours et proposer les réponses prioritaires étayées."

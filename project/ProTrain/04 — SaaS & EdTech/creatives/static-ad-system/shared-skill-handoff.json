@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-13",
+  "source": "ProTrain-local rejected-image review",
+  "destination": "{{IMRANE_WORKSPACE_ROOT}}/.agents/skills/static-ad-creative-system/SKILL.md",
+  "authorization": "Owner explicitly requested retaining project mistakes and reusing the general method in other projects",
+  "transferred": "Sanitized decision rules only",
+  "excluded": [
+    "Client name",
+    "Product offer and price",
+    "Images",
+    "Transcript",
+    "Business memory",
+    "Campaign data"
+  ],
+  "reviewer": "Root controller",
+  "shared_skill_sha256": "c83d3d4a8d5b124abe532584f082629f9780df7a0a6cd2915ae8c007e2abfcab",
+  "network_indexing": false
+}

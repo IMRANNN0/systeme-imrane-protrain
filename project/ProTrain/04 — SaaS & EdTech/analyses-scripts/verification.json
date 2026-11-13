@@ -1,0 +1,249 @@
+{
+  "date": "2026-10-26",
+  "scope": "16 original scripts and analyses; editorial review, no campaign data",
+  "skill": "{{IMRANE_WORKSPACE_ROOT}}/.agents/skills/performance-ad-script-analyzer",
+  "files": [
+    {
+      "id": "T01",
+      "sections": 12,
+      "structure_rows": 9,
+      "ranked_changes": 5,
+      "tests": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "original_preserved": true,
+      "hook_score_editorial": 5.0,
+      "conditional_template": false
+    },
+    {
+      "id": "T02",
+      "sections": 12,
+      "structure_rows": 9,
+      "ranked_changes": 5,
+      "tests": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "original_preserved": true,
+      "hook_score_editorial": 6.0,
+      "conditional_template": false
+    },
+    {
+      "id": "T03",
+      "sections": 12,
+      "structure_rows": 9,
+      "ranked_changes": 5,
+      "tests": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "original_preserved": true,
+      "hook_score_editorial": 5.0,
+      "conditional_template": false
+    },
+    {
+      "id": "T04",
+      "sections": 12,
+      "structure_rows": 9,
+      "ranked_changes": 5,
+      "tests": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "original_preserved": true,
+      "hook_score_editorial": 6.0,
+      "conditional_template": false
+    },
+    {
+      "id": "T05",
+      "sections": 12,
+      "structure_rows": 9,
+      "ranked_changes": 5,
+      "tests": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "original_preserved": true,
+      "hook_score_editorial": 6.0,
+      "conditional_template": false
+    },
+    {
+      "id": "T06",
+      "sections": 12,
+      "structure_rows": 9,
+      "ranked_changes": 5,
+      "tests": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "original_preserved": true,
+      "hook_score_editorial": 5.0,
+      "conditional_template": false
+    },
+    {
+      "id": "T07",
+      "sections": 12,
+      "structure_rows": 9,
+      "ranked_changes": 5,
+      "tests": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "original_preserved": true,
+      "hook_score_editorial": 6.0,
+      "conditional_template": false
+    },
+    {
+      "id": "T08",
+      "sections": 12,
+      "structure_rows": 9,
+      "ranked_changes": 5,
+      "tests": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "original_preserved": true,
+      "hook_score_editorial": 4.0,
+      "conditional_template": false
+    },
+    {
+      "id": "T09",
+      "sections": 12,
+      "structure_rows": 9,
+      "ranked_changes": 5,
+      "tests": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "original_preserved": true,
+      "hook_score_editorial": 5.0,
+      "conditional_template": false
+    },
+    {
+      "id": "T10",
+      "sections": 12,
+      "structure_rows": 9,
+      "ranked_changes": 5,
+      "tests": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "original_preserved": true,
+      "hook_score_editorial": 2.0,
+      "conditional_template": true
+    },
+    {
+      "id": "A01",
+      "sections": 12,
+      "structure_rows": 9,
+      "ranked_changes": 5,
+      "tests": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "original_preserved": true,
+      "hook_score_editorial": 5.5,
+      "conditional_template": false
+    },
+    {
+      "id": "A02",
+      "sections": 12,
+      "structure_rows": 9,
+      "ranked_changes": 5,
+      "tests": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "original_preserved": true,
+      "hook_score_editorial": 6.5,
+      "conditional_template": false
+    },
+    {
+      "id": "A03",
+      "sections": 12,
+      "structure_rows": 9,
+      "ranked_changes": 5,
+      "tests": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "original_preserved": true,
+      "hook_score_editorial": 6.0,
+      "conditional_template": false
+    },
+    {
+      "id": "A04",
+      "sections": 12,
+      "structure_rows": 9,
+      "ranked_changes": 5,
+      "tests": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "original_preserved": true,
+      "hook_score_editorial": 5.0,
+      "conditional_template": false
+    },
+    {
+      "id": "A05",
+      "sections": 12,
+      "structure_rows": 9,
+      "ranked_changes": 5,
+      "tests": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "original_preserved": true,
+      "hook_score_editorial": 5.5,
+      "conditional_template": false
+    },
+    {
+      "id": "A06",
+      "sections": 12,
+      "structure_rows": 9,
+      "ranked_changes": 5,
+      "tests": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "original_preserved": true,
+      "hook_score_editorial": 6.5,
+      "conditional_template": false
+    }
+  ],
+  "checks": "Exact headings, original preservation, structure, ranked changes, test counts, script constraints",
+  "official_skill_validator": "Unavailable: PyYAML missing; independent structural and behavioral review used"
+}

@@ -1,0 +1,25 @@
+{
+  "Project": "protrain",
+  "SnapshotAt": "2026-11-13T12:45:44.061595+00:00",
+  "Memories": [
+    {
+      "Name": "CURRENT.md",
+      "MatchesAfterNewlineNormalization": true
+    },
+    {
+      "Name": "DECISIONS.md",
+      "MatchesAfterNewlineNormalization": true
+    },
+    {
+      "Name": "CONTEXT_INDEX.md",
+      "MatchesAfterNewlineNormalization": true
+    },
+    {
+      "Name": "PROJECT_CONTEXT.md",
+      "MatchesAfterNewlineNormalization": true
+    }
+  ],
+  "Comparison": "Python snapshot normalizes CRLF to LF; compare equivalent text",
+  "Graphify": "stale",
+  "NetworkRefreshPerformed": false
+}

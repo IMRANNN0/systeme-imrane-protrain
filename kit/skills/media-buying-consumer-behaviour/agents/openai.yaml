@@ -1,0 +1,4 @@
+interface:
+  display_name: "Consumer Behaviour"
+  short_description: "Comprendre les décisions et frictions d'achat"
+  default_prompt: "Utilise $media-buying-consumer-behaviour pour analyser ce parcours d'achat et proposer les améliorations étayées prioritaires."

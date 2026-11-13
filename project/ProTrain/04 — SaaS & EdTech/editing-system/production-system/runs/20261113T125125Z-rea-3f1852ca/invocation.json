@@ -1,0 +1,42 @@
+{
+  "input": "{{PROTRAIN_PROJECT_ROOT}}\\04 \u2014 SaaS & EdTech\\editing-system\\video-studio\\out\\ptm-p001-preview-v2.mp4",
+  "input_sha256": "6f540262ea1d3e7e137c8b88d6a31c002c3e66c861752c0b77611fba7b897dcb",
+  "duration_seconds": 38.016,
+  "source_commit": "ab8580e38a1255425b0d3b481866590766932079",
+  "disabled": [
+    "VLM",
+    "whole-video VLM",
+    "OCR",
+    "stems",
+    "ASR",
+    "speaker separation",
+    "generation"
+  ],
+  "review_state": "machine output, visual/listening review required",
+  "command": [
+    "{{PROTRAIN_PROJECT_ROOT}}\\04 \u2014 SaaS & EdTech\\editing-system\\tools\\rea-video\\.venv\\Scripts\\python.exe",
+    "-m",
+    "rea_video",
+    "decompose",
+    "{{PROTRAIN_PROJECT_ROOT}}\\04 \u2014 SaaS & EdTech\\editing-system\\video-studio\\out\\ptm-p001-preview-v2.mp4",
+    "-o",
+    "{{PROTRAIN_PROJECT_ROOT}}\\04 \u2014 SaaS & EdTech\\editing-system\\production-system\\runs\\20261113T125125Z-rea-3f1852ca",
+    "--no-vlm",
+    "--no-whole",
+    "--no-ocr",
+    "--no-stems",
+    "--no-asr",
+    "--no-speakers",
+    "--workers",
+    "1",
+    "--lang",
+    "en"
+  ],
+  "exit_code": 0,
+  "outputs": {
+    "report.html": true,
+    "VIDEO.md": true,
+    "breakdown.json": true,
+    "storyboard.jpg": true
+  }
+}

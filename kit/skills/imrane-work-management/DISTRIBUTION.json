@@ -1,0 +1,184 @@
+{
+  "schema": 1,
+  "id": "imrane-work-management",
+  "version": "0.2.1-rc.1",
+  "source": {
+    "status": "local-authored",
+    "repo": null,
+    "commit": null,
+    "origin": "Owner-requested work-management method authored 2026-11-02; portable distribution authorized with system update",
+    "license": "LicenseRef-Owner-Authorized-Distribution"
+  },
+  "license": "LicenseRef-Owner-Authorized-Distribution",
+  "compatibility": {
+    "python_minimum": "3.11",
+    "dependencies": "standard library only",
+    "host_views": [
+      "Codex .agents",
+      "Claude .claude"
+    ],
+    "entrypoint": "SKILL.md",
+    "cli": "scripts/imrane-work.py",
+    "pilot": "scripts/pilot.py",
+    "cwd": "arbitrary; inputs resolve relative to explicit selected lane",
+    "registry": ".codex/projects.json",
+    "canonical_memory": "four files remain authoritative"
+  },
+  "source_mapping": [
+    {
+      "source": "tools/imrane_work/__init__.py",
+      "source_sha256": "baf885bbc224ecfca43822b286793ff008b9fff242e607b95b76aa78ea0180fd",
+      "destination": "packs/full-library/skills/imrane-work-management/scripts/imrane_work/__init__.py",
+      "sha256": "baf885bbc224ecfca43822b286793ff008b9fff242e607b95b76aa78ea0180fd",
+      "bytes": 69,
+      "changes": "exact copy"
+    },
+    {
+      "source": "tools/imrane_work/cli.py",
+      "source_sha256": "8805f669aa880436fad98ecbe59c8fbaeac58c077e581acca060cd5dde17eaf7",
+      "destination": "packs/full-library/skills/imrane-work-management/scripts/imrane_work/cli.py",
+      "sha256": "8805f669aa880436fad98ecbe59c8fbaeac58c077e581acca060cd5dde17eaf7",
+      "bytes": 9777,
+      "changes": "exact copy"
+    },
+    {
+      "source": "tools/imrane_work/core.py",
+      "source_sha256": "a4c426cb7c86bba3ef68173baf958781f09b05104f01a19079d03eccd38490cf",
+      "destination": "packs/full-library/skills/imrane-work-management/scripts/imrane_work/core.py",
+      "sha256": "a4c426cb7c86bba3ef68173baf958781f09b05104f01a19079d03eccd38490cf",
+      "bytes": 28575,
+      "changes": "exact copy"
+    },
+    {
+      "source": "tools/imrane-work.py",
+      "source_sha256": "8c602a9015aff7d17c2b343da85ea903c56b2782735360a0ae01e70cc0dc12eb",
+      "destination": "packs/full-library/skills/imrane-work-management/scripts/imrane-work.py",
+      "sha256": "8c602a9015aff7d17c2b343da85ea903c56b2782735360a0ae01e70cc0dc12eb",
+      "bytes": 186,
+      "changes": "exact copy"
+    },
+    {
+      "source": "tools/work-management/skill/agents/openai.yaml",
+      "source_sha256": "b5e4846674a8dd587fb65637dd5c87ab3f45f8e3d18ece3e707dcef6d93a2832",
+      "destination": "packs/full-library/skills/imrane-work-management/agents/openai.yaml",
+      "sha256": "b5e4846674a8dd587fb65637dd5c87ab3f45f8e3d18ece3e707dcef6d93a2832",
+      "bytes": 248,
+      "changes": "exact copy"
+    },
+    {
+      "source": "tools/work-management/skill/SKILL.md",
+      "source_sha256": "c1a79dc8137b1891a34e09fbac6c621c038988b0d0806890fd5275edc0d5ff0b",
+      "destination": "packs/full-library/skills/imrane-work-management/SKILL.md",
+      "sha256": "112b0f0da74769d891e0e977a3ae8e17e6c24f7d307475c3fbc5f6bc8b554508",
+      "bytes": 3869,
+      "changes": "Self-contained relative resources and skill-local CLI; portable provenance"
+    },
+    {
+      "source": "docs/governance/work-management/DOMAIN_CHECKS.md",
+      "source_sha256": "c2b33a72ed01d2eaa31bf3e64f5b4943ce59ba15a0dc773bef36d48347441ac2",
+      "destination": "packs/full-library/skills/imrane-work-management/resources/DOMAIN_CHECKS.md",
+      "sha256": "c2b33a72ed01d2eaa31bf3e64f5b4943ce59ba15a0dc773bef36d48347441ac2",
+      "bytes": 2555,
+      "changes": "Relocated self-contained resource; synthetic example provenance and handoff links made relative"
+    },
+    {
+      "source": "docs/governance/work-management/RECORD_FORMAT.md",
+      "source_sha256": "ca585d86bd2b85bb056974d8203f01bd51e714882bbf4900ec07557a27dc4501",
+      "destination": "packs/full-library/skills/imrane-work-management/resources/RECORD_FORMAT.md",
+      "sha256": "ca585d86bd2b85bb056974d8203f01bd51e714882bbf4900ec07557a27dc4501",
+      "bytes": 5813,
+      "changes": "Relocated self-contained resource; synthetic example provenance and handoff links made relative"
+    },
+    {
+      "source": "docs/governance/work-management/library/examples.json",
+      "source_sha256": "5f3b64861f20bbf68e5a3439a1bc31c1a89bbf6c935a947dbe0959bda07ffcaa",
+      "destination": "packs/full-library/skills/imrane-work-management/resources/library/examples.json",
+      "sha256": "b1ca66c8c022c706f9887bb1c459d93d23e907f75a1e4ac391c837fb32e2610a",
+      "bytes": 1816,
+      "changes": "Relocated self-contained resource; synthetic example provenance and handoff links made relative"
+    },
+    {
+      "source": "docs/governance/work-management/library/README.md",
+      "source_sha256": "16cc8d86dcf10dcebced18a8c1fb74e453c689a2b0b3fd4b7d2b34ed3500f6f2",
+      "destination": "packs/full-library/skills/imrane-work-management/resources/library/README.md",
+      "sha256": "e45acdad95c1c3cc2836b5cfd17d0b68edeed221b60f14b05aa15fdabfa4ff3f",
+      "bytes": 1347,
+      "changes": "Relocated self-contained resource; synthetic example provenance and handoff links made relative"
+    },
+    {
+      "source": "docs/governance/work-management/templates/brief.example.json",
+      "source_sha256": "ec1b9530c2d4bb061a56e56d897d7a72baecaf9ab26e647942f0c84943c19f0d",
+      "destination": "packs/full-library/skills/imrane-work-management/resources/templates/brief.example.json",
+      "sha256": "ec1b9530c2d4bb061a56e56d897d7a72baecaf9ab26e647942f0c84943c19f0d",
+      "bytes": 899,
+      "changes": "Relocated self-contained resource; synthetic example provenance and handoff links made relative"
+    },
+    {
+      "source": "docs/governance/work-management/templates/brief.md",
+      "source_sha256": "23229d13c7a3c30c82466d7cef3ea7c35c8aa9abbb7b685deaee38891b85d62d",
+      "destination": "packs/full-library/skills/imrane-work-management/resources/templates/brief.md",
+      "sha256": "23229d13c7a3c30c82466d7cef3ea7c35c8aa9abbb7b685deaee38891b85d62d",
+      "bytes": 718,
+      "changes": "Relocated self-contained resource; synthetic example provenance and handoff links made relative"
+    },
+    {
+      "source": "docs/governance/work-management/templates/daily-planning.md",
+      "source_sha256": "e37fac403f873cae74947d1a4c2d2b1e943b72d744ab9ee33a66c53cf4db8e33",
+      "destination": "packs/full-library/skills/imrane-work-management/resources/templates/daily-planning.md",
+      "sha256": "e37fac403f873cae74947d1a4c2d2b1e943b72d744ab9ee33a66c53cf4db8e33",
+      "bytes": 882,
+      "changes": "Relocated self-contained resource; synthetic example provenance and handoff links made relative"
+    },
+    {
+      "source": "docs/governance/work-management/templates/decision-experiment.md",
+      "source_sha256": "f8c54e536b503b2c4df13bf3001aecb2365031129793b6c143ebd634bcd2b876",
+      "destination": "packs/full-library/skills/imrane-work-management/resources/templates/decision-experiment.md",
+      "sha256": "f8c54e536b503b2c4df13bf3001aecb2365031129793b6c143ebd634bcd2b876",
+      "bytes": 727,
+      "changes": "Relocated self-contained resource; synthetic example provenance and handoff links made relative"
+    },
+    {
+      "source": "docs/governance/work-management/templates/lesson.md",
+      "source_sha256": "fec0515a659bc5acdd9f2785f6d0fac8f07deea6a2e1bc08b0d55276c2d101f4",
+      "destination": "packs/full-library/skills/imrane-work-management/resources/templates/lesson.md",
+      "sha256": "fec0515a659bc5acdd9f2785f6d0fac8f07deea6a2e1bc08b0d55276c2d101f4",
+      "bytes": 733,
+      "changes": "Relocated self-contained resource; synthetic example provenance and handoff links made relative"
+    },
+    {
+      "source": "docs/governance/work-management/templates/review.md",
+      "source_sha256": "274ba1cf5ec2d28f946720ff729235543f49aa6fd7dbf4abe068ed75e5f25938",
+      "destination": "packs/full-library/skills/imrane-work-management/resources/templates/review.md",
+      "sha256": "274ba1cf5ec2d28f946720ff729235543f49aa6fd7dbf4abe068ed75e5f25938",
+      "bytes": 831,
+      "changes": "Relocated self-contained resource; synthetic example provenance and handoff links made relative"
+    },
+    {
+      "source": "docs/governance/work-management/START_HERE.md",
+      "source_sha256": "4d56044267f9658ba7c51ef324fcc4d3654c934b519748b971193d786df61378",
+      "destination": "packs/full-library/skills/imrane-work-management/resources/START_HERE.md",
+      "sha256": "9ddf3e089d126285c463518d901174039e9401656f07110a41bd908c96dd0f2b",
+      "bytes": 11044,
+      "changes": "Recipient workspace variables, skill-local absolute CLI and relative handoff; owner history omitted"
+    },
+    {
+      "source": "tools/imrane-work-pilot.py",
+      "source_sha256": "c8751adb3433784bea29d5ac5473979b59f4aa24d0db1b5d8fb2707ed1a116e9",
+      "destination": "packs/full-library/skills/imrane-work-management/scripts/pilot.py",
+      "sha256": "3196ea8cd9913a1b9d53fbe34451d92553afc2e61b42d67cf2e85f19b29eafc0",
+      "bytes": 12670,
+      "changes": "New output folder outside installed skill, sibling CLI, no owner path or real-lane history"
+    }
+  ],
+  "portability_changes": [
+    "Self-contained skill-local CLI and resources; exact unchanged core",
+    "Portable new-directory synthetic pilot",
+    "English guides use recipient workspace variables and relative links",
+    "No personal canonical memories, runtime outputs, email or credentials included"
+  ],
+  "capability_requirements": [
+    "Python 3.11+ standard library; initialized recipient registry, explicit workspace/project; complete self-contained CLI and resources in the skill directory.",
+    "Scoped private work records supplement four canonical memories; no aggregation, external sending, publishing, network indexing or skill self-rewrite.",
+    "Evidence truth, independent review and sanitized lesson promotion require actual review within recipient host permissions."
+  ]
+}

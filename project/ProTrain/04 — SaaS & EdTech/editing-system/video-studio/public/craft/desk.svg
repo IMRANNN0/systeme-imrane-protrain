@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920"><defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".62" numOctaves="3" stitchTiles="stitch" seed="21"/><feColorMatrix type="saturate" values="0"/></filter></defs><rect width="1080" height="1920" fill="#DDD9CC"/>
+<path d="M0 180Q290 130 570 168T1080 130M0 1680Q290 1650 640 1690T1080 1660" fill="none" stroke="#BDB8A6" stroke-width="2" opacity=".35"/>
+<path d="M0 0H280L0 270Z" fill="#CAC5B4" opacity=".35"/>
+<rect width="1080" height="1920" filter="url(#grain)" opacity=".045"/>
+<g transform="translate(1030 1420) rotate(17)"><path d="M0 0H22V400L11 435 0 400Z" fill="#263238"/><path d="M0 400H22L11 435Z" fill="#B68A5B"/><path d="m7 423 4 12 4-12Z" fill="#263238"/><path d="M4 0H9V398H4Z" fill="#7C8277"/></g></svg>

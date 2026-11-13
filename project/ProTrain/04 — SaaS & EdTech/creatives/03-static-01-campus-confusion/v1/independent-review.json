@@ -1,0 +1,49 @@
+{
+  "reviewed_on": "2026-11-13",
+  "reviewer": "Root controller independent of producing worker",
+  "artifact": "Creative01V1.png",
+  "sha256": "c66e6e5ba4ffedc24d572f8e77ce2cfa191eab974de6efab3d80280f1b1ee167",
+  "scope": "ONE Creative01V1, no variations or Creative02",
+  "technical": {
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "phone_preview": [
+      360,
+      450
+    ],
+    "exact_hook_support_cta": true,
+    "original_supplied_logo_bytes_preserved": true,
+    "original_photo_bytes_preserved": true,
+    "local_Cairo_and_Poppins_loaded": true,
+    "flat_brand_colors_measured": {
+      "forest": "#0F2A1F",
+      "ivory": "#F6F4EE",
+      "amber": "#F2A541"
+    },
+    "source_zip_and_assets_verified": true,
+    "no_observed_text_clipping": true,
+    "arabic_shaping_and_mixed_reading_order": "Visually reviewed in actual full and phone PNGs"
+  },
+  "persuasion": {
+    "strengths": [
+      "Clear first-read question and distinct CTA",
+      "Student actively uses laptop rather than passive portrait",
+      "Compact conceptual domains clarify choice overload without fake UI"
+    ],
+    "limitations": [
+      "Support text is about13px in360px preview and less prominent than hook",
+      "Cards are generic domain examples, not actual matching results",
+      "The profile-to-recommendation mechanism is stated rather than demonstrated",
+      "Free-entry CTA could attract free-only users; paid-report conversion remains untested"
+    ]
+  },
+  "assets": {
+    "missing_required": [],
+    "optional_improvement": "Vector/high-resolution corporate logo for future larger placements; supplied141x127logo is used below native size here"
+  },
+  "owner_approval": "NOT_APPROVED_REVISION_REQUESTED",
+  "publication": "None",
+  "owner_feedback_override": "V1 Arabic/French visual rendering rejected; photo dominance and small support require revision. Historical exact-copy/dimension checks do not establish correct visual reading order."
+}

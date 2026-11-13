@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyse de la demande"
+  short_description: "Analyser la demande et la viabilité de cette offre"
+  default_prompt: "Utilise $media-buying-business-diagnosis pour analyser la demande et la viabilité de cette offre à partir des sources disponibles."

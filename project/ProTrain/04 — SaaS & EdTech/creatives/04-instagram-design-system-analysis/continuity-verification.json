@@ -1,0 +1,11 @@
+{
+  "snapshot_memory_matches_current": {
+    "CURRENT.md": true,
+    "DECISIONS.md": true,
+    "CONTEXT_INDEX.md": true,
+    "PROJECT_CONTEXT.md": true
+  },
+  "graphify_status": "stale",
+  "graphify_network_refresh": false,
+  "status_command": "Interrupted after no response; local state/provenance inspected directly"
+}

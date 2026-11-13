@@ -1,0 +1,125 @@
+{
+  "scope": "All source/assets/exports/review payload. Manifest and archive self-hashes excluded to avoid recursive checksums.",
+  "files": [
+    {
+      "file": "assets/cairo-arabic.woff2",
+      "bytes": 30896,
+      "sha256": "748022f50c427456ad66031e855349be3448ee1f05a5f1eb59574ebe0c686749"
+    },
+    {
+      "file": "assets/Cairo-OFL.txt",
+      "bytes": 4473,
+      "sha256": "a4554e1799d42e1405924b61eb0e0722ae1623b1f1f07f995348f96c496362a9"
+    },
+    {
+      "file": "assets/Creative01V4-preserved.png",
+      "bytes": 775160,
+      "sha256": "8a98387030518d91ba457deaffa3a1b154017335ee0ab35af54055f8ab5e1f5b"
+    },
+    {
+      "file": "assets/generated-droit.png",
+      "bytes": 1130963,
+      "sha256": "cea7d06f03110b51cb90be07b3e3179f7aff9621e10c0f033bef44969670e1e3"
+    },
+    {
+      "file": "assets/generated-gestion.png",
+      "bytes": 1814942,
+      "sha256": "0dd0468b7fe285277a64489a0876cb309f77e6217c39c254658d985b1212a608"
+    },
+    {
+      "file": "assets/generated-info.png",
+      "bytes": 1358646,
+      "sha256": "2902cb6ed99e9f0d06d2cae35896e9f6a2bdb2a0b5ec3ff14d6c5dfb42566236"
+    },
+    {
+      "file": "assets/generated-lettres.png",
+      "bytes": 1514710,
+      "sha256": "6e1a9240b6f6d163ebce2f49ca638e39cc8df5e989f58b35ebe9d23d7591e3bb"
+    },
+    {
+      "file": "assets/generated-sciences.png",
+      "bytes": 1117389,
+      "sha256": "53365a35d9f48344087a3ef4e4fae96cbd1ecc2b2fdd9aa3d891eb07a92c3dd7"
+    },
+    {
+      "file": "assets/poppins-latin-600-normal.woff2",
+      "bytes": 8000,
+      "sha256": "f4e80d9dfd374d02989b87a27b5ed4cb78fbb177c27f1478e9a8b0afb7513149"
+    },
+    {
+      "file": "assets/poppins-latin-ext-600-normal.woff2",
+      "bytes": 5524,
+      "sha256": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171"
+    },
+    {
+      "file": "assets/Poppins-OFL.txt",
+      "bytes": 4385,
+      "sha256": "6be04893d770899a015649c7aa3b582f871b272f8747a92b78b17c3e5c8b2573"
+    },
+    {
+      "file": "assets/poppins-provenance.json",
+      "bytes": 790,
+      "sha256": "56cb32458ee1547a4f4ef1ad38d18ee9a18c9bea9aeea5c1ce381311bfe9f13c"
+    },
+    {
+      "file": "assets/reference32-original.webp",
+      "bytes": 80588,
+      "sha256": "32760f4b79a3f7f99a729885a09996bdbdc747e7666c2b8b2c767f07a3674c95"
+    },
+    {
+      "file": "comparison.html",
+      "bytes": 592,
+      "sha256": "36702a0f399a475d679a475782a6777f55c23ce13a48fc3130243df9f5832f68"
+    },
+    {
+      "file": "Creative01V4-vs-V5-comparison.png",
+      "bytes": 881891,
+      "sha256": "8632ca9453c9b992fa6d5a0cf56b63301b38b5668c0a44533bfe231416a7f9f2"
+    },
+    {
+      "file": "Creative01V5-phone-preview.png",
+      "bytes": 204084,
+      "sha256": "6195be210da6520d409bf9b53f6c3f7587dd158fc75bcce0f1bc88e75fe810b7"
+    },
+    {
+      "file": "Creative01V5.html",
+      "bytes": 5607,
+      "sha256": "7a9e4f15b172fdd1c9733fbe64c52cd80ea3bcbc581399ffda884d7f8591ca05"
+    },
+    {
+      "file": "Creative01V5.png",
+      "bytes": 793747,
+      "sha256": "92d8f90749b0417159971294c1b9c4d42a8d7bcfd132890e1820c345bc5720cf"
+    },
+    {
+      "file": "imagegen-provenance.json",
+      "bytes": 6793,
+      "sha256": "d331771962d366db17503f9b2ea34ada27f736570fa55ef120ee31b3d2ecc1b8"
+    },
+    {
+      "file": "README.txt",
+      "bytes": 566,
+      "sha256": "448fb950e7cdaf15ed20539fe5e0d49f537725e037a8c7b7b01c3379bbb13b3f"
+    },
+    {
+      "file": "render-checks.json",
+      "bytes": 6327,
+      "sha256": "8ff99f2f020fc70378aab949b81d5722ee39f10c2728c1f3f6da4dcd51575512"
+    },
+    {
+      "file": "render.cjs",
+      "bytes": 5269,
+      "sha256": "66178fa7fa53ac742340ee2ea9e36589828be59a47230f70345ead5009e07713"
+    },
+    {
+      "file": "review.json",
+      "bytes": 4065,
+      "sha256": "1de2bf0b0048711f50d831376b953dc276a1857899ba6818fe448ce19728fad8"
+    },
+    {
+      "file": "v4-preservation-baseline.json",
+      "bytes": 2931,
+      "sha256": "362ed76debb38c15eab11450c21eeb8630b9e7a23e4b9aed6279d0f2338d5928"
+    }
+  ]
+}

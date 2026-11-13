@@ -1,0 +1,36 @@
+{
+  "synthetic": true,
+  "voice": "Microsoft Zira Desktop, en-US, locally synthesized",
+  "transcription": "Known fixture text, not ASR output",
+  "fps": 30,
+  "source": "practice/raw-practice.mp4",
+  "rawFrames": 470,
+  "outputFrames": 350,
+  "removedFrames": 120,
+  "clips": [
+    {
+      "id": "take-1",
+      "text": "My average is only one part of my profile.",
+      "sourceInFrame": 30,
+      "sourceOutFrame": 141,
+      "outputInFrame": 0,
+      "outputOutFrame": 111
+    },
+    {
+      "id": "take-2",
+      "text": "Before choosing, I compare the published requirements.",
+      "sourceInFrame": 171,
+      "sourceOutFrame": 300,
+      "outputInFrame": 111,
+      "outputOutFrame": 240
+    },
+    {
+      "id": "take-3",
+      "text": "Then I check what each option really asks for.",
+      "sourceInFrame": 330,
+      "sourceOutFrame": 440,
+      "outputInFrame": 240,
+      "outputOutFrame": 350
+    }
+  ]
+}

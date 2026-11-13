@@ -1,0 +1,10 @@
+Système Ashraf — private collaboration license
+
+Copyright (c) 2026 Ashraf. All rights reserved.
+
+Authorized collaborators may use, install and adapt the original toolkit files
+for their own authorized work. This permission does not authorize public
+redistribution of this private repository, the owner's business data or secrets.
+Third-party packages and skills retain their respective upstream licenses.
+No ownership of those third-party works is claimed. The toolkit is provided
+without warranty; users remain responsible for reviewing changes and permissions.

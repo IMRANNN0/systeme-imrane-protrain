@@ -1,0 +1,8 @@
+{
+  "source": "vo-take01.wav",
+  "output": "voice-mix-v1.wav",
+  "filter": "highpass=f=70,loudnorm=I=-16:TP=-2:LRA=7",
+  "sample_rate": 48000,
+  "meaning": "Conservative rumble/peak normalization, no time stretch or wording changes",
+  "listening": "pending; native audio input unavailable to controller; no additional paid review request authorized"
+}

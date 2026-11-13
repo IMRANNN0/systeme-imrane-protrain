@@ -1,0 +1,13 @@
+{
+  "tool": "built-in image_gen",
+  "intent": "new image, preview proposal",
+  "transparent_background": false,
+  "image": "editing-system\\video-studio\\public\\craft\\desk-photographic-proposal-v1.png",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "sha256": "6e5473c5bcb5b511a7fb68e4ebf80923e28345d14e78303b83cf149012c1ba95",
+  "prompt_file": "desk-photographic-proposal-v1.prompt.txt",
+  "brand_status": "Generated before brand extraction; proposed, not approved and not incorporated in rendered video"
+}

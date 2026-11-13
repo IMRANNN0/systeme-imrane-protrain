@@ -1,0 +1,22 @@
+{
+  "prior_lesson_nodes_preserved": true,
+  "new_guideline_status": "EXPLICIT_OWNER_INSTRUCTION",
+  "reference_status": "PROPOSED_AWAITING_APPROVAL",
+  "prior_node_hashes": {
+    "schema_version": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+    "recorded_on": "c632fb16191a345891994e0829686cf2ba7aa7801f849afd27546548acf3347d",
+    "purpose": "7b6bd851b0c4d4e122ee2270d1f5f635e35e334d32fb4319f8882ccc3d49f7ac",
+    "source": "242a1e59bc4aedbb1ccfd054bb0f5b3d9a964df6be9eb44e3bed19d7463f5033",
+    "creative_status": "a9e3c6f4a0224ab8d9f3aa69259381f85c597055a091a125fddb4ebca6d290d9",
+    "status_scope": "9134b38642bdc84bc666c48babe0b7ad310b2246df3479f564479cf587259f6f",
+    "earlier_review": "25379467daefc4bdbb734ed0c7f1101a678ec458d5807a3b019976f3217768ea",
+    "lessons": "6dcd1f1133c1b8a167c1f33ed07d6576a87feb4efe3e51dd2f7df3cf841d1922",
+    "owner_preferences": "d670c3e5ab024ddd443d27a3c47bdb95160441a3a6c1de85462102b2d5859aa5",
+    "future_consultation": "add1d489fbae8303472a9ae79c0a9d4cfd44b149a8ce96401970771122e800a9",
+    "subsequent_cases": "f1683e0774a9f6f235feba11da7dc9e138f3bcc2edcc4e2ff5a301b69bee7c19",
+    "revision_lessons": "3544cfce437264650ad68a7daf9498583e32f7d7f16fa929c12dbf8af6fce75a",
+    "guideline_updates": "1e90f4405891cabb1a959059ee012b76d521ce69018a0ae16b0dfe033092d1e3",
+    "research_updates": "a6b80d207480098e140a399f586bf29092c361e1046a4d44e25b4e5994960ee1"
+  },
+  "new_node": "reference_system_updates"
+}

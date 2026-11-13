@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "style_id": null,
+  "style_name": null,
+  "status": "proposed_not_owner_approved",
+  "source": {"url": null, "local_file": null, "sha256": null, "rights_for_analysis": null, "reuse_source_media": false},
+  "review": {"sampled_frames": false, "normal_speed_motion": false, "listening": false, "owner_approved": false, "disagreements": []},
+  "evidence_levels": ["measured", "source_confirmed", "visually_observed", "inferred", "unknown"],
+  "pacing": {"visual_shots": [], "semantic_beats": [], "duration_distribution": null, "rules": []},
+  "transitions": [],
+  "motion_graphics": [],
+  "typography": {"font_family": null, "font_license": null, "hierarchy": [], "rtl_ltr_strategy": null},
+  "captions": {"phrase_rules": [], "animation": null, "timing_source": null, "alignment_reviewed": false},
+  "camera_and_compositing": [],
+  "sound": {"music_mood": null, "bpm": null, "sfx_events": [], "sync_rules": [], "original_or_licensed_only": true},
+  "color": {"palette": [], "grade_description": null, "original_lut_known": false},
+  "storytelling_principles": [],
+  "components": [],
+  "required_tools": [],
+  "complexity": {"level": null, "reasons": [], "manual_work": [], "external_services": []},
+  "production_gates": {"script_approved": false, "style_approved": false, "storyboard_approved": false, "paid_scope_approved": false, "publication_approved": false},
+  "feedback_history": []
+}

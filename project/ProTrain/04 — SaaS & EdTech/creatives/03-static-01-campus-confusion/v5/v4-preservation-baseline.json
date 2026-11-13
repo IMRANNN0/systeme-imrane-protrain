@@ -1,0 +1,97 @@
+[
+  {
+    "file": "assets/cairo-arabic.woff2",
+    "bytes": 30896,
+    "sha256": "748022f50c427456ad66031e855349be3448ee1f05a5f1eb59574ebe0c686749"
+  },
+  {
+    "file": "assets/Cairo-OFL.txt",
+    "bytes": 4473,
+    "sha256": "a4554e1799d42e1405924b61eb0e0722ae1623b1f1f07f995348f96c496362a9"
+  },
+  {
+    "file": "assets/poppins-latin-600-normal.woff2",
+    "bytes": 8000,
+    "sha256": "f4e80d9dfd374d02989b87a27b5ed4cb78fbb177c27f1478e9a8b0afb7513149"
+  },
+  {
+    "file": "assets/poppins-latin-ext-600-normal.woff2",
+    "bytes": 5524,
+    "sha256": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171"
+  },
+  {
+    "file": "assets/Poppins-OFL.txt",
+    "bytes": 4385,
+    "sha256": "6be04893d770899a015649c7aa3b582f871b272f8747a92b78b17c3e5c8b2573"
+  },
+  {
+    "file": "assets/poppins-provenance.json",
+    "bytes": 790,
+    "sha256": "56cb32458ee1547a4f4ef1ad38d18ee9a18c9bea9aeea5c1ce381311bfe9f13c"
+  },
+  {
+    "file": "assets/reference32-original.webp",
+    "bytes": 80588,
+    "sha256": "32760f4b79a3f7f99a729885a09996bdbdc747e7666c2b8b2c767f07a3674c95"
+  },
+  {
+    "file": "comparison.html",
+    "bytes": 597,
+    "sha256": "8ab8de9e1a23de2ed91f91bdf5b2d7a451b7d106ea0fc4dc27640884f5e5afdf"
+  },
+  {
+    "file": "controller-review.json",
+    "bytes": 2515,
+    "sha256": "7bbc72689aed8ad48b446506b1f1debfeeaa574320e77676cc385f9fa7e2de57"
+  },
+  {
+    "file": "Creative01V4-editable-source.zip",
+    "bytes": 2395342,
+    "sha256": "5972a23ee73c78142617acdd9d39094e7924ea94bcf2fe348df3a673d9cef72b"
+  },
+  {
+    "file": "Creative01V4-phone-preview.png",
+    "bytes": 202007,
+    "sha256": "1c3e6516dbee66c2538cec2cf214bb3214b7fdc4dcdb631e25b8a450030b6e6e"
+  },
+  {
+    "file": "Creative01V4.html",
+    "bytes": 4794,
+    "sha256": "34238ee4e606c86b1d75176d615e43bee6c4fbe27989753d3592dd66713bdfca"
+  },
+  {
+    "file": "Creative01V4.png",
+    "bytes": 775160,
+    "sha256": "8a98387030518d91ba457deaffa3a1b154017335ee0ab35af54055f8ab5e1f5b"
+  },
+  {
+    "file": "file-manifest.json",
+    "bytes": 1515,
+    "sha256": "23fb22803968e6429d181b671d70585ae192bf3fba17352ff3c12cb30cef6902"
+  },
+  {
+    "file": "README.txt",
+    "bytes": 1000,
+    "sha256": "b2e1d6aa6029ce5b37320d03a2863bc469590f1221d6dbb398de1053280d4d74"
+  },
+  {
+    "file": "reference32-vs-Creative01V4-comparison.png",
+    "bytes": 1287215,
+    "sha256": "c1c9f4a6c3e27e05065f7d3b26bde33633df530ce71cba8dd2d5a39ae69a817f"
+  },
+  {
+    "file": "render-checks.json",
+    "bytes": 6134,
+    "sha256": "3c4c041f4866c679dda77f3765a6e55282fb3a029161812b9d80e5875e4100c1"
+  },
+  {
+    "file": "render.cjs",
+    "bytes": 2989,
+    "sha256": "0b59de8a68a69a0eca32245c37bd0bf5e4b6cda154f41d5a489b2011d00100ba"
+  },
+  {
+    "file": "review.json",
+    "bytes": 4057,
+    "sha256": "8fb44b41bd7ed280dbdd3c998c4d4223747a2254d19575fdb5e4c50e3d72eeba"
+  }
+]

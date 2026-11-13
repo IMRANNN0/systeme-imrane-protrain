@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-13",
+  "status": "ACTUAL_V5_PREVIEW_REVIEWED_AWAITING_IMRAN",
+  "full_and_phone_images_viewed": true,
+  "sha256": "92d8f90749b0417159971294c1b9c4d42a8d7bcfd132890e1820c345bc5720cf",
+  "asset_origin": "Built-in ImageGen, five independent transparent photographic raster assets; full exact prompts and original saved paths in imagegen-provenance.json.",
+  "observed": [
+    "Laptop, flask, brass scales, calculator and open book replaced five vector symbols in their original circles.",
+    "Arabic/French full and phone reading remains identical to V4.",
+    "No clipped objects or visible original flag remnants.",
+    "Original logo/student/photo/ribbon layout/footer remain visually unchanged; pixel comparison confirms zero differences outside circles."
+  ],
+  "technical_checks": {
+    "changedInsideAcademicCircles": 13687,
+    "changedOutsideAcademicCircles": 0
+  },
+  "all_originals_unchanged": true,
+  "limitations": [
+    "Info object is smallest in locked circle; tiny field names remain secondary at phone size.",
+    "Objects are illustrative generated assets, not real Match recommendations or product proof.",
+    "Existing hybrid raster plate, source softness, brand fallback fonts and historical footer limitations remain."
+  ],
+  "generated_assets": [
+    {
+      "file": "assets/generated-droit.png",
+      "sha256": "cea7d06f03110b51cb90be07b3e3179f7aff9621e10c0f033bef44969670e1e3"
+    },
+    {
+      "file": "assets/generated-gestion.png",
+      "sha256": "0dd0468b7fe285277a64489a0876cb309f77e6217c39c254658d985b1212a608"
+    },
+    {
+      "file": "assets/generated-info.png",
+      "sha256": "2902cb6ed99e9f0d06d2cae35896e9f6a2bdb2a0b5ec3ff14d6c5dfb42566236"
+    },
+    {
+      "file": "assets/generated-lettres.png",
+      "sha256": "6e1a9240b6f6d163ebce2f49ca638e39cc8df5e989f58b35ebe9d23d7591e3bb"
+    },
+    {
+      "file": "assets/generated-sciences.png",
+      "sha256": "53365a35d9f48344087a3ef4e4fae96cbd1ecc2b2fdd9aa3d891eb07a92c3dd7"
+    }
+  ],
+  "owner_approval": false,
+  "publication": false
+}

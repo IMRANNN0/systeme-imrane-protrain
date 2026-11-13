@@ -1,0 +1,40 @@
+{
+  "audited_at": "2026-10-20T00:51:54.927133+00:00",
+  "packages": [
+    {
+      "name": "lighthouse",
+      "version": "13.5.0",
+      "profile": "complete"
+    },
+    {
+      "name": "pa11y",
+      "version": "10.0.0",
+      "profile": "complete"
+    },
+    {
+      "name": "linkinator",
+      "version": "8.1.0",
+      "profile": "complete"
+    },
+    {
+      "name": "playwright",
+      "version": "1.64.1",
+      "profile": "complete"
+    },
+    {
+      "name": "sharp",
+      "version": "0.35.5",
+      "profile": "complete"
+    },
+    {
+      "name": "@canonry/canonry",
+      "version": "7.48.0",
+      "profile": "complete"
+    },
+    {
+      "name": "@openai/codex",
+      "version": "0.163.0",
+      "profile": "optional-host"
+    }
+  ]
+}

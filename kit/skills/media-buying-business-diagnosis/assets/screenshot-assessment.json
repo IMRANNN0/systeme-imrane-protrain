@@ -1,0 +1,175 @@
+{
+  "scope": {
+    "project_id": "fictional-course-example",
+    "offer": "Luxury Trendy Fashion - screenshot only",
+    "market": "illustration",
+    "period": "not given"
+  },
+  "rubric": {
+    "status": "screenshot_demo",
+    "id": "reconstructed-visible-example",
+    "formula": "weighted_max_v1",
+    "score_min": 1,
+    "score_max": 5,
+    "approved_by": null,
+    "approved_at": null
+  },
+  "axes": [
+    {
+      "id": "product_nature",
+      "factors": [
+        {
+          "id": "expiration",
+          "status": "rated",
+          "weight": 5,
+          "score": 4,
+          "reason": "Visible value transcribed from user-provided training screenshot; not independently rated",
+          "evidence": "User screenshot codex-clipboard-dfd577fe-9b9a-4d5d-9f38-67cbd85d41d7.png"
+        },
+        {
+          "id": "essentiality",
+          "status": "rated",
+          "weight": 5,
+          "score": 1,
+          "reason": "Visible value transcribed from user-provided training screenshot; not independently rated",
+          "evidence": "User screenshot codex-clipboard-dfd577fe-9b9a-4d5d-9f38-67cbd85d41d7.png"
+        },
+        {
+          "id": "dependency",
+          "status": "rated",
+          "weight": 1,
+          "score": 5,
+          "reason": "Visible value transcribed from user-provided training screenshot; not independently rated",
+          "evidence": "User screenshot codex-clipboard-dfd577fe-9b9a-4d5d-9f38-67cbd85d41d7.png"
+        },
+        {
+          "id": "seasonality",
+          "status": "rated",
+          "weight": 5,
+          "score": 4,
+          "reason": "Visible value transcribed from user-provided training screenshot; not independently rated",
+          "evidence": "User screenshot codex-clipboard-dfd577fe-9b9a-4d5d-9f38-67cbd85d41d7.png"
+        },
+        {
+          "id": "price_elasticity",
+          "status": "rated",
+          "weight": 5,
+          "score": 1,
+          "reason": "Visible value transcribed from user-provided training screenshot; not independently rated",
+          "evidence": "User screenshot codex-clipboard-dfd577fe-9b9a-4d5d-9f38-67cbd85d41d7.png"
+        },
+        {
+          "id": "versatility",
+          "status": "rated",
+          "weight": 5,
+          "score": 2,
+          "reason": "Visible value transcribed from user-provided training screenshot; not independently rated",
+          "evidence": "User screenshot codex-clipboard-dfd577fe-9b9a-4d5d-9f38-67cbd85d41d7.png"
+        },
+        {
+          "id": "urgency",
+          "status": "unknown",
+          "weight": null,
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "market",
+      "factors": [
+        {
+          "id": "competition",
+          "status": "rated",
+          "weight": 5,
+          "score": 1,
+          "reason": "Visible value transcribed from user-provided training screenshot; not independently rated",
+          "evidence": "User screenshot codex-clipboard-dfd577fe-9b9a-4d5d-9f38-67cbd85d41d7.png"
+        },
+        {
+          "id": "size",
+          "status": "rated",
+          "weight": 5,
+          "score": 2,
+          "reason": "Visible value transcribed from user-provided training screenshot; not independently rated",
+          "evidence": "User screenshot codex-clipboard-dfd577fe-9b9a-4d5d-9f38-67cbd85d41d7.png"
+        },
+        {
+          "id": "supply",
+          "status": "unknown",
+          "weight": null,
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "consumer",
+      "factors": [
+        {
+          "id": "preferences",
+          "status": "rated",
+          "weight": 5,
+          "score": 3,
+          "reason": "Visible value transcribed from user-provided training screenshot; not independently rated",
+          "evidence": "User screenshot codex-clipboard-dfd577fe-9b9a-4d5d-9f38-67cbd85d41d7.png"
+        },
+        {
+          "id": "expectations",
+          "status": "rated",
+          "weight": 4,
+          "score": 1,
+          "reason": "Visible value transcribed from user-provided training screenshot; not independently rated",
+          "evidence": "User screenshot codex-clipboard-dfd577fe-9b9a-4d5d-9f38-67cbd85d41d7.png"
+        },
+        {
+          "id": "loyalty",
+          "status": "rated",
+          "weight": 5,
+          "score": 2,
+          "reason": "Visible value transcribed from user-provided training screenshot; not independently rated",
+          "evidence": "User screenshot codex-clipboard-dfd577fe-9b9a-4d5d-9f38-67cbd85d41d7.png"
+        }
+      ]
+    },
+    {
+      "id": "economic_conditions",
+      "factors": [
+        {
+          "id": "purchase_power",
+          "status": "rated",
+          "weight": 5,
+          "score": 2,
+          "reason": "Visible value transcribed from user-provided training screenshot; not independently rated",
+          "evidence": "User screenshot codex-clipboard-dfd577fe-9b9a-4d5d-9f38-67cbd85d41d7.png"
+        },
+        {
+          "id": "economic_cycle",
+          "status": "rated",
+          "weight": 5,
+          "score": 2,
+          "reason": "Visible value transcribed from user-provided training screenshot; not independently rated",
+          "evidence": "User screenshot codex-clipboard-dfd577fe-9b9a-4d5d-9f38-67cbd85d41d7.png"
+        },
+        {
+          "id": "income_distribution",
+          "status": "rated",
+          "weight": 5,
+          "score": 2,
+          "reason": "Visible value transcribed from user-provided training screenshot; not independently rated",
+          "evidence": "User screenshot codex-clipboard-dfd577fe-9b9a-4d5d-9f38-67cbd85d41d7.png"
+        },
+        {
+          "id": "inflation",
+          "status": "rated",
+          "weight": 5,
+          "score": 1,
+          "reason": "Visible value transcribed from user-provided training screenshot; not independently rated",
+          "evidence": "User screenshot codex-clipboard-dfd577fe-9b9a-4d5d-9f38-67cbd85d41d7.png"
+        }
+      ]
+    }
+  ]
+}

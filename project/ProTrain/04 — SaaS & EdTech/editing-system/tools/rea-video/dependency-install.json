@@ -1,0 +1,1080 @@
+{
+  "version": "1",
+  "pip_version": "25.3",
+  "install": [
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309",
+          "hashes": {
+            "sha256": "c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "attrs",
+        "version": "26.1.0",
+        "summary": "Classes Without Boilerplate",
+        "description": "<p align=\"center\">\n  <a href=\"https://www.attrs.org/\">\n    <img src=\"https://raw.githubusercontent.com/python-attrs/attrs/main/docs/_static/attrs_logo.svg\" width=\"35%\" alt=\"attrs\" />\n  </a>\n</p>\n\n\n*attrs* is the Python package that will bring back the **joy** of **writing classes** by relieving you from the drudgery of implementing object protocols (aka [dunder methods](https://www.attrs.org/en/latest/glossary.html#term-dunder-methods)).\nTrusted by NASA for [Mars missions since 2020](https://github.com/readme/featured/nasa-ingenuity-helicopter)!\n\nIts main goal is to help you to write **concise** and **correct** software without slowing down your code.\n\n\n## Sponsors\n\n*attrs* would not be possible without our [amazing sponsors](https://github.com/sponsors/hynek).\nEspecially those generously supporting us at the *The Organization* tier and higher:\n\n<!-- sponsor-break-begin -->\n\n<p align=\"center\">\n\n<!-- [[[cog\nimport pathlib, tomllib\n\nfor sponsor in tomllib.loads(pathlib.Path(\"pyproject.toml\").read_text())[\"tool\"][\"sponcon\"][\"sponsors\"]:\n      print(f'<a href=\"{sponsor[\"url\"]}\"><img title=\"{sponsor[\"title\"]}\" src=\"https://www.attrs.org/en/26.1.0/_static/sponsors/{sponsor[\"img\"]}\" width=\"190\" /></a>')\n]]] -->\n<a href=\"https://www.variomedia.de/\"><img title=\"Variomedia AG\" src=\"https://www.attrs.org/en/26.1.0/_static/sponsors/Variomedia.svg\" width=\"190\" /></a>\n<a href=\"https://tidelift.com/?utm_source=lifter&utm_medium=referral&utm_campaign=hynek\"><img title=\"Tidelift\" src=\"https://www.attrs.org/en/26.1.0/_static/sponsors/Tidelift.svg\" width=\"190\" /></a>\n<a href=\"https://kraken.tech/\"><img title=\"Kraken Tech\" src=\"https://www.attrs.org/en/26.1.0/_static/sponsors/Kraken.svg\" width=\"190\" /></a>\n<a href=\"https://privacy-solutions.org/\"><img title=\"Privacy Solutions\" src=\"https://www.attrs.org/en/26.1.0/_static/sponsors/Privacy-Solutions.svg\" width=\"190\" /></a>\n<a href=\"https://filepreviews.io/\"><img title=\"FilePreviews\" src=\"https://www.attrs.org/en/26.1.0/_static/sponsors/FilePreviews.svg\" width=\"190\" /></a>\n<a href=\"https://www.testmuai.com/?utm_medium=sponsor&utm_source=structlog\"><img title=\"TestMu AI\" src=\"https://www.attrs.org/en/26.1.0/_static/sponsors/TestMu-AI.svg\" width=\"190\" /></a>\n<a href=\"https://polar.sh/\"><img title=\"Polar\" src=\"https://www.attrs.org/en/26.1.0/_static/sponsors/Polar.svg\" width=\"190\" /></a>\n<!-- [[[end]]] -->\n\n</p>\n\n<!-- sponsor-break-end -->\n\n<p align=\"center\">\n   <strong>Please consider <a href=\"https://github.com/sponsors/hynek\">joining them</a> to help make <em>attrs</em>’s maintenance more sustainable!</strong>\n</p>\n\n<!-- teaser-end -->\n\n## Example\n\n*attrs* gives you a class decorator and a way to declaratively define the attributes on that class:\n\n<!-- code-begin -->\n\n```pycon\n>>> from attrs import asdict, define, make_class, Factory\n\n>>> @define\n... class SomeClass:\n...     a_number: int = 42\n...     list_of_numbers: list[int] = Factory(list)\n...\n...     def hard_math(self, another_number):\n...         return self.a_number + sum(self.list_of_numbers) * another_number\n\n\n>>> sc = SomeClass(1, [1, 2, 3])\n>>> sc\nSomeClass(a_number=1, list_of_numbers=[1, 2, 3])\n\n>>> sc.hard_math(3)\n19\n>>> sc == SomeClass(1, [1, 2, 3])\nTrue\n>>> sc != SomeClass(2, [3, 2, 1])\nTrue\n\n>>> asdict(sc)\n{'a_number': 1, 'list_of_numbers': [1, 2, 3]}\n\n>>> SomeClass()\nSomeClass(a_number=42, list_of_numbers=[])\n\n>>> C = make_class(\"C\", [\"a\", \"b\"])\n>>> C(\"foo\", \"bar\")\nC(a='foo', b='bar')\n```\n\nAfter *declaring* your attributes, *attrs* gives you:\n\n- a concise and explicit overview of the class's attributes,\n- a nice human-readable `__repr__`,\n- equality-checking methods,\n- an initializer,\n- and much more,\n\n*without* writing dull boilerplate code again and again and *without* runtime performance penalties.\n\n---\n\nThis example uses *attrs*'s modern APIs that have been introduced in version 20.1.0, and the *attrs* package import name that has been added in version 21.3.0.\nThe classic APIs (`@attr.s`, `attr.ib`, plus their serious-business aliases) and the `attr` package import name will remain **indefinitely**.\n\nCheck out [*On The Core API Names*](https://www.attrs.org/en/latest/names.html) for an in-depth explanation!\n\n\n### Hate Type Annotations!?\n\nNo problem!\nTypes are entirely **optional** with *attrs*.\nSimply assign `attrs.field()` to the attributes instead of annotating them with types:\n\n```python\nfrom attrs import define, field\n\n@define\nclass SomeClass:\n    a_number = field(default=42)\n    list_of_numbers = field(factory=list)\n```\n\n\n## Data Classes\n\nOn the tin, *attrs* might remind you of `dataclasses` (and indeed, `dataclasses` [are a descendant](https://hynek.me/articles/import-attrs/) of *attrs*).\nIn practice it does a lot more and is more flexible.\nFor instance, it allows you to define [special handling of NumPy arrays for equality checks](https://www.attrs.org/en/stable/comparison.html#customization), allows more ways to [plug into the initialization process](https://www.attrs.org/en/stable/init.html#hooking-yourself-into-initialization), has a replacement for `__init_subclass__`, and allows for stepping through the generated methods using a debugger.\n\nFor more details, please refer to our [comparison page](https://www.attrs.org/en/stable/why.html#data-classes), but generally speaking, we are more likely to commit crimes against nature to make things work that one would expect to work, but that are quite complicated in practice.\n\n\n## Project Information\n\n- [**Changelog**](https://www.attrs.org/en/stable/changelog.html)\n- [**Documentation**](https://www.attrs.org/)\n- [**PyPI**](https://pypi.org/project/attrs/)\n- [**Source Code**](https://github.com/python-attrs/attrs)\n- [**Contributing**](https://github.com/python-attrs/attrs/blob/main/.github/CONTRIBUTING.md)\n- [**Third-party Extensions**](https://github.com/python-attrs/attrs/wiki/Extensions-to-attrs)\n- **Get Help**: use the `python-attrs` tag on [Stack Overflow](https://stackoverflow.com/questions/tagged/python-attrs)\n\n\n### *attrs* for Enterprise\n\nAvailable as part of the [Tidelift Subscription](https://tidelift.com/?utm_source=lifter&utm_medium=referral&utm_campaign=hynek).\n\nThe maintainers of *attrs* and thousands of other packages are working with Tidelift to deliver commercial support and maintenance for the open source packages you use to build your applications.\nSave time, reduce risk, and improve code health, while paying the maintainers of the exact packages you use.\n\n## Release Information\n\n### Backwards-incompatible Changes\n\n- Field aliases are now resolved *before* calling `field_transformer`, so transformers receive fully populated `Attribute` objects with usable `alias` values instead of `None`.\n  The new `Attribute.alias_is_default` flag indicates whether the alias was auto-generated (`True`) or explicitly set by the user (`False`).\n  [#1509](https://github.com/python-attrs/attrs/issues/1509)\n\n\n### Changes\n\n- Fix type annotations for `attrs.validators.optional()`, so it no longer rejects tuples with more than one validator.\n  [#1496](https://github.com/python-attrs/attrs/issues/1496)\n- The `attrs.validators.disabled()` contextmanager can now be nested.\n  [#1513](https://github.com/python-attrs/attrs/issues/1513)\n- Frozen classes can set `on_setattr=attrs.setters.NO_OP` in addition to `None`.\n  [#1515](https://github.com/python-attrs/attrs/issues/1515)\n- It's now possible to pass *attrs* **instances** in addition to *attrs* **classes** to `attrs.fields()`.\n  [#1529](https://github.com/python-attrs/attrs/issues/1529)\n\n\n\n---\n\n[Full changelog →](https://www.attrs.org/en/stable/changelog.html)\n",
+        "description_content_type": "text/markdown",
+        "keywords": [
+          "attribute",
+          "boilerplate",
+          "class"
+        ],
+        "author_email": "Hynek Schlawack <hs@ox.cx>",
+        "license_expression": "MIT",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Typing :: Typed"
+        ],
+        "requires_python": ">=3.9",
+        "project_url": [
+          "Documentation, https://www.attrs.org/",
+          "Changelog, https://www.attrs.org/en/stable/changelog.html",
+          "GitHub, https://github.com/python-attrs/attrs",
+          "Funding, https://github.com/sponsors/hynek",
+          "Tidelift, https://tidelift.com/subscription/pkg/pypi-attrs?utm_source=pypi-attrs&utm_medium=pypi"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/e8/2d/d2a548598be01649e2d46231d151a6c56d10b964d94043a335ae56ea2d92/flatbuffers-25.12.19-py2.py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=7634f50c427838bb021c2d66a3d1168e9d199b0607e6329399f04846d42e20b4",
+          "hashes": {
+            "sha256": "7634f50c427838bb021c2d66a3d1168e9d199b0607e6329399f04846d42e20b4"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "flatbuffers",
+        "version": "25.12.19",
+        "dynamic": [
+          "author",
+          "author-email",
+          "classifier",
+          "description",
+          "home-page",
+          "license",
+          "project-url",
+          "summary"
+        ],
+        "summary": "The FlatBuffers serialization format for Python",
+        "description": "Python runtime library for use with the `Flatbuffers <https://google.github.io/flatbuffers/>`_ serialization format.\n",
+        "home_page": "https://google.github.io/flatbuffers/",
+        "author": "Derek Bailey",
+        "author_email": "derekbailey@google.com",
+        "license": "Apache 2.0",
+        "classifier": [
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: Apache Software License",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 2",
+          "Programming Language :: Python :: 3",
+          "Topic :: Software Development :: Libraries :: Python Modules"
+        ],
+        "project_url": [
+          "Documentation, https://google.github.io/flatbuffers/",
+          "Source, https://github.com/google/flatbuffers"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/41/45/1a4ed80516f02155c51f51e8cedb3c1902296743db0bbc66608a0db2814f/jsonschema_specifications-2025.9.1-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=98802fee3a11ee76ecaca44429fda8a41bff98b00a0f2838151b113f210cc6fe",
+          "hashes": {
+            "sha256": "98802fee3a11ee76ecaca44429fda8a41bff98b00a0f2838151b113f210cc6fe"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "jsonschema-specifications",
+        "version": "2025.9.1",
+        "summary": "The JSON Schema meta-schemas and vocabularies, exposed as a Registry",
+        "description": "=============================\n``jsonschema-specifications``\n=============================\n\n|PyPI| |Pythons| |CI| |ReadTheDocs|\n\nJSON support files from the `JSON Schema Specifications <https://json-schema.org/specification.html>`_ (metaschemas, vocabularies, etc.), packaged for runtime access from Python as a `referencing-based Schema Registry <https://referencing.readthedocs.io/en/stable/api/#referencing.Registry>`_.\n\n.. |PyPI| image:: https://img.shields.io/pypi/v/jsonschema-specifications.svg\n  :alt: PyPI version\n  :target: https://pypi.org/project/jsonschema-specifications/\n\n.. |Pythons| image:: https://img.shields.io/pypi/pyversions/jsonschema-specifications.svg\n  :alt: Supported Python versions\n  :target: https://pypi.org/project/jsonschema-specifications/\n\n.. |CI| image:: https://github.com/python-jsonschema/jsonschema-specifications/workflows/CI/badge.svg\n  :alt: Build status\n  :target: https://github.com/python-jsonschema/jsonschema-specifications/actions?query=workflow%3ACI\n\n.. |ReadTheDocs| image:: https://readthedocs.org/projects/jsonschema-specifications/badge/?version=stable&style=flat\n  :alt: ReadTheDocs status\n  :target: https://jsonschema-specifications.readthedocs.io/en/stable/\n",
+        "description_content_type": "text/x-rst",
+        "keywords": [
+          "data validation",
+          "json",
+          "json schema",
+          "jsonschema",
+          "validation"
+        ],
+        "author_email": "Julian Berman <Julian+jsonschema-specifications@GrayVines.com>",
+        "license_expression": "MIT",
+        "license_file": [
+          "COPYING"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Topic :: File Formats :: JSON",
+          "Topic :: File Formats :: JSON :: JSON Schema"
+        ],
+        "requires_dist": [
+          "referencing>=0.31.0"
+        ],
+        "requires_python": ">=3.9",
+        "project_url": [
+          "Documentation, https://jsonschema-specifications.readthedocs.io/",
+          "Homepage, https://github.com/python-jsonschema/jsonschema-specifications",
+          "Issues, https://github.com/python-jsonschema/jsonschema-specifications/issues/",
+          "Funding, https://github.com/sponsors/Julian",
+          "Tidelift, https://tidelift.com/subscription/pkg/pypi-jsonschema-specifications?utm_source=pypi-jsonschema-specifications&utm_medium=referral&utm_campaign=pypi-link",
+          "Source, https://github.com/python-jsonschema/jsonschema-specifications"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/69/90/f63fb5873511e014207a475e2bb4e8b2e570d655b00ac19a9a0ca0a385ee/jsonschema-4.26.0-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=d489f15263b8d200f8387e64b4c3a75f06629559fb73deb8fdfb525f2dab50ce",
+          "hashes": {
+            "sha256": "d489f15263b8d200f8387e64b4c3a75f06629559fb73deb8fdfb525f2dab50ce"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "jsonschema",
+        "version": "4.26.0",
+        "summary": "An implementation of JSON Schema validation for Python",
+        "description": "==========\njsonschema\n==========\n\n|PyPI| |Pythons| |CI| |ReadTheDocs| |Precommit| |Zenodo|\n\n.. |PyPI| image:: https://img.shields.io/pypi/v/jsonschema.svg\n   :alt: PyPI version\n   :target: https://pypi.org/project/jsonschema/\n\n.. |Pythons| image:: https://img.shields.io/pypi/pyversions/jsonschema.svg\n   :alt: Supported Python versions\n   :target: https://pypi.org/project/jsonschema/\n\n.. |CI| image:: https://github.com/python-jsonschema/jsonschema/workflows/CI/badge.svg\n  :alt: Build status\n  :target: https://github.com/python-jsonschema/jsonschema/actions?query=workflow%3ACI\n\n.. |ReadTheDocs| image:: https://readthedocs.org/projects/python-jsonschema/badge/?version=stable&style=flat\n   :alt: ReadTheDocs status\n   :target: https://python-jsonschema.readthedocs.io/en/stable/\n\n.. |Precommit| image:: https://results.pre-commit.ci/badge/github/python-jsonschema/jsonschema/main.svg\n   :alt: pre-commit.ci status\n   :target: https://results.pre-commit.ci/latest/github/python-jsonschema/jsonschema/main\n\n.. |Zenodo| image:: https://zenodo.org/badge/3072629.svg\n   :alt: Zenodo DOI\n   :target: https://zenodo.org/badge/latestdoi/3072629\n\n\n``jsonschema`` is an implementation of the `JSON Schema <https://json-schema.org>`_ specification for Python.\n\n.. code:: python\n\n    >>> from jsonschema import validate\n\n    >>> # A sample schema, like what we'd get from json.load()\n    >>> schema = {\n    ...     \"type\" : \"object\",\n    ...     \"properties\" : {\n    ...         \"price\" : {\"type\" : \"number\"},\n    ...         \"name\" : {\"type\" : \"string\"},\n    ...     },\n    ... }\n\n    >>> # If no exception is raised by validate(), the instance is valid.\n    >>> validate(instance={\"name\" : \"Eggs\", \"price\" : 34.99}, schema=schema)\n\n    >>> validate(\n    ...     instance={\"name\" : \"Eggs\", \"price\" : \"Invalid\"}, schema=schema,\n    ... )                                   # doctest: +IGNORE_EXCEPTION_DETAIL\n    Traceback (most recent call last):\n        ...\n    ValidationError: 'Invalid' is not of type 'number'\n\nIt can also be used from the command line by installing `check-jsonschema <https://github.com/python-jsonschema/check-jsonschema>`_.\n\nFeatures\n--------\n\n* Full support for `Draft 2020-12 <https://python-jsonschema.readthedocs.io/en/latest/api/jsonschema/validators/#jsonschema.validators.Draft202012Validator>`_, `Draft 2019-09 <https://python-jsonschema.readthedocs.io/en/latest/api/jsonschema/validators/#jsonschema.validators.Draft201909Validator>`_, `Draft 7 <https://python-jsonschema.readthedocs.io/en/latest/api/jsonschema/validators/#jsonschema.validators.Draft7Validator>`_, `Draft 6 <https://python-jsonschema.readthedocs.io/en/latest/api/jsonschema/validators/#jsonschema.validators.Draft6Validator>`_, `Draft 4 <https://python-jsonschema.readthedocs.io/en/latest/api/jsonschema/validators/#jsonschema.validators.Draft4Validator>`_ and `Draft 3 <https://python-jsonschema.readthedocs.io/en/latest/api/jsonschema/validators/#jsonschema.validators.Draft3Validator>`_\n\n* `Lazy validation <https://python-jsonschema.readthedocs.io/en/latest/api/jsonschema/protocols/#jsonschema.protocols.Validator.iter_errors>`_ that can iteratively report *all* validation errors.\n\n* `Programmatic querying <https://python-jsonschema.readthedocs.io/en/latest/errors/>`_ of which properties or items failed validation.\n\n\nInstallation\n------------\n\n``jsonschema`` is available on `PyPI <https://pypi.org/project/jsonschema/>`_. You can install using `pip <https://pip.pypa.io/en/stable/>`_:\n\n.. code:: bash\n\n    $ pip install jsonschema\n\n\nExtras\n======\n\nTwo extras are available when installing the package, both currently related to ``format`` validation:\n\n    * ``format``\n    * ``format-nongpl``\n\nThey can be used when installing in order to include additional dependencies, e.g.:\n\n.. code:: bash\n\n    $ pip install jsonschema'[format]'\n\nBe aware that the mere presence of these dependencies – or even the specification of ``format`` checks in a schema – do *not* activate format checks (as per the specification).\nPlease read the `format validation documentation <https://python-jsonschema.readthedocs.io/en/latest/validate/#validating-formats>`_ for further details.\n\nAbout\n-----\n\nI'm Julian Berman.\n\n``jsonschema`` is on `GitHub <https://github.com/python-jsonschema/jsonschema>`_.\n\nGet in touch, via GitHub or otherwise, if you've got something to contribute, it'd be most welcome!\n\nIf you feel overwhelmingly grateful, you can also `sponsor me <https://github.com/sponsors/Julian/>`_.\n\nAnd for companies who appreciate ``jsonschema`` and its continued support and growth, ``jsonschema`` is also now supportable via `TideLift <https://tidelift.com/subscription/pkg/pypi-jsonschema?utm_source=pypi-jsonschema&utm_medium=referral&utm_campaign=readme>`_.\n\n\nRelease Information\n-------------------\n\nv4.26.0\n=======\n\n* Decrease import time by delaying importing of ``urllib.request`` (#1416).\n",
+        "description_content_type": "text/x-rst",
+        "keywords": [
+          "data validation",
+          "json",
+          "json schema",
+          "jsonschema",
+          "validation"
+        ],
+        "author_email": "Julian Berman <Julian+jsonschema@GrayVines.com>",
+        "license_expression": "MIT",
+        "license_file": [
+          "COPYING"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Topic :: File Formats :: JSON",
+          "Topic :: File Formats :: JSON :: JSON Schema"
+        ],
+        "requires_dist": [
+          "attrs>=22.2.0",
+          "jsonschema-specifications>=2023.03.6",
+          "referencing>=0.28.4",
+          "rpds-py>=0.25.0",
+          "fqdn; extra == 'format'",
+          "idna; extra == 'format'",
+          "isoduration; extra == 'format'",
+          "jsonpointer>1.13; extra == 'format'",
+          "rfc3339-validator; extra == 'format'",
+          "rfc3987; extra == 'format'",
+          "uri-template; extra == 'format'",
+          "webcolors>=1.11; extra == 'format'",
+          "fqdn; extra == 'format-nongpl'",
+          "idna; extra == 'format-nongpl'",
+          "isoduration; extra == 'format-nongpl'",
+          "jsonpointer>1.13; extra == 'format-nongpl'",
+          "rfc3339-validator; extra == 'format-nongpl'",
+          "rfc3986-validator>0.1.0; extra == 'format-nongpl'",
+          "rfc3987-syntax>=1.1.0; extra == 'format-nongpl'",
+          "uri-template; extra == 'format-nongpl'",
+          "webcolors>=24.6.0; extra == 'format-nongpl'"
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "Homepage, https://github.com/python-jsonschema/jsonschema",
+          "Documentation, https://python-jsonschema.readthedocs.io/",
+          "Issues, https://github.com/python-jsonschema/jsonschema/issues/",
+          "Funding, https://github.com/sponsors/Julian",
+          "Tidelift, https://tidelift.com/subscription/pkg/pypi-jsonschema?utm_source=pypi-jsonschema&utm_medium=referral&utm_campaign=pypi-link",
+          "Changelog, https://github.com/python-jsonschema/jsonschema/blob/main/CHANGELOG.rst",
+          "Source, https://github.com/python-jsonschema/jsonschema"
+        ],
+        "provides_extra": [
+          "format",
+          "format-nongpl"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/52/9a/e1e512ebc948d5b9dd33b08736760f0ebbed2848fd4eda1f553088a6dcee/numpy-2.5.4-cp314-cp314-win_amd64.whl",
+        "archive_info": {
+          "hash": "sha256=2ca144f15135b6212a5c47b1e2aeca6e412f102f95a2d5d88d8aec77eb255de3",
+          "hashes": {
+            "sha256": "2ca144f15135b6212a5c47b1e2aeca6e412f102f95a2d5d88d8aec77eb255de3"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "numpy",
+        "version": "2.5.4",
+        "summary": "Fundamental package for array computing in Python",
+        "description": "<h1 align=\"center\">\n<img src=\"https://raw.githubusercontent.com/numpy/numpy/main/branding/logo/primary/numpylogo.svg\" width=\"300\">\n</h1><br>\n\n\n[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](\nhttps://numfocus.org)\n[![PyPI Downloads](https://img.shields.io/pypi/dm/numpy.svg?label=PyPI%20downloads)](\nhttps://pypi.org/project/numpy/)\n[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/numpy.svg?label=Conda%20downloads)](\nhttps://anaconda.org/conda-forge/numpy)\n[![Stack Overflow](https://img.shields.io/badge/stackoverflow-Ask%20questions-blue.svg)](\nhttps://stackoverflow.com/questions/tagged/numpy)\n[![Nature Paper](https://img.shields.io/badge/DOI-10.1038%2Fs41586--020--2649--2-blue)](\nhttps://doi.org/10.1038/s41586-020-2649-2)\n[![LFX Health Score](https://insights.linuxfoundation.org/api/badge/health-score?project=numpy)](https://insights.linuxfoundation.org/project/numpy)\n[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/numpy/numpy/badge)](https://securityscorecards.dev/viewer/?uri=github.com/numpy/numpy)\n[![Typing](https://img.shields.io/pypi/types/numpy)](https://pypi.org/project/numpy/)\n\n\nNumPy is the fundamental package for scientific computing with Python.\n\n- **Website:** https://numpy.org\n- **Documentation:** https://numpy.org/doc\n- **Mailing list:** https://mail.python.org/mailman/listinfo/numpy-discussion\n- **Source code:** https://github.com/numpy/numpy\n- **Contributing:** https://numpy.org/devdocs/dev/index.html\n- **Bug reports:** https://github.com/numpy/numpy/issues\n- **Report a security vulnerability:** https://github.com/numpy/numpy/security/policy (via Tidelift)\n\nIt provides:\n\n- a powerful N-dimensional array object\n- sophisticated (broadcasting) functions\n- tools for integrating C/C++ and Fortran code\n- useful linear algebra, Fourier transform, and random number capabilities\n\nTesting:\n\nNumPy requires `pytest` and `hypothesis`.  Tests can then be run after installation with:\n\n    python -c \"import numpy, sys; sys.exit(numpy.test() is False)\"\n\nCode of Conduct\n----------------------\n\nNumPy is a community-driven open source project developed by a diverse group of\n[contributors](https://numpy.org/teams/). The NumPy leadership has made a strong\ncommitment to creating an open, inclusive, and positive community. Please read the\n[NumPy Code of Conduct](https://numpy.org/code-of-conduct/) for guidance on how to interact\nwith others in a way that makes our community thrive.\n\nCall for Contributions\n----------------------\n\nThe NumPy project welcomes your expertise and enthusiasm!\n\nSmall improvements or fixes are always appreciated. If you are considering larger contributions\nto the source code, please contact us through the [mailing\nlist](https://mail.python.org/mailman/listinfo/numpy-discussion) first.\n\nWriting code isn’t the only way to contribute to NumPy. You can also:\n- review pull requests\n- help us stay on top of new and old issues\n- develop tutorials, presentations, and other educational materials\n- maintain and improve [our website](https://github.com/numpy/numpy.org)\n- develop graphic design for our brand assets and promotional materials\n- translate website content\n- help with outreach and onboard new contributors\n- write grant proposals and help with other fundraising efforts\n\nFor more information about the ways you can contribute to NumPy, visit [our website](https://numpy.org/contribute/). \nIf you’re unsure where to start or how your skills fit in, reach out! You can\nask on the mailing list or here, on GitHub, by opening a new issue or leaving a\ncomment on a relevant issue that is already open.\n\nOur preferred channels of communication are all public, but if you’d like to\nspeak to us in private first, contact our community coordinators at\nnumpy-team@googlegroups.com or on Slack (write numpy-team@googlegroups.com for\nan invitation).\n\nWe also have a biweekly community call, details of which are announced on the\nmailing list. You are very welcome to join.\n\nIf you are new to contributing to open source, [this\nguide](https://opensource.guide/how-to-contribute/) helps explain why, what,\nand how to successfully get involved.\n",
+        "description_content_type": "text/markdown",
+        "author": "Travis E. Oliphant et al.",
+        "maintainer_email": "NumPy Developers <numpy-discussion@python.org>",
+        "license_expression": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+        "license_file": [
+          "LICENSE.txt",
+          "numpy/_core/include/numpy/libdivide/LICENSE.txt",
+          "numpy/_core/src/common/pythoncapi-compat/COPYING",
+          "numpy/_core/src/highway/LICENSE",
+          "numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+          "numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+          "numpy/_core/src/umath/svml/LICENSE",
+          "numpy/fft/pocketfft/LICENSE.md",
+          "numpy/linalg/lapack_lite/LICENSE.txt",
+          "numpy/ma/LICENSE",
+          "numpy/random/LICENSE.md",
+          "numpy/random/src/distributions/LICENSE.md",
+          "numpy/random/src/mt19937/LICENSE.md",
+          "numpy/random/src/pcg64/LICENSE.md",
+          "numpy/random/src/philox/LICENSE.md",
+          "numpy/random/src/sfc64/LICENSE.md",
+          "numpy/random/src/splitmix64/LICENSE.md"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Science/Research",
+          "Intended Audience :: Developers",
+          "Programming Language :: C",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: 3.15",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Topic :: Software Development",
+          "Topic :: Scientific/Engineering",
+          "Typing :: Typed",
+          "Operating System :: Microsoft :: Windows",
+          "Operating System :: POSIX",
+          "Operating System :: Unix",
+          "Operating System :: MacOS"
+        ],
+        "requires_python": ">=3.12",
+        "project_url": [
+          "homepage, https://numpy.org",
+          "documentation, https://numpy.org/doc/",
+          "source, https://github.com/numpy/numpy",
+          "download, https://pypi.org/project/numpy/#files",
+          "tracker, https://github.com/numpy/numpy/issues",
+          "release notes, https://numpy.org/doc/stable/release"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/da/50/bcc038601b4c044f07925ac11dc04e8ad4bbea87db9b4b3a2ac0823c6ddb/onnxruntime-1.32.0-cp314-cp314-win_amd64.whl",
+        "archive_info": {
+          "hash": "sha256=2b08ee990d00ab2ee129c5e039f7339963335a4d76f5bd22bfb4f896ae1cec0a",
+          "hashes": {
+            "sha256": "2b08ee990d00ab2ee129c5e039f7339963335a4d76f5bd22bfb4f896ae1cec0a"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "onnxruntime",
+        "version": "1.32.0",
+        "dynamic": [
+          "author",
+          "author-email",
+          "classifier",
+          "description",
+          "download-url",
+          "home-page",
+          "keywords",
+          "license",
+          "provides-extra",
+          "requires-dist",
+          "requires-python",
+          "summary"
+        ],
+        "summary": "ONNX Runtime is a runtime accelerator for Machine Learning models",
+        "description": "ONNX Runtime\r\n============\r\n\r\nONNX Runtime is a performance-focused scoring engine for Open Neural Network Exchange (ONNX) models.\r\nFor more information on ONNX Runtime, please see `aka.ms/onnxruntime <https://aka.ms/onnxruntime/>`_ or the `Github project <https://github.com/microsoft/onnxruntime/>`_.\r\n\r\n\r\nChanges\r\n-------\r\n\r\n1.32.0\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.32.0\r\n\r\n1.31.0\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.31.0\r\n\r\n1.30.0\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.30.0\r\n\r\n1.29.0\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.29.0\r\n\r\n1.28.0\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.28.0\r\n\r\n1.27.0\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.27.0\r\n\r\n1.26.0\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.26.0\r\n\r\n1.25.0\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.25.0\r\n\r\n1.24.1\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.24.1\r\n\r\n1.23.0\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.23.0\r\n\r\n1.22.0\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.22.0\r\n\r\n1.21.0\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.21.0\r\n\r\n1.20.0\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.20.0\r\n\r\n1.19.0\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.19.0\r\n\r\n1.18.0\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.18.0\r\n\r\n1.17.0\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.17.0\r\n\r\n1.16.0\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.16.0\r\n\r\n1.15.0\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.15.0\r\n\r\n1.14.0\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.14.0\r\n\r\n1.13.1\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.13.1\r\n\r\n1.12.0\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.12.0\r\n\r\n1.11.0\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.11.0\r\n\r\n1.10.0\r\n^^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.10.0\r\n\r\n1.9.0\r\n^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.9.0\r\n\r\n1.8.2\r\n^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.8.2\r\n\r\n1.8.1\r\n^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.8.1\r\n\r\n1.8.0\r\n^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.8.0\r\n\r\n1.7.0\r\n^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.7.0\r\n\r\n1.6.0\r\n^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.6.0\r\n\r\n1.5.3\r\n^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.5.3\r\n\r\n1.5.2\r\n^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.5.2\r\n\r\n1.5.1\r\n^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.5.1\r\n\r\n\r\n1.4.0\r\n^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.4.0\r\n\r\n1.3.1\r\n^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.3.1\r\n\r\n1.3.0\r\n^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.3.0\r\n\r\n1.2.0\r\n^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.2.0\r\n\r\n1.1.0\r\n^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.1.0\r\n\r\n1.0.0\r\n^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v1.0.0\r\n\r\n0.5.0\r\n^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v0.5.0\r\n\r\n0.4.0\r\n^^^^^\r\n\r\nRelease Notes : https://github.com/Microsoft/onnxruntime/releases/tag/v0.4.0\r\n",
+        "keywords": [
+          "onnx",
+          "machine",
+          "learning"
+        ],
+        "home_page": "https://onnxruntime.ai",
+        "download_url": "https://github.com/microsoft/onnxruntime/tags",
+        "author": "Microsoft Corporation",
+        "author_email": "onnxruntime@microsoft.com",
+        "license": "MIT License",
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: MIT License",
+          "Operating System :: POSIX :: Linux",
+          "Operating System :: Microsoft :: Windows",
+          "Operating System :: MacOS",
+          "Topic :: Scientific/Engineering",
+          "Topic :: Scientific/Engineering :: Mathematics",
+          "Topic :: Scientific/Engineering :: Artificial Intelligence",
+          "Topic :: Software Development",
+          "Topic :: Software Development :: Libraries",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14"
+        ],
+        "requires_dist": [
+          "flatbuffers",
+          "numpy>=1.21.6",
+          "packaging",
+          "protobuf>=4.25.8",
+          "sympy; extra == \"symbolic\"",
+          "ml_dtypes; extra == \"quantization\""
+        ],
+        "requires_python": ">=3.11",
+        "provides_extra": [
+          "symbolic",
+          "quantization"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/ad/8d/db8673846ee53cbb5de4c2b4decc11cf733e203eb7d5146297869f69bd48/opencv_python_headless-4.14.0.94-cp37-abi3-win_amd64.whl",
+        "archive_info": {
+          "hash": "sha256=cbed65415b8f6a9541c705afe3e64795840524d0ff3bc58f507826284a1dc64b",
+          "hashes": {
+            "sha256": "cbed65415b8f6a9541c705afe3e64795840524d0ff3bc58f507826284a1dc64b"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "opencv-python-headless",
+        "version": "4.14.0.94",
+        "platform": [
+          "UNKNOWN"
+        ],
+        "summary": "Wrapper package for OpenCV python bindings.",
+        "description": "[![Downloads](https://static.pepy.tech/badge/opencv-python)](http://pepy.tech/project/opencv-python)\r\n\r\n### Keep OpenCV Free\r\n\r\nOpenCV is raising funds to keep the library free for everyone, and we need the support of the entire community to do it. [Donate to OpenCV on Github](https://github.com/sponsors/opencv) to show your support.\r\n\r\n- [OpenCV on Wheels](#opencv-on-wheels)\r\n  - [Installation and Usage](#installation-and-usage)\r\n- [Frequently Asked Questions](#frequently-asked-questions)\r\n- [Documentation for opencv-python](#documentation-for-opencv-python)\r\n  - [CI build process](#ci-build-process)\r\n  - [Manual builds](#manual-builds)\r\n    - [Manual debug builds](#manual-debug-builds)\r\n    - [Source distributions](#source-distributions)\r\n  - [Licensing](#licensing)\r\n  - [Versioning](#versioning)\r\n  - [Releases](#releases)\r\n  - [Development builds](#development-builds)\r\n  - [Manylinux wheels](#manylinux-wheels)\r\n  - [Supported Python versions](#supported-python-versions)\r\n  - [Backward compatibility](#backward-compatibility)\r\n\r\n## OpenCV on Wheels\r\n\r\nPre-built CPU-only OpenCV packages for Python.\r\n\r\nCheck the manual build section if you wish to compile the bindings from source to enable additional modules such as CUDA.\r\n\r\n### Installation and Usage\r\n\r\n1. If you have previous/other manually installed (= not installed via ``pip``) version of OpenCV installed (e.g. cv2 module in the root of Python's site-packages), remove it before installation to avoid conflicts.\r\n2. Make sure that your `pip` version is up-to-date (19.3 is the minimum supported version): `pip install --upgrade pip`. Check version with `pip -V`. For example Linux distributions ship usually with very old `pip` versions which cause a lot of unexpected problems especially with the `manylinux` format.\r\n3. Select the correct package for your environment:\r\n\r\n    There are four different packages (see options 1, 2, 3 and 4 below) and you should **SELECT ONLY ONE OF THEM**. Do not install multiple different packages in the same environment. There is no plugin architecture: all the packages use the same namespace (`cv2`). If you installed multiple different packages in the same environment, uninstall them all with ``pip uninstall`` and reinstall only one package.\r\n\r\n    **a.** Packages for standard desktop environments (Windows, macOS, almost any GNU/Linux distribution)\r\n\r\n    - Option 1 - Main modules package: ``pip install opencv-python``\r\n    - Option 2 - Full package (contains both main modules and contrib/extra modules): ``pip install opencv-contrib-python`` (check contrib/extra modules listing from [OpenCV documentation](https://docs.opencv.org/master/))\r\n\r\n    **b.** Packages for server (headless) environments (such as Docker, cloud environments etc.), no GUI library dependencies\r\n\r\n    These packages are smaller than the two other packages above because they do not contain any GUI functionality (not compiled with Qt / other GUI components). This means that the packages avoid a heavy dependency chain to X11 libraries and you will have for example smaller Docker images as a result. You should always use these packages if you do not use `cv2.imshow` et al. or you are using some other package (such as PyQt) than OpenCV to create your GUI.\r\n\r\n    - Option 3 - Headless main modules package: ``pip install opencv-python-headless``\r\n    - Option 4 - Headless full package (contains both main modules and contrib/extra modules): ``pip install opencv-contrib-python-headless`` (check contrib/extra modules listing from [OpenCV documentation](https://docs.opencv.org/master/))\r\n\r\n4. Import the package:\r\n\r\n    ``import cv2``\r\n\r\n    All packages contain Haar cascade files. ``cv2.data.haarcascades`` can be used as a shortcut to the data folder. For example:\r\n\r\n    ``cv2.CascadeClassifier(cv2.data.haarcascades + \"haarcascade_frontalface_default.xml\")``\r\n\r\n5. Read [OpenCV documentation](https://docs.opencv.org/master/)\r\n\r\n6. Before opening a new issue, read the FAQ below and have a look at the other issues which are already open.\r\n\r\nFrequently Asked Questions\r\n--------------------------\r\n\r\n**Q: Do I need to install also OpenCV separately?**\r\n\r\nA: No, the packages are special wheel binary packages and they already contain statically built OpenCV binaries.\r\n\r\n**Q: Pip install fails with ``ModuleNotFoundError: No module named 'skbuild'``?**\r\n\r\nSince ``opencv-python`` version 4.3.0.\\*, ``manylinux1`` wheels were replaced by ``manylinux2014`` wheels. If your pip is too old, it will try to use the new source distribution introduced in 4.3.0.38 to manually build OpenCV because it does not know how to install ``manylinux2014`` wheels. However, source build will also fail because of too old ``pip`` because it does not understand build dependencies in ``pyproject.toml``. To use the new ``manylinux2014`` pre-built wheels (or to build from source), your ``pip`` version must be >= 19.3. Please upgrade ``pip`` with ``pip install --upgrade pip``.\r\n\r\n**Q: Import fails on Windows: ``ImportError: DLL load failed: The specified module could not be found.``?**\r\n\r\nA: If the import fails on Windows, make sure you have [Visual C++ redistributable 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145) installed. If you are using older Windows version than Windows 10 and latest system updates are not installed, [Universal C Runtime](https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows) might be also required.\r\n\r\nWindows N and KN editions do not include Media Feature Pack which is required by OpenCV. If you are using Windows N or KN edition, please install also [Windows Media Feature Pack](https://support.microsoft.com/en-us/help/3145500/media-feature-pack-list-for-windows-n-editions).\r\n\r\nIf you have Windows Server 2012+, media DLLs are probably missing too; please install the Feature called \"Media Foundation\" in the Server Manager. Beware, some posts advise to install \"Windows Server Essentials Media Pack\", but this one requires the \"Windows Server Essentials Experience\" role, and this role will deeply affect your Windows Server configuration (by enforcing active directory integration etc.); so just installing the \"Media Foundation\" should be a safer choice.\r\n\r\nIf the above does not help, check if you are using Anaconda. Old Anaconda versions have a bug which causes the error, see [this issue](https://github.com/opencv/opencv-python/issues/36) for a manual fix.\r\n\r\nIf you still encounter the error after you have checked all the previous solutions, download [Dependencies](https://github.com/lucasg/Dependencies) and open the ``cv2.pyd`` (located usually at ``C:\\Users\\username\\AppData\\Local\\Programs\\Python\\PythonXX\\Lib\\site-packages\\cv2``) file with it to debug missing DLL issues.\r\n\r\n**Q: I have some other import errors?**\r\n\r\nA: Make sure you have removed old manual installations of OpenCV Python bindings (cv2.so or cv2.pyd in site-packages).\r\n\r\n**Q: Function foo() or method bar() returns wrong result, throws exception or crashes interpreter. What should I do?**\r\n\r\nA: The repository contains only OpenCV-Python package build scripts, but not OpenCV itself. Python bindings for OpenCV are developed in official OpenCV repository and it's the best place to report issues. Also please check [OpenCV wiki](https://github.com/opencv/opencv/wiki) and [the official OpenCV forum](https://forum.opencv.org/) before file new bugs.\r\n\r\n**Q: Why the packages do not include non-free algorithms?**\r\n\r\nA: Non-free algorithms such as SURF are not included in these packages because they are patented / non-free and therefore cannot be distributed as built binaries. Note that SIFT is included in the builds due to patent expiration since OpenCV versions 4.3.0 and 3.4.10. See this issue for more info: https://github.com/skvark/opencv-python/issues/126\r\n\r\n**Q: Why the package and import are different (opencv-python vs. cv2)?**\r\n\r\nA: It's easier for users to understand ``opencv-python`` than ``cv2`` and it makes it easier to find the package with search engines. `cv2` (old interface in old OpenCV versions was named as `cv`) is the name that OpenCV developers chose when they created the binding generators. This is kept as the import name to be consistent with different kind of tutorials around the internet. Changing the import name or behaviour would be also confusing to experienced users who are accustomed to the ``import cv2``.\r\n\r\n## Documentation for opencv-python\r\n\r\n[![Windows Build Status](https://github.com/opencv/opencv-python/actions/workflows/build_wheels_windows.yml/badge.svg)](https://github.com/opencv/opencv-python/actions/workflows/build_wheels_windows.yml)\r\n[![(Linux Build status)](https://github.com/opencv/opencv-python/actions/workflows/build_wheels_linux.yml/badge.svg)](https://github.com/opencv/opencv-python/actions/workflows/build_wheels_linux.yml)\r\n[![(Mac OS Build status)](https://github.com/opencv/opencv-python/actions/workflows/build_wheels_macos.yml/badge.svg)](https://github.com/opencv/opencv-python/actions/workflows/build_wheels_macos.yml)\r\n\r\nThe aim of this repository is to provide means to package each new [OpenCV release](https://github.com/opencv/opencv/releases) for the most used Python versions and platforms.\r\n\r\n### CI build process\r\n\r\nThe project is structured like a normal Python package with a standard ``setup.py`` file.\r\nThe build process for a single entry in the build matrices is as follows (see for example `.github/workflows/build_wheels_linux.yml` file):\r\n\r\n0. In Linux and MacOS build: get OpenCV's optional C dependencies that we compile against\r\n\r\n1. Checkout repository and submodules\r\n\r\n   -  OpenCV is included as submodule and the version is updated\r\n      manually by maintainers when a new OpenCV release has been made\r\n   -  Contrib modules are also included as a submodule\r\n\r\n2. Find OpenCV version from the sources\r\n\r\n3. Build OpenCV\r\n\r\n   -  tests are disabled, otherwise build time increases too much\r\n   -  there are 4 build matrix entries for each build combination: with and without contrib modules, with and without GUI (headless)\r\n   -  Linux builds run in manylinux Docker containers (CentOS 5)\r\n   -  source distributions are separate entries in the build matrix\r\n\r\n4. Rearrange OpenCV's build result, add our custom files and generate wheel\r\n\r\n5. Linux and macOS wheels are transformed with auditwheel and delocate, correspondingly\r\n\r\n6. Install the generated wheel\r\n7. Test that Python can import the library and run some sanity checks\r\n8. Use twine to upload the generated wheel to PyPI (only in release builds)\r\n\r\nSteps 1--4 are handled by ``pip wheel``.\r\n\r\nThe build can be customized with environment variables. In addition to any variables that OpenCV's build accepts, we recognize:\r\n\r\n- ``CI_BUILD``. Set to ``1`` to emulate the CI environment build behaviour. Used only in CI builds to force certain build flags on in ``setup.py``. Do not use this unless you know what you are doing.\r\n- ``ENABLE_CONTRIB`` and ``ENABLE_HEADLESS``. Set to ``1`` to build the contrib and/or headless version\r\n- ``ENABLE_JAVA``, Set to ``1`` to enable the Java client build.  This is disabled by default.\r\n- ``CMAKE_ARGS``. Additional arguments for OpenCV's CMake invocation. You can use this to make a custom build.\r\n\r\nSee the next section for more info about manual builds outside the CI environment.\r\n\r\n### Manual builds\r\n\r\nIf some dependency is not enabled in the pre-built wheels, you can also run the build locally to create a custom wheel.\r\n\r\n1. Clone this repository: `git clone --recursive https://github.com/opencv/opencv-python.git`\r\n2. ``cd opencv-python``\r\n    - you can use `git` to checkout some other version of OpenCV in the `opencv` and `opencv_contrib` submodules if needed\r\n3. Add custom Cmake flags if needed, for example: `export CMAKE_ARGS=\"-DSOME_FLAG=ON -DSOME_OTHER_FLAG=OFF\"` (in Windows you need to set environment variables differently depending on Command Line or PowerShell)\r\n4. Select the package flavor which you wish to build with `ENABLE_CONTRIB` and `ENABLE_HEADLESS`: i.e. `export ENABLE_CONTRIB=1` if you wish to build `opencv-contrib-python`\r\n5. Run ``pip wheel . --verbose``. NOTE: make sure you have the latest ``pip`` version, the ``pip wheel`` command replaces the old ``python setup.py bdist_wheel`` command which does not support ``pyproject.toml``.\r\n    - this might take anything from 5 minutes to over 2 hours depending on your hardware\r\n6. Pip will print fresh wheel location at the end of build procedure. If you use old approach with `setup.py` file wheel package will be placed in `dist` folder. Package is ready and you can do with that whatever you wish.\r\n    - Optional: on Linux use some of the `manylinux` images as a build hosts if maximum portability is needed and run `auditwheel` for the wheel after build\r\n    - Optional: on macOS use ``delocate`` (same as ``auditwheel`` but for macOS) for better portability\r\n\r\n#### Manual debug builds\r\n\r\nIn order to build `opencv-python` in an unoptimized debug build, you need to side-step the normal process a bit.\r\n\r\n1. Install the packages `scikit-build` and `numpy` via pip.\r\n2. Run the command `python setup.py bdist_wheel --build-type=Debug`.\r\n3. Install the generated wheel file in the `dist/` folder with `pip install dist/wheelname.whl`.\r\n\r\nIf you would like the build produce all compiler commands, then the following combination of flags and environment variables has been tested to work on Linux:\r\n```\r\nexport CMAKE_ARGS='-DCMAKE_VERBOSE_MAKEFILE=ON'\r\nexport VERBOSE=1\r\n\r\npython3 setup.py bdist_wheel --build-type=Debug\r\n```\r\n\r\nSee this issue for more discussion: https://github.com/opencv/opencv-python/issues/424\r\n\r\n#### Source distributions\r\n\r\nSince OpenCV version 4.3.0, also source distributions are provided in PyPI. This means that if your system is not compatible with any of the wheels in PyPI, ``pip`` will attempt to build OpenCV from sources. If you need a OpenCV version which is not available in PyPI as a source distribution, please follow the manual build guidance above instead of this one.\r\n\r\nYou can also force ``pip`` to build the wheels from the source distribution. Some examples:\r\n\r\n- ``pip install --no-binary opencv-python opencv-python``\r\n- ``pip install --no-binary :all: opencv-python``\r\n\r\nIf you need contrib modules or headless version, just change the package name (step 4 in the previous section is not needed). However, any additional CMake flags can be provided via environment variables as described in step 3 of the manual build section. If none are provided, OpenCV's CMake scripts will attempt to find and enable any suitable dependencies. Headless distributions have hard coded CMake flags which disable all possible GUI dependencies.\r\n\r\nOn slow systems such as Raspberry Pi the full build may take several hours. On a 8-core Ryzen 7 3700X the build takes about 6 minutes.\r\n\r\n### Licensing\r\n\r\nOpencv-python package (scripts in this repository) is available under MIT license.\r\n\r\nOpenCV itself is available under [Apache 2](https://github.com/opencv/opencv/blob/master/LICENSE) license.\r\n\r\nThird party package licenses are at [LICENSE-3RD-PARTY.txt](https://github.com/opencv/opencv-python/blob/master/LICENSE-3RD-PARTY.txt).\r\n\r\nAll wheels ship with [FFmpeg](http://ffmpeg.org) licensed under the [LGPLv2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html).\r\n\r\nNon-headless Linux wheels ship with [Qt 5](http://doc.qt.io/qt-5/lgpl.html) licensed under the [LGPLv3](http://www.gnu.org/licenses/lgpl-3.0.html).\r\n\r\nThe packages include also other binaries. Full list of licenses can be found from [LICENSE-3RD-PARTY.txt](https://github.com/opencv/opencv-python/blob/master/LICENSE-3RD-PARTY.txt).\r\n\r\n### Versioning\r\n\r\n``find_version.py`` script searches for the version information from OpenCV sources and appends also a revision number specific to this repository to the version string. It saves the version information to ``version.py`` file under ``cv2`` in addition to some other flags.\r\n\r\n### Releases\r\n\r\nA release is made and uploaded to PyPI when a new tag is pushed to master branch. These tags differentiate packages (this repo might have modifications but OpenCV version stays same) and should be incremented sequentially. In practice, release version numbers look like this:\r\n\r\n``cv_major.cv_minor.cv_revision.package_revision`` e.g. ``3.1.0.0``\r\n\r\nThe master branch follows OpenCV master branch releases. 3.4 branch follows OpenCV 3.4 bugfix releases.\r\n\r\n### Development builds\r\n\r\nEvery commit to the master branch of this repo will be built. Possible build artifacts use local version identifiers:\r\n\r\n``cv_major.cv_minor.cv_revision+git_hash_of_this_repo`` e.g. ``3.1.0+14a8d39``\r\n\r\nThese artifacts can't be and will not be uploaded to PyPI.\r\n\r\n### Manylinux wheels\r\n\r\nLinux wheels are built using [manylinux2014](https://github.com/pypa/manylinux). These wheels should work out of the box for most of the distros (which use GNU C standard library) out there since they are built against an old version of glibc.\r\n\r\nThe default ``manylinux2014`` images have been extended with some OpenCV dependencies. See [Docker folder](https://github.com/skvark/opencv-python/tree/master/docker) for more info.\r\n\r\n### Supported Python versions\r\n\r\nPython 3.x compatible pre-built wheels are provided for the officially supported Python versions (not in EOL):\r\n\r\n- 3.7\r\n- 3.8\r\n- 3.9\r\n- 3.10\r\n- 3.11\r\n- 3.12\r\n- 3.13\r\n- 3.14\r\n\r\n### Backward compatibility\r\n\r\nStarting from 4.2.0 and 3.4.9 builds the macOS Travis build environment was updated to XCode 9.4. The change effectively dropped support for older than 10.13 macOS versions.\r\n\r\nStarting from 4.3.0 and 3.4.10 builds the Linux build environment was updated from `manylinux1` to `manylinux2014`. This dropped support for old Linux distributions.\r\n\r\nStarting from version 4.7.0 the Mac OS GitHub Actions build environment was update to version 11. Mac OS 10.x support deprecated. See https://github.com/actions/runner-images/issues/5583\r\n\r\nStarting from version 4.9.0 the Mac OS GitHub Actions build environment was update to version 12. Mac OS 10.x support deprecated by Brew and most of used packages.\r\n\r\n\r\n",
+        "description_content_type": "text/markdown",
+        "home_page": "https://github.com/opencv/opencv-python",
+        "maintainer": "OpenCV Team",
+        "license": "Apache 2.0",
+        "license_file": [
+          "LICENSE-3RD-PARTY.txt",
+          "LICENSE.txt"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Environment :: Console",
+          "Intended Audience :: Developers",
+          "Intended Audience :: Education",
+          "Intended Audience :: Information Technology",
+          "Intended Audience :: Science/Research",
+          "License :: OSI Approved :: Apache Software License",
+          "Operating System :: MacOS",
+          "Operating System :: Microsoft :: Windows",
+          "Operating System :: POSIX",
+          "Operating System :: Unix",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.6",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: C++",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Topic :: Scientific/Engineering",
+          "Topic :: Scientific/Engineering :: Image Recognition",
+          "Topic :: Software Development"
+        ],
+        "requires_dist": [
+          "numpy<2.0; python_version < \"3.9\"",
+          "numpy>=2; python_version >= \"3.9\""
+        ],
+        "requires_python": ">=3.6"
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+          "hashes": {
+            "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "packaging",
+        "version": "26.3",
+        "summary": "Core utilities for Python packages",
+        "description": "packaging\n=========\n\n.. start-intro\n\nReusable core utilities for various Python Packaging\n`interoperability specifications <https://packaging.python.org/specifications/>`_.\n\nThis library provides utilities that implement the interoperability\nspecifications which have clearly one correct behaviour (eg: :pep:`440`)\nor benefit greatly from having a single shared implementation (eg: :pep:`425`).\n\n.. end-intro\n\nThe ``packaging`` project includes the following: version handling, specifiers,\nmarkers, requirements, tags, metadata, lockfiles, utilities.\n\nDocumentation\n-------------\n\nThe `documentation`_ provides information and the API for the following:\n\n- Version Handling\n- Specifiers\n- Markers\n- Licenses\n- Requirements\n- Metadata\n- Tags\n- Lockfiles (pylock)\n- Direct URL helpers\n- Dependency groups\n- Errors\n- Utilities\n\nInstallation\n------------\n\nUse ``pip`` to install these utilities::\n\n    pip install packaging\n\nThe ``packaging`` library uses calendar-based versioning (``YY.N``).\n\nDiscussion\n----------\n\nIf you run into bugs, you can file them in our `issue tracker`_.\n\nYou can also join discussions on `GitHub Discussions`_ to ask questions or get involved.\n\n.. _`documentation`: https://packaging.pypa.io/\n.. _`issue tracker`: https://github.com/pypa/packaging/issues\n.. _`GitHub Discussions`: https://github.com/pypa/packaging/discussions\n\n\nCode of Conduct\n---------------\n\nEveryone interacting in the packaging project's codebases, issue trackers, chat\nrooms, and mailing lists is expected to follow the `PSF Code of Conduct`_.\n\n.. _PSF Code of Conduct: https://github.com/pypa/.github/blob/main/CODE_OF_CONDUCT.md\n\nContributing\n------------\n\nThe ``CONTRIBUTING.rst`` file outlines how to contribute to this project as\nwell as how to report a potential security issue. The documentation for this\nproject also covers information about `project development`_ and `security`_.\n\n.. _`project development`: https://packaging.pypa.io/en/latest/development/\n.. _`security`: https://packaging.pypa.io/en/latest/security/\n\nProject History\n---------------\n\nPlease review the ``CHANGELOG.rst`` file or the `Changelog documentation`_ for\nrecent changes and project history.\n\n.. _`Changelog documentation`: https://packaging.pypa.io/en/latest/changelog/\n\n",
+        "description_content_type": "text/x-rst",
+        "author_email": "Donald Stufft <donald@stufft.io>",
+        "license_expression": "Apache-2.0 OR BSD-2-Clause",
+        "license_file": [
+          "LICENSE",
+          "LICENSE.APACHE",
+          "LICENSE.BSD"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: 3.15",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Programming Language :: Python :: Free Threading :: 4 - Resilient",
+          "Typing :: Typed"
+        ],
+        "requires_python": ">=3.9",
+        "project_url": [
+          "Documentation, https://packaging.pypa.io/",
+          "Source, https://github.com/pypa/packaging"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/50/e2/7ad17747517e4c813dca78257d6bb593466f8231baf1384bc98d92745edb/pillow-13.0.0-cp314-cp314-win_amd64.whl",
+        "archive_info": {
+          "hash": "sha256=f7cbb7a64e7ec664775195e4f81923bc8a93d9451b963f844e59118f63147a7a",
+          "hashes": {
+            "sha256": "f7cbb7a64e7ec664775195e4f81923bc8a93d9451b963f844e59118f63147a7a"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "pillow",
+        "version": "13.0.0",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "Python Imaging Library (fork)",
+        "description": "<p align=\"center\">\r\n    <img width=\"248\" height=\"250\" src=\"https://raw.githubusercontent.com/python-pillow/pillow-logo/main/pillow-logo-248x250.png\" alt=\"Pillow logo\">\r\n</p>\r\n\r\n# Pillow\r\n\r\n## Python Imaging Library (Fork)\r\n\r\nPillow is the friendly PIL fork by [Jeffrey 'Alex' Clark and\r\ncontributors](https://github.com/python-pillow/Pillow/graphs/contributors).\r\nPIL is the Python Imaging Library by Fredrik Lundh and contributors.\r\nDevelopment is supported by:\r\n- [Tidelift](https://tidelift.com/lifter/search/pypi/pillow) (since 2018)\r\n- [Thanks.dev](https://thanks.dev) (since 2023)\r\n- [GitHub Sponsors](https://github.com/sponsors/python-pillow) (since 2026)\r\n\r\n<table>\r\n    <tr>\r\n        <th>docs</th>\r\n        <td>\r\n            <a href=\"https://pillow.readthedocs.io/?badge=latest\"><img\r\n                alt=\"Documentation Status\"\r\n                src=\"https://readthedocs.org/projects/pillow/badge/?version=latest\"></a>\r\n        </td>\r\n    </tr>\r\n    <tr>\r\n        <th>tests</th>\r\n        <td>\r\n            <a href=\"https://github.com/python-pillow/Pillow/actions/workflows/lint.yml\"><img\r\n                alt=\"GitHub Actions build status (Lint)\"\r\n                src=\"https://github.com/python-pillow/Pillow/workflows/Lint/badge.svg\"></a>\r\n            <a href=\"https://github.com/python-pillow/Pillow/actions/workflows/test.yml\"><img\r\n                alt=\"GitHub Actions build status (Test Linux and macOS)\"\r\n                src=\"https://github.com/python-pillow/Pillow/workflows/Test/badge.svg\"></a>\r\n            <a href=\"https://github.com/python-pillow/Pillow/actions/workflows/test-windows.yml\"><img\r\n                alt=\"GitHub Actions build status (Test Windows)\"\r\n                src=\"https://github.com/python-pillow/Pillow/workflows/Test%20Windows/badge.svg\"></a>\r\n            <a href=\"https://github.com/python-pillow/Pillow/actions/workflows/test-mingw.yml\"><img\r\n                alt=\"GitHub Actions build status (Test MinGW)\"\r\n                src=\"https://github.com/python-pillow/Pillow/workflows/Test%20MinGW/badge.svg\"></a>\r\n            <a href=\"https://github.com/python-pillow/Pillow/actions/workflows/test-docker.yml\"><img\r\n                alt=\"GitHub Actions build status (Test Docker)\"\r\n                src=\"https://github.com/python-pillow/Pillow/workflows/Test%20Docker/badge.svg\"></a>\r\n            <a href=\"https://github.com/python-pillow/Pillow/actions/workflows/wheels.yml\"><img\r\n                alt=\"GitHub Actions build status (Wheels)\"\r\n                src=\"https://github.com/python-pillow/Pillow/workflows/Wheels/badge.svg\"></a>\r\n            <a href=\"https://app.codecov.io/gh/python-pillow/Pillow\"><img\r\n                alt=\"Code coverage\"\r\n                src=\"https://codecov.io/gh/python-pillow/Pillow/branch/main/graph/badge.svg\"></a>\r\n            <a href=\"https://issues.oss-fuzz.com/issues?q=title:pillow\"><img\r\n                alt=\"Fuzzing Status\"\r\n                src=\"https://oss-fuzz-build-logs.storage.googleapis.com/badges/pillow.svg\"></a>\r\n        </td>\r\n    </tr>\r\n    <tr>\r\n        <th>package</th>\r\n        <td>\r\n            <a href=\"https://zenodo.org/badge/latestdoi/17549/python-pillow/Pillow\"><img\r\n                alt=\"Zenodo\"\r\n                src=\"https://zenodo.org/badge/17549/python-pillow/Pillow.svg\"></a>\r\n            <a href=\"https://tidelift.com/lifter/search/pypi/pillow\"><img\r\n                alt=\"Tidelift\"\r\n                src=\"https://tidelift.com/badges/package/pypi/pillow?style=flat\"></a>\r\n            <a href=\"https://pypi.org/project/pillow/\"><img\r\n                alt=\"Newest PyPI version\"\r\n                src=\"https://img.shields.io/pypi/v/pillow.svg\"></a>\r\n            <a href=\"https://pypi.org/project/pillow/\"><img\r\n                alt=\"Number of PyPI downloads\"\r\n                src=\"https://img.shields.io/pypi/dm/pillow.svg\"></a>\r\n            <a href=\"https://www.bestpractices.dev/projects/6331\"><img\r\n                alt=\"OpenSSF Best Practices\"\r\n                src=\"https://www.bestpractices.dev/projects/6331/badge\"></a>\r\n        </td>\r\n    </tr>\r\n    <tr>\r\n        <th>social</th>\r\n        <td>\r\n            <a href=\"https://gitter.im/python-pillow/Pillow?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge\"><img\r\n                alt=\"Join the chat at https://gitter.im/python-pillow/Pillow\"\r\n                src=\"https://badges.gitter.im/python-pillow/Pillow.svg\"></a>\r\n            <a href=\"https://fosstodon.org/@pillow\"><img\r\n                alt=\"Follow on https://fosstodon.org/@pillow\"\r\n                src=\"https://img.shields.io/badge/publish-on%20Mastodon-595aff.svg\"\r\n                rel=\"me\"></a>\r\n        </td>\r\n    </tr>\r\n</table>\r\n\r\n## Overview\r\n\r\nThe Python Imaging Library adds image processing capabilities to your Python interpreter.\r\n\r\nThis library provides extensive file format support, an efficient internal representation, and fairly powerful image processing capabilities.\r\n\r\nThe core image library is designed for fast access to data stored in a few basic pixel formats. It should provide a solid foundation for a general image processing tool.\r\n\r\n## More information\r\n\r\n- [Documentation](https://pillow.readthedocs.io/)\r\n  - [Installation](https://pillow.readthedocs.io/en/latest/installation/basic-installation.html)\r\n  - [Handbook](https://pillow.readthedocs.io/en/latest/handbook/index.html)\r\n- [Contribute](https://github.com/python-pillow/Pillow/blob/main/.github/CONTRIBUTING.md)\r\n  - [Issues](https://github.com/python-pillow/Pillow/issues)\r\n  - [Pull requests](https://github.com/python-pillow/Pillow/pulls)\r\n- [Release notes](https://pillow.readthedocs.io/en/stable/releasenotes/index.html)\r\n- [Changelog](https://github.com/python-pillow/Pillow/releases)\r\n  - [Pre-fork](https://github.com/python-pillow/Pillow/blob/main/CHANGES.rst#pre-fork)\r\n\r\n## Report a vulnerability\r\n\r\nTo report sensitive vulnerability information, report it [privately on GitHub](https://github.com/python-pillow/Pillow/security/advisories/new).\r\n\r\nIf you cannot use GitHub, use the [Tidelift security contact](https://tidelift.com/security). Tidelift will coordinate the fix and disclosure.\r\n\r\nDO NOT report sensitive vulnerability information in public.\r\n",
+        "description_content_type": "text/markdown",
+        "keywords": [
+          "Imaging"
+        ],
+        "author_email": "Jeffrey 'Alex' Clark <aclark@aclark.net>",
+        "license_expression": "MIT-CMU",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 6 - Mature",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: 3.15",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Topic :: Multimedia :: Graphics",
+          "Topic :: Multimedia :: Graphics :: Capture :: Digital Camera",
+          "Topic :: Multimedia :: Graphics :: Capture :: Screen Capture",
+          "Topic :: Multimedia :: Graphics :: Graphics Conversion",
+          "Topic :: Multimedia :: Graphics :: Viewers",
+          "Typing :: Typed"
+        ],
+        "requires_dist": [
+          "furo; extra == \"docs\"",
+          "olefile; extra == \"docs\"",
+          "sphinx>=8.2; extra == \"docs\"",
+          "sphinx-autobuild; extra == \"docs\"",
+          "sphinx-copybutton; extra == \"docs\"",
+          "sphinx-inline-tabs; extra == \"docs\"",
+          "sphinxext-opengraph; extra == \"docs\"",
+          "olefile; extra == \"fpx\"",
+          "olefile; extra == \"mic\"",
+          "arro3-compute; extra == \"test-arrow\"",
+          "arro3-core; extra == \"test-arrow\"",
+          "nanoarrow; extra == \"test-arrow\"",
+          "pyarrow; extra == \"test-arrow\"",
+          "coverage>=7.4.2; extra == \"tests\"",
+          "defusedxml; extra == \"tests\"",
+          "markdown2; extra == \"tests\"",
+          "olefile; extra == \"tests\"",
+          "packaging; extra == \"tests\"",
+          "psutil; (sys_platform == \"linux\" or sys_platform == \"darwin\") and extra == \"tests\"",
+          "pytest; extra == \"tests\"",
+          "pytest-cov; extra == \"tests\"",
+          "pytest-timeout; extra == \"tests\"",
+          "pytest-xdist; extra == \"tests\"",
+          "setuptools; extra == \"tests\"",
+          "trove-classifiers>=2024.10.12; extra == \"tests\"",
+          "defusedxml; extra == \"xmp\""
+        ],
+        "requires_python": ">=3.11",
+        "project_url": [
+          "Release notes, https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+          "Changelog, https://github.com/python-pillow/Pillow/releases",
+          "Documentation, https://pillow.readthedocs.io",
+          "Funding, https://tidelift.com/lifter/search/pypi/pillow",
+          "Homepage, https://python-pillow.org",
+          "Mastodon, https://fosstodon.org/@pillow",
+          "Security, https://pillow.readthedocs.io/en/stable/handbook/security.html",
+          "Source, https://github.com/python-pillow/Pillow"
+        ],
+        "provides_extra": [
+          "docs",
+          "fpx",
+          "mic",
+          "test-arrow",
+          "tests",
+          "xmp"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/8a/55/b77bda4e5e5f5971fb51b07663694690e9afdb9402136c16a522bd621cad/protobuf-7.36.2-cp310-abi3-win_amd64.whl",
+        "archive_info": {
+          "hash": "sha256=a300819d441e078a5608c0d3c709796bb548136058fda017ae51d425b44fd353",
+          "hashes": {
+            "sha256": "a300819d441e078a5608c0d3c709796bb548136058fda017ae51d425b44fd353"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "protobuf",
+        "version": "7.36.2",
+        "description": "UNKNOWN\n",
+        "home_page": "https://developers.google.com/protocol-buffers/",
+        "author": "protobuf@googlegroups.com",
+        "author_email": "protobuf@googlegroups.com",
+        "license": "3-Clause BSD License",
+        "classifier": [
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14"
+        ],
+        "requires_python": ">=3.10"
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/23/20/bb6982b26a40bb43951265ba29d4c246ef0ff59c9fdcdf0ed04e0687de4d/pyyaml-6.0.3-cp314-cp314-win_amd64.whl",
+        "archive_info": {
+          "hash": "sha256=4a2e8cebe2ff6ab7d1050ecd59c25d4c8bd7e6f400f5f82b96557ac0abafd0ac",
+          "hashes": {
+            "sha256": "4a2e8cebe2ff6ab7d1050ecd59c25d4c8bd7e6f400f5f82b96557ac0abafd0ac"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "PyYAML",
+        "version": "6.0.3",
+        "dynamic": [
+          "author",
+          "author-email",
+          "classifier",
+          "description",
+          "download-url",
+          "home-page",
+          "license",
+          "license-file",
+          "platform",
+          "project-url",
+          "requires-python",
+          "summary"
+        ],
+        "platform": [
+          "Any"
+        ],
+        "summary": "YAML parser and emitter for Python",
+        "description": "YAML is a data serialization format designed for human readability\r\nand interaction with scripting languages.  PyYAML is a YAML parser\r\nand emitter for Python.\r\n\r\nPyYAML features a complete YAML 1.1 parser, Unicode support, pickle\r\nsupport, capable extension API, and sensible error messages.  PyYAML\r\nsupports standard YAML tags and provides Python-specific tags that\r\nallow to represent an arbitrary Python object.\r\n\r\nPyYAML is applicable for a broad range of tasks from complex\r\nconfiguration files to object serialization and persistence.\r\n",
+        "home_page": "https://pyyaml.org/",
+        "download_url": "https://pypi.org/project/PyYAML/",
+        "author": "Kirill Simonov",
+        "author_email": "xi@resolvent.net",
+        "license": "MIT",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "License :: OSI Approved :: MIT License",
+          "Operating System :: OS Independent",
+          "Programming Language :: Cython",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+          "Topic :: Text Processing :: Markup"
+        ],
+        "requires_python": ">=3.8",
+        "project_url": [
+          "Bug Tracker, https://github.com/yaml/pyyaml/issues",
+          "CI, https://github.com/yaml/pyyaml/actions",
+          "Documentation, https://pyyaml.org/wiki/PyYAMLDocumentation",
+          "Mailing lists, http://lists.sourceforge.net/lists/listinfo/yaml-core",
+          "Source Code, https://github.com/yaml/pyyaml"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/2c/58/ca301544e1fa93ed4f80d724bf5b194f6e4b945841c5bfd555878eea9fcb/referencing-0.37.0-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=381329a9f99628c9069361716891d34ad94af76e461dcb0335825aecc7692231",
+          "hashes": {
+            "sha256": "381329a9f99628c9069361716891d34ad94af76e461dcb0335825aecc7692231"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "referencing",
+        "version": "0.37.0",
+        "summary": "JSON Referencing + Python",
+        "description": "===============\n``referencing``\n===============\n\n|PyPI| |Pythons| |CI| |ReadTheDocs| |pre-commit|\n\n.. |PyPI| image:: https://img.shields.io/pypi/v/referencing.svg\n  :alt: PyPI version\n  :target: https://pypi.org/project/referencing/\n\n.. |Pythons| image:: https://img.shields.io/pypi/pyversions/referencing.svg\n  :alt: Supported Python versions\n  :target: https://pypi.org/project/referencing/\n\n.. |CI| image:: https://github.com/python-jsonschema/referencing/workflows/CI/badge.svg\n  :alt: Build status\n  :target: https://github.com/python-jsonschema/referencing/actions?query=workflow%3ACI\n\n.. |ReadTheDocs| image:: https://readthedocs.org/projects/referencing/badge/?version=stable&style=flat\n   :alt: ReadTheDocs status\n   :target: https://referencing.readthedocs.io/en/stable/\n\n.. |pre-commit| image:: https://results.pre-commit.ci/badge/github/python-jsonschema/referencing/main.svg\n  :alt: pre-commit.ci status\n  :target: https://results.pre-commit.ci/latest/github/python-jsonschema/referencing/main\n\n\nAn implementation-agnostic implementation of JSON reference resolution.\n\nSee `the documentation <https://referencing.readthedocs.io/>`_ for more details.\n",
+        "description_content_type": "text/x-rst",
+        "keywords": [
+          "asyncapi",
+          "json",
+          "jsonschema",
+          "openapi",
+          "referencing"
+        ],
+        "author_email": "Julian Berman <Julian+referencing@GrayVines.com>",
+        "license_expression": "MIT",
+        "license_file": [
+          "COPYING"
+        ],
+        "classifier": [
+          "Development Status :: 3 - Alpha",
+          "Intended Audience :: Developers",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy",
+          "Topic :: File Formats :: JSON",
+          "Topic :: File Formats :: JSON :: JSON Schema"
+        ],
+        "requires_dist": [
+          "attrs>=22.2.0",
+          "rpds-py>=0.7.0",
+          "typing-extensions>=4.4.0; python_version < '3.13'"
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "Documentation, https://referencing.readthedocs.io/",
+          "Homepage, https://github.com/python-jsonschema/referencing",
+          "Issues, https://github.com/python-jsonschema/referencing/issues/",
+          "Funding, https://github.com/sponsors/Julian",
+          "Tidelift, https://tidelift.com/subscription/pkg/pypi-referencing?utm_source=pypi-referencing&utm_medium=referral&utm_campaign=pypi-link",
+          "Changelog, https://referencing.readthedocs.io/en/stable/changes/",
+          "Source, https://github.com/python-jsonschema/referencing"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/a4/0b/489d48abbcc7d70cf3fbf662d9d22abf1f4650761c0a9ae05260800800d3/rpds_py-2026.9.1-cp314-cp314-win_amd64.whl",
+        "archive_info": {
+          "hash": "sha256=837c6b305e26fe0f75b15c92cf3b2ba29e0ae19dc40b1c557b026cb426347d0c",
+          "hashes": {
+            "sha256": "837c6b305e26fe0f75b15c92cf3b2ba29e0ae19dc40b1c557b026cb426347d0c"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "rpds-py",
+        "version": "2026.9.1",
+        "summary": "Python bindings to Rust's persistent data structures (rpds)",
+        "description": "===========\r\n``rpds.py``\r\n===========\r\n\r\n|PyPI| |Pythons| |CI|\r\n\r\n.. |PyPI| image:: https://img.shields.io/pypi/v/rpds-py.svg\r\n  :alt: PyPI version\r\n  :target: https://pypi.org/project/rpds-py/\r\n\r\n.. |Pythons| image:: https://img.shields.io/pypi/pyversions/rpds-py.svg\r\n  :alt: Supported Python versions\r\n  :target: https://pypi.org/project/rpds-py/\r\n\r\n.. |CI| image:: https://github.com/crate-py/rpds/workflows/CI/badge.svg\r\n  :alt: Build status\r\n  :target: https://github.com/crate-py/rpds/actions?query=workflow%3ACI\r\n\r\n.. |ReadTheDocs| image:: https://readthedocs.org/projects/referencing/badge/?version=stable&style=flat\r\n   :alt: ReadTheDocs status\r\n   :target: https://referencing.readthedocs.io/en/stable/\r\n\r\n\r\nPython bindings to the `Rust rpds crate <https://docs.rs/rpds/>`_ for persistent data structures.\r\n\r\nWhat's here is quite minimal (in transparency, it was written initially to support replacing ``pyrsistent`` in the `referencing library <https://github.com/python-jsonschema/referencing>`_).\r\nIf you see something missing (which is very likely), a PR is definitely welcome to add it.\r\n\r\nInstallation\r\n------------\r\n\r\nThe distribution on PyPI is named ``rpds.py`` (equivalently ``rpds-py``), and thus can be installed via e.g.:\r\n\r\n.. code:: sh\r\n\r\n    $ pip install rpds-py\r\n\r\nNote that if you install ``rpds-py`` from source, you will need a Rust toolchain installed, as it is a build-time dependency.\r\nAn example of how to do so in a ``Dockerfile`` can be found `here <https://github.com/bowtie-json-schema/bowtie/blob/e77fd93598cb6e7dc1b8b1f53c00e5aa410c201a/implementations/python-jsonschema/Dockerfile#L1-L8>`_.\r\n\r\nIf you believe you are on a common platform which should have wheels built (i.e. and not need to compile from source), feel free to file an issue or pull request modifying the GitHub action used here to build wheels via ``maturin``.\r\n\r\nUsage\r\n-----\r\n\r\nMethods in general are named similarly to their ``rpds`` counterparts (rather than ``pyrsistent``\\ 's conventions, though probably a full drop-in ``pyrsistent``\\ -compatible wrapper module is a good addition at some point).\r\n\r\n.. code:: python\r\n\r\n    >>> from rpds import HashTrieMap, HashTrieSet, List\r\n\r\n    >>> m = HashTrieMap({\"foo\": \"bar\", \"baz\": \"quux\"})\r\n    >>> m.insert(\"spam\", 37) == HashTrieMap({\"foo\": \"bar\", \"baz\": \"quux\", \"spam\": 37})\r\n    True\r\n    >>> m.remove(\"foo\") == HashTrieMap({\"baz\": \"quux\"})\r\n    True\r\n\r\n    >>> s = HashTrieSet({\"foo\", \"bar\", \"baz\", \"quux\"})\r\n    >>> s.insert(\"spam\") == HashTrieSet({\"foo\", \"bar\", \"baz\", \"quux\", \"spam\"})\r\n    True\r\n    >>> s.remove(\"foo\") == HashTrieSet({\"bar\", \"baz\", \"quux\"})\r\n    True\r\n\r\n    >>> L = List([1, 3, 5])\r\n    >>> L.push_front(-1) == List([-1, 1, 3, 5])\r\n    True\r\n    >>> L.rest == List([3, 5])\r\n    True\r\n\n",
+        "description_content_type": "text/x-rst; charset=UTF-8",
+        "keywords": [
+          "data structures",
+          "rust",
+          "persistent"
+        ],
+        "author_email": "Julian Berman <Julian+rpds@GrayVines.com>",
+        "license_expression": "MIT",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 3 - Alpha",
+          "Intended Audience :: Developers",
+          "Operating System :: OS Independent",
+          "Programming Language :: Rust",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Programming Language :: Python :: 3.15",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: Implementation :: CPython",
+          "Programming Language :: Python :: Implementation :: PyPy"
+        ],
+        "requires_python": ">=3.11",
+        "project_url": [
+          "Documentation, https://rpds.readthedocs.io/",
+          "Funding, https://github.com/sponsors/Julian",
+          "Homepage, https://github.com/crate-py/rpds",
+          "Issues, https://github.com/crate-py/rpds/issues/",
+          "Source, https://github.com/crate-py/rpds",
+          "Tidelift, https://tidelift.com/subscription/pkg/pypi-rpds-py?utm_source=pypi-rpds-py&utm_medium=referral&utm_campaign=pypi-link",
+          "Upstream, https://github.com/orium/rpds"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/ef/55/6dc6d6bb953bdfc52519a0059592c52b6e3b8ad51cf8256dffceb55b0610/setuptools-84.2.1-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=ca140b45d5325a9478f880e351484f62fef15f336462e449ca0c03c873d589c2",
+          "hashes": {
+            "sha256": "ca140b45d5325a9478f880e351484f62fef15f336462e449ca0c03c873d589c2"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "setuptools",
+        "version": "84.2.1",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "Most extensible Python build backend with support for C/C++ extension modules",
+        "description": ".. |pypi-version| image:: https://img.shields.io/pypi/v/setuptools.svg\n   :target: https://pypi.org/project/setuptools\n\n.. |py-version| image:: https://img.shields.io/pypi/pyversions/setuptools.svg\n\n.. |test-badge| image:: https://github.com/pypa/setuptools/actions/workflows/main.yml/badge.svg\n   :target: https://github.com/pypa/setuptools/actions?query=workflow%3A%22tests%22\n   :alt: tests\n\n.. |ruff-badge| image:: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v2.json\n   :target: https://github.com/astral-sh/ruff\n   :alt: Ruff\n\n.. |docs-badge| image:: https://img.shields.io/readthedocs/setuptools/latest.svg\n   :target: https://setuptools.pypa.io\n\n.. |skeleton-badge| image:: https://img.shields.io/badge/skeleton-2026-informational\n   :target: https://blog.jaraco.com/skeleton\n\n.. |codecov-badge| image:: https://img.shields.io/codecov/c/github/pypa/setuptools/master.svg?logo=codecov&logoColor=white\n   :target: https://codecov.io/gh/pypa/setuptools\n\n.. |tidelift-badge| image:: https://tidelift.com/badges/github/pypa/setuptools?style=flat\n   :target: https://tidelift.com/subscription/pkg/pypi-setuptools?utm_source=pypi-setuptools&utm_medium=readme\n\n.. |discord-badge| image:: https://img.shields.io/discord/803025117553754132\n   :target: https://discord.com/channels/803025117553754132/815945031150993468\n   :alt: Discord\n\n|pypi-version| |py-version| |test-badge| |ruff-badge| |docs-badge| |skeleton-badge| |codecov-badge| |discord-badge|\n\nSee the `Quickstart <https://setuptools.pypa.io/en/latest/userguide/quickstart.html>`_\nand the `User's Guide <https://setuptools.pypa.io/en/latest/userguide/>`_ for\ninstructions on how to use Setuptools.\n\nQuestions and comments should be directed to `GitHub Discussions\n<https://github.com/pypa/setuptools/discussions>`_.\nBug reports and especially tested patches may be\nsubmitted directly to the `bug tracker\n<https://github.com/pypa/setuptools/issues>`_.\n\n\nCode of Conduct\n===============\n\nEveryone interacting in the setuptools project's codebases, issue trackers,\nchat rooms, and fora is expected to follow the\n`PSF Code of Conduct <https://github.com/pypa/.github/blob/main/CODE_OF_CONDUCT.md>`_.\n\n\nFor Enterprise\n==============\n\nAvailable as part of the Tidelift Subscription.\n\nSetuptools and the maintainers of thousands of other packages are working with Tidelift to deliver one enterprise subscription that covers all of the open source you use.\n\n`Learn more <https://tidelift.com/subscription/pkg/pypi-setuptools?utm_source=pypi-setuptools&utm_medium=referral&utm_campaign=github>`_.\n",
+        "description_content_type": "text/x-rst",
+        "keywords": [
+          "CPAN",
+          "PyPI",
+          "distutils",
+          "eggs",
+          "package",
+          "management"
+        ],
+        "author_email": "Python Packaging Authority <distutils-sig@python.org>",
+        "license_expression": "MIT",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3 :: Only",
+          "Topic :: Software Development :: Libraries :: Python Modules",
+          "Topic :: System :: Archiving :: Packaging",
+          "Topic :: System :: Systems Administration",
+          "Topic :: Utilities"
+        ],
+        "requires_dist": [
+          "pytest!=8.1.*,>=6; extra == \"test\"",
+          "virtualenv>=13.0.0; extra == \"test\"",
+          "wheel>=0.44.0; extra == \"test\"",
+          "pip>=19.1; extra == \"test\"",
+          "packaging>=26.3; extra == \"test\"",
+          "jaraco.envs>=2.2; extra == \"test\"",
+          "pytest-xdist>=3; extra == \"test\"",
+          "jaraco.path>=3.7.2; extra == \"test\"",
+          "build[virtualenv]>=1.0.3; extra == \"test\"",
+          "filelock>=3.4.0; extra == \"test\"",
+          "ini2toml[lite]>=0.14; extra == \"test\"",
+          "tomli-w>=1.0.0; extra == \"test\"",
+          "pytest-timeout; extra == \"test\"",
+          "pytest-perf; sys_platform != \"cygwin\" and extra == \"test\"",
+          "jaraco.develop>=7.21; (python_version >= \"3.9\" and sys_platform != \"cygwin\") and extra == \"test\"",
+          "pytest-home>=0.5; extra == \"test\"",
+          "pytest-subprocess; extra == \"test\"",
+          "pyproject-hooks!=1.1; extra == \"test\"",
+          "jaraco.test>=5.5; extra == \"test\"",
+          "sphinx>=3.5; extra == \"doc\"",
+          "jaraco.packaging>=9.3; extra == \"doc\"",
+          "rst.linker>=1.9; extra == \"doc\"",
+          "furo; extra == \"doc\"",
+          "sphinx-lint; extra == \"doc\"",
+          "jaraco.tidelift>=1.4; extra == \"doc\"",
+          "pygments-github-lexers==0.0.5; extra == \"doc\"",
+          "sphinx-favicon; extra == \"doc\"",
+          "sphinx-inline-tabs; extra == \"doc\"",
+          "sphinx-reredirects; extra == \"doc\"",
+          "sphinxcontrib-towncrier; extra == \"doc\"",
+          "sphinx-notfound-page<2,>=1; extra == \"doc\"",
+          "pyproject-hooks!=1.1; extra == \"doc\"",
+          "towncrier<24.7; extra == \"doc\"",
+          "packaging>=26.3; extra == \"core\"",
+          "more_itertools>=8.8; extra == \"core\"",
+          "jaraco.text>=3.7; extra == \"core\"",
+          "importlib_metadata>=6; python_version < \"3.10\" and extra == \"core\"",
+          "tomli>=2.0.1; python_version < \"3.11\" and extra == \"core\"",
+          "wheel>=0.43.0; extra == \"core\"",
+          "jaraco.functools>=4; extra == \"core\"",
+          "more_itertools; extra == \"core\"",
+          "pytest-checkdocs>=2.14; extra == \"check\"",
+          "pytest-ruff>=0.2.1; sys_platform != \"cygwin\" and extra == \"check\"",
+          "ruff>=0.13.0; sys_platform != \"cygwin\" and extra == \"check\"",
+          "pytest-cov; extra == \"cover\"",
+          "pytest-enabler>=3.4; extra == \"enabler\"",
+          "pytest-mypy>=1.0.1; platform_python_implementation != \"PyPy\" and extra == \"type\"",
+          "mypy==1.18.*; extra == \"type\"",
+          "importlib_metadata>=7.0.2; python_version < \"3.10\" and extra == \"type\"",
+          "jaraco.develop>=7.21; sys_platform != \"cygwin\" and extra == \"type\""
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "Source, https://github.com/pypa/setuptools",
+          "Documentation, https://setuptools.pypa.io/",
+          "Changelog, https://setuptools.pypa.io/en/stable/history.html"
+        ],
+        "provides_extra": [
+          "test",
+          "doc",
+          "ssl",
+          "certs",
+          "core",
+          "check",
+          "cover",
+          "enabler",
+          "type"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/86/6d/b723adb33b76cb28418136898b70be86ed5ed457867b956620b437995cf9/videomd-1.2.0-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=64ef66964b31462dee07ec067d7f9f91049652dcaea6928ef9e938b7ff4149a3",
+          "hashes": {
+            "sha256": "64ef66964b31462dee07ec067d7f9f91049652dcaea6928ef9e938b7ff4149a3"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "videomd",
+        "version": "1.2.0",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "VIDEO.md: an open format for video breakdowns that models read layer by layer. Reference reader and validator.",
+        "description": "<div align=\"center\">\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/assets/logo-dark.svg\">\n  <img src=\"docs/assets/logo-light.svg\" alt=\"VIDEO.md\" width=\"300\">\n</picture>\n\n### An open format for video breakdowns that models read layer by layer\n\n**Every skill has a `SKILL.md`. Every video gets a `VIDEO.md`.**\n\n[![PyPI](https://img.shields.io/pypi/v/videomd?color=3d4fd6&label=pypi)](https://pypi.org/project/videomd/)\n[![Spec](https://img.shields.io/badge/spec-version%201-3d4fd6)](docs/spec.md)\n[![License](https://img.shields.io/badge/license-CC%20BY%204.0%20%2B%20Apache--2.0-6e737d)](#license)\n\n[**Website**](https://videomd.github.io/videomd/) · [Specification](docs/spec.md) · [Integrate](docs/integrate.md) · [Authoring](docs/authoring.md) · [中文](README.zh-CN.md)\n\n</div>\n\n---\n\nA VIDEO.md package describes one video for AI agents and programs: what it shows and says, shot by shot, and, when the producer knows, how each shot was made and how to remake it. It starts with a small card and opens up level by level, down to a single shot. Every file says how many tokens it holds, and what was **seen** is kept apart from what was **inferred**.\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/assets/levels-dark.svg\">\n  <img src=\"docs/assets/levels-light.svg\" alt=\"Levels of a VIDEO.md package: L0 card, L1 overview and map, L2 timeline and topics, L3 one shot, L4 raw data\" width=\"100%\">\n</picture>\n\n## At a glance\n\n```\ncoffee-ad/\n├── VIDEO.md            the card + overview and map      read first\n├── video/\n│   ├── timeline.md     one line per shot                read for questions about shots\n│   ├── sound.md  …     one topic per file               read when the question is about it\n│   └── shots/01.md     everything about one shot        read to check a shot\n└── frames/ …           raw data and media               for programs and image models\n```\n\n<table>\n<tr>\n<td width=\"50%\" valign=\"top\">\n\n**The card** — all an agent needs to decide whether to open the package\n\n```yaml\n---\nvideomd: 1\nname: coffee-ad\ndescription: >-\n  A 10-second coffee ad: a hand pours\n  coffee into a glass, then a card shows\n  the price. Filmed (70%) + code-rendered\n  price card (30%).\nsource:\n  file: coffee-ad.mp4\n  sha256: 9f86d0…\n  duration: 10.0\nshots: 2\nlang: en\n---\n```\n\n</td>\n<td width=\"50%\" valign=\"top\">\n\n**The timeline** — one line per shot; a key ending in `~` is inferred\n\n```\n#01 0.0-7.0\n  | seen hand pours coffee into a glass\n  | camera handheld\n  | made~ filmed 92%\n\n#02 7.0-10.0\n  | seen beige card with the price\n  | overlay title\n  | made~ code render 61%\n    · runner-up screen capture 30%\n  | flag low confidence\n```\n\n</td>\n</tr>\n</table>\n\n## Why VIDEO.md\n\nA full breakdown of one video runs to hundreds of thousands of tokens. A model that reads it for every question is slow, costly, and tends to repeat guesses as facts.\n\n| | |\n|---|---|\n| 🗂️ **Many videos in context** | Keep each card in context, a few hundred tokens apiece, and open a package only when it is needed, as with skills. |\n| 🪜 **Read only what the question needs** | Most questions are answered from the overview, about 2k tokens; with the timeline, about 4k, questions about single shots too. |\n| 🏷️ **Cost before reading** | The map lists every file with its size in tokens. |\n| 🔍 **Seen apart from inferred** | In the syntax (`made~`) and in the data (`inferred`, with a probability and who decided). |\n| 🧩 **A stable surface for programs** | Front matter checked by a JSON Schema, a one-line-per-shot grammar, fixed ids. Unknown fields, keys and files are ignored, so the format can grow. |\n| 🎬 **From a 6-second ad to a feature film** | Scenes and a split timeline for long videos, takes and beats for one-take streams, layers for split screens and reactions, camera moves and transitions for whip pans, orbits and match cuts. All optional. |\n| 🌱 **Starts small** | Six fields make a valid card. Judging how a video was made is an optional module, not a requirement. |\n\n## Quick start\n\n```bash\npip install videomd\nvideomd check path/to/package      # lists every rule it breaks; exit code 1 if any\nvideomd read path/to/package       # card, map, timeline and shot data as JSON\n```\n\n```python\nimport videomd\n\nerrors = videomd.check(\"path/to/package\")\npkg = videomd.read(\"path/to/package\")   # {\"card\": {...}, \"map\": [...], \"timeline\": [...], \"shots\": {1: {...}}}\n```\n\n- **Building an agent or app?** Read [docs/integrate.md](docs/integrate.md): discovery, what to put in context, when to load more, honest answers.\n- **Building a breakdown tool?** Read [docs/authoring.md](docs/authoring.md): from the smallest valid package to a full one.\n- **Want to see one?** Open [examples/salted-egg/VIDEO.md](https://github.com/videomd/videomd/blob/main/examples/salted-egg/VIDEO.md), a real 21-shot package.\n\n## Documents\n\n| | |\n|---|---|\n| [docs/spec.md](docs/spec.md) | The specification |\n| [docs/integrate.md](docs/integrate.md) | Using packages in an agent or app |\n| [docs/authoring.md](docs/authoring.md) | Writing packages |\n| [docs/design.md](docs/design.md) | Why it looks the way it does: what it borrows from Agent Skills and small DSLs |\n| [docs/taxonomy.md](docs/taxonomy.md) | Standard ids: production methods, camera, overlays, readers, flags |\n| [schema/](schema/videomd-1.schema.json) | JSON Schema for every front matter |\n| [examples/](https://github.com/videomd/videomd/tree/main/examples/) | Complete packages |\n| [conformance/](https://github.com/videomd/videomd/tree/main/conformance/) | Packages that conform, and packages that each break one rule |\n| [docs/implementations.md](docs/implementations.md) | Tools that write or read VIDEO.md |\n| [CHANGELOG.md](CHANGELOG.md) | Changes by version |\n\n## Implementations\n\n| Tool | Role |\n|---|---|\n| [rea-video](https://github.com/JuneYaooo/rea-video) | Writes packages: shot-level breakdown, production method per shot, sound, packaging, remake plan |\n| [videomd](https://github.com/videomd/videomd/tree/main/src/videomd/) | Reference reader and validator in this repository |\n\nBuilt something that writes or reads VIDEO.md? Add it to [docs/implementations.md](docs/implementations.md).\n\n## Contributing\n\nProposals for fields, keys and taxonomy ids are welcome as issues; see [CONTRIBUTING.md](CONTRIBUTING.md).\n\n## License\n\nThe specification and documents are under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The code, schema and conformance files are under [Apache-2.0](https://github.com/videomd/videomd/blob/main/LICENSE).\n",
+        "description_content_type": "text/markdown",
+        "keywords": [
+          "video",
+          "agents",
+          "llm",
+          "format",
+          "specification",
+          "breakdown"
+        ],
+        "license": "Apache-2.0",
+        "license_file": [
+          "LICENSE"
+        ],
+        "requires_dist": [
+          "PyYAML>=6.0",
+          "jsonschema>=4.18",
+          "pytest>=7; extra == \"dev\""
+        ],
+        "requires_python": ">=3.10",
+        "provides_extra": [
+          "dev"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/2e/29/69cfbb602cd91690c55d38ba9fe53e6a7e76a6fa647bf38f19c138d25449/wheel-0.48.0-py3-none-any.whl",
+        "archive_info": {
+          "hash": "sha256=3217dcc807155e45db462d7ef2431f5ddda0d7273b700d05a67b271ceb1287ab",
+          "hashes": {
+            "sha256": "3217dcc807155e45db462d7ef2431f5ddda0d7273b700d05a67b271ceb1287ab"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.5",
+        "name": "wheel",
+        "version": "0.48.0",
+        "summary": "Command line tool for manipulating wheel files",
+        "description": "wheel\n=====\n\nThis is a command line tool for manipulating Python wheel files, as defined in\n`PEP 427`_. It contains the following functionality:\n\n* Convert ``.egg`` archives into ``.whl``\n* Unpack wheel archives\n* Repack wheel archives\n* Add or remove tags in existing wheel archives\n\n.. _PEP 427: https://peps.python.org/pep-0427/\n\nHistorical note\n---------------\n\nThis project used to contain the implementation of the setuptools_ ``bdist_wheel``\ncommand, but as of setuptools v70.1, it no longer needs ``wheel`` installed for that to\nwork. Thus, you should install this **only** if you intend to use the ``wheel`` command\nline tool!\n\n.. _setuptools: https://pypi.org/project/setuptools/\n\nDocumentation\n-------------\n\nThe documentation_ can be found on Read The Docs.\n\n.. _documentation: https://wheel.readthedocs.io/\n\nCode of Conduct\n---------------\n\nEveryone interacting in the wheel project's codebases, issue trackers, chat\nrooms, and mailing lists is expected to follow the `PSF Code of Conduct`_.\n\n.. _PSF Code of Conduct: https://github.com/pypa/.github/blob/main/CODE_OF_CONDUCT.md\n\n",
+        "description_content_type": "text/x-rst",
+        "keywords": [
+          "wheel",
+          "packaging"
+        ],
+        "author_email": "Daniel Holth <dholth@fastmail.fm>",
+        "maintainer_email": "Alex Grönholm <alex.gronholm@nextday.fi>",
+        "license_expression": "MIT",
+        "license_file": [
+          "LICENSE.txt"
+        ],
+        "classifier": [
+          "Development Status :: 5 - Production/Stable",
+          "Intended Audience :: Developers",
+          "Topic :: System :: Archiving :: Packaging",
+          "Programming Language :: Python",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14"
+        ],
+        "requires_dist": [
+          "packaging >= 24.0"
+        ],
+        "requires_python": ">=3.9",
+        "project_url": [
+          "Changelog, https://wheel.readthedocs.io/en/stable/news.html",
+          "Documentation, https://wheel.readthedocs.io/",
+          "Issue Tracker, https://github.com/pypa/wheel/issues",
+          "Source, https://github.com/pypa/wheel"
+        ]
+      }
+    }
+  ],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.14.2",
+    "os_name": "nt",
+    "platform_machine": "AMD64",
+    "platform_release": "11",
+    "platform_system": "Windows",
+    "platform_version": "10.0.26300",
+    "python_full_version": "3.14.2",
+    "platform_python_implementation": "CPython",
+    "python_version": "3.14",
+    "sys_platform": "win32"
+  }
+}

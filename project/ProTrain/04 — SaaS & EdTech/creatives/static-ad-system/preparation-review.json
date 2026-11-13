@@ -1,0 +1,55 @@
+{
+  "reviewed_on": "2026-11-13",
+  "stage": "Preparation only, before controller promotion",
+  "status": "PREPARATION_COMPLETE_PRODUCTION_BLOCKED",
+  "files": [
+    "creatives/static-ad-system/skill-draft/static-ad-creative-system/SKILL.md",
+    "creatives/static-ad-system/protrain-lessons.json",
+    "creatives/static-ad-system/six-concepts.json"
+  ],
+  "skill_validation": {
+    "requested_validator": "C:/Users/Administrator/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+    "command_result": "Exit 1: ModuleNotFoundError: No module named 'yaml'",
+    "dependency_attempt": "A temporary-target pip dependency attempt had already started before controller instruction to avoid installation; DNS failed and no dependency was installed. No further installation attempted.",
+    "fallback": "Python standard-library structural checks plus worker and independent controller manual review; official validator did not complete because PyYAML is missing",
+    "promotion": "Controller reports canonical skill and hash-tracked mirror installed from the unchanged staged skill, with scoped automatic routing; worker made no global edits",
+    "fallback_results": {
+      "frontmatter_delimiters": "PASS",
+      "scalar_name_and_description": "PASS",
+      "name_matches_folder": "PASS",
+      "description_length_and_scope": "PASS: 217 characters; static ads, with unrelated illustration excluded",
+      "unfinished_scaffold": "PASS: none",
+      "sanitized_shared_content": "PASS: no client name, local project path, price, asset, transcript or campaign hash in generic skill",
+      "references": "PASS: generic skill self-contained; project JSON references resolve",
+      "creative_latitude": "PASS: no universal portrait, paper, underline, ivory, card or variant-count prohibition",
+      "review_depth": "PASS: strategic meaning and technical fidelity kept separate",
+      "limits": "Bundled validator did not execute successfully; fallback is not represented as its successful output"
+    }
+  },
+  "project_validation": {
+    "json_parse": "PASS",
+    "lessons": "PASS: ten failures each mapped to prevention and an actual review question",
+    "provenance": "Owner rejection distinguished from assistant observations retained at owner request; normalized wording not falsely quoted",
+    "historical_evidence": "Earlier legibility findings retained; creative status REJECTED_BY_OWNER",
+    "source_image_unchanged": true,
+    "source_image_sha256": "e567c71b5b2eb07547f1185b94529829ad6d91e8f8c4c4a2002c5062a4f24905",
+    "six_differentiated_briefs": "PASS: specific motivation, source hook, proposed hook, visual argument, composition, evidence, CTA condition and concept test for each",
+    "purchase_objective": "PASS",
+    "price_omission": "PASS",
+    "priority_03": "PASS: production held pending actual report; owner ranks 03, 01, 06, with 02/04/05 unranked",
+    "educational_fixture_02": "14/20 for both branches, visibly labelled hypothetical and educational; owner authorized hypothetical equal averages, no approval blocker invented",
+    "formats": "PASS: 1080x1350 and 1080x1920, manual re-layout",
+    "claims": "Owner-declared product scope separate from unverified screenshots and unsupported results",
+    "logos": "Original corporate asset retained; Match plain text, no invented official logo",
+    "exact_source_hooks": "Retained separately from editorial proposals"
+  },
+  "remaining_blockers": [
+    "Actual report screenshot/PDF for first-priority 03, including a recommendation and its reason",
+    "Permission to display and appropriate anonymization of report evidence",
+    "Exact destination URL and actual next-step flow, needed to finalize CTAs",
+    "Later production checks: Poppins file availability and logo resolution at export size; controller verified local Cairo at editing-system/video-studio/public/darija-ad/cairo-arabic.woff2",
+    "Budget and attribution/test parameters remain unknown for any future performance test"
+  ],
+  "not_done": ["No ImageGen call", "No pixel generation", "No fabricated screenshots", "No finished ad placeholders", "No publishing or spend", "No original PNG edits", "No shared/global files changed by worker"],
+  "next_action": "Controller independently reviews and promotes the reusable skill/routing. Obtain actual report evidence for 03 before image production."
+}

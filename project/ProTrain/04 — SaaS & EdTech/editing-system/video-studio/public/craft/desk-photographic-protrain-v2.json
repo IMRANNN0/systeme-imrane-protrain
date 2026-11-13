@@ -1,0 +1,14 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "reference": "desk-photographic-proposal-v1.png",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "transparent_background": false,
+  "sha256": "a17175fdea866050a45a95c410b2e1c9aadc7a819cb3588cdceada59294a18ba",
+  "prompt_file": "desk-photographic-protrain-v2.prompt.txt",
+  "status": "Brand-inspired photo asset proposal, not owner-approved, not integrated into a video",
+  "color_note": "Physical material colors are interpreted under natural lighting, not exact flat HEX samples"
+}

@@ -1,0 +1,10 @@
+{
+  "provider": "Gemini API",
+  "model": "gemini-3.8-flash-tts",
+  "voice": "Kore",
+  "script": "كتوجد لكامبوس فرانس؟ بروترين ماتش كيقترح عليك تكوينات على حساب ملفك. عمّر ملفك دابا.",
+  "style": "A natural young adult Moroccan woman speaking authentic contemporary Moroccan Darija, Casablanca accent. Friendly, confident, lightly energetic social ad voice, conversational not a newsreader. Do not switch to Modern Standard Arabic, Egyptian or Gulf Arabic. Pronounce Campus France naturally as Moroccan students do and ProTrain Match as بروترين ماتش. Speak clearly at a brisk but unhurried pace, about eight seconds total for this short script. Brief natural pauses at sentence boundaries. Read only the supplied text; no introductions, music, sound effects or added words.",
+  "output": "voice-take1.wav",
+  "bytes": 320668,
+  "mode": "synthetic generic voice, not a clone"
+}

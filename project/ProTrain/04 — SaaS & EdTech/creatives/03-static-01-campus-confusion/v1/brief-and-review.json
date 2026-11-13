@@ -1,0 +1,119 @@
+{
+  "creative": "Creative01V1",
+  "reviewed_on": "2026-11-13",
+  "approval": "AWAITING_IMRAN",
+  "designs_produced": 1,
+  "placement": "Meta Feed",
+  "dimensions": [
+    1080,
+    1350
+  ],
+  "phone_preview": [
+    360,
+    450
+  ],
+  "objective": "Purchase of paid academic report",
+  "audience": "Moroccan adult students preparing Campus France and unsure which formations to choose; motivation hypothesis, not validated research",
+  "budget": "Unconfirmed",
+  "authority": "Latest explicit owner Creative01 brief, retained in ../static-ad-system/active-creative.json, supersedes historical03-first production gate and old01copy. Two free formations CTA explicitly authorized.",
+  "copy": {
+    "hook": "كتوجد لـCampus France ومحتار فاختيار الـFormations؟",
+    "support": "اكتشف تكوينات مقترحة حسب الملف الدراسي ديالك.",
+    "cta": "شوف جوج Formations مجاناً"
+  },
+  "destination": "https://protraincompany.com/en/etudier-en-france/campus-france#o_shortlist_start",
+  "destination_check": "Previously inspected by controller. This worker did not open, fill or submit the external flow.",
+  "offer": "Two free formations as entry action; full report paid. No price in artwork. No admission guarantee.",
+  "visual_argument": "Active student, laptop and several compact conceptual academic domains externalize the choice problem. Support identifies profile-based suggestions; this awareness concept does not demonstrate the matching logic or claim real report proof.",
+  "composition": {
+    "brand": "Original unchanged corporate logo at94px width below native141px, with editable plain ProTrain Match name",
+    "hook": "Two lines of exact mixed RTL/LTR copy on forest",
+    "image": "Untouched generated1536x1024photo displayed with CSS crop in650px band; three compact domaincards on left labelled example",
+    "support": "Two quieter lines, exact words",
+    "cta": "One amber action without arrow"
+  },
+  "sources_consulted": [
+    "{{IMRANE_WORKSPACE_ROOT}}/AGENTS.md",
+    "component AGENTS.md",
+    "{{IMRANE_WORKSPACE_ROOT}}/.agents/skills/static-ad-creative-system/SKILL.md",
+    "creatives/static-ad-system/protrain-lessons.json",
+    "editing-system/brand/README.md",
+    "editing-system/brand/protrain-palette.json",
+    "PROTRAIN_MATCH_CONTEXTE.md",
+    "creatives/static-ad-system/six-concepts.json",
+    "creatives/static-ad-system/active-creative.json",
+    "ImageGen SKILL.md + references/prompting.md",
+    "humanizer SKILL.md, review only, owner copy unchanged"
+  ],
+  "production": {
+    "method": "Code-native HTML/CSS composition from start with original logo, exact editable text and one generated photo",
+    "image_tool": "Built-in image_gen__imagegen, one call",
+    "photo_untouched": true,
+    "no_python_raster_patching": true,
+    "render": "Offline installed Chrome headless via existing Playwright; Sharp reduces the composed PNG for phone preview",
+    "no_dependency_install": true,
+    "external_network_in_render": false
+  },
+  "technical_review": {
+    "full_size_inspected": true,
+    "phone_size_inspected": true,
+    "exact_logical_copy": "All three strings checked strictly by render.cjs after inserting spaces at manual line breaks",
+    "arabic": "Connected shaping, mixed language order and question punctuation visually inspected",
+    "fonts": "Cairo Arabic and Poppins600 Latin loaded from local approved-site source files. LatinExt file included; browser does not need it for these Latin1 accented labels.",
+    "safe_area": "62px horizontal text margins, minimum34px bottom; no clipping observed",
+    "logo": "Exact supplied hash matches, unchanged and displayed below native resolution",
+    "page_errors": [],
+    "price_absent": true,
+    "false_report_or_ui_absent": true
+  },
+  "persuasion_review": {
+    "strengths": [
+      "Specific Campus France choice question has obvious first read",
+      "Student visibly uses trackpad and compares rather than posing passively",
+      "Small conceptual domains make the choice theme concrete",
+      "CTA names two free formations and is visually distinct"
+    ],
+    "weaknesses": [
+      "Profile-to-recommendation mechanism is described in support but not visually demonstrated; intentional awareness brief scope",
+      "Tiny embedded corporate tagline and illustrative qualifier have low reading priority at360px preview; main brand/product and offer remain readable",
+      "Purchase performance is unknown; no conversion test or winner claim"
+    ]
+  },
+  "lesson_disposition": {
+    "PT01": "Specific latest owner hook addresses Campus France formation indecision; retained verbatim.",
+    "PT02": "PARTIAL / awareness scope: academic profile connection stated in support, no real recommendation reason shown. Do not describe as mechanism demonstration.",
+    "PT03": "Addressed: active laptop/trackpad pose and focused gaze communicate a live comparison task.",
+    "PT04": "Addressed: compact readable domain cards at restrained scale, no oversized ambiguous folder; labelled illustrative.",
+    "PT05": "Addressed: no generic kicker or decorative underline; example label clarifies evidence status.",
+    "PT06": "Addressed within brief: only original identity, student/desk, conceptual choices, message and CTA. No extra stock symbols.",
+    "PT07": "Main hook dominant, support quieter, one distinct amber action. Inspected full size and360px; main copy readable.",
+    "PT08": "Owner-confirmed two-free CTA corresponds to supplied shortlist-start destination; not a free-full-report claim.",
+    "PT09": "Illustrative01 specifically authorized without report proof. No area is presented as actual Match UI/report or recommendation output.",
+    "PT10": "Original corporate logo retained from start, editable typography. Technical review completed; creative approval remains with Imran, purchase evidence unavailable."
+  },
+  "provenance": {
+    "logo": {
+      "source": "D:/Campus France_ which programs to choose_ _ ProTrain/imgi_2_0x128.png",
+      "sha256": "abef7b2488f244b00306eda0ca864f743c47f2e623db8ab8b5cc785021575e46",
+      "rights": "User-supplied client corporate asset, no license transfer implied"
+    },
+    "photo": {
+      "source": "Built-in ImageGen, prompt in image-prompt.txt",
+      "original_saved": "C:/Users/Administrator/.codex/generated_images/01a1d33b-3c2d-7f33-9630-336befe22c32/exec-8b213861-c1ae-4f23-a672-28dc31b9dade.png",
+      "sha256": "c18ef2580a1c6c91c34b06b67b4597a3c6c11b5e873d31ba1a6c50d057aa850b",
+      "type": "AI-generated fictional adult, not customer endorsement"
+    },
+    "cairo": {
+      "source": "https://protraincompany.com/website_protrain/static/src/fonts/cairo-arabic-wght-normal.woff2",
+      "sha256": "748022f50c427456ad66031e855349be3448ee1f05a5f1eb59574ebe0c686749",
+      "license": "SIL OFL1.1, assets/Cairo-OFL.txt"
+    },
+    "poppins": {
+      "source": "ProTrain publicbrand files, see assets/poppins-provenance.json",
+      "license": "SIL OFL1.1, assets/Poppins-OFL.txt"
+    }
+  },
+  "next_action": "Imran reviews this ONE Creative01V1. Do not start Creative02 or variations until approved.",
+  "publication": "None",
+  "active_video_files_modified": false
+}

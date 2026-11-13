@@ -1,0 +1,16 @@
+Use case: ads-marketing
+Asset type: first ProTrain Match paid-social static prototype, portrait 4:5, 1200x1500.
+Input image 1 is supporting original logo artwork. Preserve its exact design and lettering, unobstructed on a small clean white area at top left. Do not redesign or redraw the logo.
+Primary request: create an exceptional polished Moroccan education ad explaining academic profile -> reasoned study-program recommendations in France. Premium credible editorial design, warm ivory #F6F4EE, forest #0F2A1F, green #0A6B43, restrained amber #F2A541. Cairo-style clean bold Arabic and Poppins Latin. Strong readable hierarchy, generous space, deliberate asymmetrical editorial composition, RTL Arabic.
+Upper portion: compact logo at left, small green Arabic kicker at right. Large powerful dark-green headline at upper right/center with one restrained amber typographic accent.
+Middle: attractive believable Moroccan adult woman student age 20-23, casually dressed in white shirt, natural dark hair, thoughtful relaxed confident expression, looking at open notebook at a real table. Photoreal editorial natural daylight, realistic skin, contemporary study environment, no graduation gown, no Eiffel tower, no French landmarks. Student photographic cutout integrated artfully into ivory background. Place alongside a simple conceptual paper motif: one ivory academic folder/paper with abstract lines and three fanning plain sheets, implying profile and recommendations. NO screen, app screenshot, dashboard, fake product interface or cards. No text or grades on the papers.
+Lower portion: concise Arabic support copy in two readable lines, then generous dark-green CTA bar with white Arabic, no arrow. Small product label ProTrain Match placed coherently near the support copy.
+All text, verbatim and no additional words:
+Kicker: "الدراسة ففرنسا"
+Headline in two lines: "الباك والنقط ديالك…"
+"شنو التكوينات المناسبة؟"
+Product label: "ProTrain Match"
+Supporting copy: "اقتراحات حسب ملفك الدراسي،"
+"مع الأسباب والشروط والخطوات"
+CTA: "اكتاشف التكوينات المناسبة ليك"
+Ensure natural correct connected Arabic glyphs, text exact, clear spacious layout readable on a phone. Avoid excessive small type. No prices, free offers, dates, deadlines, invented programs, results, specific marks, admission guarantees, success percentages, testimonials, emojis, watermarks. This is an explanatory concept, not a report screenshot. Preserve original logo artwork. Deliver one complete finished 4:5 ad image.

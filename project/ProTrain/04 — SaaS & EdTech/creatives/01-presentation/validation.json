@@ -1,0 +1,46 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1350
+  },
+  "slides": [
+    {
+      "file": "slide-01.png",
+      "width": 1080,
+      "height": 1350,
+      "format": "png",
+      "bytes": 1756498
+    },
+    {
+      "file": "slide-02.png",
+      "width": 1080,
+      "height": 1350,
+      "format": "png",
+      "bytes": 113277
+    },
+    {
+      "file": "slide-03.png",
+      "width": 1080,
+      "height": 1350,
+      "format": "png",
+      "bytes": 90798
+    },
+    {
+      "file": "slide-04.png",
+      "width": 1080,
+      "height": 1350,
+      "format": "png",
+      "bytes": 96854
+    }
+  ],
+  "contactSheet": {
+    "width": 1164,
+    "height": 1434
+  },
+  "fonts": [
+    "Bahnschrift",
+    "Arial"
+  ],
+  "imagesEmbedded": true,
+  "externalPublication": false
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "enabled": false,
+  "host": "codex",
+  "mode": "native_subagent",
+  "authorized_by": null,
+  "max_workers": 1,
+  "nested_delegation": false,
+  "controller_changes_model": false,
+  "claude_enabled": false,
+  "policy": ".codex/model-routing-policy.json",
+  "dispatch_tool": "tools/imrane-route.py",
+  "permissions": "inherit; no changes",
+  "failure_handling": "visible failure; no silent model fallback"
+}

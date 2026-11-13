@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "kind": "reviewed-synthetic-examples",
+  "reviewed_on": "2026-11-02",
+  "reviewer": "Parent implementation reviewer",
+  "source": "docs/governance/work-management/PILOT.md",
+  "examples": [
+    {
+      "id": "separate-financial-objectives",
+      "status": "accepted",
+      "context": "A hypothetical fixed-budget scenario with invented price/CVR inputs",
+      "approach": "Calculate revenue and contribution after ads separately, identify each maximum, and state excluded costs",
+      "reason": "The independent pilot arithmetic finds maximum contribution at 400 but maximum revenue at 300 and 350",
+      "limits": "Conditional fixture result; no observed market demand curve, overhead or full net profit"
+    },
+    {
+      "id": "treat-fixture-as-market-proof",
+      "status": "rejected",
+      "context": "Using the same synthetic pricing fixture for a real client recommendation",
+      "approach": "Call 400 the proven optimal market price and promise a profit increase",
+      "reason": "The CVR inputs are invented and relevant real costs and operational limits are absent; arithmetic correctness cannot establish market response",
+      "limits": "A real pricing decision needs scoped evidence and a proportionate authorized test"
+    },
+    {
+      "id": "scope-a-small-copy-correction",
+      "status": "accepted",
+      "context": "Hypothetical interview-practice guarantee wording review",
+      "approach": "Remove an unsupported employment promise, describe the controllable service and ask only what must be confirmed",
+      "reason": "Independent skill forward-test produced the requested paragraph without forcing onboarding, a board or a full marketing analysis",
+      "limits": "Does not establish legal compliance or authorize a refund promise, external publication or contact"
+    }
+  ]
+}

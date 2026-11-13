@@ -1,0 +1,58 @@
+{
+  "commit": "ab8580e38a1255425b0d3b481866590766932079",
+  "installed_path": "{{IMRANE_WORKSPACE_ROOT}}\\.agents\\skills\\rea-video",
+  "verified_files": [
+    {
+      "path": "SKILL.md",
+      "installed_sha256": "b370e2897c3382f9effef2b0344a0efc9be3939bfd568b573c365316f99cc37a",
+      "source_sha256": "ee91eddc69cd38d52390499bc1c9dcd651c421bd5c07bbdc01fc41b56ef27b07"
+    },
+    {
+      "path": "references/audio.md",
+      "installed_sha256": "633e229c826448e5c65b983f86f0915b422d44df09c85cd5000de0f99a25c2c6",
+      "source_sha256": "1f94cea5abd453560e4197d56515d370dfdf78e9ce89b12dd81d8d247d08678c"
+    },
+    {
+      "path": "references/materials.md",
+      "installed_sha256": "d79b7a9759ae3f93608ad6b33e4ad67152ad8bb0d3f58bdef6e518b26fee4382",
+      "source_sha256": "e44ae819ae919b23027ccd2c6a17651cf5b977fd4bbcb27c655d777e6566b566"
+    },
+    {
+      "path": "references/memory.md",
+      "installed_sha256": "7051b55ca051f3bf96753be1fd94660de5e74b4f0a7863eacb830e747fa96be7",
+      "source_sha256": "de908a27774bd3525ce8b31d0c904c26f0fe772f7e6d9fbebfacf191e967dd0b"
+    },
+    {
+      "path": "references/output-template.md",
+      "installed_sha256": "1e3575f95c7aee3dc3b48e654262f49c4c144e3fcdbbd14426708580f49b8276",
+      "source_sha256": "37f2c009420e33b69d5ed8deda9f23846811d2d9f61391252b548e1577bc2ddd"
+    },
+    {
+      "path": "references/remake-tools.md",
+      "installed_sha256": "8ae17e48938163ba8f5c55dce9d57ea41026c3bb26ace7cab69fafdba41ef59e",
+      "source_sha256": "dd877aa6f13fb7ccef62562438cf2c20f9a401ba0974ca849aa5b4816060fb7b"
+    },
+    {
+      "path": "references/remake.md",
+      "installed_sha256": "d4686f17b4653e205c856c37c9f478b0b4aa2c16cc0bd269fafc9c21dd94fde7",
+      "source_sha256": "47f5904a3042866160ea3b370c28ca6dcbdc8a364cf495941176ee1574ff6280"
+    },
+    {
+      "path": "references/review.md",
+      "installed_sha256": "d7208b7cf5f7e469e8756ee61802f1769acb4f805241918a07beed5d015e3082",
+      "source_sha256": "92633fefae4022153109c55505d703dec63630a5b2d8a92294925c92b02cafd1"
+    },
+    {
+      "path": "references/setup.md",
+      "installed_sha256": "3e6c6fb3fecbbac2d765a2320408a2c09718057d19f19cd69b21abb915b83e8a",
+      "source_sha256": "737095ce4e9df2cf80e95ad2138cb66bf85581bfe630a19ee7f51bc1dfe6ad09"
+    },
+    {
+      "path": "references/taxonomy.md",
+      "installed_sha256": "2deae5728ba3131b9b0254cdfb95e0c133db8123080bcaa208e12a9c0c50534b",
+      "source_sha256": "3953e3be2e9276244a928e7c49f37e603fc9f5317f417f97d8faa301319a661d"
+    }
+  ],
+  "text_identical_after_newline_normalization": true,
+  "note": "Git Windows checkout uses CRLF; downloaded source uses LF. Original byte hashes retained."
+}

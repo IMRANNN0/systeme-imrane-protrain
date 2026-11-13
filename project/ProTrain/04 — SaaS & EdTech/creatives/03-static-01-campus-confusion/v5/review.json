@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-13",
+  "status": "RENDERED_REVIEWED_AWAITING_IMRAN_APPROVAL",
+  "authorization": "Same Creative01 revision: replace five SVG academic symbols with actual generated raster objects. User authorization relayed by controller.",
+  "controlled_variable": "Five academic object interiors only",
+  "sources_consulted": [
+    "AGENTS.md",
+    "../AGENTS.md",
+    "{{IMRANE_WORKSPACE_ROOT}}/AGENTS.md",
+    "{{IMRANE_WORKSPACE_ROOT}}/.agents/skills/static-ad-creative-system/SKILL.md",
+    "{{IMRANE_WORKSPACE_ROOT}}/.agents/skills/static-ad-creative-system/references/review-checklist.md",
+    "editing-system/brand/README.md",
+    "creatives/static-ad-system/active-creative.json",
+    "creatives/static-ad-system/protrain-lessons.json",
+    "creatives/03-static-01-campus-confusion/v2/landing-claim-check.json",
+    "creatives/03-static-01-campus-confusion/v4/Creative01V4.html",
+    "creatives/03-static-01-campus-confusion/v4/review.json"
+  ],
+  "method": "Existing V4 HTML source, original raster plate, fonts and literal copy preserved. Five code-drawn academic path elements replaced with actual generated raster images inside existing white cover disks, maintaining labels/positions. No code-drawn symbolic academic objects.",
+  "format": {
+    "full": [
+      1080,
+      1350
+    ],
+    "phone": [
+      360,
+      450
+    ]
+  },
+  "illustration_scope": "Generated objects stand for academic fields, not report output, genuine recommendations or product proof.",
+  "actual_full_and_phone_viewed": true,
+  "owner_approval": false,
+  "publication": false,
+  "limitations": [
+    "Historical source footer preserved for controlled revision; suitability as current Match destination remains unresolved.",
+    "Raster original photo/background/logo/ribbon edges/footer remain flattened; text, Match label, image positions and cover/mask shapes editable.",
+    "Tiny academic circle labels and original corporate tagline remain secondary at phone scale.",
+    "No creative approval or performance evidence established."
+  ],
+  "scope": "Only v5 folder written. V4 archive hashes captured and checked at render. No alternative, Creative02, launch or network installs.",
+  "viewed": [
+    "Creative01V5.png",
+    "Creative01V5-phone-preview.png",
+    "Creative01V4-vs-V5-comparison.png"
+  ],
+  "sha256": {
+    "source": "32760f4b79a3f7f99a729885a09996bdbdc747e7666c2b8b2c767f07a3674c95",
+    "full": "92d8f90749b0417159971294c1b9c4d42a8d7bcfd132890e1820c345bc5720cf",
+    "phone": "6195be210da6520d409bf9b53f6c3f7587dd158fc75bcce0f1bc88e75fe810b7"
+  },
+  "pixel_stability": {
+    "changedInsideAcademicCircles": 13687,
+    "changedOutsideAcademicCircles": 0
+  },
+  "v4_preserved": true,
+  "exact_copy": {
+    "hook": true,
+    "promise": true,
+    "cta": true
+  },
+  "generated_image_provenance": "imagegen-provenance.json",
+  "review": {
+    "full": "Five actual photographic generated raster objects visible: laptop, green-liquid glass flask, brass scales, calculator, open book. Objects fit their same circular positions; no object/label overlaps or clipping observed. Existing white covers and raster source shadows remain.",
+    "phone": "Objects recognizable by silhouette; Info laptop is smallest. Existing academic labels/corporate tagline remain tiny secondary text; main hook, promise and CTA remain readable.",
+    "mixed_scripts": "Actual hook reads right to left with Campus France and Formations in intended Latin order, final Arabic question mark retained. Promise and CTA connected Arabic/word separation unchanged from V4.",
+    "fixed_elements": "Photo/student/passport/notebook, logo, Match label, background, route, ribbons/edges/shadows, copy/fonts, historical footer unchanged visually and pixel-identical outside the five academic circles.",
+    "conceptual_scope": "Objects are illustrative field choices, not product results or actual recommendations. Matching mechanism remains stated in copy rather than shown as report proof.",
+    "owner_approval": false,
+    "performance_evidence": null
+  }
+}

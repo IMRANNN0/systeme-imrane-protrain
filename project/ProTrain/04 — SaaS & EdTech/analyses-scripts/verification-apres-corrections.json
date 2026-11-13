@@ -1,0 +1,217 @@
+{
+  "date": "2026-10-26",
+  "version": "Corrections applied after AIDA review",
+  "scripts": [
+    {
+      "id": "T01",
+      "stages": [
+        "Hook",
+        "Problem",
+        "Solution",
+        "CTA"
+      ],
+      "hook_words": 7,
+      "spoken_words": 70,
+      "placeholders": false,
+      "numeric_price_or_tenure": false
+    },
+    {
+      "id": "T02",
+      "stages": [
+        "Hook",
+        "Problem",
+        "Solution",
+        "CTA"
+      ],
+      "hook_words": 4,
+      "spoken_words": 65,
+      "placeholders": false,
+      "numeric_price_or_tenure": false
+    },
+    {
+      "id": "T03",
+      "stages": [
+        "Hook",
+        "Problem",
+        "Solution",
+        "CTA"
+      ],
+      "hook_words": 4,
+      "spoken_words": 66,
+      "placeholders": false,
+      "numeric_price_or_tenure": false
+    },
+    {
+      "id": "T04",
+      "stages": [
+        "Hook",
+        "Problem",
+        "Solution",
+        "CTA"
+      ],
+      "hook_words": 4,
+      "spoken_words": 68,
+      "placeholders": false,
+      "numeric_price_or_tenure": false
+    },
+    {
+      "id": "T05",
+      "stages": [
+        "Hook",
+        "Problem",
+        "Solution",
+        "CTA"
+      ],
+      "hook_words": 7,
+      "spoken_words": 66,
+      "placeholders": false,
+      "numeric_price_or_tenure": false
+    },
+    {
+      "id": "T06",
+      "stages": [
+        "Hook",
+        "Problem",
+        "Solution",
+        "CTA"
+      ],
+      "hook_words": 6,
+      "spoken_words": 65,
+      "placeholders": false,
+      "numeric_price_or_tenure": false
+    },
+    {
+      "id": "T07",
+      "stages": [
+        "Hook",
+        "Problem",
+        "Solution",
+        "CTA"
+      ],
+      "hook_words": 6,
+      "spoken_words": 66,
+      "placeholders": false,
+      "numeric_price_or_tenure": false
+    },
+    {
+      "id": "T08",
+      "stages": [
+        "Hook",
+        "Problem",
+        "Solution",
+        "CTA"
+      ],
+      "hook_words": 5,
+      "spoken_words": 64,
+      "placeholders": false,
+      "numeric_price_or_tenure": false
+    },
+    {
+      "id": "T09",
+      "stages": [
+        "Hook",
+        "Problem",
+        "Solution",
+        "CTA"
+      ],
+      "hook_words": 4,
+      "spoken_words": 68,
+      "placeholders": false,
+      "numeric_price_or_tenure": false
+    },
+    {
+      "id": "T10B",
+      "stages": [
+        "Hook",
+        "Problem",
+        "Solution",
+        "CTA"
+      ],
+      "hook_words": 5,
+      "spoken_words": 68,
+      "placeholders": false,
+      "numeric_price_or_tenure": false
+    },
+    {
+      "id": "A01",
+      "stages": [
+        "Hook",
+        "Problem",
+        "Solution",
+        "CTA"
+      ],
+      "hook_words": 6,
+      "spoken_words": 69,
+      "placeholders": false,
+      "numeric_price_or_tenure": false
+    },
+    {
+      "id": "A02",
+      "stages": [
+        "Hook",
+        "Problem",
+        "Solution",
+        "CTA"
+      ],
+      "hook_words": 5,
+      "spoken_words": 66,
+      "placeholders": false,
+      "numeric_price_or_tenure": false
+    },
+    {
+      "id": "A03",
+      "stages": [
+        "Hook",
+        "Problem",
+        "Solution",
+        "CTA"
+      ],
+      "hook_words": 6,
+      "spoken_words": 69,
+      "placeholders": false,
+      "numeric_price_or_tenure": false
+    },
+    {
+      "id": "A04",
+      "stages": [
+        "Hook",
+        "Problem",
+        "Solution",
+        "CTA"
+      ],
+      "hook_words": 5,
+      "spoken_words": 61,
+      "placeholders": false,
+      "numeric_price_or_tenure": false
+    },
+    {
+      "id": "A05",
+      "stages": [
+        "Hook",
+        "Problem",
+        "Solution",
+        "CTA"
+      ],
+      "hook_words": 6,
+      "spoken_words": 68,
+      "placeholders": false,
+      "numeric_price_or_tenure": false
+    },
+    {
+      "id": "A06",
+      "stages": [
+        "Hook",
+        "Problem",
+        "Solution",
+        "CTA"
+      ],
+      "hook_words": 6,
+      "spoken_words": 72,
+      "placeholders": false,
+      "numeric_price_or_tenure": false
+    }
+  ],
+  "count": 16,
+  "T10": "Original authorized-case idea postponed; T10B educational replacement",
+  "verification": "Textual structure and constraints only; no campaign results"
+}

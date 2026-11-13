@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-13",
+  "reviewer": "Root controller, independent of drafting worker",
+  "shared_skill_sha256": "c83d3d4a8d5b124abe532584f082629f9780df7a0a6cd2915ae8c007e2abfcab",
+  "canonical_mirror_match": true,
+  "automatic_consultation": {
+    "mechanism": "Inherited workspace AGENTS directive plus component-specific AGENTS sources",
+    "scope": "{{IMRANE_WORKSPACE_ROOT}} workspace",
+    "tool_interceptor": false,
+    "host_catalog_refresh_verified": false
+  },
+  "observed_checks": [
+    "Six briefs parse and include evidence gaps",
+    "Priority03,01,06 preserved",
+    "Ten failures mapped to prevention and review questions",
+    "Client-specific context excluded from shared skill",
+    "Original rejected PNG bytes preserved",
+    "Root and component instructions reference the correct files",
+    "Actual03 preflight created with missing proof visible"
+  ],
+  "validation": {
+    "yaml": "Parsed using existing js-yaml",
+    "official_python_validator": "Unavailable: PyYAML missing; no successful official-validator claim",
+    "semantic_review": "Distinct ad concepts; owner hooks separate from proposals; technical pass separate from owner acceptance; no universal style bans"
+  },
+  "production_status": "Waiting for genuine product evidence; preparation complete",
+  "images_generated": 0
+}

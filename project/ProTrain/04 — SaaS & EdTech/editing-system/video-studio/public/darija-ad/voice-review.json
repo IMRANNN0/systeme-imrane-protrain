@@ -1,0 +1,31 @@
+{
+  "actual_transcript_arabic": "كتوجد لكامبيس فرنس؟ بروطراين ماتش كتقترح عليك تكوينات على حساب ملفك. عمر ملفك دابا.",
+  "utterances": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 1.6,
+      "text": "كتوجد لكامبيس فرنس؟"
+    },
+    {
+      "start_seconds": 1.6,
+      "end_seconds": 4.4,
+      "text": "بروطراين ماتش كتقترح عليك تكوينات على حساب ملفك،"
+    },
+    {
+      "start_seconds": 4.4,
+      "end_seconds": 5.6,
+      "text": "عمر ملفك دابا."
+    }
+  ],
+  "dialect_observations": "The voice uses authentic Moroccan Darija phrasing (\"كتوجد\", \"على حساب ملفك\", \"عمر ملفك دابا\"). The accent sounds authentically Moroccan with no influence from MSA, Egyptian, or Gulf dialects, though the delivery carries a somewhat standardized studio ad cadence.",
+  "mispronunciations_or_unnatural_words": "The brand name 'Protrain Match' (pronounced approximately as 'بروطراين ماتش') is slightly rushed and compressed, which may make it mildly uncertain for first-time listeners.",
+  "added_or_missing_or_unintelligible_words": "None added or missing; the brand name articulation has slight auditory uncertainty due to rapid speech.",
+  "pace_assessment": "Brisk advertising pace. Clear for the main Darija text, but slightly fast during the brand name transition.",
+  "audible_noise_or_clipping": "Clean studio recording without audible background noise, room echo, or digital clipping.",
+  "usable_for_short_ad": true,
+  "concrete_changes_needed": [
+    "Slightly slow down and clearer enunciation when pronouncing the brand name 'Protrain Match'.",
+    "Add a micro-pause between 'Campus France' and the brand introduction to enhance clarity."
+  ],
+  "review_method": "gemini-3.5-flash audio-capable model assessed actual WAV; not a human listening verdict"
+}

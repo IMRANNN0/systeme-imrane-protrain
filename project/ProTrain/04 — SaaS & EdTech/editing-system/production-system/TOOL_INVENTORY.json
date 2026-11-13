@@ -1,0 +1,170 @@
+{
+  "checked_on": "2026-11-13",
+  "scope": "ProTrain SaaS editing-system only; local probes and retained evidence; tool metadata inspected",
+  "new_provider_calls": false,
+  "secret_values_read_or_logged": false,
+  "versions": {
+    "node": "24.14.0",
+    "python": "3.14.2",
+    "ffmpeg": "9.0.2",
+    "ffprobe": "9.0.2",
+    "remotion": "4.0.543",
+    "react": "19.3.1",
+    "typescript": "7.0.2",
+    "numpy": "2.5.4",
+    "Pillow": "12.2.0"
+  },
+  "capabilities": [
+    {
+      "id": "local_render",
+      "state": "installed_and_historically_tested",
+      "stack": [
+        "Remotion",
+        "FFmpeg"
+      ],
+      "limits": [
+        "55second composition not yet built or rendered",
+        "production-license eligibility unresolved"
+      ]
+    },
+    {
+      "id": "technical_qa",
+      "state": "implemented_and_tested",
+      "entry": "scripts/check_export.py",
+      "evidence": "seven contract tests and actual prior9.5sec export checks",
+      "limits": [
+        "technical only",
+        "color metadata recorded, not certified",
+        "per-channel sample peaks, not truepeak/loudness",
+        "voice duration fit, not synchronization"
+      ]
+    },
+    {
+      "id": "image_generation",
+      "state": "tool_exposed_and_historically_used",
+      "tool": "image_gen.imagegen",
+      "external": true,
+      "approval": "storyboard first; paid use requires approval"
+    },
+    {
+      "id": "gemini_tts",
+      "state": "historically_tested_not_live_revalidated",
+      "external": true,
+      "evidence": "../video-studio/public/darija-ad/voice-generation-take3.json",
+      "historical_model": "gemini-3.8-flash-tts",
+      "historical_voice": "Kore",
+      "approval": "new paid calls pending explicit authorization"
+    },
+    {
+      "id": "elevenlabs",
+      "state": "no_tested_integration_evidence",
+      "external": true,
+      "approval": "setup and paid use pending"
+    },
+    {
+      "id": "captions",
+      "state": "rendering_available_ASR_unverified",
+      "installed": "@remotion/captions4.0.543",
+      "limits": [
+        "English known-text fixture is not Darija ASR",
+        "phrase timing must be measured/reviewed"
+      ]
+    },
+    {
+      "id": "local_asr",
+      "state": "present_filter_unconfigured",
+      "evidence": "FFmpeg whisper filter exposed; no lane model/config/test evidence",
+      "python_modules_absent": [
+        "whisper",
+        "faster_whisper",
+        "torch"
+      ],
+      "whisper_cli": "not found"
+    },
+    {
+      "id": "local_tts",
+      "state": "English_only",
+      "voice": "Microsoft Zira Desktop en-US",
+      "darija": "not available in inspected voices"
+    },
+    {
+      "id": "generated_video",
+      "state": "Canva_tool_exposed_not_tested",
+      "external": true,
+      "tool": "canva.create_video",
+      "metadata_resolution_options": [
+        "480p",
+        "720p"
+      ],
+      "limits": [
+        "not native1080p master evidence",
+        "mandatory CanvaAI-limit confirmation and explicit generation approval",
+        "no paid use before owner approval"
+      ]
+    },
+    {
+      "id": "product_demonstration",
+      "state": "authentic_assets_missing_for_P001",
+      "limits": [
+        "no fake or generated productUI",
+        "owner-authorized original captures needed"
+      ]
+    },
+    {
+      "id": "perceptual_quality",
+      "state": "human_and_placement_checks_pending",
+      "evidence": "historical Gemini audio/MP4 review only",
+      "limits": [
+        "no inferred nativehuman listening",
+        "no liveMeta overlay certification"
+      ]
+    }
+  ],
+  "fresh_local_validation": [
+    "installedversions match package manifest",
+    "TypeScript check passed",
+    "previousMP4 full decode passed",
+    "old final and v1 exacthashes match"
+  ],
+  "official_sources": [
+    {
+      "title": "Remotion rendering",
+      "url": "https://www.remotion.dev/docs/render"
+    },
+    {
+      "title": "Remotion captions/transcription",
+      "url": "https://www.remotion.dev/docs/captions/transcribing"
+    },
+    {
+      "title": "Gemini speech generation",
+      "url": "https://aistudio.google.com/docs/speech-generation"
+    },
+    {
+      "title": "ElevenLabs speech generation",
+      "url": "https://elevenlabs.io/docs/overview/capabilities/text-to-speech"
+    },
+    {
+      "title": "Remotion licensing",
+      "url": "https://www.remotion.dev/docs/license"
+    },
+    {
+      "title": "Encoding guide",
+      "url": "https://www.remotion.dev/docs/encoding"
+    }
+  ],
+  "access_limits": [
+    "Meta ads-guide URL redirected to login; no current numeric safe-zone rule inferred",
+    "provider billing/quota and availability not probed"
+  ],
+  "subsequent_authorized_pilot_use": {
+    "Gemini_TTS_requests": 1,
+    "ImageGen_requests": 2,
+    "script": "Pilot001V3",
+    "voice_seconds": 35.84,
+    "paid_scope": "explicitly owner-approved up to2TTS and2contextimages; not publishing/Canva/otherAPIreview",
+    "public_LP": "https://protraincompany.com/en/etudier-en-france/campus-france",
+    "authentic_capture": "assets/landing-form-original.jpg; no submission",
+    "report": "not available; explanatory variant explicitly approved",
+    "native_audio_input": "Controller attempted nativeaudio preview but input unsupported; no claimed listening"
+  }
+}

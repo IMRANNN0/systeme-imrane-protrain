@@ -1,0 +1,41 @@
+{
+"by":"",
+"shots":[
+  {"id":"shot_001","time":"0.00-4.10","label_probs":{},"image_source":"unknown","evidence":[],"description":"","narrative":{"role":"","point":""},"embedded_assets":[],"ai_edits":[],"same_clip_as":null,"replication":{"image_prompt":"","video_prompt":"","video_prompt_en":""}},
+  {"id":"shot_002","time":"4.10-11.60","label_probs":{},"image_source":"unknown","evidence":[],"description":"","narrative":{"role":"","point":""},"embedded_assets":[],"ai_edits":[],"same_clip_as":null,"replication":{"image_prompt":"","video_prompt":"","video_prompt_en":""}},
+  {"id":"shot_003","time":"11.60-17.30","label_probs":{},"image_source":"unknown","evidence":[],"description":"","narrative":{"role":"","point":""},"embedded_assets":[],"ai_edits":[],"same_clip_as":null,"replication":{"image_prompt":"","video_prompt":"","video_prompt_en":""}},
+  {"id":"shot_004","time":"17.30-30.00","label_probs":{},"image_source":"unknown","evidence":[],"description":"","narrative":{"role":"","point":""},"embedded_assets":[],"ai_edits":[],"same_clip_as":null,"replication":{"image_prompt":"","video_prompt":"","video_prompt_en":""}},
+  {"id":"shot_005","time":"30.00-38.00","label_probs":{},"image_source":"unknown","evidence":[],"description":"","narrative":{"role":"","point":""},"embedded_assets":[],"ai_edits":[],"same_clip_as":null,"replication":{"image_prompt":"","video_prompt":"","video_prompt_en":""}}
+],
+"aspects":{"camera":{"setups":"","gear_guess":""},"lighting":{"lighting_overall":""},"grade":{"grade_overall":""},"editing":{"editing":""},"format":{"format":""}},
+"story":{
+ "summary":"",
+ "hook":"",
+ "highlights":[
+  ""
+ ]
+},
+"cast":{
+ "style":"",
+ "characters":[
+  {"id":"A","name":"","kind":"","look":"","role":"","voice":"","shots":[]}
+ ],
+ "scenes":[
+  {"id":"S1","where":"","when":"","look":"","shots":[]}
+ ],
+ "props":[
+  {"name":"","note":"","shots":[]}
+ ]
+},
+"packaging":{
+ "stickers":[
+  {"id":"sticker_01","is_overlay":null,"what":""},
+  {"id":"sticker_02","is_overlay":null,"what":""},
+  {"id":"sticker_03","is_overlay":null,"what":""},
+  {"id":"sticker_04","is_overlay":null,"what":""},
+  {"id":"sticker_05","is_overlay":null,"what":""}
+ ],
+ "text":[],
+ "missed":[]
+}
+}

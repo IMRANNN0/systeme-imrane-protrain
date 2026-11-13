@@ -1,0 +1,4 @@
+interface:
+  display_name: "Questionnaire client media buying"
+  short_description: "Adapter les questions et structurer le brief client"
+  default_prompt: "Utilise $media-buying-client-intake pour adapter les questions et préparer un brief client sourcé."

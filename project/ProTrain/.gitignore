@@ -1,0 +1,29 @@
+# Credentials and machine state
+.env
+.env.*
+!.env.example
+secrets/
+auth.json
+credentials.json
+.work/
+tmp/
+.cache/
+cache/
+node_modules/
+.venv*/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+graphify-out/
+.graphify-cache/
+dist/
+.next/
+.codex/state/
+.codex/hooks.json
+.codex/config.toml
+.codex/agents/
+.claude/settings.json
+.claude/settings.local.json
+# Client images, videos, audio, sources and existing source archives stay versioned.

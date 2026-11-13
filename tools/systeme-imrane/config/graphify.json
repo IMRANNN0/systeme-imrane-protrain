@@ -1,0 +1,13 @@
+{
+  "package": "graphifyy==0.8.13",
+  "primary": {"provider": "gemini", "model": null, "key_env": "GEMINI_API_KEY"},
+  "fallback": {"provider": "ollama", "model": null, "key_env": "OLLAMA_API_KEY", "base_url": "https://ollama.com/v1"},
+  "auto_refresh": false,
+  "api_timeout_seconds": 90,
+  "cooldown_seconds": 3600,
+  "token_budget": 12000,
+  "max_concurrency": 1,
+  "max_files": 200,
+  "max_words": 2000000,
+  "note": "Choose available models before semantic indexing. Enable automatic network refresh only with explicit corpus/provider approval. No billing escalation."
+}

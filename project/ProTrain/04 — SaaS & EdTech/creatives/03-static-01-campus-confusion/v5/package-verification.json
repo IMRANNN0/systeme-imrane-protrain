@@ -1,0 +1,14 @@
+{
+  "archive": "Creative01V5-editable-source.zip",
+  "bytes": 9199972,
+  "sha256": "09cb6692335fac21c4c384f219ee270e155373fd82c975dca3f3462c7a347968",
+  "entries": 25,
+  "zip_crc": "PASS",
+  "archive_payload_hash_match": "PASS",
+  "self_contained_html_assets": true,
+  "includes_provenance": true,
+  "v4_preserved": true,
+  "outside_circle_pixels_changed": 0,
+  "full_and_phone_review": "PASS_WITH_RECORDED_LIMITATIONS",
+  "owner_approval": false
+}

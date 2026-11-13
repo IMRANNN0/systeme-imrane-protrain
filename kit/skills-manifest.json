@@ -1,0 +1,2760 @@
+{
+  "schema": 1,
+  "id": "protrain-curated-skills",
+  "version": "2026.11.13",
+  "canonical_count": 38,
+  "payload_count": 37,
+  "engine_managed_count": 1,
+  "skills": [
+    {
+      "id": "media-buying-analysis-flow",
+      "source": {
+        "status": "local-owner-requested-workflow",
+        "origin": "Current canonical shared library, 2026-11-13; generic reusable method, no client records"
+      },
+      "requirements": [],
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/media-buying-analysis-flow/SKILL.md",
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "media-buying-business-diagnosis",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/media-buying-business-diagnosis/SKILL.md",
+      "source": {
+        "status": "local-owner-original-or-adapted",
+        "provenance": "Owner-provided method, local Codex adaptation; proposed rubric is not the verified original"
+      },
+      "requirements": [
+        "Instruction/reference use works offline with supplied/synthetic evidence. Any browsing, application connector, deployment or framework needed by a concrete task must be available and authorized separately."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "media-buying-client-intake",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/media-buying-client-intake/SKILL.md",
+      "source": {
+        "status": "local-owner-original-or-adapted",
+        "provenance": "Owner-provided method, local Codex adaptation; proposed rubric is not the verified original"
+      },
+      "requirements": [
+        "Instruction/reference use works offline with supplied/synthetic evidence. Any browsing, application connector, deployment or framework needed by a concrete task must be available and authorized separately."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "media-buying-consumer-behaviour",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/media-buying-consumer-behaviour/SKILL.md",
+      "source": {
+        "status": "local-owner-original-or-adapted",
+        "provenance": "Owner-provided Consumer Behaviour chapter and 15 supplied captures, 2026-10-25; local Codex operational adaptation; two repeated slides deduplicated"
+      },
+      "requirements": [
+        "Instruction/reference use works offline with supplied/synthetic evidence. Any browsing, application connector, deployment or framework needed by a concrete task must be available and authorized separately."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "media-buying-content-planning",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/media-buying-content-planning/SKILL.md",
+      "source": {
+        "status": "local-owner-original-or-adapted",
+        "provenance": "Owner-provided Content Planning course in nine captures, 2026-10-25; one duplicate overview; local operational adaptation with explicit missing chapter sections"
+      },
+      "requirements": [
+        "Instruction/reference use works offline with supplied/synthetic evidence. Any browsing, application connector, deployment or framework needed by a concrete task must be available and authorized separately."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "media-buying-customer-journey",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/media-buying-customer-journey/SKILL.md",
+      "source": {
+        "status": "local-owner-original-or-adapted",
+        "provenance": "Owner-provided Customer Journey chapter and five supplied captures, 2026-10-25; local Codex operational and RFM-definition adaptation"
+      },
+      "requirements": [
+        "Instruction/reference use works offline with supplied/synthetic evidence. Any browsing, application connector, deployment or framework needed by a concrete task must be available and authorized separately."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "media-buying-customer-profile",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/media-buying-customer-profile/SKILL.md",
+      "source": {
+        "status": "local-owner-original-or-adapted",
+        "provenance": "Owner-provided course in chat and supplied slides, 2026-10-25; local Codex adaptation; no verified upstream attribution"
+      },
+      "requirements": [
+        "Instruction/reference use works offline with supplied/synthetic evidence. Any browsing, application connector, deployment or framework needed by a concrete task must be available and authorized separately."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "media-buying-data-analysis-process",
+      "source": {
+        "status": "local-owner-requested-workflow",
+        "origin": "Current canonical shared library, 2026-11-13; generic reusable method, no client records"
+      },
+      "requirements": [],
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/media-buying-data-analysis-process/SKILL.md",
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "media-buying-ecommerce-analysis",
+      "source": {
+        "status": "local-owner-requested-workflow",
+        "origin": "Current canonical shared library, 2026-11-13; generic reusable method, no client records"
+      },
+      "requirements": [],
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/media-buying-ecommerce-analysis/SKILL.md",
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "media-buying-leadgen-analysis",
+      "source": {
+        "status": "local-owner-requested-workflow",
+        "origin": "Current canonical shared library, 2026-11-13; generic reusable method, no client records"
+      },
+      "requirements": [],
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/media-buying-leadgen-analysis/SKILL.md",
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "media-buying-monetization",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/media-buying-monetization/SKILL.md",
+      "source": {
+        "status": "local-owner-original-or-adapted",
+        "provenance": "Owner-provided Monetization course in chat and 13 slides, 2026-10-25; local Codex financial-model adaptation, not an inspected original workbook"
+      },
+      "requirements": [
+        "Instruction/reference use works offline with supplied/synthetic evidence. Any browsing, application connector, deployment or framework needed by a concrete task must be available and authorized separately."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "media-buying-reporting",
+      "source": {
+        "status": "local-owner-requested-workflow",
+        "origin": "Current canonical shared library, 2026-11-13; generic reusable method, no client records"
+      },
+      "requirements": [],
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/media-buying-reporting/SKILL.md",
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "media-buying-value-map",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/media-buying-value-map/SKILL.md",
+      "source": {
+        "status": "local-owner-original-or-adapted",
+        "provenance": "Owner-provided Value Map and Fit Framework course in chat and supplied slides, 2026-10-25; local Codex adaptation; no verified upstream attribution"
+      },
+      "requirements": [
+        "Instruction/reference use works offline with supplied/synthetic evidence. Any browsing, application connector, deployment or framework needed by a concrete task must be available and authorized separately."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "performance-ad-script-analyzer",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/performance-ad-script-analyzer/SKILL.md",
+      "source": {
+        "status": "local-owner-original-or-adapted",
+        "provenance": "Local original skill included by the owner’s full-library request"
+      },
+      "requirements": [
+        "Instruction/reference use works offline with supplied/synthetic evidence. Any browsing, application connector, deployment or framework needed by a concrete task must be available and authorized separately."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "performance-video-editing",
+      "source": {
+        "status": "local-owner-requested-workflow",
+        "origin": "Current canonical shared library, 2026-11-13; generic reusable method, no client records"
+      },
+      "requirements": [],
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/performance-video-editing/SKILL.md",
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "static-ad-creative-system",
+      "source": {
+        "status": "local-owner-requested-workflow",
+        "origin": "Current canonical shared library, 2026-11-13; generic reusable method, no client records"
+      },
+      "requirements": [],
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/static-ad-creative-system/SKILL.md",
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "humanizer",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/humanizer/SKILL.md",
+      "source": {
+        "repo": "blader/humanizer",
+        "commit": "8c307f367c91bd974002f10f2be2965d642c13df",
+        "status": "github",
+        "license": "MIT"
+      },
+      "requirements": [
+        "Instruction/reference use works offline with supplied/synthetic evidence. Any browsing, application connector, deployment or framework needed by a concrete task must be available and authorized separately."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "imrane-work-management",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/imrane-work-management/SKILL.md",
+      "source": {
+        "status": "local-authored",
+        "repo": null,
+        "commit": null,
+        "origin": "Owner-requested work-management method authored 2026-11-02; portable distribution authorized with system update",
+        "license": "LicenseRef-Owner-Authorized-Distribution"
+      },
+      "requirements": [
+        "Python 3.11+ standard library; initialized recipient registry, explicit workspace/project; complete self-contained CLI and resources in the skill directory.",
+        "Scoped private work records supplement four canonical memories; no aggregation, external sending, publishing, network indexing or skill self-rewrite.",
+        "Evidence truth, independent review and sanitized lesson promotion require actual review within recipient host permissions."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "remotion-best-practices",
+      "source": {
+        "status": "local-owner-requested-workflow",
+        "origin": "Current canonical shared library, 2026-11-13; generic reusable method, no client records"
+      },
+      "requirements": [],
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/remotion-best-practices/SKILL.md",
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "animate",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/animate/SKILL.md",
+      "source": {
+        "repo": "emilkowalski/skills",
+        "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+        "status": "github",
+        "license": "MIT"
+      },
+      "requirements": [
+        "Instruction/reference use works offline with supplied/synthetic evidence. Any browsing, application connector, deployment or framework needed by a concrete task must be available and authorized separately."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "animation-vocabulary",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/animation-vocabulary/SKILL.md",
+      "source": {
+        "repo": "emilkowalski/skills",
+        "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+        "status": "github",
+        "license": "MIT"
+      },
+      "requirements": [
+        "Instruction/reference use works offline with supplied/synthetic evidence. Any browsing, application connector, deployment or framework needed by a concrete task must be available and authorized separately."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "apple-design",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/apple-design/SKILL.md",
+      "source": {
+        "repo": "emilkowalski/skills",
+        "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+        "status": "github",
+        "license": "MIT"
+      },
+      "requirements": [
+        "Instruction/reference use works offline with supplied/synthetic evidence. Any browsing, application connector, deployment or framework needed by a concrete task must be available and authorized separately."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "emil-design-eng",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/emil-design-eng/SKILL.md",
+      "source": {
+        "repo": "emilkowalski/skills",
+        "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+        "status": "github",
+        "license": "MIT"
+      },
+      "requirements": [
+        "Instruction/reference use works offline with supplied/synthetic evidence. Any browsing, application connector, deployment or framework needed by a concrete task must be available and authorized separately."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "mobile-native",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/mobile-native/SKILL.md",
+      "source": {
+        "repo": "emilkowalski/skills",
+        "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+        "status": "github",
+        "license": "MIT"
+      },
+      "requirements": [
+        "Instruction/reference use works offline with supplied/synthetic evidence. Any browsing, application connector, deployment or framework needed by a concrete task must be available and authorized separately."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "pick-ui-library",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/pick-ui-library/SKILL.md",
+      "source": {
+        "repo": "emilkowalski/skills",
+        "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+        "status": "github",
+        "license": "MIT"
+      },
+      "requirements": [
+        "Instruction/reference use works offline with supplied/synthetic evidence. Any browsing, application connector, deployment or framework needed by a concrete task must be available and authorized separately."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "playwright",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/playwright/SKILL.md",
+      "source": {
+        "repo": "openai/skills",
+        "commit": "49f948faa9258a0c61caceaf225e179651397431",
+        "path": "skills/.curated/playwright",
+        "status": "github",
+        "origin": "official skill-installer pinned download reviewed in staging; unchanged upstream skill",
+        "license": "Apache-2.0"
+      },
+      "requirements": [
+        "Node/npm, Bash and recipient browser/Playwright CLI setup required. Wrapper package execution uses npx and may fetch @playwright/cli; no automatic fetch in distribution tests. Review and authorize setup first; CLI/browser runtime is not bundled or locked by this kit."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "ui-ux-pro-max",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/ui-ux-pro-max/SKILL.md",
+      "source": {
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "56ea9cf174ed86786187daa9de0e6247cb0747e4",
+        "status": "github",
+        "license": "MIT"
+      },
+      "requirements": [
+        "Python standard library search/calculator/data resources bundled. Repository-level upstream tests may refer to absent build/evaluation infrastructure; these are not runtime requirements."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "taste-skill",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/taste-skill/SKILL.md",
+      "source": {
+        "repo": "Leonxlnx/taste-skill",
+        "commit": "63aba5f43b5056758b15bbe7d683da8c86a7a7ad",
+        "status": "github",
+        "license": "MIT"
+      },
+      "requirements": [
+        "Node and optional browser/CDP/renderer tooling as listed by each script; external images/fonts/pages need recipient network and license review. No browser/package installed."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "seo-brand-voice",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/seo-brand-voice/SKILL.md",
+      "source": {
+        "repo": "kabde/seo-skills",
+        "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+        "status": "github",
+        "license": "MIT"
+      },
+      "requirements": [
+        "Network fetching and browser measurement require recipient tooling/dependencies; DataForSEO, Firecrawl, Google and image generation need recipient-authorized services/accounts as applicable.",
+        "Generic scripts/agents are in .agents/resources/seo (Claude mirror .claude/resources/seo); shared references are in the sibling seo/references directory. Resolve these module directories before invoking upstream shorthand paths.",
+        "Agent definitions are portable guidance resources, not host-registered agents; use host-supported delegation only with applicable authorization.",
+        "Upstream optional WordPress/blog skills not in the canonical census are not installed. Commands naming absent skills remain unavailable."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "seo-content",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/seo-content/SKILL.md",
+      "source": {
+        "repo": "kabde/seo-skills",
+        "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+        "status": "github",
+        "license": "MIT"
+      },
+      "requirements": [
+        "Network fetching and browser measurement require recipient tooling/dependencies; DataForSEO, Firecrawl, Google and image generation need recipient-authorized services/accounts as applicable.",
+        "Generic scripts/agents are in .agents/resources/seo (Claude mirror .claude/resources/seo); shared references are in the sibling seo/references directory. Resolve these module directories before invoking upstream shorthand paths.",
+        "Agent definitions are portable guidance resources, not host-registered agents; use host-supported delegation only with applicable authorization.",
+        "Upstream optional WordPress/blog skills not in the canonical census are not installed. Commands naming absent skills remain unavailable."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "seo-geo",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/seo-geo/SKILL.md",
+      "source": {
+        "repo": "kabde/seo-skills",
+        "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+        "status": "github",
+        "license": "MIT"
+      },
+      "requirements": [
+        "Network fetching and browser measurement require recipient tooling/dependencies; DataForSEO, Firecrawl, Google and image generation need recipient-authorized services/accounts as applicable.",
+        "Generic scripts/agents are in .agents/resources/seo (Claude mirror .claude/resources/seo); shared references are in the sibling seo/references directory. Resolve these module directories before invoking upstream shorthand paths.",
+        "Agent definitions are portable guidance resources, not host-registered agents; use host-supported delegation only with applicable authorization.",
+        "Upstream optional WordPress/blog skills not in the canonical census are not installed. Commands naming absent skills remain unavailable."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "seo-images",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/seo-images/SKILL.md",
+      "source": {
+        "repo": "kabde/seo-skills",
+        "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+        "status": "github",
+        "license": "MIT"
+      },
+      "requirements": [
+        "Network fetching and browser measurement require recipient tooling/dependencies; DataForSEO, Firecrawl, Google and image generation need recipient-authorized services/accounts as applicable.",
+        "Generic scripts/agents are in .agents/resources/seo (Claude mirror .claude/resources/seo); shared references are in the sibling seo/references directory. Resolve these module directories before invoking upstream shorthand paths.",
+        "Agent definitions are portable guidance resources, not host-registered agents; use host-supported delegation only with applicable authorization.",
+        "Upstream optional WordPress/blog skills not in the canonical census are not installed. Commands naming absent skills remain unavailable."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "seo-outline-article",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/seo-outline-article/SKILL.md",
+      "source": {
+        "repo": "kabde/seo-skills",
+        "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+        "status": "github",
+        "license": "MIT"
+      },
+      "requirements": [
+        "Network fetching and browser measurement require recipient tooling/dependencies; DataForSEO, Firecrawl, Google and image generation need recipient-authorized services/accounts as applicable.",
+        "Generic scripts/agents are in .agents/resources/seo (Claude mirror .claude/resources/seo); shared references are in the sibling seo/references directory. Resolve these module directories before invoking upstream shorthand paths.",
+        "Agent definitions are portable guidance resources, not host-registered agents; use host-supported delegation only with applicable authorization.",
+        "Upstream optional WordPress/blog skills not in the canonical census are not installed. Commands naming absent skills remain unavailable."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "seo-page",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/seo-page/SKILL.md",
+      "source": {
+        "repo": "kabde/seo-skills",
+        "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+        "status": "github",
+        "license": "MIT"
+      },
+      "requirements": [
+        "Network fetching and browser measurement require recipient tooling/dependencies; DataForSEO, Firecrawl, Google and image generation need recipient-authorized services/accounts as applicable.",
+        "Generic scripts/agents are in .agents/resources/seo (Claude mirror .claude/resources/seo); shared references are in the sibling seo/references directory. Resolve these module directories before invoking upstream shorthand paths.",
+        "Agent definitions are portable guidance resources, not host-registered agents; use host-supported delegation only with applicable authorization.",
+        "Upstream optional WordPress/blog skills not in the canonical census are not installed. Commands naming absent skills remain unavailable."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "seo-schema",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/seo-schema/SKILL.md",
+      "source": {
+        "repo": "kabde/seo-skills",
+        "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+        "status": "github",
+        "license": "MIT"
+      },
+      "requirements": [
+        "Network fetching and browser measurement require recipient tooling/dependencies; DataForSEO, Firecrawl, Google and image generation need recipient-authorized services/accounts as applicable.",
+        "Generic scripts/agents are in .agents/resources/seo (Claude mirror .claude/resources/seo); shared references are in the sibling seo/references directory. Resolve these module directories before invoking upstream shorthand paths.",
+        "Agent definitions are portable guidance resources, not host-registered agents; use host-supported delegation only with applicable authorization.",
+        "Upstream optional WordPress/blog skills not in the canonical census are not installed. Commands naming absent skills remain unavailable."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "seo-technical",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/seo-technical/SKILL.md",
+      "source": {
+        "repo": "kabde/seo-skills",
+        "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+        "status": "github",
+        "license": "MIT"
+      },
+      "requirements": [
+        "Network fetching and browser measurement require recipient tooling/dependencies; DataForSEO, Firecrawl, Google and image generation need recipient-authorized services/accounts as applicable.",
+        "Generic scripts/agents are in .agents/resources/seo (Claude mirror .claude/resources/seo); shared references are in the sibling seo/references directory. Resolve these module directories before invoking upstream shorthand paths.",
+        "Agent definitions are portable guidance resources, not host-registered agents; use host-supported delegation only with applicable authorization.",
+        "Upstream optional WordPress/blog skills not in the canonical census are not installed. Commands naming absent skills remain unavailable."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "seo-write-article",
+      "delivery": "payload",
+      "entrypoint": ".agents/skills/seo-write-article/SKILL.md",
+      "source": {
+        "repo": "kabde/seo-skills",
+        "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+        "status": "github",
+        "license": "MIT"
+      },
+      "requirements": [
+        "Network fetching and browser measurement require recipient tooling/dependencies; DataForSEO, Firecrawl, Google and image generation need recipient-authorized services/accounts as applicable.",
+        "Generic scripts/agents are in .agents/resources/seo (Claude mirror .claude/resources/seo); shared references are in the sibling seo/references directory. Resolve these module directories before invoking upstream shorthand paths.",
+        "Agent definitions are portable guidance resources, not host-registered agents; use host-supported delegation only with applicable authorization.",
+        "Upstream optional WordPress/blog skills not in the canonical census are not installed. Commands naming absent skills remain unavailable."
+      ],
+      "source_snapshot": "2026-11-13 canonical local library (portable work-management packaging retained)"
+    },
+    {
+      "id": "systeme-imrane",
+      "delivery": "engine-managed-wrapper"
+    }
+  ],
+  "files": [
+    {
+      "path": "animate/RECIPES.md",
+      "sha256": "21ff63d84391db8d96ecdf9170095f55a42c836ccc36fd3269c4772bab031ba2",
+      "bytes": 7957
+    },
+    {
+      "path": "animate/SKILL.md",
+      "sha256": "b8ede161270458e6ae2e45e8a1985373515d4c63de5568ddb0f9012d7634356c",
+      "bytes": 11860
+    },
+    {
+      "path": "animate/upstream-license/LICENSE",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "bytes": 1070
+    },
+    {
+      "path": "animation-vocabulary/SKILL.md",
+      "sha256": "40d2b27adfdfeb0570a9f20e7d0255109d9233c50603878bcd0dcd04c923fd94",
+      "bytes": 13425
+    },
+    {
+      "path": "animation-vocabulary/upstream-license/LICENSE",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "bytes": 1070
+    },
+    {
+      "path": "apple-design/SKILL.md",
+      "sha256": "77bb63b7043bb93aca2ff4ab040c249484eef35682bb6ff7163433c31d30adc7",
+      "bytes": 23036
+    },
+    {
+      "path": "apple-design/upstream-license/LICENSE",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "bytes": 1070
+    },
+    {
+      "path": "emil-design-eng/SKILL.md",
+      "sha256": "ffbe68e6007fb42cb8149f089b400a1ca007d59ba23e8948e2be4476f3175939",
+      "bytes": 27123
+    },
+    {
+      "path": "emil-design-eng/upstream-license/LICENSE",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "bytes": 1070
+    },
+    {
+      "path": "humanizer/agents/openai.yaml",
+      "sha256": "9d87ff83149a04f86a372948b8ee35fa249de20923867bbc2a49304290aad736",
+      "bytes": 201
+    },
+    {
+      "path": "humanizer/AGENTS.md",
+      "sha256": "de84a449da400454df1225ddb1ced728c35bf0be7811b239e3370c7dbe1f4e69",
+      "bytes": 3439
+    },
+    {
+      "path": "humanizer/CHANGELOG.md",
+      "sha256": "b3591fe203429f1a6bd2f713c79272e9a8e58a487843d0908d2bbe0700722afa",
+      "bytes": 5922
+    },
+    {
+      "path": "humanizer/LICENSE",
+      "sha256": "4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96",
+      "bytes": 1066
+    },
+    {
+      "path": "humanizer/README.md",
+      "sha256": "500b53c0d29cd3219d160b5f9a109c0969f706aec74b49a4a081d2026ba48ec7",
+      "bytes": 12926
+    },
+    {
+      "path": "humanizer/scripts/validate-package.py",
+      "sha256": "941bd99e52b2ba21449719bb7969607ac8117e3dc173d0c9dfe64fd274c65938",
+      "bytes": 5418
+    },
+    {
+      "path": "humanizer/SKILL.md",
+      "sha256": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad",
+      "bytes": 32348
+    },
+    {
+      "path": "imrane-work-management/agents/openai.yaml",
+      "sha256": "b5e4846674a8dd587fb65637dd5c87ab3f45f8e3d18ece3e707dcef6d93a2832",
+      "bytes": 248
+    },
+    {
+      "path": "imrane-work-management/DISTRIBUTION.json",
+      "sha256": "b77a8d241c1b9fc53fb8f521f8c3122c7af48b76de0f471404252209ba97f99b",
+      "bytes": 10021
+    },
+    {
+      "path": "imrane-work-management/DISTRIBUTION.md",
+      "sha256": "3d58e4c912fdbf38bf9d4fd0e0af82fbf4c6b7ce5d3f28838534029c2480c3e5",
+      "bytes": 2035
+    },
+    {
+      "path": "imrane-work-management/HANDOFF_POLICY.md",
+      "sha256": "c309c475cbe0b4fe93b6798995f6eb6c93175b02f42cbccce68031e375f92913",
+      "bytes": 401
+    },
+    {
+      "path": "imrane-work-management/LICENSE.local",
+      "sha256": "3ec2c9dc019160959cf6effac78f706b31ff77da0381ab6fbbb4b1a6694eab2f",
+      "bytes": 865
+    },
+    {
+      "path": "imrane-work-management/resources/DOMAIN_CHECKS.md",
+      "sha256": "c2b33a72ed01d2eaa31bf3e64f5b4943ce59ba15a0dc773bef36d48347441ac2",
+      "bytes": 2555
+    },
+    {
+      "path": "imrane-work-management/resources/HANDOFF.md",
+      "sha256": "4d3c1e92601b02c975a08420daba4f8f0d13f523b54e9c264635084885bad0de",
+      "bytes": 931
+    },
+    {
+      "path": "imrane-work-management/resources/library/examples.json",
+      "sha256": "5f3b64861f20bbf68e5a3439a1bc31c1a89bbf6c935a947dbe0959bda07ffcaa",
+      "bytes": 1845
+    },
+    {
+      "path": "imrane-work-management/resources/library/README.md",
+      "sha256": "16cc8d86dcf10dcebced18a8c1fb74e453c689a2b0b3fd4b7d2b34ed3500f6f2",
+      "bytes": 1308
+    },
+    {
+      "path": "imrane-work-management/resources/PILOT.md",
+      "sha256": "4d7e45ab7a2940ab7208b1c51a3bd358651fb6b941fdf40358ce367e88c19d3d",
+      "bytes": 3845
+    },
+    {
+      "path": "imrane-work-management/resources/RECORD_FORMAT.md",
+      "sha256": "ca585d86bd2b85bb056974d8203f01bd51e714882bbf4900ec07557a27dc4501",
+      "bytes": 5813
+    },
+    {
+      "path": "imrane-work-management/resources/START_HERE.md",
+      "sha256": "4e96f057997429360d6b240531cceee70e11a43945527781419a900f61e9fa8b",
+      "bytes": 12405
+    },
+    {
+      "path": "imrane-work-management/resources/templates/brief.example.json",
+      "sha256": "ec1b9530c2d4bb061a56e56d897d7a72baecaf9ab26e647942f0c84943c19f0d",
+      "bytes": 899
+    },
+    {
+      "path": "imrane-work-management/resources/templates/brief.md",
+      "sha256": "23229d13c7a3c30c82466d7cef3ea7c35c8aa9abbb7b685deaee38891b85d62d",
+      "bytes": 718
+    },
+    {
+      "path": "imrane-work-management/resources/templates/daily-planning.md",
+      "sha256": "e37fac403f873cae74947d1a4c2d2b1e943b72d744ab9ee33a66c53cf4db8e33",
+      "bytes": 882
+    },
+    {
+      "path": "imrane-work-management/resources/templates/decision-experiment.md",
+      "sha256": "f8c54e536b503b2c4df13bf3001aecb2365031129793b6c143ebd634bcd2b876",
+      "bytes": 727
+    },
+    {
+      "path": "imrane-work-management/resources/templates/lesson.md",
+      "sha256": "fec0515a659bc5acdd9f2785f6d0fac8f07deea6a2e1bc08b0d55276c2d101f4",
+      "bytes": 733
+    },
+    {
+      "path": "imrane-work-management/resources/templates/review.md",
+      "sha256": "274ba1cf5ec2d28f946720ff729235543f49aa6fd7dbf4abe068ed75e5f25938",
+      "bytes": 831
+    },
+    {
+      "path": "imrane-work-management/scripts/imrane-work.py",
+      "sha256": "8c602a9015aff7d17c2b343da85ea903c56b2782735360a0ae01e70cc0dc12eb",
+      "bytes": 186
+    },
+    {
+      "path": "imrane-work-management/scripts/imrane_work/__init__.py",
+      "sha256": "baf885bbc224ecfca43822b286793ff008b9fff242e607b95b76aa78ea0180fd",
+      "bytes": 69
+    },
+    {
+      "path": "imrane-work-management/scripts/imrane_work/cli.py",
+      "sha256": "8805f669aa880436fad98ecbe59c8fbaeac58c077e581acca060cd5dde17eaf7",
+      "bytes": 9777
+    },
+    {
+      "path": "imrane-work-management/scripts/imrane_work/core.py",
+      "sha256": "a4c426cb7c86bba3ef68173baf958781f09b05104f01a19079d03eccd38490cf",
+      "bytes": 28575
+    },
+    {
+      "path": "imrane-work-management/scripts/pilot.py",
+      "sha256": "3196ea8cd9913a1b9d53fbe34451d92553afc2e61b42d67cf2e85f19b29eafc0",
+      "bytes": 12670
+    },
+    {
+      "path": "imrane-work-management/SKILL.md",
+      "sha256": "112b0f0da74769d891e0e977a3ae8e17e6c24f7d307475c3fbc5f6bc8b554508",
+      "bytes": 3869
+    },
+    {
+      "path": "media-buying-analysis-flow/references/diagnostic-protocol.md",
+      "sha256": "ce8aa674c5fe2d930b92d69e517337224812afb9594b9f84b5ce05bc19373427",
+      "bytes": 7000
+    },
+    {
+      "path": "media-buying-analysis-flow/references/output-and-examples.md",
+      "sha256": "4ddd54c69b58f7b96f4fc02a8fd5a571d8a53eb3f58be56ea12b7aca30110e26",
+      "bytes": 4017
+    },
+    {
+      "path": "media-buying-analysis-flow/SKILL.md",
+      "sha256": "90ea7d511a07e034ac42337b2d5ce7d44520320729a94f8256876f498696eafb",
+      "bytes": 4134
+    },
+    {
+      "path": "media-buying-business-diagnosis/agents/openai.yaml",
+      "sha256": "f35a5e1cd761d3a5bd2ba03cd69dbd371743ddfef376216befdeca163d343b48",
+      "bytes": 283
+    },
+    {
+      "path": "media-buying-business-diagnosis/assets/assessment-template.json",
+      "sha256": "e093e435abc4ace5b97ef129c4df2457cab1eb9c2f5f7daab6bee89b041261ff",
+      "bytes": 3899
+    },
+    {
+      "path": "media-buying-business-diagnosis/assets/screenshot-assessment.json",
+      "sha256": "da42930232046606ac8a24c212e0d84f281f2e0d483d68ab08933430276a8f7b",
+      "bytes": 6258
+    },
+    {
+      "path": "media-buying-business-diagnosis/assets/timeseries-template.json",
+      "sha256": "70c978fdb7e67493c94ab31918723dc6035ce8a2bca78c23ed9add172790524b",
+      "bytes": 285
+    },
+    {
+      "path": "media-buying-business-diagnosis/references/bareme-local.md",
+      "sha256": "d6aa96e03d432bcdc596d534e5a8b364a6b3faef2c5743b63a14ef6faf940b46",
+      "bytes": 8463
+    },
+    {
+      "path": "media-buying-business-diagnosis/references/calculs.md",
+      "sha256": "6161864d00f5bb16dca83dc23c3504eca3d50b07f0ec860b384bb9f8916e327b",
+      "bytes": 6503
+    },
+    {
+      "path": "media-buying-business-diagnosis/references/methode.md",
+      "sha256": "b98803d9cbed040bb2df4427fa176fddeba6577a03468465d0f846a930ae9f0c",
+      "bytes": 12036
+    },
+    {
+      "path": "media-buying-business-diagnosis/references/methodes-quantitatives.md",
+      "sha256": "828f1e5968087167f27fb860d5c652d370b622ae8daa44bc86862e1a98b7924e",
+      "bytes": 7090
+    },
+    {
+      "path": "media-buying-business-diagnosis/references/viabilite-service-et-preuves.md",
+      "sha256": "a26750b10e3c8641af113aefcad72c917ff63c15d19e9ed0db366cc9a4e6b0a1",
+      "bytes": 2304
+    },
+    {
+      "path": "media-buying-business-diagnosis/scripts/demand_tools.py",
+      "sha256": "04e7135241ba593c8666517dcc9dac5d1d61a1405cdbb36ad846c5c4cb8b33e1",
+      "bytes": 19070
+    },
+    {
+      "path": "media-buying-business-diagnosis/SKILL.md",
+      "sha256": "bdc60ee8c4573735d7f57d3243f9839d4522a7adde5a5ab3c26c9275688e0eaa",
+      "bytes": 6186
+    },
+    {
+      "path": "media-buying-client-intake/agents/openai.yaml",
+      "sha256": "39477abd1c6b428a3e139670bac78691ca3800b37545d1f8438cda13aff80ca9",
+      "bytes": 263
+    },
+    {
+      "path": "media-buying-client-intake/references/brief.md",
+      "sha256": "ef1c58cfb15af3a0899c27262609550b46891a8dd5dc482fadb2f6dc2b4c22ff",
+      "bytes": 3482
+    },
+    {
+      "path": "media-buying-client-intake/references/collecte-service-crm.md",
+      "sha256": "4d4e205497205312df2b70265476250a664549eb453c6946c91442f500ac0d39",
+      "bytes": 2269
+    },
+    {
+      "path": "media-buying-client-intake/resources/GUIDE_ENTRETIEN.md",
+      "sha256": "4672aaffbcb3d7d0507846f87d569115785241fd5ff7f7278137c505ae9d85c3",
+      "bytes": 7842
+    },
+    {
+      "path": "media-buying-client-intake/resources/QUESTIONNAIRE_CLIENT.md",
+      "sha256": "6edf4fed9fc0f662ec68b7ab81b402d5af26e4fc111f6326652e81a2c57ff37c",
+      "bytes": 6901
+    },
+    {
+      "path": "media-buying-client-intake/SKILL.md",
+      "sha256": "5b1d660794a05eb03afcf432e6ad4c807b90781efe534260ea9b564eecdb3902",
+      "bytes": 5134
+    },
+    {
+      "path": "media-buying-consumer-behaviour/agents/openai.yaml",
+      "sha256": "06b82e94c4ee8729725c6853219273a20cad28b010ebffe0bf33998dd2f86a10",
+      "bytes": 268
+    },
+    {
+      "path": "media-buying-consumer-behaviour/references/alternatives.md",
+      "sha256": "bc811444dbfa9857b746dd43622c2072e961d30830dba588d7875dcfccd999a8",
+      "bytes": 4054
+    },
+    {
+      "path": "media-buying-consumer-behaviour/references/apres-achat.md",
+      "sha256": "9ac9ecfc55d3c6bdd57a8af40de451ec15b6f1cd707962c945e83a40a65e67e2",
+      "bytes": 3498
+    },
+    {
+      "path": "media-buying-consumer-behaviour/references/decision-motivation.md",
+      "sha256": "85eed6509c8011e8138c93cf973a3529407ed329266549841ab54d144326c74e",
+      "bytes": 6115
+    },
+    {
+      "path": "media-buying-consumer-behaviour/references/provenance.md",
+      "sha256": "26c543fbb440ec50a33912b0a178dd0985a8f7aa5250f013726a5fdaf474d915",
+      "bytes": 4555
+    },
+    {
+      "path": "media-buying-consumer-behaviour/references/recherche-omnichannel.md",
+      "sha256": "2872308505b5b3e08b0e771f21a3d568ab170187c98adc695c59e3edddedfbac",
+      "bytes": 4452
+    },
+    {
+      "path": "media-buying-consumer-behaviour/references/signaux-crm-et-obstacles.md",
+      "sha256": "6c3eb3ec5b796989e17271f48fc9ef556e72b77dc9a2a990f5214570bc3a07d8",
+      "bytes": 1932
+    },
+    {
+      "path": "media-buying-consumer-behaviour/references/trame-sortie.md",
+      "sha256": "7a294aeeaebbcd01defc9149d521f643484afc3c014f048235c26c68a1b27936",
+      "bytes": 2946
+    },
+    {
+      "path": "media-buying-consumer-behaviour/references/types-parcours.md",
+      "sha256": "d9b73175727adc86973be12ee6dade314bb9a4b1348573ebf5710ef18ffaec76",
+      "bytes": 4447
+    },
+    {
+      "path": "media-buying-consumer-behaviour/SKILL.md",
+      "sha256": "62091e7305852a7afabfa9fae6190ec20acf172fc25da55875e85a0a560762b9",
+      "bytes": 6189
+    },
+    {
+      "path": "media-buying-content-planning/agents/openai.yaml",
+      "sha256": "1b7b4a3819c3d8b54de156434a913e41c909190681968dcdc57281f1c15e8fe5",
+      "bytes": 257
+    },
+    {
+      "path": "media-buying-content-planning/references/approches-tactiques.md",
+      "sha256": "7e049165bbcc94151997a4a3553377aeab56abc5c0f881c54e8b49d51e3115e9",
+      "bytes": 3665
+    },
+    {
+      "path": "media-buying-content-planning/references/brief-et-angles.md",
+      "sha256": "b11357c4105ec5629f45788f9fa23ab35d34c4b1264c2a5a3bb09a2558b0aa53",
+      "bytes": 3866
+    },
+    {
+      "path": "media-buying-content-planning/references/hypotheses-creatives-et-claims.md",
+      "sha256": "ea23b36fd956431f065825e514575643e80ed7910a40f1427114ffb99cfa5c3e",
+      "bytes": 2329
+    },
+    {
+      "path": "media-buying-content-planning/references/provenance.md",
+      "sha256": "9377106483b0e72628145a954dc9a2c4bd16781328789755142306efee6f43d2",
+      "bytes": 3538
+    },
+    {
+      "path": "media-buying-content-planning/references/structures-copy.md",
+      "sha256": "54c4b883dc2f9809c848960b247455613863cb232c18f590e1377076173e62a2",
+      "bytes": 4974
+    },
+    {
+      "path": "media-buying-content-planning/references/trame-sortie.md",
+      "sha256": "5516f6321cfee436658863a9c539532d10f73359e77411913411cf94a148c5e8",
+      "bytes": 3185
+    },
+    {
+      "path": "media-buying-content-planning/SKILL.md",
+      "sha256": "1df82d46ec07c4a551087041bf1eaf6840dcbcb1830822bfb72512aacbcc90c1",
+      "bytes": 5510
+    },
+    {
+      "path": "media-buying-customer-journey/agents/openai.yaml",
+      "sha256": "a065490964b2a0a845ccaa9a7c54c7856746a9013c61f4b17cd1761223ed60bb",
+      "bytes": 253
+    },
+    {
+      "path": "media-buying-customer-journey/references/acquisition.md",
+      "sha256": "d8e49bab92ef3b034384950e1044da54e9870e83a1bfbec29fe8c48d8d7d6418",
+      "bytes": 3951
+    },
+    {
+      "path": "media-buying-customer-journey/references/awareness.md",
+      "sha256": "f033ef5c4bb5cb4b128bfec6f89f843384a025a54025e4f6d4a45c5036689edb",
+      "bytes": 2813
+    },
+    {
+      "path": "media-buying-customer-journey/references/cadre-parcours.md",
+      "sha256": "0cc301f98eb16691c5b9e4b8ee40d6986527e4cbfb9afcc88d7f16f761c13a58",
+      "bytes": 3564
+    },
+    {
+      "path": "media-buying-customer-journey/references/consideration.md",
+      "sha256": "f699aaeff5a59d6b558841398ef75ebda58e44fba579414d68948f33590fa0aa",
+      "bytes": 2811
+    },
+    {
+      "path": "media-buying-customer-journey/references/parcours-lead-et-mesure.md",
+      "sha256": "d30c542668786947ff107ce557074e57e3997442eb31a3e0c8d8346f8cc74f6c",
+      "bytes": 1971
+    },
+    {
+      "path": "media-buying-customer-journey/references/provenance.md",
+      "sha256": "28c8f17abd6747463f18fcc6a114417e6c8a0339f5fb73e17c4902c397cd90e7",
+      "bytes": 3658
+    },
+    {
+      "path": "media-buying-customer-journey/references/retention-rfm.md",
+      "sha256": "4e49eb0778a712fb9a2844f470cb3efc90b478697309f78d83f71b7e634747d5",
+      "bytes": 5849
+    },
+    {
+      "path": "media-buying-customer-journey/references/trame-sortie.md",
+      "sha256": "cfc68166dd415ebee7d3cc1c4070375a20456c8e66b826d34f56e721bf88a32c",
+      "bytes": 2894
+    },
+    {
+      "path": "media-buying-customer-journey/SKILL.md",
+      "sha256": "033f5c8394761c8cad5a2bd8235bf28f4a03c4c0119ce232f57572d051dd25b6",
+      "bytes": 5536
+    },
+    {
+      "path": "media-buying-customer-profile/agents/openai.yaml",
+      "sha256": "212767d7bca026f574eb5c5f9bf6253a8046b3f3a1bc4cbfb7d2c785b71ad13f",
+      "bytes": 257
+    },
+    {
+      "path": "media-buying-customer-profile/references/exemple-mode.md",
+      "sha256": "ad1f9d18ca2d460b7f0e2a0c50eddc842ee4bdebe8e483bed061f82dfbe88f4f",
+      "bytes": 3534
+    },
+    {
+      "path": "media-buying-customer-profile/references/methode.md",
+      "sha256": "570ff0036e0ca9deb6bdd867dc1b2abea64268470dc4fe67aa73023706702b7e",
+      "bytes": 6120
+    },
+    {
+      "path": "media-buying-customer-profile/references/profil-et-biais-crm.md",
+      "sha256": "b25b096672c372b8fb249a5dd78d064cb23981b144b579ebd8212daf9f83d7aa",
+      "bytes": 1955
+    },
+    {
+      "path": "media-buying-customer-profile/references/trame-sortie.md",
+      "sha256": "a74d2a52776e484bcee2317b3f191cd6461e0464ecd12f610cd52c9318315254",
+      "bytes": 3458
+    },
+    {
+      "path": "media-buying-customer-profile/references/value-map-et-provenance.md",
+      "sha256": "194a9effe60a5517601d56f3cf768a064bdda35688dcc9817ab47f1114ae32e2",
+      "bytes": 4675
+    },
+    {
+      "path": "media-buying-customer-profile/SKILL.md",
+      "sha256": "951b963a06f08a0a4145ed9526205b22cd512e7b3ee65c508a10e8b4f6883826",
+      "bytes": 6710
+    },
+    {
+      "path": "media-buying-data-analysis-process/agents/openai.yaml",
+      "sha256": "a5e17b4823b421381b097fd241ce78fab6048cb381a1941c183ca48e6cdaa95b",
+      "bytes": 288
+    },
+    {
+      "path": "media-buying-data-analysis-process/references/method.md",
+      "sha256": "e002b00408370ace883bb45f8989b1b777e631044afcb4fca78e1b63d84e8efb",
+      "bytes": 9443
+    },
+    {
+      "path": "media-buying-data-analysis-process/SKILL.md",
+      "sha256": "192bde97b2d15cb10b45713a5ff9b6d139384f3e53316e9bf3697380a10afc54",
+      "bytes": 4762
+    },
+    {
+      "path": "media-buying-ecommerce-analysis/agents/openai.yaml",
+      "sha256": "44eeac9102cf664303768e93b44d9b0d83fe29c568f7b586a8e17bc0d43dfe21",
+      "bytes": 256
+    },
+    {
+      "path": "media-buying-ecommerce-analysis/references/illustrative-cases.md",
+      "sha256": "fb6be2980396319a1a4365897023c36f963a1294fdeba9192546096421387438",
+      "bytes": 3211
+    },
+    {
+      "path": "media-buying-ecommerce-analysis/references/protocol.md",
+      "sha256": "cf87c2e3292288950729667199a525ff678839094bf44f552d334d6a135e570b",
+      "bytes": 6601
+    },
+    {
+      "path": "media-buying-ecommerce-analysis/SKILL.md",
+      "sha256": "cbbd55ff3885b202438dfd5fa13fc441aa351b76cddfa9303f3f4a5fd4fbd457",
+      "bytes": 4447
+    },
+    {
+      "path": "media-buying-leadgen-analysis/agents/openai.yaml",
+      "sha256": "051625d2e26172855c7105d02f24893b9f9460a49ac83b71eff53c1aaa3a6e66",
+      "bytes": 271
+    },
+    {
+      "path": "media-buying-leadgen-analysis/references/illustrative-cases.md",
+      "sha256": "7492219ccda5d26af21d3041542da59ef6e7be63cebd2e04dc8bac15674ace82",
+      "bytes": 3022
+    },
+    {
+      "path": "media-buying-leadgen-analysis/references/protocol.md",
+      "sha256": "4733aed0ae192d2d5e24e2ca1d44d86cc72110294f3dc96d4d8de7656ff32569",
+      "bytes": 7066
+    },
+    {
+      "path": "media-buying-leadgen-analysis/SKILL.md",
+      "sha256": "616070ced8aaf6f53574a50405579fa8bcbf25807c9529d094d646c6c175edba",
+      "bytes": 4641
+    },
+    {
+      "path": "media-buying-monetization/agents/openai.yaml",
+      "sha256": "9c8a7142aa3b06836d160611ab39ce63faad471c49e3da246ffefc26ecab06e2",
+      "bytes": 265
+    },
+    {
+      "path": "media-buying-monetization/references/couts-indicateurs.md",
+      "sha256": "a32bbd4caab688bccfcb3bd57e6f8c19850c75780c3a11b810fb86845588f599",
+      "bytes": 5964
+    },
+    {
+      "path": "media-buying-monetization/references/economie-services.md",
+      "sha256": "c37d276479c2fae6e48c08c4208d69d3ecdb935e1335108c82bbddfed713cea0",
+      "bytes": 3771
+    },
+    {
+      "path": "media-buying-monetization/references/exemple-forecast.json",
+      "sha256": "0322a37ea4166d2ffeed80198940c489b9d8b3b14b967f0be2931c5603681517",
+      "bytes": 982
+    },
+    {
+      "path": "media-buying-monetization/references/modele-et-calculateur.md",
+      "sha256": "62ba74f9a291ee8b38a879f5cef4a4aec1e20337dffde92bea2b40f047896dc7",
+      "bytes": 12581
+    },
+    {
+      "path": "media-buying-monetization/references/objectifs-pricing.md",
+      "sha256": "3e77cdd88ba393cc63a2b7e08d3e89014bf003d1170d9584b94870b3336b3dfd",
+      "bytes": 4264
+    },
+    {
+      "path": "media-buying-monetization/references/provenance.md",
+      "sha256": "e3a06242dcf39d720d6cdcdb1075e2499ad11b45f56f25662662fa9fa6ff2300",
+      "bytes": 4704
+    },
+    {
+      "path": "media-buying-monetization/references/trame-sortie.md",
+      "sha256": "307bc86024f511aa902b33502825bf64a60f18e38e264a1995514193f7b6f998",
+      "bytes": 1710
+    },
+    {
+      "path": "media-buying-monetization/scripts/monetization_tools.py",
+      "sha256": "4d0bb28f90eb7ce18adc00347e02e8286b7faf9c773648ed7da4e8ef0b043cc0",
+      "bytes": 17379
+    },
+    {
+      "path": "media-buying-monetization/scripts/test_monetization_tools.py",
+      "sha256": "0a8207c08802406f5f45a51e3b8d42d92b40a6fff1d0b4d24502764b10a29021",
+      "bytes": 9746
+    },
+    {
+      "path": "media-buying-monetization/SKILL.md",
+      "sha256": "121398ddd8b62255cee7c783ba2cec55adb2c822e8bee93cbab5580ed5f8760d",
+      "bytes": 6074
+    },
+    {
+      "path": "media-buying-reporting/references/reporting-protocol.md",
+      "sha256": "d72cbd1047d0b116cdb5be2021839d486580b1ecace08b06f970c3d6e8613f30",
+      "bytes": 6481
+    },
+    {
+      "path": "media-buying-reporting/references/templates-and-examples.md",
+      "sha256": "40d4491911d0ec690141e8ef9b3a3248c1ced3608292cbce165dea2a0d0e6506",
+      "bytes": 5735
+    },
+    {
+      "path": "media-buying-reporting/SKILL.md",
+      "sha256": "f5744dda14b36d8499c684a1d03520caf682a7d6518e6089431c4bb5cdd8ca4a",
+      "bytes": 4397
+    },
+    {
+      "path": "media-buying-value-map/agents/openai.yaml",
+      "sha256": "f657d33b60455b12b38ce25cd10edd44465d2fc2d549fbf089d8402fefaafa9d",
+      "bytes": 259
+    },
+    {
+      "path": "media-buying-value-map/references/capacite-et-allegations.md",
+      "sha256": "264a239b3ea5ce2d2f11c93b6681cc8484a3be224c8eb99e1b531d449e7c73a4",
+      "bytes": 2201
+    },
+    {
+      "path": "media-buying-value-map/references/exemples-cours.md",
+      "sha256": "402b7c819f55539b99d2ea562f64e84b47e1bab4286e57e8028d5d520c607c3c",
+      "bytes": 6477
+    },
+    {
+      "path": "media-buying-value-map/references/fit.md",
+      "sha256": "7529cfe9c3fc61ca29912f6fe55802a1ec0646a0bb54b12125b5cb18e3d8def4",
+      "bytes": 5151
+    },
+    {
+      "path": "media-buying-value-map/references/methode.md",
+      "sha256": "dcbcfcf68c7ba367cc7923686e67bfa5539366b1c78ccc90c30554a2b6c72331",
+      "bytes": 5600
+    },
+    {
+      "path": "media-buying-value-map/references/provenance.md",
+      "sha256": "46cb1d810c94d7294172257acf225208e10aae2620d99b9207c8b1cc302ad297",
+      "bytes": 3089
+    },
+    {
+      "path": "media-buying-value-map/references/trame-sortie.md",
+      "sha256": "d93f03a922f475ce7343c7f284ee2a035c7f6bf8f42f6fc7f51dc875cb0c29fd",
+      "bytes": 3655
+    },
+    {
+      "path": "media-buying-value-map/SKILL.md",
+      "sha256": "de30c50cddbecf62c246c1744b9d631c3b72c9c1819b712b7d2d7a29845d87a1",
+      "bytes": 6400
+    },
+    {
+      "path": "mobile-native/SKILL.md",
+      "sha256": "888b7651d66d66dbac4e72b7c554638eb19bd971d686d6cbdf030a5ef3788f55",
+      "bytes": 16838
+    },
+    {
+      "path": "mobile-native/upstream-license/LICENSE",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "bytes": 1070
+    },
+    {
+      "path": "performance-ad-script-analyzer/agents/openai.yaml",
+      "sha256": "4949cb522e2de6fc71909b93a93c6d798d00bb0dffb0f6496225e67cf92b7c3f",
+      "bytes": 256
+    },
+    {
+      "path": "performance-ad-script-analyzer/references/analysis-format.md",
+      "sha256": "fc27814c92803693b0d5e8de8e84f00c74bf5917510872254847352be91133d0",
+      "bytes": 8692
+    },
+    {
+      "path": "performance-ad-script-analyzer/SKILL.md",
+      "sha256": "771edee19cfa84bc859bbeb038ac6cb51bf7ca3567e10219807c798f06ff979d",
+      "bytes": 4934
+    },
+    {
+      "path": "performance-video-editing/references/production-review.md",
+      "sha256": "3e75440610dcbf33cf7f8eef6d70157487d064a56df9b2df58308a3d7d9930db",
+      "bytes": 6833
+    },
+    {
+      "path": "performance-video-editing/SKILL.md",
+      "sha256": "b46fb077dfb76a00cb58f5a9d2ceea90c43239bac63158031343913b6d0de532",
+      "bytes": 8216
+    },
+    {
+      "path": "pick-ui-library/SKILL.md",
+      "sha256": "675fdce308683256ed617351a9b74d23457a5fbd0a562d9831b9c764b8c5e682",
+      "bytes": 4790
+    },
+    {
+      "path": "pick-ui-library/upstream-license/LICENSE",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "bytes": 1070
+    },
+    {
+      "path": "playwright/agents/openai.yaml",
+      "sha256": "ddda43720fc566fffa45264be8f17f7745a3cee28d5245d41d3b963bc9967230",
+      "bytes": 313
+    },
+    {
+      "path": "playwright/assets/playwright-small.svg",
+      "sha256": "f1d213c0f76735d8272c3d3e9fbf71fe7b894e2d1588907044c780f2c33a9732",
+      "bytes": 828
+    },
+    {
+      "path": "playwright/assets/playwright.png",
+      "sha256": "521669f088c838196c6c852ccc9abdd7234d8f37fc9a8a7a9af7db2d50193381",
+      "bytes": 1730
+    },
+    {
+      "path": "playwright/LICENSE.txt",
+      "sha256": "9a7110fc2d2f964038e5dc49128f908f29f47a574c961cba16085914e879cbda",
+      "bytes": 11552
+    },
+    {
+      "path": "playwright/NOTICE.txt",
+      "sha256": "417d5d3372914ecfd9fe102ac1d7dc2119253209f9718d6c222f616876c1904b",
+      "bytes": 403
+    },
+    {
+      "path": "playwright/references/cli.md",
+      "sha256": "7c069a8206ba20b9ddbdc42436b04de30bb3aa4a825ba98680757ee62e954900",
+      "bytes": 1863
+    },
+    {
+      "path": "playwright/references/workflows.md",
+      "sha256": "a2b5835a00ebee3906c146adf7f764f7718ea3f89a8702d86eaa135dfe0fc8c2",
+      "bytes": 1864
+    },
+    {
+      "path": "playwright/scripts/playwright_cli.sh",
+      "sha256": "aa3fdff5d0e4556177f4dfd5f04117e772aa54f94b6a2e34b6c0edf629c6b9b5",
+      "bytes": 526
+    },
+    {
+      "path": "playwright/SKILL.md",
+      "sha256": "0ffaabcc8e0990627c4725f18bf1c7955534a796c1c199e872909de2013ce6a8",
+      "bytes": 3771
+    },
+    {
+      "path": "remotion-best-practices/agents/openai.yaml",
+      "sha256": "752b402c013ba6f02bd827a7cc56d19e8facb159b52e2e3cecaf2d0229fdefb3",
+      "bytes": 311
+    },
+    {
+      "path": "remotion-best-practices/assets/remotion-icon.svg",
+      "sha256": "5007669bd0555b0f4565b4e7176fa191310ab0039b2ed09d867a9270f5b0ce58",
+      "bytes": 1303
+    },
+    {
+      "path": "remotion-best-practices/remotion-captions/agents/openai.yaml",
+      "sha256": "3b39a48bd00251cf124e80090fe1b792b73020bee858c5d48b5629256cc5f045",
+      "bytes": 305
+    },
+    {
+      "path": "remotion-best-practices/remotion-captions/assets/remotion-icon.svg",
+      "sha256": "5007669bd0555b0f4565b4e7176fa191310ab0039b2ed09d867a9270f5b0ce58",
+      "bytes": 1303
+    },
+    {
+      "path": "remotion-best-practices/remotion-captions/display-captions.md",
+      "sha256": "6acb392ab757ec620602a8f520a737e312d52093decfcdcf98228cbb321c6df0",
+      "bytes": 5951
+    },
+    {
+      "path": "remotion-best-practices/remotion-captions/import-srt-captions.md",
+      "sha256": "e328b6845babd08ed2a747f82c59796fd1d7b85140c8eb4d36e41639779473ad",
+      "bytes": 2231
+    },
+    {
+      "path": "remotion-best-practices/remotion-captions/REFERENCE.md",
+      "sha256": "cbb63e2818149f4981600327b700ae6511bc1d61db7247e95ae18bb5b420702b",
+      "bytes": 1153
+    },
+    {
+      "path": "remotion-best-practices/remotion-captions/transcribe-captions.md",
+      "sha256": "0830184ed1f634a6912536768a3aabc0092313db22796c4455e8b46dad874803",
+      "bytes": 5533
+    },
+    {
+      "path": "remotion-best-practices/remotion-create/agents/openai.yaml",
+      "sha256": "ff3b357b492da1791c672e18ae401a23c31bd1e6f1fa6f98c5efabbb3124bd9c",
+      "bytes": 310
+    },
+    {
+      "path": "remotion-best-practices/remotion-create/assets/remotion-icon.svg",
+      "sha256": "5007669bd0555b0f4565b4e7176fa191310ab0039b2ed09d867a9270f5b0ce58",
+      "bytes": 1303
+    },
+    {
+      "path": "remotion-best-practices/remotion-create/REFERENCE.md",
+      "sha256": "1aacea4817c8fe645538fdc2c63668d5e269bfb3e1fd1ff5ee15c5e5430afbcc",
+      "bytes": 3023
+    },
+    {
+      "path": "remotion-best-practices/remotion-create/tailwind.md",
+      "sha256": "3ef07d3225d212af6a5076e62797a04d22d394434dcdbe2c050dab0d92806f36",
+      "bytes": 386
+    },
+    {
+      "path": "remotion-best-practices/remotion-create/video-layout.md",
+      "sha256": "7ad94c22e3ad87671292ebb9b22f234c544d6c7fed13f8cb112b84b0f7077d4c",
+      "bytes": 498
+    },
+    {
+      "path": "remotion-best-practices/remotion-docs/agents/openai.yaml",
+      "sha256": "ab02cb3008e6fc0702d7a601bfdd2f332e1224fda3c37de0265c24311c00d456",
+      "bytes": 307
+    },
+    {
+      "path": "remotion-best-practices/remotion-docs/assets/remotion-icon.svg",
+      "sha256": "5007669bd0555b0f4565b4e7176fa191310ab0039b2ed09d867a9270f5b0ce58",
+      "bytes": 1303
+    },
+    {
+      "path": "remotion-best-practices/remotion-docs/REFERENCE.md",
+      "sha256": "9331d50a7d2aaf45d3eb4cf724d55266e150e52679167fe3dcf9b19a836fe4dd",
+      "bytes": 1355
+    },
+    {
+      "path": "remotion-best-practices/remotion-interactivity/agents/openai.yaml",
+      "sha256": "84cd86b0b10e1f8b5be97bbd46677d5f618304303d922f1016ce0ea6a015d4b9",
+      "bytes": 320
+    },
+    {
+      "path": "remotion-best-practices/remotion-interactivity/assets/remotion-icon.svg",
+      "sha256": "5007669bd0555b0f4565b4e7176fa191310ab0039b2ed09d867a9270f5b0ce58",
+      "bytes": 1303
+    },
+    {
+      "path": "remotion-best-practices/remotion-interactivity/inline-effects.md",
+      "sha256": "e2204691164855f195ffefc88706785089153a1e97dae06781841575892a30a6",
+      "bytes": 993
+    },
+    {
+      "path": "remotion-best-practices/remotion-interactivity/REFERENCE.md",
+      "sha256": "76a9f9cbe4e0c093adf6bcfb4d0e5eb6d4066a3e10755970e09a36d80ff23171",
+      "bytes": 14304
+    },
+    {
+      "path": "remotion-best-practices/remotion-interactivity/timeline-structure.md",
+      "sha256": "e75a122d41f51f2f049a3c4c69653f3fd4bbd3e5540ffc117e16291ed1d30dfa",
+      "bytes": 7016
+    },
+    {
+      "path": "remotion-best-practices/remotion-license/agents/openai.yaml",
+      "sha256": "4dee64ca8039a03b64a64ec3430c2520990976391390be2779659489c5aec499",
+      "bytes": 300
+    },
+    {
+      "path": "remotion-best-practices/remotion-license/assets/remotion-icon.svg",
+      "sha256": "5007669bd0555b0f4565b4e7176fa191310ab0039b2ed09d867a9270f5b0ce58",
+      "bytes": 1303
+    },
+    {
+      "path": "remotion-best-practices/remotion-license/REFERENCE.md",
+      "sha256": "79e71584bd09d81a044acf11c04cb34998e091ca19ba164333310d4cf074cd2d",
+      "bytes": 498
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/agents/openai.yaml",
+      "sha256": "9c6c75daec6eabd78cf6fbc7169be3f7dde934df1316e41df6658052056b29ee",
+      "bytes": 293
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/assets/remotion-icon.svg",
+      "sha256": "5007669bd0555b0f4565b4e7176fa191310ab0039b2ed09d867a9270f5b0ce58",
+      "bytes": 1303
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/REFERENCE.md",
+      "sha256": "f623f9ae66d44400846dc35124d32d4501ae0349d041d64ad0daa70a5f8dc920",
+      "bytes": 1030
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/cesium/assets/cesium-path.json",
+      "sha256": "329621928df19d115f93c472a0b7ddbd2463cad502a10722d3c23579a7441d44",
+      "bytes": 12329
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/cesium/assets/CesiumFlythrough.tsx",
+      "sha256": "4d4a90e373176e840ae76ae91533fcd9dc445407693b17091c376bb597dbcb10",
+      "bytes": 8912
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/cesium/assets/city-path.json",
+      "sha256": "3bb420736d196f726b856420b319e21a8d7fc24bca7e626d67e8b00b0544e630",
+      "bytes": 223
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/cesium/assets/example-Root.tsx",
+      "sha256": "51c2df109015adc992b66b62f1ffc9801ad13f3dc47e4290de40cbe1b8e7809e",
+      "bytes": 923
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/cesium/assets/flight-path.ts",
+      "sha256": "fab65d2d9cc0c4ca56f8a1422494d178c0e57f92a048a4720358d236ced980f0",
+      "bytes": 1240
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/cesium/assets/sample-river.geojson",
+      "sha256": "2c9f6dd35ac4aed56580078046941235ed7e1a5d432a6549dbf7fea4e8d1e9be",
+      "bytes": 6409
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/cesium/references/3d-data-sources.md",
+      "sha256": "23ac1acc576d49d599b33c812dc697b264ebe28849088c04e9827cb47b95275f",
+      "bytes": 1451
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/cesium/references/3d-flyover-architecture.md",
+      "sha256": "09e1891cec991a246eec60dbcf76c4ea84c52e0bee14321471197703395d0a91",
+      "bytes": 7887
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/cesium/references/3d-troubleshooting.md",
+      "sha256": "c803fe443f5bab1a50408f1f6aa6aded7913577eaefcb586b320c5a96c391bf2",
+      "bytes": 6741
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/cesium/scripts/prep-cesium-path.mjs",
+      "sha256": "6dbb4d1ae3f5fef9f3f6eb23e2a6d58622750714bb847b088ff58a3533839463",
+      "bytes": 5561
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/cesium/TECHNIQUE.md",
+      "sha256": "09057e77b67dcda23eed8ddbf1b5bd44541a952f380913a00b3bfddaa39ab675",
+      "bytes": 3909
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/mapbox/references/render-stability.md",
+      "sha256": "96650329df3a870743b6255123e93dba866a37eb1ab1d07c8275efff0d4dead9",
+      "bytes": 3639
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/mapbox/TECHNIQUE.md",
+      "sha256": "8c434f680988a7212a9443ef9be0f62ef734f3d92af4dc47c11dad184677eec9",
+      "bytes": 13128
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/maplibre/references/render-stability.md",
+      "sha256": "96650329df3a870743b6255123e93dba866a37eb1ab1d07c8275efff0d4dead9",
+      "bytes": 3639
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/maplibre/TECHNIQUE.md",
+      "sha256": "8a13debcd2abfce415b5c8b7f323420ec77092d81ceb935853171ca9697b902c",
+      "bytes": 13843
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/maptiler/assets/CountryLabel.tsx",
+      "sha256": "6be8c7d5b3435c8d933f05394ce5e807da5fc9fe0565db94ccaee6ac049df137",
+      "bytes": 1849
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/maptiler/assets/example-Root.tsx",
+      "sha256": "e53677a7a207e37cbc04693eca8ccbab5f5f040efdc67a8b5c030c3913895e83",
+      "bytes": 1039
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/maptiler/assets/MapTilerVectorElement.ts",
+      "sha256": "c8137792824323b9db997a88c3b923e8072cf2886cd90c38d84fdbbaad8258ed",
+      "bytes": 2183
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/maptiler/assets/RiverReveal.tsx",
+      "sha256": "c3091e23dfd80178788d05c0bc43b17aee12aa4236d658f1a97c5acfb29a0f92",
+      "bytes": 10830
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/maptiler/assets/sample-data/country-meta.json",
+      "sha256": "470a76cc5a45e58e7e1702cd80f74fcacf9d6e8b1ef7b05011f69853a999ba7b",
+      "bytes": 333134
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/maptiler/assets/sample-data/yarlung-flow.json",
+      "sha256": "73a99e77a2ce31cb3ac39be8fe4775d53ecf127a56137b587fca090067dfbb96",
+      "bytes": 13082
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/maptiler/assets/tokens.ts",
+      "sha256": "29ae05eedb4988b5b8f2eb44d241b9c472533fb6ed05d4b33df3e71e0eabc71c",
+      "bytes": 1256
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/maptiler/references/map-data-sources.md",
+      "sha256": "b99680cbda8e7d70dc2cb1a8823f66247a21fc59d10c6dae0dd9ba24d2f15b80",
+      "bytes": 4798
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/maptiler/references/map-explainer-architecture.md",
+      "sha256": "e09de8a4d00ea9a82b992918ec4d0302ee18979b73e6c777d584a9743092344f",
+      "bytes": 6871
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/maptiler/references/map-geo-prep.md",
+      "sha256": "a97b1913f06195601889d4e090ad056db2fffb7b83918924c8cd92847b3829ef",
+      "bytes": 4098
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/maptiler/references/render-stability.md",
+      "sha256": "96650329df3a870743b6255123e93dba866a37eb1ab1d07c8275efff0d4dead9",
+      "bytes": 3639
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/maptiler/scripts/prep-geo.mjs",
+      "sha256": "8265f56bd7c27a7d1a5fa528a77bbe1b29c6acc0e6730233583ca53e2632d490",
+      "bytes": 7553
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/maptiler/TECHNIQUE.md",
+      "sha256": "72896873e63d675caaab765941dbb8d668f2790090a63b94e165f254b77ef887",
+      "bytes": 4518
+    },
+    {
+      "path": "remotion-best-practices/remotion-maps/techniques/static-map/TECHNIQUE.md",
+      "sha256": "1d2b15f2e09cbb2b2ba0d5a6ec54ecf619b6696acced0b7bec7e010fbe1f1f03",
+      "bytes": 1151
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/3d.md",
+      "sha256": "42cef6d68fb4a266ab495d35df0c60e03672b0d85c043f9b567f6aa7ff00dd0d",
+      "bytes": 2292
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/agents/openai.yaml",
+      "sha256": "79e440561b613adf930f61b9f2ececc3284dfd92d06c4c282b73b461ffd16cb6",
+      "bytes": 310
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/arabic-text.md",
+      "sha256": "e062dc1e589275d98dd21d32ab08211cd85c2111b36a6fb522203a2ad1347922",
+      "bytes": 4540
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/assets/remotion-icon.svg",
+      "sha256": "5007669bd0555b0f4565b4e7176fa191310ab0039b2ed09d867a9270f5b0ce58",
+      "bytes": 1303
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/audio-visualization.md",
+      "sha256": "0f4043de86639b6390e5ab888eaa66a24a10a8bd540f1443327cb88107eae1e9",
+      "bytes": 4892
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/audio.md",
+      "sha256": "857bf47188c6de8936f51e862f670da7e1cafa38aea8e1ae4a4920789f224077",
+      "bytes": 4121
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/calculate-metadata.md",
+      "sha256": "711743642a475970dcadddb71805939dd6ee8f348825818cc8897b6a01e1eef0",
+      "bytes": 3498
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/color-correction.md",
+      "sha256": "d3cf205d54a75b8f484746b5049dd13461c1a6bad5afb15aaa0464402ba24b9d",
+      "bytes": 7476
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/compositions.md",
+      "sha256": "2b09427165c8708510153c83add50c0f03992bf968962bfd5e3c373860d3853c",
+      "bytes": 5134
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/connected-compositions.md",
+      "sha256": "b3319698a63a9ecadb266d29820cdca51a35c090214bd9c25c72e9ce4d6d3a8e",
+      "bytes": 3511
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/cropping.md",
+      "sha256": "e775c020c44261ceb11e8aec83233b8d0dcc00517e512d30eb88fe955d6b64cd",
+      "bytes": 1324
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/effects.md",
+      "sha256": "02ba183684b9acecc6e48cae47c2e69c28ba132b3e2a1d0bc8716970f3f7fea7",
+      "bytes": 10900
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/embedding-videos.md",
+      "sha256": "3b0484bc92cd1d54fd6c9a54bc75c4f837054c90bb35e5e8959701d320c6a551",
+      "bytes": 3725
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/ffmpeg.md",
+      "sha256": "1d83085dfb63724f374acc5f01967f6c18f3aa7df62146438262a4061a839770",
+      "bytes": 1112
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/gifs.md",
+      "sha256": "91e17126f7f0d57efdbdbaf34e0c234f874bd6aa66ec7854b80f17b0e32c3b22",
+      "bytes": 3783
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/google-fonts.md",
+      "sha256": "fff29cf692ccab0cda263cd85255cf634dbb4d1d2d99e8372b01d9fedbd6cbfd",
+      "bytes": 1714
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/html-in-canvas.md",
+      "sha256": "9b896dab368f8d9aec41114f8d0b96c1fbee981419b7077d6fd61621a0a54be4",
+      "bytes": 2976
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/images.md",
+      "sha256": "0e6c2af8ad73483ebbc761237f230c8c0db1bd9db6b60d01d48a24b8a4059284",
+      "bytes": 1568
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/light-leaks.md",
+      "sha256": "531514d4740c5a1a3798782300db69ebfe8f61191fc7852960bc5bdf5b82200b",
+      "bytes": 3148
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/local-fonts.md",
+      "sha256": "fcad2a2e3a05419d4555c59a75454c4891455dbea91ad596c1095e2887d26a11",
+      "bytes": 1533
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/lottie.md",
+      "sha256": "666268c8151d91042162f9efe3f02fe8c62b4c45053614eb1a9325c169428826",
+      "bytes": 1806
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/measuring-dom-nodes.md",
+      "sha256": "a677b976eaf1cbc3cdd29cf29a3fd546c557b9a31e6b1fd70e473fde7e828733",
+      "bytes": 995
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/measuring-text.md",
+      "sha256": "4bed81d1ea818db3975f878152dc24ecbc17e163117dcab10761dc8690c33f0c",
+      "bytes": 2801
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/motion-blur.md",
+      "sha256": "bc7559c9d0e56dffef72dcc4fb2d89d42c587ec2204ac21d33ae0c583d59632d",
+      "bytes": 2039
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/multi-scene-video.md",
+      "sha256": "9d4abe6b0c22e86f378871b34539ed15f4f16d3d8814fafefbc672bd8d3ce3cf",
+      "bytes": 1035
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/parameters.md",
+      "sha256": "f7d1bba578217f896b1cce96b7de96f4843bc5a5328c8ba20fc10e9ac3976a3f",
+      "bytes": 2223
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/REFERENCE.md",
+      "sha256": "3bb255c5d363db46a2cd612d8dcefb7022e1061c2a22098dddfab508ba08d158",
+      "bytes": 13830
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/agents/openai.yaml",
+      "sha256": "9c6c75daec6eabd78cf6fbc7169be3f7dde934df1316e41df6658052056b29ee",
+      "bytes": 293
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/assets/remotion-icon.svg",
+      "sha256": "5007669bd0555b0f4565b4e7176fa191310ab0039b2ed09d867a9270f5b0ce58",
+      "bytes": 1303
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/REFERENCE.md",
+      "sha256": "f623f9ae66d44400846dc35124d32d4501ae0349d041d64ad0daa70a5f8dc920",
+      "bytes": 1030
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/assets/cesium-path.json",
+      "sha256": "329621928df19d115f93c472a0b7ddbd2463cad502a10722d3c23579a7441d44",
+      "bytes": 12329
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/assets/CesiumFlythrough.tsx",
+      "sha256": "4d4a90e373176e840ae76ae91533fcd9dc445407693b17091c376bb597dbcb10",
+      "bytes": 8912
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/assets/city-path.json",
+      "sha256": "3bb420736d196f726b856420b319e21a8d7fc24bca7e626d67e8b00b0544e630",
+      "bytes": 223
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/assets/example-Root.tsx",
+      "sha256": "51c2df109015adc992b66b62f1ffc9801ad13f3dc47e4290de40cbe1b8e7809e",
+      "bytes": 923
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/assets/flight-path.ts",
+      "sha256": "fab65d2d9cc0c4ca56f8a1422494d178c0e57f92a048a4720358d236ced980f0",
+      "bytes": 1240
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/assets/sample-river.geojson",
+      "sha256": "2c9f6dd35ac4aed56580078046941235ed7e1a5d432a6549dbf7fea4e8d1e9be",
+      "bytes": 6409
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/references/3d-data-sources.md",
+      "sha256": "23ac1acc576d49d599b33c812dc697b264ebe28849088c04e9827cb47b95275f",
+      "bytes": 1451
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/references/3d-flyover-architecture.md",
+      "sha256": "09e1891cec991a246eec60dbcf76c4ea84c52e0bee14321471197703395d0a91",
+      "bytes": 7887
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/references/3d-troubleshooting.md",
+      "sha256": "c803fe443f5bab1a50408f1f6aa6aded7913577eaefcb586b320c5a96c391bf2",
+      "bytes": 6741
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/scripts/prep-cesium-path.mjs",
+      "sha256": "6dbb4d1ae3f5fef9f3f6eb23e2a6d58622750714bb847b088ff58a3533839463",
+      "bytes": 5561
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/TECHNIQUE.md",
+      "sha256": "09057e77b67dcda23eed8ddbf1b5bd44541a952f380913a00b3bfddaa39ab675",
+      "bytes": 3909
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/mapbox/references/render-stability.md",
+      "sha256": "96650329df3a870743b6255123e93dba866a37eb1ab1d07c8275efff0d4dead9",
+      "bytes": 3639
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/mapbox/TECHNIQUE.md",
+      "sha256": "8c434f680988a7212a9443ef9be0f62ef734f3d92af4dc47c11dad184677eec9",
+      "bytes": 13128
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/maplibre/references/render-stability.md",
+      "sha256": "96650329df3a870743b6255123e93dba866a37eb1ab1d07c8275efff0d4dead9",
+      "bytes": 3639
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/maplibre/TECHNIQUE.md",
+      "sha256": "8a13debcd2abfce415b5c8b7f323420ec77092d81ceb935853171ca9697b902c",
+      "bytes": 13843
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets/CountryLabel.tsx",
+      "sha256": "6be8c7d5b3435c8d933f05394ce5e807da5fc9fe0565db94ccaee6ac049df137",
+      "bytes": 1849
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets/example-Root.tsx",
+      "sha256": "e53677a7a207e37cbc04693eca8ccbab5f5f040efdc67a8b5c030c3913895e83",
+      "bytes": 1039
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets/MapTilerVectorElement.ts",
+      "sha256": "c8137792824323b9db997a88c3b923e8072cf2886cd90c38d84fdbbaad8258ed",
+      "bytes": 2183
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets/RiverReveal.tsx",
+      "sha256": "c3091e23dfd80178788d05c0bc43b17aee12aa4236d658f1a97c5acfb29a0f92",
+      "bytes": 10830
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets/sample-data/country-meta.json",
+      "sha256": "470a76cc5a45e58e7e1702cd80f74fcacf9d6e8b1ef7b05011f69853a999ba7b",
+      "bytes": 333134
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets/sample-data/yarlung-flow.json",
+      "sha256": "73a99e77a2ce31cb3ac39be8fe4775d53ecf127a56137b587fca090067dfbb96",
+      "bytes": 13082
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets/tokens.ts",
+      "sha256": "29ae05eedb4988b5b8f2eb44d241b9c472533fb6ed05d4b33df3e71e0eabc71c",
+      "bytes": 1256
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/references/map-data-sources.md",
+      "sha256": "b99680cbda8e7d70dc2cb1a8823f66247a21fc59d10c6dae0dd9ba24d2f15b80",
+      "bytes": 4798
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/references/map-explainer-architecture.md",
+      "sha256": "e09de8a4d00ea9a82b992918ec4d0302ee18979b73e6c777d584a9743092344f",
+      "bytes": 6871
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/references/map-geo-prep.md",
+      "sha256": "a97b1913f06195601889d4e090ad056db2fffb7b83918924c8cd92847b3829ef",
+      "bytes": 4098
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/references/render-stability.md",
+      "sha256": "96650329df3a870743b6255123e93dba866a37eb1ab1d07c8275efff0d4dead9",
+      "bytes": 3639
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/scripts/prep-geo.mjs",
+      "sha256": "8265f56bd7c27a7d1a5fa528a77bbe1b29c6acc0e6730233583ca53e2632d490",
+      "bytes": 7553
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/TECHNIQUE.md",
+      "sha256": "72896873e63d675caaab765941dbb8d668f2790090a63b94e165f254b77ef887",
+      "bytes": 4518
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/remotion-maps/techniques/static-map/TECHNIQUE.md",
+      "sha256": "6fcb61a66084f4037a2fa0deb988500dd18e4ae7fa3c6923fb1142c1e521e9be",
+      "bytes": 1138
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/sequencing.md",
+      "sha256": "59f2349b125314188506cca8ea8d1386db0fa5031594569577bf1b4a555696c8",
+      "bytes": 1293
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/sfx.md",
+      "sha256": "1f72e2d8858505ae2d31fa89231432714f8bc34c36164d3c0cc43a290b3f826a",
+      "bytes": 1823
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/silence-detection.md",
+      "sha256": "7e777b141e339ade03bbdc1d002390e849781ebd3059183f60e1b24a91210f14",
+      "bytes": 2593
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/text-highlights.md",
+      "sha256": "70773952286e1aec2ba02f2f54d2d776dad7799d87744df03b0c75637ebfb21f",
+      "bytes": 1851
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/timing-props.md",
+      "sha256": "9401cb2bb5754af3c4868cb4e5c02a98f19bfcf7d8e74802377be8c9686894ba",
+      "bytes": 3368
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/timing.md",
+      "sha256": "48047e758b96aea519916479ede62b832bf51f982924978e091c37f569ab4bac",
+      "bytes": 3315
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/transitions.md",
+      "sha256": "ab1f33f5ecbca6c12c5dbb3c2845189a036fdf782e13a820d28780bd18dd0707",
+      "bytes": 8798
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/video-editing.md",
+      "sha256": "57cc4c3e4e7198848243fb619b60c54e65caf002f63cf32e16ae8afc68cae4eb",
+      "bytes": 5847
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/video-matting.md",
+      "sha256": "2e335e10f623642296cb94f47abcd0831279bc3bdcf7f9347381d1ae66ecb84e",
+      "bytes": 3398
+    },
+    {
+      "path": "remotion-best-practices/remotion-markup/voiceover.md",
+      "sha256": "c310b9425559fac09c4ac660ae18243621565a00fb2aa052fd6e73ef34c57c7f",
+      "bytes": 3642
+    },
+    {
+      "path": "remotion-best-practices/remotion-multimedia/agents/openai.yaml",
+      "sha256": "74e07a383bbf02808320ede199873d00a5fc976cb99d407056456b9abdfb0cb7",
+      "bytes": 317
+    },
+    {
+      "path": "remotion-best-practices/remotion-multimedia/assets/remotion-icon.svg",
+      "sha256": "5007669bd0555b0f4565b4e7176fa191310ab0039b2ed09d867a9270f5b0ce58",
+      "bytes": 1303
+    },
+    {
+      "path": "remotion-best-practices/remotion-multimedia/get-audio-duration.md",
+      "sha256": "53b2e2ff232cae14ff9c0f7bb3ddf95c6137f7f1804cdaf50f7fe742befe0fd0",
+      "bytes": 1507
+    },
+    {
+      "path": "remotion-best-practices/remotion-multimedia/get-video-dimensions.md",
+      "sha256": "9d4cd07f11ce8fabda258b4d826e7c9b3d6827e87ee036a2c4c8a7a5aca7db76",
+      "bytes": 1797
+    },
+    {
+      "path": "remotion-best-practices/remotion-multimedia/get-video-duration.md",
+      "sha256": "6df955602cf7fb591ecb3f529fa9740d26ec1a4893a816aa08ea9b780379a8a0",
+      "bytes": 1469
+    },
+    {
+      "path": "remotion-best-practices/remotion-multimedia/REFERENCE.md",
+      "sha256": "29164a346d0ba9549de08f1e5051d5ba4fc608e58334a908f63759e5e62a7da5",
+      "bytes": 705
+    },
+    {
+      "path": "remotion-best-practices/remotion-render/agents/openai.yaml",
+      "sha256": "386699c32fdc63840ce7ff7412953831095dc4cdf60368648378c32895281290",
+      "bytes": 286
+    },
+    {
+      "path": "remotion-best-practices/remotion-render/assets/remotion-icon.svg",
+      "sha256": "5007669bd0555b0f4565b4e7176fa191310ab0039b2ed09d867a9270f5b0ce58",
+      "bytes": 1303
+    },
+    {
+      "path": "remotion-best-practices/remotion-render/REFERENCE.md",
+      "sha256": "e887bb292759ef2f87ae25be04c298a2ea37305f24b2a392dddec7209cba65db",
+      "bytes": 2322
+    },
+    {
+      "path": "remotion-best-practices/remotion-render/transparent-videos.md",
+      "sha256": "394ccda476e084522d544471fee92d7c65672e2cbaf2201a785c3dd5c74f31a4",
+      "bytes": 2267
+    },
+    {
+      "path": "remotion-best-practices/remotion-saas/agents/openai.yaml",
+      "sha256": "66be5403b3d10194c99e886372bbc1f4bdb2994fe560278bc7a39b4fbe7753a2",
+      "bytes": 283
+    },
+    {
+      "path": "remotion-best-practices/remotion-saas/assets/remotion-icon.svg",
+      "sha256": "5007669bd0555b0f4565b4e7176fa191310ab0039b2ed09d867a9270f5b0ce58",
+      "bytes": 1303
+    },
+    {
+      "path": "remotion-best-practices/remotion-saas/framework.md",
+      "sha256": "5e35ca3306ac15ad1df189789642cefbc62c59f4929372ffc10a67165d7b04b5",
+      "bytes": 908
+    },
+    {
+      "path": "remotion-best-practices/remotion-saas/player.md",
+      "sha256": "cc2f2944f1158d6ff1ddfc421a6a790f99ae86f54bbe0f0b18ef8bc7485e1b05",
+      "bytes": 942
+    },
+    {
+      "path": "remotion-best-practices/remotion-saas/REFERENCE.md",
+      "sha256": "9dad5026098719d03b0baf2bc5d32055b64357e125186433586603ff202cc407",
+      "bytes": 1053
+    },
+    {
+      "path": "remotion-best-practices/remotion-saas/rendering.md",
+      "sha256": "fcf3b1df2409490ce72147dd478bd24ab405eba302ceaffb11c2fd1c883ebe05",
+      "bytes": 4311
+    },
+    {
+      "path": "remotion-best-practices/remotion-studio/agents/openai.yaml",
+      "sha256": "43afba3c8088614ece62949e33a7c8350092e76436bad87ad41e1a1ccaebea5d",
+      "bytes": 237
+    },
+    {
+      "path": "remotion-best-practices/remotion-studio/assets/remotion-icon.svg",
+      "sha256": "5007669bd0555b0f4565b4e7176fa191310ab0039b2ed09d867a9270f5b0ce58",
+      "bytes": 1303
+    },
+    {
+      "path": "remotion-best-practices/remotion-studio/REFERENCE.md",
+      "sha256": "0b0592686d2be506d22311b463972f1ae3b8b2650dabb30c6bbb2f4b9658909a",
+      "bytes": 1611
+    },
+    {
+      "path": "remotion-best-practices/remotion-upgrade/agents/openai.yaml",
+      "sha256": "3f3bc995d3531cfb5a714fd8f951954e118909b749217cc8418a235326d003cb",
+      "bytes": 282
+    },
+    {
+      "path": "remotion-best-practices/remotion-upgrade/assets/remotion-icon.svg",
+      "sha256": "5007669bd0555b0f4565b4e7176fa191310ab0039b2ed09d867a9270f5b0ce58",
+      "bytes": 1303
+    },
+    {
+      "path": "remotion-best-practices/remotion-upgrade/REFERENCE.md",
+      "sha256": "7fcc89867dd57219e6c89fa77da6efd51d57970b60cad2b6f7dd1cfb1e4d3666",
+      "bytes": 1947
+    },
+    {
+      "path": "remotion-best-practices/SKILL.md",
+      "sha256": "c491302acdc7b659c11f23c7898f519c4cf6c2bb8b186ade2aeab1bcaca25be0",
+      "bytes": 4426
+    },
+    {
+      "path": "seo-brand-voice/LICENSE.txt",
+      "sha256": "9f3a248f99ba5e54c938f409931112d582a64d04afe7df21e1de74089d5b7616",
+      "bytes": 152
+    },
+    {
+      "path": "seo-brand-voice/SKILL.md",
+      "sha256": "27f6cad69ad2e9a38a86ae14eae6d4da6be690c5457db8c32c6de0d4bac9e9e7",
+      "bytes": 6384
+    },
+    {
+      "path": "seo-brand-voice/upstream-license/LICENSE",
+      "sha256": "524d1fe42902325c0060f27c4539edd451c05c4ce4d80c09e5ff8c766b94caf7",
+      "bytes": 1097
+    },
+    {
+      "path": "seo-content/LICENSE.txt",
+      "sha256": "9f3a248f99ba5e54c938f409931112d582a64d04afe7df21e1de74089d5b7616",
+      "bytes": 152
+    },
+    {
+      "path": "seo-content/SKILL.md",
+      "sha256": "9b98aec9e6ca10fca8286d156ee72f34fce42b75069f0198ffcaccd678e1d590",
+      "bytes": 7773
+    },
+    {
+      "path": "seo-content/upstream-license/LICENSE",
+      "sha256": "524d1fe42902325c0060f27c4539edd451c05c4ce4d80c09e5ff8c766b94caf7",
+      "bytes": 1097
+    },
+    {
+      "path": "seo-geo/LICENSE.txt",
+      "sha256": "9f3a248f99ba5e54c938f409931112d582a64d04afe7df21e1de74089d5b7616",
+      "bytes": 152
+    },
+    {
+      "path": "seo-geo/SKILL.md",
+      "sha256": "8f244352ddd89b185ab12bc3885aec06b5b62e07af680060c12142ee5894ba59",
+      "bytes": 8482
+    },
+    {
+      "path": "seo-geo/upstream-license/LICENSE",
+      "sha256": "524d1fe42902325c0060f27c4539edd451c05c4ce4d80c09e5ff8c766b94caf7",
+      "bytes": 1097
+    },
+    {
+      "path": "seo-images/LICENSE.txt",
+      "sha256": "9f3a248f99ba5e54c938f409931112d582a64d04afe7df21e1de74089d5b7616",
+      "bytes": 152
+    },
+    {
+      "path": "seo-images/SKILL.md",
+      "sha256": "51a6d990635d372ceb5260f2fbad439de03a77dc40271246a1a298796f1d69fd",
+      "bytes": 11859
+    },
+    {
+      "path": "seo-images/upstream-license/LICENSE",
+      "sha256": "524d1fe42902325c0060f27c4539edd451c05c4ce4d80c09e5ff8c766b94caf7",
+      "bytes": 1097
+    },
+    {
+      "path": "seo-outline-article/LICENSE.txt",
+      "sha256": "9f3a248f99ba5e54c938f409931112d582a64d04afe7df21e1de74089d5b7616",
+      "bytes": 152
+    },
+    {
+      "path": "seo-outline-article/SKILL.md",
+      "sha256": "195b8cc30950548694cdf12a9d12439eaa50675fbf601cdc99bf9c1cceeb4086",
+      "bytes": 6465
+    },
+    {
+      "path": "seo-outline-article/upstream-license/LICENSE",
+      "sha256": "524d1fe42902325c0060f27c4539edd451c05c4ce4d80c09e5ff8c766b94caf7",
+      "bytes": 1097
+    },
+    {
+      "path": "seo-page/LICENSE.txt",
+      "sha256": "9f3a248f99ba5e54c938f409931112d582a64d04afe7df21e1de74089d5b7616",
+      "bytes": 152
+    },
+    {
+      "path": "seo-page/SKILL.md",
+      "sha256": "bb93568b5fed9303a08174ce61bca70c6bd41ced8c1d014048034e5ff9bd554f",
+      "bytes": 3735
+    },
+    {
+      "path": "seo-page/upstream-license/LICENSE",
+      "sha256": "524d1fe42902325c0060f27c4539edd451c05c4ce4d80c09e5ff8c766b94caf7",
+      "bytes": 1097
+    },
+    {
+      "path": "seo-schema/LICENSE.txt",
+      "sha256": "9f3a248f99ba5e54c938f409931112d582a64d04afe7df21e1de74089d5b7616",
+      "bytes": 152
+    },
+    {
+      "path": "seo-schema/SKILL.md",
+      "sha256": "a12f509d8c8a5269c2821dfe543a4184e5afd812fb93c9e79a19a1b24d95621e",
+      "bytes": 5289
+    },
+    {
+      "path": "seo-schema/upstream-license/LICENSE",
+      "sha256": "524d1fe42902325c0060f27c4539edd451c05c4ce4d80c09e5ff8c766b94caf7",
+      "bytes": 1097
+    },
+    {
+      "path": "seo-technical/LICENSE.txt",
+      "sha256": "9f3a248f99ba5e54c938f409931112d582a64d04afe7df21e1de74089d5b7616",
+      "bytes": 152
+    },
+    {
+      "path": "seo-technical/SKILL.md",
+      "sha256": "f3b8201d2edebd5c7cbf20093bdaa019404fac5eaba948bff2fe6b88b406281e",
+      "bytes": 8416
+    },
+    {
+      "path": "seo-technical/upstream-license/LICENSE",
+      "sha256": "524d1fe42902325c0060f27c4539edd451c05c4ce4d80c09e5ff8c766b94caf7",
+      "bytes": 1097
+    },
+    {
+      "path": "seo-write-article/LICENSE.txt",
+      "sha256": "9f3a248f99ba5e54c938f409931112d582a64d04afe7df21e1de74089d5b7616",
+      "bytes": 152
+    },
+    {
+      "path": "seo-write-article/SKILL.md",
+      "sha256": "49fcae3b9452a20c7204120a6aba1ba43c1456bc8e6142fd29109d913c643b26",
+      "bytes": 8789
+    },
+    {
+      "path": "seo-write-article/upstream-license/LICENSE",
+      "sha256": "524d1fe42902325c0060f27c4539edd451c05c4ce4d80c09e5ff8c766b94caf7",
+      "bytes": 1097
+    },
+    {
+      "path": "static-ad-creative-system/references/review-checklist.md",
+      "sha256": "8a06fd7abeae9b9ce26509fa896d1c49f0935cde082ddaeb8338dc68fc635bbb",
+      "bytes": 3216
+    },
+    {
+      "path": "static-ad-creative-system/SKILL.md",
+      "sha256": "3bd08bc7b50a3a45745fd2c073ef05a7def94b8e9772c0682ab047c717a7b6d8",
+      "bytes": 6903
+    },
+    {
+      "path": "taste-skill/assets/app.css",
+      "sha256": "16518c3a999fb81b2698137f1f743128c189272e8b1d411c4b02598c6755b67f",
+      "bytes": 15918
+    },
+    {
+      "path": "taste-skill/assets/base.css",
+      "sha256": "aa6ea21613c79e06e06dea3d33200c78590c89b0346bb976ec07947bb45ceafa",
+      "bytes": 6520
+    },
+    {
+      "path": "taste-skill/assets/base.js",
+      "sha256": "8d50416125596b84c0083d5d5ffba09add57db4b06cbf0eedac2d4999b7653bc",
+      "bytes": 2162
+    },
+    {
+      "path": "taste-skill/assets/charts.js",
+      "sha256": "89071120bd09eb276d9e568bab433ed035ea8b3a1b72750a1fa204a63e3d4ab4",
+      "bytes": 58705
+    },
+    {
+      "path": "taste-skill/assets/scenes/stage.css",
+      "sha256": "b5c587dac45ac6fcc34ae7cb4aa2b3e43797b2ef5d71fd32b48483bda3fca3e0",
+      "bytes": 1141
+    },
+    {
+      "path": "taste-skill/assets/scenes/stage.js",
+      "sha256": "3012ade75e01a9c0c81b5835a60e9ade965ed310cd58d85a7ad10e4ed4a1ad16",
+      "bytes": 7522
+    },
+    {
+      "path": "taste-skill/evals/evals.json",
+      "sha256": "df0ee2a248cd5445c0e1600eb095dc0d43dd312f5b4bb4316a78471ae0d22a74",
+      "bytes": 8198
+    },
+    {
+      "path": "taste-skill/library/app.json",
+      "sha256": "3678ccbe1e8d05feff6d4f07fa16a0d610aefeea5e697e842a876713ba763cf5",
+      "bytes": 74229
+    },
+    {
+      "path": "taste-skill/library/directions.json",
+      "sha256": "d71e3824af33a92d9e1ca543e17f80baa5b7a30c815df5125cfe3300a14892c1",
+      "bytes": 61466
+    },
+    {
+      "path": "taste-skill/library/heroes.json",
+      "sha256": "98d5e01104412a5fb27936f9c686f3bc0a5f76ce0793186d3de46b982c65b172",
+      "bytes": 108240
+    },
+    {
+      "path": "taste-skill/library/motions.json",
+      "sha256": "51815dd09a823c829897f99ed9ea7dc5c35bd305ac989b8a0632ea6d42a3f08b",
+      "bytes": 9033
+    },
+    {
+      "path": "taste-skill/library/palettes.json",
+      "sha256": "a14be9f45baba848c53436f4aa44eb4f1925ad3e232c5d1dcddf4f565661a525",
+      "bytes": 34753
+    },
+    {
+      "path": "taste-skill/library/photos.json",
+      "sha256": "8fc3b76bca90f44675bd99d99bb4ce95b0756c6c5d4141b7e917d11d90e61520",
+      "bytes": 160632
+    },
+    {
+      "path": "taste-skill/library/sections.json",
+      "sha256": "7c2c8a470a22501176948661f803434db8c542a511281752c717252de80c1ad8",
+      "bytes": 276146
+    },
+    {
+      "path": "taste-skill/library/sites.json",
+      "sha256": "a2bc4d0cff8ebff481f0dfd4879c106d5e1e16cb3122f9ab3702184a5e1f3502",
+      "bytes": 869073
+    },
+    {
+      "path": "taste-skill/library/type.json",
+      "sha256": "01a36c53c4398f48ff945b0f31a256281c1c0c1075729747c11bec70867b6232",
+      "bytes": 82290
+    },
+    {
+      "path": "taste-skill/README.md",
+      "sha256": "5e33fd716b3e1ffaca9340f645d44c193f9b446107fa67f0cce498d33025672c",
+      "bytes": 5345
+    },
+    {
+      "path": "taste-skill/references/app-screens.md",
+      "sha256": "55e937ec30de605b53a11310b446f328a3ce7403de24fff008920a00be1a5ed4",
+      "bytes": 85358
+    },
+    {
+      "path": "taste-skill/references/colour.md",
+      "sha256": "6556bcc7eed48b7bc2d0d281c28bf57c1b75e94d7ca0bde49f5d9df8c6a09351",
+      "bytes": 6853
+    },
+    {
+      "path": "taste-skill/references/copy.md",
+      "sha256": "676edbe75d5f3cfd8a793010ea9f730525ae074b231a674c2426264d3398262e",
+      "bytes": 9436
+    },
+    {
+      "path": "taste-skill/references/critique.md",
+      "sha256": "9c2f4392674530b3f02ac529fba53d82ab37b85f401c4c1989fbe98d6217f0b4",
+      "bytes": 11157
+    },
+    {
+      "path": "taste-skill/references/imagery.md",
+      "sha256": "518def6b2c643b295e13e66b09b66f2e3fc1421d3cf6c7dbb1dc749097ad2ad9",
+      "bytes": 51025
+    },
+    {
+      "path": "taste-skill/references/layout.md",
+      "sha256": "40080640719b07737afb94a8868afef87767a1ab4892814d9b6882e2d283453b",
+      "bytes": 18315
+    },
+    {
+      "path": "taste-skill/references/motion.md",
+      "sha256": "79f94d8469898d2bf6186c198ad86ddf691a67c6536eaec36a4ec101285d9a37",
+      "bytes": 55400
+    },
+    {
+      "path": "taste-skill/references/research.md",
+      "sha256": "83433646a352cae588591e05bc0a75fe1deadff55ede8851bc8dd5dd483adfc5",
+      "bytes": 24262
+    },
+    {
+      "path": "taste-skill/references/scenes.md",
+      "sha256": "733ac7258a1a28f2f6ae8205bc36ba66c563594ad0a2e2f829c5eaaba3199a61",
+      "bytes": 9817
+    },
+    {
+      "path": "taste-skill/references/tells.md",
+      "sha256": "8e6de4411c43d3108f832b3f33bb1a2a838148a72b92a176df893b67d99a0da9",
+      "bytes": 7420
+    },
+    {
+      "path": "taste-skill/references/type.md",
+      "sha256": "6353ff1d0ce2f9913628c88fbcb7dad3cc3877e61196848bce99e33a17d20611",
+      "bytes": 8495
+    },
+    {
+      "path": "taste-skill/scripts/assets.mjs",
+      "sha256": "b4b4b99b5634735f5a0b4213169cda5240ee6bbed8ed8042ad1bcf2b6607c1fa",
+      "bytes": 64522
+    },
+    {
+      "path": "taste-skill/scripts/draw.mjs",
+      "sha256": "6c2047d207d2400d3b099956dfe2ac306203b614246e66bc8760212a7f797dbf",
+      "bytes": 54140
+    },
+    {
+      "path": "taste-skill/scripts/inspect.mjs",
+      "sha256": "9482c546288d4d5c738a915905959e99394551ec27bc202ed443af12a02bd1f7",
+      "bytes": 27839
+    },
+    {
+      "path": "taste-skill/scripts/lib/app-draw.mjs",
+      "sha256": "aa0802d341d19b53ec14ec21746e428be49a8ec3ed7b30253194105fc18a8df6",
+      "bytes": 14715
+    },
+    {
+      "path": "taste-skill/scripts/lib/cdp.mjs",
+      "sha256": "404c8825ce60e4e5e101344f7c36d05bfe335d47f3ab6c2d5dfde12e0b8f1b94",
+      "bytes": 11377
+    },
+    {
+      "path": "taste-skill/scripts/lib/probe.mjs",
+      "sha256": "c14fd0bed7727855a1f3fcf5ade945fba97f314562fd7430354168b2da25433b",
+      "bytes": 81280
+    },
+    {
+      "path": "taste-skill/scripts/lib/rules.mjs",
+      "sha256": "5de058543b3bd6f3dd2f85ff1c1e5e1f91918ba9f4454e7ee0b8934c607982f9",
+      "bytes": 37284
+    },
+    {
+      "path": "taste-skill/scripts/lint.mjs",
+      "sha256": "05f2fae2f56fc051b539cdbacb43a6f78fbbfb9644bb74aa11be472ff12dcaf5",
+      "bytes": 11747
+    },
+    {
+      "path": "taste-skill/scripts/scenes.mjs",
+      "sha256": "234ec582e2b841457c33033feeeba8535f9ac285495a74d08dc533a1566c90d5",
+      "bytes": 8980
+    },
+    {
+      "path": "taste-skill/SKILL.md",
+      "sha256": "d955dae4ba8ab2d994f4bb06b4bf412a1d9875433a8597939c391f4bae91dd7a",
+      "bytes": 38458
+    },
+    {
+      "path": "taste-skill/upstream-license/LICENSE",
+      "sha256": "4575a543ab88dad12ccea7d97e563d0bce5b448b06072e65d3264497dad326df",
+      "bytes": 1065
+    },
+    {
+      "path": "ui-ux-pro-max/ASHRAF_OVERLAY.md",
+      "sha256": "dfce0060dfe6abc7315236212b273ce5cd16c7c73359b7c8afe46d67756e2ba0",
+      "bytes": 285
+    },
+    {
+      "path": "ui-ux-pro-max/data/app-interface.csv",
+      "sha256": "331e7cf2c0b222d80c566c5f255c63cb339f65bfd02e471a720f28e4864a9f08",
+      "bytes": 11046
+    },
+    {
+      "path": "ui-ux-pro-max/data/catalog-summary.json",
+      "sha256": "6638da97231c07fb5cef3cd9d3ce483ca7b2f9748980f8c27490eb03968d8894",
+      "bytes": 2392
+    },
+    {
+      "path": "ui-ux-pro-max/data/charts.csv",
+      "sha256": "4115cf1120680f2cedef0676cb648f30c7ef4699e2a947535d4113e71ed3b12a",
+      "bytes": 23365
+    },
+    {
+      "path": "ui-ux-pro-max/data/colors.csv",
+      "sha256": "8162429222bce22df62b564085946a30d07cc9722c58d0a3a494bd0d1d00841c",
+      "bytes": 37940
+    },
+    {
+      "path": "ui-ux-pro-max/data/data-provenance.json",
+      "sha256": "e82fb33ed49375a300e93d9c11ccd1c1493c999e84ee7ee295e527634786e2e0",
+      "bytes": 36686
+    },
+    {
+      "path": "ui-ux-pro-max/data/google-font-licenses.json",
+      "sha256": "35688523f2955795caa1a47c53b83099e60c1708461476f9cc3a050cf3b0148a",
+      "bytes": 433127
+    },
+    {
+      "path": "ui-ux-pro-max/data/google-fonts.csv",
+      "sha256": "1c8c3b2ea1faf6a1012da463756def8b3889db33f2226f0343bb4daa80307d03",
+      "bytes": 747241
+    },
+    {
+      "path": "ui-ux-pro-max/data/icons.csv",
+      "sha256": "50816c6012030178195a16ee481ebf58b47bd985d70e8ec58886cc83f6eddafc",
+      "bytes": 57945
+    },
+    {
+      "path": "ui-ux-pro-max/data/landing.csv",
+      "sha256": "9a2edd3bb676c2a58f00ade7a062e285222d4297bfd847c8d5b056f0dbbf52d0",
+      "bytes": 25449
+    },
+    {
+      "path": "ui-ux-pro-max/data/motion.csv",
+      "sha256": "381affe8df8ea1f66fbbda2598827f9f54299107bbe6a1b4e9b68f6b62091ceb",
+      "bytes": 14679
+    },
+    {
+      "path": "ui-ux-pro-max/data/phosphor-icons-upstream.json",
+      "sha256": "2399325233b277b5c97a80e6a5e8941154f5d057beee4e7613db87c87d700236",
+      "bytes": 823933
+    },
+    {
+      "path": "ui-ux-pro-max/data/products.csv",
+      "sha256": "42473f75e8dde5987bdf89ce55d8c168091b80a356cae691dd60247d80720b70",
+      "bytes": 75623
+    },
+    {
+      "path": "ui-ux-pro-max/data/react-performance.csv",
+      "sha256": "3d925802539abac5afeb63ae8aa1960b7229ad271b3a47caed40ab2d97ad0734",
+      "bytes": 15080
+    },
+    {
+      "path": "ui-ux-pro-max/data/stacks/angular.csv",
+      "sha256": "704be83f2bad30c7e6de01afb113ffa01e0c458762f48b7102f31ba2367b5553",
+      "bytes": 19863
+    },
+    {
+      "path": "ui-ux-pro-max/data/stacks/astro.csv",
+      "sha256": "2c2f55fadaafc05e04cc321c8194a1a28b656e6757fe2ba316f41b16428299c6",
+      "bytes": 14591
+    },
+    {
+      "path": "ui-ux-pro-max/data/stacks/avalonia.csv",
+      "sha256": "442fca14675a020683473e7e49f08abb27b9df0765c80efe54aef61f1a4ac258",
+      "bytes": 27327
+    },
+    {
+      "path": "ui-ux-pro-max/data/stacks/flutter.csv",
+      "sha256": "64dba0ac17349f28bce517a0f5f48c54d9ed2e487ec0c0258303463b382f41a0",
+      "bytes": 14192
+    },
+    {
+      "path": "ui-ux-pro-max/data/stacks/html-tailwind.csv",
+      "sha256": "d05a581d20af57b8ca0104a6d31d90a07c437d500662a96c3029fc2f9a4678ee",
+      "bytes": 16551
+    },
+    {
+      "path": "ui-ux-pro-max/data/stacks/javafx.csv",
+      "sha256": "2e819b8d5abdd23ad4dae0991650fdb57af497aabd68b37463aa9c442944c869",
+      "bytes": 33577
+    },
+    {
+      "path": "ui-ux-pro-max/data/stacks/jetpack-compose.csv",
+      "sha256": "699de218b286948eaec7d15767b6e1350ee299167e49bf476d82e3ff58724e0a",
+      "bytes": 12295
+    },
+    {
+      "path": "ui-ux-pro-max/data/stacks/laravel.csv",
+      "sha256": "854ea4daa5fc61292d22235ad33b49ba3fe22423c3de8d3cb03758ffed3b59f9",
+      "bytes": 20163
+    },
+    {
+      "path": "ui-ux-pro-max/data/stacks/nextjs.csv",
+      "sha256": "ecd2c27b2ea0127d203ae726060efcdd7335b5e83f96b99e4f3befbbfeebd5a4",
+      "bytes": 18687
+    },
+    {
+      "path": "ui-ux-pro-max/data/stacks/nuxt-ui.csv",
+      "sha256": "fce682a338cfcdbf35d318d20e5befbe7b5d81b05abc37f87677a6d9cde84dc6",
+      "bytes": 28700
+    },
+    {
+      "path": "ui-ux-pro-max/data/stacks/nuxtjs.csv",
+      "sha256": "3d9b54ed2d151bd9c86e9e5609b8a6f88a00c4c52fa601a30af96c49b2c4d176",
+      "bytes": 23014
+    },
+    {
+      "path": "ui-ux-pro-max/data/stacks/react-native.csv",
+      "sha256": "ba31dd9c0c04da6bc02a74448bf121f9c0728ae5ba3b4d47b487778b0a1135b5",
+      "bytes": 14049
+    },
+    {
+      "path": "ui-ux-pro-max/data/stacks/react.csv",
+      "sha256": "4dd176a9787e5c6306b5df94158d75955adcdc6edab41ce5286641a5842303c1",
+      "bytes": 21166
+    },
+    {
+      "path": "ui-ux-pro-max/data/stacks/shadcn.csv",
+      "sha256": "e56cfde5b74907836ac3582a4779d5b7f3d206a702ab81b8669a1b668c3eeb51",
+      "bytes": 23184
+    },
+    {
+      "path": "ui-ux-pro-max/data/stacks/svelte.csv",
+      "sha256": "f6e379ba802941ba26b01d4ffbe3cd39120f2587659a1d93851c707f66bc13db",
+      "bytes": 15078
+    },
+    {
+      "path": "ui-ux-pro-max/data/stacks/swiftui.csv",
+      "sha256": "bdd9231ff3ad658f4e7c063e1eb49df2fd09ac8d90631a86df899b39833b9623",
+      "bytes": 15323
+    },
+    {
+      "path": "ui-ux-pro-max/data/stacks/threejs.csv",
+      "sha256": "155d583b9c64da0df4b6c6cb060c02eab222505e0734d6353da02c9e2b5d982b",
+      "bytes": 46769
+    },
+    {
+      "path": "ui-ux-pro-max/data/stacks/uno.csv",
+      "sha256": "a0474363e4225b5367214d5675fd3e075f137026f9500f0d04357882ef4f6d48",
+      "bytes": 30091
+    },
+    {
+      "path": "ui-ux-pro-max/data/stacks/uwp.csv",
+      "sha256": "c409f08c1fbba1f1029f1acaa554e7b4471cc85517a5751c9f2e62465badcd5c",
+      "bytes": 24692
+    },
+    {
+      "path": "ui-ux-pro-max/data/stacks/vue.csv",
+      "sha256": "b655f1ebb9dff2652d15981f31b1784c8a6d4759efd2815a14f3088257569f95",
+      "bytes": 12813
+    },
+    {
+      "path": "ui-ux-pro-max/data/stacks/winui.csv",
+      "sha256": "e676dc1c13ee6c205c40b0746f1335150a346c7a49a0616d2545bc3d2c930c85",
+      "bytes": 27890
+    },
+    {
+      "path": "ui-ux-pro-max/data/stacks/wpf.csv",
+      "sha256": "9781a9950b20333637b30a02e498b7efca21b618a3eeb8665836f3ac6e974da7",
+      "bytes": 24158
+    },
+    {
+      "path": "ui-ux-pro-max/data/styles.csv",
+      "sha256": "a93a4d9d7025856575d7b7583bda020be9043013432c5af7c58af9dbdfb206b7",
+      "bytes": 149478
+    },
+    {
+      "path": "ui-ux-pro-max/data/typography.csv",
+      "sha256": "321fc446e89024488ebae96dda93efc4d2307bd8bddb240857ad51364f6782c8",
+      "bytes": 49997
+    },
+    {
+      "path": "ui-ux-pro-max/data/ui-reasoning.csv",
+      "sha256": "f0774dd741cecdad5eec842034bd6d5e9ea50e9f220a1910069748daa0bb8e9a",
+      "bytes": 77360
+    },
+    {
+      "path": "ui-ux-pro-max/data/ux-guidelines.csv",
+      "sha256": "ff81ec613f70ba9fc3fcce52dbe4ae35d44b2079dbe6dc066d2d6e38c28facd5",
+      "bytes": 27516
+    },
+    {
+      "path": "ui-ux-pro-max/references/pro-rules.md",
+      "sha256": "d28442d61c310b49c054a4ea736f89fb3008beebdbbc38c4b3a540b8f7fadf23",
+      "bytes": 10909
+    },
+    {
+      "path": "ui-ux-pro-max/references/quick-reference.md",
+      "sha256": "0609bc7c89dacb40472465d8fc14257b56b2c43439660fc8d6fa3b8c022e1876",
+      "bytes": 24526
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/core.py",
+      "sha256": "c3be4b23e7150e6b45095213158cfa3c8ad96502f01dde3f6ffff9de64a4f481",
+      "bytes": 41236
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/design_system.py",
+      "sha256": "e7d1c94c4b2eada17c5551157668362659ccf9626d34dbd58e68142410f90103",
+      "bytes": 71537
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/reasoning_contract.py",
+      "sha256": "b8bac1af82aa280d3e06f00aabaeac4337e632996b07fed874e2b6ee6e9c5913",
+      "bytes": 5824
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/search.py",
+      "sha256": "d54e648fe0ec2932cac66684220cc17be4bd4b4eba1d23d3195d509d398db374",
+      "bytes": 9373
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-api.json",
+      "sha256": "22d8dc81a7d6827b7e8b64b53e7d184210fb9759e8e294e0d5133c81cc460176",
+      "bytes": 1079
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-catalog.json",
+      "sha256": "c608ad5c4084ebc50a4bbbfb69ea2456c01fd5519c457e18410fffd250ae948f",
+      "bytes": 1772
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-existing.csv",
+      "sha256": "4e0761b839dc6b2187a370e82eddc0aed8a7ff10c09e28dd814bb3656dac595b",
+      "bytes": 480
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-metadata.json",
+      "sha256": "30bffc29ae348416a2de2f9c6c418e768e4578f136b0f4bac5d2f70124f2e9ba",
+      "bytes": 328
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/fixtures/catalogs/google-overrides.json",
+      "sha256": "6243a48a4619986768c4628e2d0c98ff195beba71ba9be5df8f0c52fc6d90c0b",
+      "bytes": 97
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/fixtures/catalogs/icons-curated.csv",
+      "sha256": "68362c9a700c13b96f000784a0198c1c7e117a7088a01c85744e44233038fe9d",
+      "bytes": 495
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-core.json",
+      "sha256": "ae4d0bb076240824e1b643c2270d1f8cc0952a69502ec1e622b7dedd85b930bb",
+      "bytes": 571
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-package.json",
+      "sha256": "500588c757d6de03e3d7e69b27a8b8b1f88ccf6bb0333e4c1e9b0d6a4f112475",
+      "bytes": 370
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-react-exports.json",
+      "sha256": "d79f2ee0afdbc2f87776733e145df3538a16a25d7c2fba0056bb48295dad0ded",
+      "bytes": 87
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/fixtures/catalogs/phosphor-react-package.json",
+      "sha256": "1c57a1d76bcc0cdd3632d4c18b9c0e79576b4591df39831c9607e5d0eb4f2cec",
+      "bytes": 81
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/fixtures/relevance-baseline.json",
+      "sha256": "0df200fc54c1cb97a52d6775e7f501509163cea8f8b73fd7268429bc1f835afe",
+      "bytes": 89426
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/fixtures/relevance-cases.json",
+      "sha256": "e77d36eebbf6ddc2860946a02cdb659351da6c09f2688f1ed30939a418099646",
+      "bytes": 36734
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/fixtures/relevance-thresholds.json",
+      "sha256": "1fbe8623fe3e49c8d828139bca9df69043746e488e8bf09d93dfb9cbc31f5cef",
+      "bytes": 5079
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/test_catalog_refresh.py",
+      "sha256": "3e2ca5d12702318f641ae62d0c14f22a3bcc84d84e79b863c0e947d475604adb",
+      "bytes": 19466
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/test_catalog_summary_line_endings.py",
+      "sha256": "fa6ff09f0ec2c99013588c77397f5082dddebe8f467e94c5f8378ec9595f4989",
+      "bytes": 2947
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/test_core.py",
+      "sha256": "3527fe2f4b852f69f07c17ddc0d615d9a6e025c924e45a33985579a94a8d2118",
+      "bytes": 16680
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/test_core_data_quality.py",
+      "sha256": "3ffc6b4905c9ea26d7ac4527ab154d153584231aee71b2ae4bd017977fa09cc5",
+      "bytes": 8954
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/test_data_contracts.py",
+      "sha256": "0360d6e10080c0bca214f2b0bbad582ba50702a542ce21013351aca54938df3a",
+      "bytes": 19513
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/test_design_system_mode.py",
+      "sha256": "95ad2c154349f7021f55a558f8dcdd71df1a24fcf531a4364a8e49526a0865ef",
+      "bytes": 9815
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/test_design_system_stack.py",
+      "sha256": "83d09ffe8cfbf7b265f362129f061dfe8e5e167ce5db43adaead197cabc9ca38",
+      "bytes": 2261
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/test_native_desktop_stack_freshness.py",
+      "sha256": "3942845712b9a829323cd3568511483135f2a8c7cd79ccf61679da4b0f624dbb",
+      "bytes": 8375
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/test_relevance_evaluator.py",
+      "sha256": "2fe56a4d6fe5fff15ff592274b0eeaba925146cefea6c0fa29d8f1b77c9aca1f",
+      "bytes": 8430
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/test_skill_script_paths.py",
+      "sha256": "7cec24b94be771bc60bc84f8993e614bb16d4047930e1dd3d3bed91628311d44",
+      "bytes": 4305
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/test_style_taxonomy.py",
+      "sha256": "cd14d0092e8a454d213aa104b53e4e70ba698491fa00fde9fdec5ca8a3d70011",
+      "bytes": 7425
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/test_text_layout_resilience.py",
+      "sha256": "b51d32ee8a15505b87cb81957fb2d1b385e041e8beb4463c311d236bfd29ebd4",
+      "bytes": 5874
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/tests/test_web_stack_freshness.py",
+      "sha256": "74897571398585f27e2c35d09d81b0a531c8c774f4a2967e5e1b1d1b05a483d9",
+      "bytes": 7701
+    },
+    {
+      "path": "ui-ux-pro-max/scripts/validate_data.py",
+      "sha256": "a599aa256049cf30954d1f164721b99e453eb7e4cb8241bcab2d5573e6cf58b8",
+      "bytes": 52230
+    },
+    {
+      "path": "ui-ux-pro-max/SKILL.md",
+      "sha256": "de3d84eca4f73213cda764397eee76bf487a0ee9bb472ffda3ede8777012a763",
+      "bytes": 15859
+    },
+    {
+      "path": "ui-ux-pro-max/upstream-license/LICENSE",
+      "sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014",
+      "bytes": 1075
+    }
+  ],
+  "portable_adaptations": [
+    "kit/skills/media-buying-business-diagnosis/SKILL.md",
+    "kit/skills/media-buying-business-diagnosis/references/calculs.md",
+    "kit/skills/media-buying-business-diagnosis/references/methode.md",
+    "kit/skills/media-buying-client-intake/SKILL.md",
+    "kit/skills/media-buying-client-intake/references/brief.md",
+    "kit/skills/media-buying-consumer-behaviour/SKILL.md",
+    "kit/skills/media-buying-consumer-behaviour/references/apres-achat.md",
+    "kit/skills/media-buying-content-planning/SKILL.md",
+    "kit/skills/media-buying-customer-journey/SKILL.md",
+    "kit/skills/media-buying-customer-journey/references/acquisition.md",
+    "kit/skills/media-buying-customer-profile/SKILL.md",
+    "kit/skills/media-buying-customer-profile/references/value-map-et-provenance.md",
+    "kit/skills/media-buying-ecommerce-analysis/SKILL.md",
+    "kit/skills/media-buying-leadgen-analysis/SKILL.md",
+    "kit/skills/media-buying-monetization/SKILL.md",
+    "kit/skills/media-buying-monetization/references/modele-et-calculateur.md",
+    "kit/skills/media-buying-value-map/SKILL.md",
+    "kit/skills/media-buying-value-map/references/fit.md",
+    "kit/skills/media-buying-value-map/references/provenance.md",
+    "kit/skills/ui-ux-pro-max/SKILL.md"
+  ]
+}

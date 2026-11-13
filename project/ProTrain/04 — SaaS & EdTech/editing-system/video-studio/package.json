@@ -1,0 +1,31 @@
+{
+  "name": "protrain-video-studio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "studio": "node node_modules/@remotion/cli/remotion-cli.js studio src/index.ts",
+    "versions": "node node_modules/@remotion/cli/remotion-cli.js versions",
+    "check": "node node_modules/typescript/bin/tsc --noEmit",
+    "practice:prepare": "powershell -NoProfile -File scripts/prepare-practice.ps1",
+    "practice:render": "node scripts/render-practice.mjs",
+    "practice:verify": "python scripts/verify-practice.py",
+    "render:check": "node node_modules/@remotion/cli/remotion-cli.js render src/index.ts InstallationCheck out/installation-check.mp4 --is-production=false",
+    "still:check": "node node_modules/@remotion/cli/remotion-cli.js still src/index.ts InstallationCheck out/installation-check.png --frame=45 --is-production=false"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.543",
+    "@remotion/captions": "4.0.543",
+    "@remotion/cli": "4.0.543",
+    "@remotion/media": "4.0.543",
+    "@remotion/renderer": "4.0.543",
+    "@remotion/transitions": "4.0.543",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.543"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "7.0.2"
+  }
+}

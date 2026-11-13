@@ -1,0 +1,25 @@
+=== protrain-match-profile-a01-v1-prompt.txt ===
+Use case: ads-marketing
+Asset type: first ProTrain Match paid-social static prototype, portrait 4:5, 1200x1500.
+Input image 1 is supporting original logo artwork. Preserve its exact design and lettering, unobstructed on a small clean white area at top left. Do not redesign or redraw the logo.
+Primary request: create an exceptional polished Moroccan education ad explaining academic profile -> reasoned study-program recommendations in France. Premium credible editorial design, warm ivory #F6F4EE, forest #0F2A1F, green #0A6B43, restrained amber #F2A541. Cairo-style clean bold Arabic and Poppins Latin. Strong readable hierarchy, generous space, deliberate asymmetrical editorial composition, RTL Arabic.
+Upper portion: compact logo at left, small green Arabic kicker at right. Large powerful dark-green headline at upper right/center with one restrained amber typographic accent.
+Middle: attractive believable Moroccan adult woman student age 20-23, casually dressed in white shirt, natural dark hair, thoughtful relaxed confident expression, looking at open notebook at a real table. Photoreal editorial natural daylight, realistic skin, contemporary study environment, no graduation gown, no Eiffel tower, no French landmarks. Student photographic cutout integrated artfully into ivory background. Place alongside a simple conceptual paper motif: one ivory academic folder/paper with abstract lines and three fanning plain sheets, implying profile and recommendations. NO screen, app screenshot, dashboard, fake product interface or cards. No text or grades on the papers.
+Lower portion: concise Arabic support copy in two readable lines, then generous dark-green CTA bar with white Arabic, no arrow. Small product label ProTrain Match placed coherently near the support copy.
+All text, verbatim and no additional words:
+Kicker: "الدراسة ففرنسا"
+Headline in two lines: "الباك والنقط ديالك…"
+"شنو التكوينات المناسبة؟"
+Product label: "ProTrain Match"
+Supporting copy: "اقتراحات حسب ملفك الدراسي،"
+"مع الأسباب والشروط والخطوات"
+CTA: "اكتاشف التكوينات المناسبة ليك"
+Ensure natural correct connected Arabic glyphs, text exact, clear spacious layout readable on a phone. Avoid excessive small type. No prices, free offers, dates, deadlines, invented programs, results, specific marks, admission guarantees, success percentages, testimonials, emojis, watermarks. This is an explanatory concept, not a report screenshot. Preserve original logo artwork. Deliver one complete finished 4:5 ad image.
+
+
+=== protrain-match-profile-a01-v2-prompt.txt ===
+Edit image 1, the complete ProTrain Match ad. Change ONLY the top-left logo. Remove its generated/redrawn ProTrain logo and replace it with the exact original logo artwork from image 2. Treat image 2 as a pixel-exact supplied brand insert, not a style reference: preserve its complete cap symbol, circular arcs, wordmark lettering, Arabic tagline and proportions. Place it small and crisp with generous breathing room on the existing clean pale background. Do not redesign the logo. Keep all other image 1 pixels, composition, portrait, papers, typography, Arabic copy and colors unchanged. No additional text. Retain portrait 4:5.
+
+
+=== protrain-match-profile-a01-v3-prompt.txt ===
+Edit the supplied complete ProTrain Match advertisement. Remove ONLY the small corporate ProTrain logo at the upper-left corner (cap, arcs, ProTrain wordmark and tiny tagline). Fill that vacated corner with a seamless continuation of the existing warm ivory background. Leave it blank. Preserve ALL remaining photography, student, paper folder, Arabic headline, kicker, support copy, CTA, exact typography, colors, dimensions, layout and the large ProTrain Match product label unchanged. Do not add any logo, new words or decorations. This is a surgical removal of the upper-left corporate logo only.

@@ -1,0 +1,26 @@
+{
+  "mode": "forecast",
+  "context": {
+    "currency": "EGP (illustration du cours)",
+    "period": "scénario sans horizon temporel fourni",
+    "source": "capture Forecasting fournie par le propriétaire le 2026-10-25 ; hypothèses de cours",
+    "cost_scope": "coût simplifié 120 par vente, budget média compté séparément",
+    "excluded_costs": ["charges fixes non fournies", "taxes/financement non fournis"]
+  },
+  "ad_budget": 200000,
+  "cpc": 1,
+  "non_ad_cost_per_order": 120,
+  "period_fixed_costs": 0,
+  "upo": 1,
+  "conversion_event": "sale_in_simplified_model",
+  "scenarios": [
+    {"id":"p250","price_unit":250,"cvr":0.04},
+    {"id":"p300","price_unit":300,"cvr":0.035},
+    {"id":"p350","price_unit":350,"cvr":0.03},
+    {"id":"p400","price_unit":400,"cvr":0.025},
+    {"id":"p450","price_unit":450,"cvr":0.02},
+    {"id":"p500","price_unit":500,"cvr":0.015},
+    {"id":"p550","price_unit":550,"cvr":0.01},
+    {"id":"p600","price_unit":600,"cvr":0.005}
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "work-item",
+  "title": "Prepare a scoped deliverable",
+  "owner": "Project owner",
+  "mode": "light",
+  "domain": "general",
+  "brief": {
+    "goal": "State the specific decision or outcome the work should enable.",
+    "deliverable": "Name the reviewable artifact and its destination inside the selected lane.",
+    "in_scope": ["The requested deliverable"],
+    "out_of_scope": ["External publication unless separately authorized"],
+    "inputs": ["Existing project brief and supplied source material"],
+    "missing_inputs": [],
+    "acceptance": ["The result answers the requested decision with supporting evidence"]
+  },
+  "priority": {
+    "impact": 3,
+    "urgency": 3,
+    "effort": 2,
+    "reason": "Example ratings only; replace with the actual impact, deadline and effort rationale."
+  },
+  "next_action": "Inspect the available inputs and produce the scoped first version."
+}

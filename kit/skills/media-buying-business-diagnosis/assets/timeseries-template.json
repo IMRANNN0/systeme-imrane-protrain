@@ -1,0 +1,15 @@
+{
+  "scope": {
+    "project_id": "TO_FILL",
+    "offer": "TO_FILL",
+    "market": "TO_FILL"
+  },
+  "metric": "TO_FILL",
+  "unit": "TO_FILL",
+  "source": "TO_FILL",
+  "frequency": "month",
+  "horizon": 3,
+  "holdout": 3,
+  "seasonal_period": null,
+  "observations": []
+}

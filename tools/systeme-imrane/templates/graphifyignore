@@ -1,0 +1,21 @@
+# Toolkit always enforces these plus other registered lanes, regardless of scope.
+.git/
+.agents/
+.claude/
+.codex/hooks.json
+node_modules/
+.venv/
+__pycache__/
+dist/
+build/
+tmp/
+secrets/
+graphify-out/
+*.env
+*.key
+*.png
+*.jpg
+*.webp
+*.avif
+*.mp4
+*.pdf

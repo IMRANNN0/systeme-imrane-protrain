@@ -1,0 +1,4 @@
+interface:
+  display_name: "Data Analysis Process"
+  short_description: "Turn marketing data into supported next decisions"
+  default_prompt: "Use $media-buying-data-analysis-process to analyze the supplied data for my decision and explain the evidence, limitations and next action."

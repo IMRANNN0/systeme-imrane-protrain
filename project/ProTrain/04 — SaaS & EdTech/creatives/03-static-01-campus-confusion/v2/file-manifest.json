@@ -1,0 +1,112 @@
+[
+  {
+    "file": "brief-and-review.json",
+    "bytes": 6941,
+    "sha256": "fbbea893f517f6bff1550ee6fa19f240f8a66d18779a5a6775fd28303d6c373f"
+  },
+  {
+    "file": "comparison-v1-original.png",
+    "bytes": 891409,
+    "sha256": "c66e6e5ba4ffedc24d572f8e77ce2cfa191eab974de6efab3d80280f1b1ee167"
+  },
+  {
+    "file": "comparison.html",
+    "bytes": 850,
+    "sha256": "ddae6bcefc4d2c504d8326fd3e222b54a81a9ce3888985383d6be82fc3a3b402"
+  },
+  {
+    "file": "Creative01V1-vs-V2-comparison.png",
+    "bytes": 1493172,
+    "sha256": "56dceaf4f91e379f123dd26c04f5ea589dd6ff892d72d6559c7ae5a0a84eef53"
+  },
+  {
+    "file": "Creative01V2-phone-preview.png",
+    "bytes": 145015,
+    "sha256": "378c7037f5aab5661c4f785fe8be757c7a57cdd4be722a7364ceb4bb892d0a40"
+  },
+  {
+    "file": "Creative01V2.html",
+    "bytes": 5037,
+    "sha256": "f63ce473e020717cb0124b699e317cfcd0f540bea68ef50cf0619d8c74136bba"
+  },
+  {
+    "file": "Creative01V2.png",
+    "bytes": 578019,
+    "sha256": "80af3a38fb10a22e89a25963ed6acdfbc779a187e49989cbcb6ca46d74dd0e83"
+  },
+  {
+    "file": "landing-claim-check.json",
+    "bytes": 1357,
+    "sha256": "c7ca4a020719470c142d1da7754afd844a7d4be4fa76609cb6727bfa225580fb"
+  },
+  {
+    "file": "lesson-delta.json",
+    "bytes": 1174,
+    "sha256": "931ec322344588e6ffaf49062208ce819b91546f88aff89b36233290d3af5349"
+  },
+  {
+    "file": "original-photo-prompt.txt",
+    "bytes": 2075,
+    "sha256": "686db95a312e7c3bf635a302d18dbe6f666ae309bdaaf357bcc2a1b6fbe2ae8a"
+  },
+  {
+    "file": "README.txt",
+    "bytes": 2707,
+    "sha256": "a3338da66d2765f17eb403ae34674a43e5151d53a3b87e0d87990d33b89c8572"
+  },
+  {
+    "file": "render-checks.json",
+    "bytes": 8218,
+    "sha256": "4b32598608317d5e811b88b1332bf0079983cb400c81e81b398b7dceda974271"
+  },
+  {
+    "file": "render.cjs",
+    "bytes": 5429,
+    "sha256": "7703f2d5d12929d2f6ddcd814124e67b1a393bb8ab9fef2e5b35ee8348e1ed74"
+  },
+  {
+    "file": "v1-preservation-check.json",
+    "bytes": 1204,
+    "sha256": "a3325262028555d67c0dec4d0d3caf2c1d98494be74824685c37ab6a87e2acde"
+  },
+  {
+    "file": "assets/cairo-arabic.woff2",
+    "bytes": 30896,
+    "sha256": "748022f50c427456ad66031e855349be3448ee1f05a5f1eb59574ebe0c686749"
+  },
+  {
+    "file": "assets/Cairo-OFL.txt",
+    "bytes": 4473,
+    "sha256": "a4554e1799d42e1405924b61eb0e0722ae1623b1f1f07f995348f96c496362a9"
+  },
+  {
+    "file": "assets/poppins-latin-600-normal.woff2",
+    "bytes": 8000,
+    "sha256": "f4e80d9dfd374d02989b87a27b5ed4cb78fbb177c27f1478e9a8b0afb7513149"
+  },
+  {
+    "file": "assets/poppins-latin-ext-600-normal.woff2",
+    "bytes": 5524,
+    "sha256": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171"
+  },
+  {
+    "file": "assets/Poppins-OFL.txt",
+    "bytes": 4385,
+    "sha256": "6be04893d770899a015649c7aa3b582f871b272f8747a92b78b17c3e5c8b2573"
+  },
+  {
+    "file": "assets/poppins-provenance.json",
+    "bytes": 790,
+    "sha256": "56cb32458ee1547a4f4ef1ad38d18ee9a18c9bea9aeea5c1ce381311bfe9f13c"
+  },
+  {
+    "file": "assets/protrain-original-logo.png",
+    "bytes": 14857,
+    "sha256": "abef7b2488f244b00306eda0ca864f743c47f2e623db8ab8b5cc785021575e46"
+  },
+  {
+    "file": "assets/student-comparing-original.png",
+    "bytes": 2067395,
+    "sha256": "c18ef2580a1c6c91c34b06b67b4597a3c6c11b5e873d31ba1a6c50d057aa850b"
+  }
+]

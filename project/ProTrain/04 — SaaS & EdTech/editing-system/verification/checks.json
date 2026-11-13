@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-12",
+  "structural_checks": "passed",
+  "script03_matches_google_doc": true,
+  "source_url": "https://docs.google.com/document/d/1efhMtUBsxQAT9kcat7iE78GZVEBp28G4U5MkunB7qUk",
+  "spoken_beats": 7,
+  "independent_review": "Accepted storyboard; controller then verified seven spoken cells against existing Google Doc.",
+  "official_validator": "Unavailable because PyYAML is missing. No dependency installed. Separate structural checks passed.",
+  "tools": {
+    "ffmpeg": "9.0.2 installed; H.264 render and Arabic libass subtitles tested",
+    "node": "installed",
+    "canva": "connector available; unused",
+    "dedicated_editor_mcp": "No CapCut/Premiere/DaVinci connector found in exposed inventory",
+    "remotion": "not resolvable from project"
+  },
+  "render_test": {
+    "artifact": "arabic-check.mp4",
+    "duration_seconds": 3,
+    "width": 540,
+    "height": 960,
+    "fps": 25,
+    "audio": "none",
+    "image_review": "Joined glyphs and correct Arabic direction observed at 1.5s. Technical test, no approved brand style."
+  },
+  "status": "Workflow, profile and example prepared. Actual client video pending."
+}

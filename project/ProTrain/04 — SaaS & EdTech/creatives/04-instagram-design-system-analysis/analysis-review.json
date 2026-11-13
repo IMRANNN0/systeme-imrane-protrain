@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-13",
+  "status": "ANALYSIS_COMPLETE_NOT_CREATIVE_APPROVAL",
+  "independent_review": "Controller viewed supplied collection, then decoded #32 and #29 originals at full size; reviewed worker evidence and independently sampled #32 pixels.",
+  "sample_method": "Pillow RGB, per-channel median and exact RGB mode, no source edits",
+  "independent_samples": [
+    {
+      "roi": [
+        70,
+        665,
+        150,
+        705
+      ],
+      "role": "green ribbon",
+      "mode": "#017950",
+      "median": [
+        5,
+        121,
+        82
+      ]
+    },
+    {
+      "roi": [
+        75,
+        792,
+        130,
+        825
+      ],
+      "role": "yellow ribbon",
+      "mode": "#F9CB30",
+      "median": [
+        249,
+        203,
+        48
+      ]
+    },
+    {
+      "roi": [
+        55,
+        907,
+        90,
+        965
+      ],
+      "role": "white ribbon",
+      "mode": "#FFFFFF",
+      "median": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "roi": [
+        180,
+        160,
+        210,
+        200
+      ],
+      "role": "clear paper",
+      "mode": "#EFEFEF",
+      "median": [
+        234,
+        234,
+        234
+      ]
+    },
+    {
+      "roi": [
+        0,
+        1040,
+        190,
+        1080
+      ],
+      "role": "green footer",
+      "mode": "#017950",
+      "median": [
+        1,
+        121,
+        80
+      ]
+    }
+  ],
+  "type_ink_measurement": {
+    "method": "Approximate rotate-normalized coordinate v=round(y+0.077x), x45..810; count thresholded glyph pixels per v, retaining rows with >15 pixels. Ink spans are not font sizes.",
+    "green_band_white_ink_px": 34,
+    "yellow_band_green_ink_px": [
+      37,
+      38
+    ],
+    "white_band_green_ink_px": [
+      48,
+      37
+    ],
+    "thresholds": "Hook min(R,G,B)>225 in v658..732; yellow R<65, 50<G<130, B<95 in v752..865; white R<65,50<G<145,B<100 in v886..1009.",
+    "limits": "Antialiasing, accents, descenders, texture, imperfect rotation and lossy decoding affect spans; original CSS font sizes/weights remain unknown."
+  },
+  "contrast": {
+    "sampled_white_on_flat_green": 5.45,
+    "note": "Reference yellow-ribbon text is visibly darker than flat ribbon green. Do not substitute #017950 for glyph ink or treat its imperfect filtered median as an official token. Final rendered text colors/contrast need verification."
+  },
+  "missing_optional_measurement_tools": "Python fontTools unavailable; Pillow RAQM unavailable in this environment. No installation attempted. No Arabic shaping or copy-fit pass claimed.",
+  "source_search_scope": "D:/Instagram plus this component. No matching original editable source located; does not rule out sources elsewhere or in Canva accounts.",
+  "originals_unchanged": true,
+  "not_performed": [
+    "template reconstruction",
+    "image generation",
+    "V4 export",
+    "mixed-script export QA",
+    "mobile creative export QA",
+    "form input/submission",
+    "matching/report generation",
+    "payment",
+    "publication",
+    "Creative02"
+  ]
+}

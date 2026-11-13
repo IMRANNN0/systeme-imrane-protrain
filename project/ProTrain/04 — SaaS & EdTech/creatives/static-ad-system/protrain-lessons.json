@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "recorded_on": "2026-11-13",
+  "purpose": "Consult before and after future ProTrain static ad production",
+  "source": {
+    "owner_feedback": "Owner rejected the v3 creative direction and requested durable retention of the mistakes",
+    "lesson_provenance": "The ten observations combine assistant self-critique retained at the owner's request and the owner's rejection/preferences, supplied through the controller handoff. They are normalized lessons, not ten verbatim owner quotations.",
+    "review_file": "creatives/02-match-profile-a01/review.json",
+    "image_file": "creatives/02-match-profile-a01/protrain-match-profile-a01-v3-final.png",
+    "sha256": "e567c71b5b2eb07547f1185b94529829ad6d91e8f8c4c4a2002c5062a4f24905",
+    "actual_image_inspected": true,
+    "original_files_modified": false
+  },
+  "creative_status": "REJECTED_BY_OWNER",
+  "status_scope": "Creative direction, not revocation of the earlier Arabic legibility checks",
+  "earlier_review": {
+    "retained_checks": [
+      "Arabic connected and readable",
+      "No invented admission guarantee or testimonial",
+      "Visually consistent green, ivory and amber"
+    ],
+    "insufficient_for_approval": [
+      "Legibility",
+      "Absence of false claims",
+      "Palette resemblance"
+    ],
+    "unpassed_flaws": [
+      "Corporate logo absent",
+      "Real report proof absent",
+      "Purchase performance untested",
+      "Exact generated font unverifiable",
+      "Owner rejected creative direction"
+    ]
+  },
+  "lessons": [
+    {
+      "id": "PT01",
+      "failure": "Generic wide hook about studying in France and suitable formations",
+      "prevention": "Select a concrete decision or question for a specific motivation subprofile",
+      "review_question": "Could this hook belong unchanged to almost any study-abroad service?"
+    },
+    {
+      "id": "PT02",
+      "failure": "Academic profile to explained recommendation mechanism was not depicted",
+      "prevention": "Show the relationship between profile inputs and an explained recommendation using verified evidence or a clearly labelled educational diagram",
+      "review_question": "Can the viewer see why a recommendation relates to a profile?"
+    },
+    {
+      "id": "PT03",
+      "failure": "Dominant passive portrait had no persuasion role",
+      "prevention": "Give any person an observable decision, interaction, or evidence-related role, or allocate that space to the mechanism",
+      "review_question": "What does this person communicate beyond being a student?"
+    },
+    {
+      "id": "PT04",
+      "failure": "Floating oversized folder had implausible scale and unclear meaning",
+      "prevention": "Use identifiable objects at meaningful scale and distinguish illustration from the actual report",
+      "review_question": "Can someone identify the object and its relevance without explanation?"
+    },
+    {
+      "id": "PT05",
+      "failure": "Generic kicker and decorative underline added little meaning",
+      "prevention": "Require supporting labels and emphasis marks to clarify a specific message or reading order",
+      "review_question": "What information or useful emphasis disappears if this kicker or underline is removed?"
+    },
+    {
+      "id": "PT06",
+      "failure": "Accumulated stereotyped template motifs weakened specificity",
+      "prevention": "Choose a coherent visual argument and justify each motif by its job",
+      "review_question": "Which elements make the mechanism clearer, and which merely make it look like an ad?"
+    },
+    {
+      "id": "PT07",
+      "failure": "Too many heavy text tiers competed",
+      "prevention": "Establish a dominant hook, readable proof, and a distinct next action with deliberate weight differences",
+      "review_question": "At phone size, is the first read obvious and the explanation still usable?"
+    },
+    {
+      "id": "PT08",
+      "failure": "CTA repeated the broad benefit instead of naming the next action",
+      "prevention": "Match the CTA to the real destination and the user's next step",
+      "review_question": "Does the viewer know what opens after tapping?"
+    },
+    {
+      "id": "PT09",
+      "failure": "Decoration replaced missing real product proof",
+      "prevention": "Block proof-led production until the actual report asset is supplied; use visibly marked placeholders only for preparation",
+      "review_question": "Is every area presented as product proof a genuine supplied product asset?"
+    },
+    {
+      "id": "PT10",
+      "failure": "Technical-only review missed strategic weakness; removing the inaccurate generated logo weakened the brand",
+      "prevention": "Choose editable text and original corporate logo layers at the start; assess persuasion and technical fidelity separately",
+      "review_question": "Have both creative direction and technical fidelity passed, with the original corporate logo present?"
+    }
+  ],
+  "owner_preferences": {
+    "scope": "These rejected manifestations, not universal prohibitions",
+    "disliked_here": [
+      "Generic passive student portrait",
+      "Unclear oversized floating folder",
+      "Generic kicker with decorative underline",
+      "Accumulated template decoration",
+      "Heavy competing text tiers"
+    ],
+    "not_generalized_to_bans": [
+      "All portraits",
+      "All paper or folders",
+      "All underlines",
+      "Ivory backgrounds",
+      "Cards",
+      "Any fixed number of creative variants"
+    ]
+  },
+  "future_consultation": {
+    "before": "Read all lesson sections, revision_lessons, latest owner feedback and active-creative.json before defining the next brief or generation prompt",
+    "after": "Review actual output against the original lessons and revision_lessons, then write a dated review tied to the exact artifact hash; keep owner approval separate",
+    "after_owner_feedback": "Append narrow observations and update status without deleting historical evidence"
+  },
+  "subsequent_cases": [
+    {
+      "creative": "Creative01V1",
+      "date": "2026-11-13",
+      "status": "NOT_APPROVED_REVISION_REQUESTED",
+      "artifact": "creatives/03-static-01-campus-confusion/v1/Creative01V1.png",
+      "sha256": "c66e6e5ba4ffedc24d572f8e77ce2cfa191eab974de6efab3d80280f1b1ee167",
+      "changes_from_rejected_treatment": [
+        "Exact supplied logo and editable type chosen from start",
+        "Active laptop comparison and restrained illustrative domain cards",
+        "Latest owner copy preserved and checked separately from visual bidi order",
+        "Strategic limitations retained even after technical checks pass"
+      ],
+      "remaining_limits": [
+        "Support text is about13px in360px preview and less prominent than hook",
+        "Cards are generic domain examples, not actual matching results",
+        "The profile-to-recommendation mechanism is stated rather than demonstrated",
+        "Free-entry CTA could attract free-only users; paid-report conversion remains untested"
+      ],
+      "implementation_note": "A space at each manual line break was required for exact logical copy; visual fidelity alone did not validate source wording",
+      "scope_note": "Latest user explicitly authorizes illustrative student/cards. Do not generalize old floating-folder rejection into a card ban.",
+      "owner_feedback_on_v1": {
+        "direction": "Promising, not approved",
+        "visual_bidi": "Arabic/French rendering visually incorrect despite prior logical-copy pass",
+        "hierarchy": "Photo occupies too much space",
+        "support": "Too small; replace with latest specific free-entry instruction",
+        "cta": "Retain exact CTA, check colors against available brand assets",
+        "cards": "Keep conceptual choices and make illustrative status explicit"
+      }
+    },
+    {
+      "creative": "Creative01V2",
+      "date": "2026-11-13",
+      "status": "AWAITING_IMRAN",
+      "artifact": "creatives/03-static-01-campus-confusion/v2/Creative01V2.png",
+      "sha256": "80af3a38fb10a22e89a25963ed6acdfbc779a187e49989cbcb6ca46d74dd0e83",
+      "corrections": [
+        "Fixedexplicitmixed-scriptandpunctuationlayout",
+        "Reducedphotodominance",
+        "New55pxsupport",
+        "Source-basedamberCTAretained7.46contrast",
+        "Illustrativecardsretained"
+      ],
+      "remaining_limits": [
+        "Compactbrandtagline/cardlabelarestillsecondaryatsmallfeedsize",
+        "Genericdomaincardsillustratechoiceoverloadratherthanactualmatching",
+        "Paidpurchaseeffectivenessuntested"
+      ],
+      "V1_status": "Notapproved;originalPNGpreserved"
+    },
+    {
+      "creative": "Creative01V4",
+      "date": "2026-11-13",
+      "status": "AWAITING_IMRAN_REVIEW",
+      "artifact": "creatives/03-static-01-campus-confusion/v4/Creative01V4.png",
+      "sha256": "8a98387030518d91ba457deaffa3a1b154017335ee0ab35af54055f8ab5e1f5b",
+      "scope": "One preview based on selected actual Instagram32, after owner go-ahead. Not a new identity.",
+      "method": "Keep original photo/background/logo/footer plate, native editable copy and choice interiors; no new photo generation.",
+      "review": {
+        "date": "2026-11-13",
+        "status": "PREVIEW_REVIEWED_AWAITING_IMRAN",
+        "full_and_phone_images_viewed": true,
+        "viewed": [
+          "Creative01V4.png",
+          "Creative01V4-phone-preview.png",
+          "reference32-vs-Creative01V4-comparison.png"
+        ],
+        "sha256": "8a98387030518d91ba457deaffa3a1b154017335ee0ab35af54055f8ab5e1f5b",
+        "observed": [
+          "Original student, photograph, paper background, logo, ribbon geometry and footer visually preserved against the single selected reference.",
+          "Hook reads from right to left as intended; Campus France and Formations retain Latin reading order; one final Arabic question mark only.",
+          "Promise reads in two explicit lines with connected Arabic; CTA reads with intended word separation and correct French order.",
+          "Full and phone exports show no old ribbon wording or country flag rims after correction.",
+          "Academic symbols are conceptual choices rather than product recommendations or proof.",
+          "Exact-current-copy layout uses two hook lines instead of source reference's single French line; this is a disclosed preview adaptation, not exact font reconstruction."
+        ],
+        "corrected_in_same_candidate": [
+          "Thin original flag-color halos initially remained outside replacement disks; opaque coverage expanded 1–3 source pixels.",
+          "Promise line break balanced to allow 42.5 output-pixel type, about14.2px at phone width360.",
+          "CTA DOM originally omitted literal spaces between isolated runs; corrected while retaining visible controlled gaps."
+        ],
+        "calculated_contrast": {
+          "white_on_green": 5.45,
+          "dark_green_on_yellow": 4.51,
+          "dark_green_on_white": 6.96
+        },
+        "limitations": [
+          "Hybrid source: text, field symbols, label and clearing vectors editable; original photo/background/logo/ribbon edges/footer remain a flattened raster plate.",
+          "Cairo/Poppins are documented brand fallbacks, not verified original Instagram typefaces; type size/line count adapted explicitly for exact mixed-script copy.",
+          "Circle labels, corporate tagline and Match label remain secondary at phone size; small pictograms provide field context.",
+          "Reference photo is864x1080 scaled uniformly to1080x1350; original softness remains.",
+          "Historical phone/www.protrain.ma footer retained; not confirmed as appropriate current Match destination. This is a review preview, not launch-ready campaign material.",
+          "Matching mechanism is expressed by copy; no real report/product output or purchase-performance proof."
+        ],
+        "owner_approval": false,
+        "publication": false
+      },
+      "owner_approval": false
+    },
+    {
+      "creative": "Creative01V5",
+      "date": "2026-11-13",
+      "status": "OWNER_DISSATISFIED_NOT_APPROVED",
+      "artifact": "creatives/03-static-01-campus-confusion/v5/Creative01V5.png",
+      "sha256": "92d8f90749b0417159971294c1b9c4d42a8d7bcfd132890e1820c345bc5720cf",
+      "owner_feedback": "Replace code-drawn academic symbols by generated images and place them into the creative",
+      "correction": "Five actual built-in ImageGen raster assets generated, saved with provenance and composited inside original circles",
+      "review": {
+        "date": "2026-11-13",
+        "status": "ACTUAL_V5_PREVIEW_REVIEWED_AWAITING_IMRAN",
+        "full_and_phone_images_viewed": true,
+        "sha256": "92d8f90749b0417159971294c1b9c4d42a8d7bcfd132890e1820c345bc5720cf",
+        "asset_origin": "Built-in ImageGen, five independent transparent photographic raster assets; full exact prompts and original saved paths in imagegen-provenance.json.",
+        "observed": [
+          "Laptop, flask, brass scales, calculator and open book replaced five vector symbols in their original circles.",
+          "Arabic/French full and phone reading remains identical to V4.",
+          "No clipped objects or visible original flag remnants.",
+          "Original logo/student/photo/ribbon layout/footer remain visually unchanged; pixel comparison confirms zero differences outside circles."
+        ],
+        "technical_checks": {
+          "changedInsideAcademicCircles": 13687,
+          "changedOutsideAcademicCircles": 0
+        },
+        "all_originals_unchanged": true,
+        "limitations": [
+          "Info object is smallest in locked circle; tiny field names remain secondary at phone size.",
+          "Objects are illustrative generated assets, not real Match recommendations or product proof.",
+          "Existing hybrid raster plate, source softness, brand fallback fonts and historical footer limitations remain."
+        ],
+        "generated_assets": [
+          {
+            "file": "assets/generated-droit.png",
+            "sha256": "cea7d06f03110b51cb90be07b3e3179f7aff9621e10c0f033bef44969670e1e3"
+          },
+          {
+            "file": "assets/generated-gestion.png",
+            "sha256": "0dd0468b7fe285277a64489a0876cb309f77e6217c39c254658d985b1212a608"
+          },
+          {
+            "file": "assets/generated-info.png",
+            "sha256": "2902cb6ed99e9f0d06d2cae35896e9f6a2bdb2a0b5ec3ff14d6c5dfb42566236"
+          },
+          {
+            "file": "assets/generated-lettres.png",
+            "sha256": "6e1a9240b6f6d163ebce2f49ca638e39cc8df5e989f58b35ebe9d23d7591e3bb"
+          },
+          {
+            "file": "assets/generated-sciences.png",
+            "sha256": "53365a35d9f48344087a3ef4e4fae96cbd1ecc2b2fdd9aa3d891eb07a92c3dd7"
+          }
+        ],
+        "owner_approval": false,
+        "publication": false
+      },
+      "owner_approval": false,
+      "owner_critique_file": "creatives/03-static-01-campus-confusion/v5/owner-critique.json"
+    }
+  ],
+  "revision_lessons": [
+    {
+      "id": "PT11",
+      "source_case": "Creative01V1",
+      "recorded_on": "2026-11-13",
+      "failure": "Prior review accepted mixed-script visual order while owner found it incorrect; logical exact-copy checks were insufficient",
+      "prevention": "Use explicit two-line layout and independently positioned/isolated Arabic, French and punctuation runs; inspect actual full and phone exports",
+      "review_question": "Reading from the right, are the Arabic phrase, LTR French words and Arabic question mark in the intended order with no touching or ambiguous attachment?",
+      "planned_correction": "V2 native layout; implementation and export review pending",
+      "scope": "Mixed Arabic/Latin marketing copy; not a universal ban on mixed language",
+      "correction_implemented": "V2usesmanualRTLflexrows,isolatedArabic/Latin/punctuationruns,12pxhookgaps,twopredeterminedlines;rootviewedactualfull/phoneexportsandcomparison",
+      "correction_review_status": "REVIEWED_AWAITING_OWNER_APPROVAL",
+      "review_file": "creatives/03-static-01-campus-confusion/v2/independent-review.json"
+    },
+    {
+      "id": "PT12",
+      "source_case": "Creative01V1",
+      "failure": "Ownerfoundphotooverdominantandsupportinsufficientlyreadabledespitepriortechnicalreview",
+      "prevention": "Checkrelativeimage/textspaceandreadactualphoneexportbeforeacceptinghierarchy",
+      "correction_implemented": "V2photo650to480pxand1080to850pxwide;support39to55px(~18.3pxat360),exactnewownerwording",
+      "scope": "ContextualV2adjustments,nouniversalphotopercentage/fontsizepolicy",
+      "status": "REVIEWED_AWAITING_IMRAN"
+    },
+    {
+      "id": "PT13_GENERATED_CHOICE_ASSETS",
+      "source_case": "Creative01V4",
+      "recorded_on": "2026-11-13",
+      "failure": "Generic flat SVG academic symbols did not provide the generated-image treatment the owner wanted",
+      "prevention": "When this owner requests generated visuals, invoke ImageGen for the actual raster assets first, inspect and save them, then composite into the established template; distinguish asset origin from the composition engine",
+      "review_question": "Are these academic visuals actual generated images, and do they retain readability and photographic coherence at phone size?",
+      "scope": "This ProTrain circle treatment; not a blanket rejection of SVG or editable code typography",
+      "correction_implemented": "V5 uses five actual generated PNGs, no academic symbol paths. Zero changed pixels outside the five existing circles.",
+      "status": "CORRECTED_AWAITING_IMRAN_REVIEW"
+    },
+    {
+      "id": "PT14_WHOLE_CREATIVE_REVIEW",
+      "source_case": "Creative01V5",
+      "recorded_on": "2026-11-13",
+      "failure": "Successive localized icon/tool corrections passed technical checks but did not resolve the overall concept, hierarchy or product recognition; owner expressed dissatisfaction with the result and repeated iteration.",
+      "prevention": "Before delivery assess the entire exported creative at phone size, separately from tool use, exact-copy checks and pixel preservation. Inspect a clear viewer problem, product-specific meaning, intentional visual relationship and first-read hierarchy.",
+      "review_questions": [
+        "Generated object replacement changes asset origin but leaves the weak visual argument: five floating subject symbols do not clarify how a profile relates to proposed formations.",
+        "Passport and dominant portrait signal general study-abroad or visa support more strongly than the specific academic matching tool.",
+        "Student photo, miniature still-life cutouts, white badge containers and paper/dotted collage lack a sufficiently coherent relationship in this execution; this is not a blanket rejection of ProTrain identity.",
+        "Three heavy tilted text bands compete at mobile scale; the long promise is dense and the CTA has large visual weight.",
+        "Arabic/French reading order remains decipherable and was inspected; typography is still optically awkward and heavy. Do not falsely reclassify correct bidi as broken.",
+        "Match label and field captions are too small to establish product recognition at phone size.",
+        "White CTA ribbon resembles another statement; telephone and historical website footer introduce competing action cues."
+      ],
+      "scope": "This execution and review process. No general ban on portraits, paper ribbons, generated objects or established ProTrain branding.",
+      "status": "OBSERVED_FAILURE_NO_NEW_DESIGN_PRODUCED"
+    }
+  ],
+  "guideline_updates": [
+    {
+      "recorded_on": "2026-11-13",
+      "status": "EXPLICITLY_APPROVED_MESSAGING_GUIDELINE",
+      "scope": "Default for upcoming static image ads; messaging framework, not a fixed visual template; user may override",
+      "framework": "HOOK → PROMISE → CTA",
+      "rules": [
+        "Hook earns attention through a relevant problem, question, or desire.",
+        "Promise states a specific, realistic, verifiable benefit relevant to the landing page.",
+        "CTA names one clear next step matching the actual funnel.",
+        "Avoid generic educational posters; use mobile-first hierarchy and short natural Moroccan Darija for this project.",
+        "Verify Arabic/French reading order in actual exports and preserve original branding.",
+        "No invented benefits, admission guarantees, or results; review retained lessons before and after production.",
+        "Document observed mistakes and explicitly approved improvements separately from technical checks and performance."
+      ],
+      "creative01_current_copy": {
+        "hook": "كتوجد لـCampus France ومحتار فاختيار الـFormations؟",
+        "promise": "عمّر ملفك الدراسي، واكتشف جوج تكوينات مقترحة مع معلومات تساعدك تفهم اختياراتك.",
+        "cta": "شوف جوج Formations مجاناً"
+      },
+      "render_status": "UNRENDERED_DOCUMENTATION_ONLY",
+      "approval_scope": "Framework guideline and current copy only. V2 still awaits Imran approval; no new design authorized.",
+      "historical_layout_scope": "V2 manual two-line hook and first-line question mark are historical render details, not current messaging requirements.",
+      "checklist": "skill-draft/static-ad-creative-system/references/review-checklist.md"
+    }
+  ],
+  "research_updates": [
+    {
+      "id": "PTM_BEHANCE_RESEARCH_20261113",
+      "date": "2026-11-13",
+      "owner_instruction": "Research and art direction only. Do not create or modify Static Ads. Wait for Imran to select the visual direction before any further Creative 01 V2 production.",
+      "report": "creatives/research/behance-2026-11-13/index.html",
+      "observed": "Eleven real Behance projects opened; six selected projects visually inspected beyond covers. Source images and attribution retained. V1 and V2 export hashes preserved.",
+      "recommendation": "Editorial decision as proposed foundation; use explanatory relationships for Matching and genuine report excerpts for proof-led angles.",
+      "approval": "PROPOSED_AWAITING_IMRAN — not a new owner-approved style rule",
+      "source_state": "During research current local brief changed to HOOK → PROMISE → CTA, documented unrendered messaging. Historical V2 two-line correction remains preserved. Report distinguishes source states; neither copy version applied to artwork.",
+      "prevention": "Verify subject and actual compositions on direct project pages; search rank and project descriptions do not prove relevance or performance. Keep source observations, proposed adaptations and performance unknowns separate.",
+      "review_question": "Does the chosen visual clarify the specific academic decision, retain usable promise/CTA at phone scale, and accurately distinguish illustration from real output?",
+      "scope": "This research selection and pending proposal only. No blanket motif ban, shared-skill promotion, ad generation, campaign change or publication."
+    }
+  ],
+  "reference_system_updates": [
+    {
+      "id": "PROTRAIN_EXISTING_IDENTITY_REFERENCE_FIRST_20261113",
+      "date": "2026-11-13",
+      "type": "EXPLICIT_OWNER_WORKFLOW_INSTRUCTION",
+      "instruction": "Preserve existing Instagram identity; choose one actual primary reference, lock its fixed elements, expose only approved copy/image/support variables. Do not combine unrelated layouts or introduce decorative redesign.",
+      "review_questions": [
+        "Is each fixed element traceable to the single approved reference?",
+        "Are sampled raster values distinguished from official tokens and font identity uncertainty?",
+        "Were exact mixed-script copy fit and phone export actually inspected before claiming success?",
+        "Do source flags, agency promises and footer still make sense for France-only academic matching?"
+      ],
+      "scope": "ProTrain Instagram creative system. Analysis requested now; reference selection and exceptions remain proposed until Imran approves.",
+      "observations": "Selected candidate #32 has multi-country flags and agency admission copy; neither becomes a Match claim. Long hook fit, Arabic companion and label/footer treatment unresolved.",
+      "artifact": "creatives/04-instagram-design-system-analysis/design-system-analysis.html",
+      "production_status": "NOT_RECONSTRUCTED_NO_V4"
+    }
+  ]
+}

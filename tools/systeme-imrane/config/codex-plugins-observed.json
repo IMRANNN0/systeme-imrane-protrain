@@ -1,0 +1,235 @@
+{
+  "schema": 1,
+  "observed_at": "2026-10-20T01:26:25.901587+00:00",
+  "source": "codex plugin list --json",
+  "remote_catalogue_complete": true,
+  "authentication_verified": false,
+  "plugins": [
+    {
+      "reference": "documents@openai-primary-runtime",
+      "name": "documents",
+      "display_name": "Documents",
+      "version": "26.1017.11052",
+      "marketplace": "openai-primary-runtime",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "pdf@openai-primary-runtime",
+      "name": "pdf",
+      "display_name": "PDF",
+      "version": "26.1017.11052",
+      "marketplace": "openai-primary-runtime",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "spreadsheets@openai-primary-runtime",
+      "name": "spreadsheets",
+      "display_name": "Spreadsheets",
+      "version": "26.1017.11052",
+      "marketplace": "openai-primary-runtime",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "presentations@openai-primary-runtime",
+      "name": "presentations",
+      "display_name": "Presentations",
+      "version": "26.1017.11052",
+      "marketplace": "openai-primary-runtime",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "template-creator@openai-primary-runtime",
+      "name": "template-creator",
+      "display_name": "Template Creator",
+      "version": "26.1017.11052",
+      "marketplace": "openai-primary-runtime",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "codex-app-tools@openai-bundled",
+      "name": "codex-app-tools",
+      "display_name": "Codex App Tools",
+      "version": "0.1.6",
+      "marketplace": "openai-bundled",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "browser@openai-bundled",
+      "name": "browser",
+      "display_name": "Browser",
+      "version": "26.1013.40934",
+      "marketplace": "openai-bundled",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "unified-computer-use@openai-bundled",
+      "name": "unified-computer-use",
+      "display_name": "Unified Computer Use",
+      "version": "26.1013.40934",
+      "marketplace": "openai-bundled",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "chrome@openai-bundled",
+      "name": "chrome",
+      "display_name": "Chrome",
+      "version": "26.1013.40934",
+      "marketplace": "openai-bundled",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "computer-use@openai-bundled",
+      "name": "computer-use",
+      "display_name": "Computer Use",
+      "version": "26.1013.40934",
+      "marketplace": "openai-bundled",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "code-review@openai-bundled",
+      "name": "code-review",
+      "display_name": "Code Review",
+      "version": "26.1013.40934",
+      "marketplace": "openai-bundled",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "visualize@openai-bundled",
+      "name": "visualize",
+      "display_name": "Visualize",
+      "version": "1.0.50",
+      "marketplace": "openai-bundled",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "notion@openai-curated-remote",
+      "name": "notion",
+      "display_name": "Notion",
+      "version": "3.0.1",
+      "marketplace": "openai-curated-remote",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "canva@openai-curated-remote",
+      "name": "canva",
+      "display_name": "Canva",
+      "version": "17.0.1",
+      "marketplace": "openai-curated-remote",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "vercel@openai-curated-remote",
+      "name": "vercel",
+      "display_name": "Vercel",
+      "version": "0.54.1",
+      "marketplace": "openai-curated-remote",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "app-69d669e1d5c88191957786fbcd38b411@openai-curated-remote",
+      "name": "app-69d669e1d5c88191957786fbcd38b411",
+      "display_name": "Opera Browser Connector",
+      "version": "2.0.0",
+      "marketplace": "openai-curated-remote",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "product-design@openai-curated-remote",
+      "name": "product-design",
+      "display_name": "Product Design",
+      "version": "0.1.56",
+      "marketplace": "openai-curated-remote",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "app-6938a7d323f48191aeabaf579802bf45@openai-curated-remote",
+      "name": "app-6938a7d323f48191aeabaf579802bf45",
+      "display_name": "Adobe Acrobat",
+      "version": "1.0.0",
+      "marketplace": "openai-curated-remote",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "app-6a54e4fb251081919c813b534af63ddf@openai-curated-remote",
+      "name": "app-6a54e4fb251081919c813b534af63ddf",
+      "display_name": "TaskNotify",
+      "version": "2.0.0",
+      "marketplace": "openai-curated-remote",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "humanwriting@openai-curated-remote",
+      "name": "humanwriting",
+      "display_name": "HumanWriting",
+      "version": "1.0.0",
+      "marketplace": "openai-curated-remote",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "openai-templates@openai-curated-remote",
+      "name": "openai-templates",
+      "display_name": "OpenAI Templates",
+      "version": "0.1.6",
+      "marketplace": "openai-curated-remote",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "pages@openai-curated-remote",
+      "name": "pages",
+      "display_name": "Pages",
+      "version": "0.1.23",
+      "marketplace": "openai-curated-remote",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "sites@openai-curated-remote",
+      "name": "sites",
+      "display_name": "Sites",
+      "version": "1.1.0",
+      "marketplace": "openai-curated-remote",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "plugin-management@openai-curated-remote",
+      "name": "plugin-management",
+      "display_name": "Plugin Management",
+      "version": "0.1.0",
+      "marketplace": "openai-curated-remote",
+      "installed": true,
+      "enabled": true
+    },
+    {
+      "reference": "work-pets@openai-curated-remote",
+      "name": "work-pets",
+      "display_name": "Work Pets",
+      "version": "0.1.6",
+      "marketplace": "openai-curated-remote",
+      "installed": true,
+      "enabled": true
+    }
+  ],
+  "note": "Installed/enabled does not prove OAuth login, tool access or availability on another account. No paths, tokens or permission policies exported."
+}

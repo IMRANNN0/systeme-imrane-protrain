@@ -1,0 +1,4 @@
+interface:
+  display_name: "Content Planning"
+  short_description: "Relier brief, angles et structures de copie"
+  default_prompt: "Utilise $media-buying-content-planning pour préparer un brief et des messages adaptés à cette offre et à ce public."

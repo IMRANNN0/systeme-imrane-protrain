@@ -1,0 +1,41 @@
+{
+  "mainCta": [
+    {
+      "href": "#o_shortlist_start",
+      "rect": {
+        "height": 57.875,
+        "width": 213.046875,
+        "x": 15,
+        "y": 482.375
+      },
+      "text": "See my programs"
+    }
+  ],
+  "navigationToggle": [
+    {
+      "expanded": "false",
+      "label": "Toggle navigation"
+    }
+  ],
+  "offerCard": {
+    "box": {
+      "bottom": 1154.609375,
+      "height": 590.359375,
+      "left": 15,
+      "right": 360,
+      "top": 564.25,
+      "width": 345,
+      "x": 15,
+      "y": 564.25
+    },
+    "padding": "32px"
+  },
+  "overflowElements": [],
+  "url": "https://protraincompany.com/en/etudier-en-france/campus-france",
+  "viewport": {
+    "clientWidth": 375,
+    "height": 844,
+    "scrollWidth": 375,
+    "width": 390
+  }
+}

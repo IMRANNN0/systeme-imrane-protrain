@@ -1,0 +1,29 @@
+{
+  "actual_transcript_arabic": "كتوجد لcampus فرنسا؟ Protrain match كيقترح عليك تكوينات على حساب ملفك، عمر ملفك دابا.",
+  "utterances": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 2.0,
+      "text": "كتوجد لcampus فرنسا؟"
+    },
+    {
+      "start_seconds": 2.0,
+      "end_seconds": 5.5,
+      "text": "Protrain match كيقترح عليك تكوينات على حساب ملفك،"
+    },
+    {
+      "start_seconds": 5.5,
+      "end_seconds": 7.0,
+      "text": "عمر ملفك دابا."
+    }
+  ],
+  "dialect_observations": "The speaker uses standard Moroccan Darija. The mix of English terminology (Campus, Protrain match) is typical for Moroccan academic and professional advertising contexts.",
+  "mispronunciations_or_unnatural_words": "The word 'Campus' is pronounced with an attempt at a French-accented 'campus' (nasalized), which is consistent with Moroccan educational jargon but slightly deviates from standard Darija phonology.",
+  "added_or_missing_or_unintelligible_words": "None.",
+  "pace_assessment": "The pace is energetic and appropriate for a short commercial advertisement.",
+  "audible_noise_or_clipping": "There is a slight metallic echo or high-frequency hiss, possibly due to low-bitrate encoding or compression, but it does not impede comprehension.",
+  "usable_for_short_ad": true,
+  "concrete_changes_needed": "The audio quality could be improved by removing the high-frequency background buzz. While the speech is clear, a more professional studio recording would enhance the brand perception.",
+  "uncertainty_statement": "The transcription of 'Protrain' and 'Campus' relies on common knowledge of Moroccan educational recruitment services; if the brand name is spelled differently, adjustments may be needed.",
+  "review_method": "gemini-3.1-flash-lite audio-capable model assessed actual WAV; not a human listening verdict"
+}

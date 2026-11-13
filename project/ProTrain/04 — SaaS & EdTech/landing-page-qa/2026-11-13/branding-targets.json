@@ -1,0 +1,44 @@
+{
+  "faqOffer": "Your 7 programs ranked for your profile, with for each one the places, the access rate, the place of study, the profile of the admitted students, the reasons why it fits you and its official link. You see the list online and as a PDF.",
+  "formIntro": [
+    {
+      "class": "",
+      "tag": "H2",
+      "text": "See my programs"
+    },
+    {
+      "class": "",
+      "tag": "P",
+      "text": "Free: your procedure and 2 programs. You also receive a private link by email to come back later."
+    }
+  ],
+  "hero": {
+    "class": "s_protrain_page_header o_cc o_cc5 pt64 pb48",
+    "id": "",
+    "links": [
+      {
+        "href": "#o_shortlist_start",
+        "text": "See my programs"
+      }
+    ],
+    "paragraphs": [
+      {
+        "class": "text-uppercase small fw-bold mb-2",
+        "text": "CAMPUS FRANCE - ÉTUDES EN FRANCE"
+      },
+      {
+        "class": "lead",
+        "text": "Fill in one short form. We find 7 programs that fit your bac, your grades and your wishes, with the official figures of each one. See 2 of them now, for free."
+      },
+      {
+        "class": "fw-bold",
+        "text": " The Études en France applications close on November 15, 2026."
+      },
+      {
+        "class": "mb-0",
+        "text": "See my programs"
+      }
+    ],
+    "tag": "SECTION"
+  }
+}

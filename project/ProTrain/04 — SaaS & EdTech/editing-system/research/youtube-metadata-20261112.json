@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-12",
+  "videos": [
+    {
+      "id": "o3IEkKXXXvo",
+      "url": "https://www.youtube.com/watch?v=o3IEkKXXXvo",
+      "title": "GPT-6 Astra Finally Solves AI Video Editing (full guide)",
+      "channel": "Nate Herk | AI Automation",
+      "channel_url": "https://www.youtube.com/@nateherk",
+      "metadata_source": "YouTube oEmbed",
+      "status": "verified"
+    },
+    {
+      "id": "Xdy1vkhSz-M",
+      "url": "https://www.youtube.com/watch?v=Xdy1vkhSz-M",
+      "title": "Codex Just Replaced 1,000 Hours of Video Editing Tutorials",
+      "channel": "Riley Brown",
+      "channel_url": "https://www.youtube.com/@rileybrownai",
+      "metadata_source": "YouTube oEmbed",
+      "status": "verified"
+    },
+    {
+      "id": "9PwpJpJJ3IY",
+      "url": "https://www.youtube.com/watch?v=9PwpJpJJ3IY",
+      "title": "How to Use Remotion with ChatGPT",
+      "channel": "Kevin Stratvert",
+      "channel_url": "https://www.youtube.com/@KevinStratvert",
+      "metadata_source": "YouTube oEmbed",
+      "status": "verified"
+    },
+    {
+      "id": "cR0TaYikrz8",
+      "url": "https://www.youtube.com/watch?v=cR0TaYikrz8",
+      "title": "How to Edit Videos with ChatGPT",
+      "channel": "Kevin Stratvert",
+      "channel_url": "https://www.youtube.com/@KevinStratvert",
+      "metadata_source": "YouTube oEmbed",
+      "status": "verified"
+    },
+    {
+      "id": "oyWSdPYeQwQ",
+      "url": "https://www.youtube.com/watch?v=oyWSdPYeQwQ",
+      "title": "Codex can now make videos\u2026 it\u2019s insane",
+      "channel": "David Ondrej",
+      "channel_url": "https://www.youtube.com/@DavidOndrej",
+      "metadata_source": "YouTube oEmbed",
+      "status": "verified"
+    },
+    {
+      "id": "AL_yuw6a5Eg",
+      "url": "https://www.youtube.com/watch?v=AL_yuw6a5Eg",
+      "title": "I Used GPT-5.5 & Codex to Build Motion Graphics with Remotion.",
+      "channel": "Code Bear",
+      "channel_url": "https://www.youtube.com/@thecodebear",
+      "metadata_source": "YouTube oEmbed",
+      "status": "verified"
+    },
+    {
+      "id": "3FlCLlX9T90",
+      "url": "https://www.youtube.com/watch?v=3FlCLlX9T90",
+      "title": "Codex + Remotion Tutorial - Create INSANE Motion Graphics with AI in MINUTES \ud83d\udd25",
+      "channel": "The Skillhouse",
+      "channel_url": "https://www.youtube.com/@TheSkillhouse",
+      "metadata_source": "YouTube oEmbed",
+      "status": "verified"
+    },
+    {
+      "id": "VmJvywPQvqE",
+      "url": "https://www.youtube.com/watch?v=VmJvywPQvqE",
+      "title": "\u0635\u0646\u0627\u0639\u0629 \u0641\u064a\u062f\u064a\u0648\u0647\u0627\u062a \u0628\u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a | \u0637\u0631\u064a\u0642\u062a\u064a \u0643\u0627\u0645\u0644\u0629 \u0645\u0639 Claude Code \u0648 Remotion",
+      "channel": "\u0623\u0643\u0627\u062f\u064a\u0645\u064a\u0629 \u062a\u0631\u0645\u064a\u0632",
+      "channel_url": "https://www.youtube.com/@tarmeez",
+      "metadata_source": "YouTube oEmbed",
+      "status": "verified"
+    },
+    {
+      "id": "FAeVq2SyIaw",
+      "url": "https://www.youtube.com/watch?v=FAeVq2SyIaw",
+      "title": "Make Unlimited AI Video for Free with Claude! (Full Tutorial with Prompts)",
+      "channel": "Sabrina Ramonov \ud83c\udf44",
+      "channel_url": "https://www.youtube.com/@sabrina_ramonov",
+      "metadata_source": "YouTube oEmbed",
+      "status": "verified"
+    },
+    {
+      "id": "BNPlUj-CxB0",
+      "url": "https://www.youtube.com/watch?v=BNPlUj-CxB0",
+      "title": "How I Edit Videos with Claude Code (Remotion + Claude Code Tutorial)",
+      "channel": "Aidan Stanik",
+      "channel_url": "https://www.youtube.com/@aidanstanikai",
+      "metadata_source": "YouTube oEmbed",
+      "status": "verified"
+    },
+    {
+      "id": "EwKCAgt4aKI",
+      "url": "https://www.youtube.com/watch?v=EwKCAgt4aKI",
+      "title": "Generate Animated Videos with Claude Code (Remotion Agent Skill Tutorial)",
+      "channel": "Snapper AI",
+      "channel_url": "https://www.youtube.com/@snapperAI",
+      "metadata_source": "YouTube oEmbed",
+      "status": "verified"
+    },
+    {
+      "id": "5NRAOnKc3c8",
+      "url": "https://www.youtube.com/watch?v=5NRAOnKc3c8",
+      "title": "Create motion graphics with AI \u2013 Simple tutorial for beginners",
+      "channel": "Remotion",
+      "channel_url": "https://www.youtube.com/@remotion_dev",
+      "metadata_source": "YouTube oEmbed",
+      "status": "verified"
+    }
+  ],
+  "scope": "Metadata verifies title/channel, not complete video content. Topic summaries additionally use original descriptions and creator pages."
+}

@@ -1,0 +1,10 @@
+{
+  "captured_on": "2026-11-13",
+  "source_url": "https://protraincompany.com/en/etudier-en-france/campus-france",
+  "method": "CUA in-app browser actual screenshot, JPEG",
+  "output": "landing-form-original.jpg",
+  "observed": "Real public profile form with default Morocco/Baccalaureate values; not a report/result screenshot",
+  "actions": "Read-only page inspection, anchor navigation, essential-cookie choice; no personal data entered and no submission, consent checkbox or payment performed",
+  "rights": "Owner supplied landing-page URL for this project",
+  "limits": "English desktop viewport; live report still not available. Price/deadline sections must not be introduced as new ad copy."
+}

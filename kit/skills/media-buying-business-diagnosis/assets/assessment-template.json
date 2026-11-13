@@ -1,0 +1,175 @@
+{
+  "scope": {
+    "project_id": "TO_FILL",
+    "offer": "TO_FILL",
+    "market": "TO_FILL",
+    "period": "TO_FILL"
+  },
+  "rubric": {
+    "status": "draft_local",
+    "id": "imrane-demand-proposal-v1",
+    "formula": "weighted_max_v1",
+    "score_min": 1,
+    "score_max": 5,
+    "approved_by": null,
+    "approved_at": null
+  },
+  "axes": [
+    {
+      "id": "product_nature",
+      "factors": [
+        {
+          "id": "expiration",
+          "status": "unknown",
+          "weight": null,
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        },
+        {
+          "id": "essentiality",
+          "status": "unknown",
+          "weight": null,
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        },
+        {
+          "id": "dependency",
+          "status": "unknown",
+          "weight": null,
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        },
+        {
+          "id": "seasonality",
+          "status": "unknown",
+          "weight": null,
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        },
+        {
+          "id": "price_elasticity",
+          "status": "unknown",
+          "weight": null,
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        },
+        {
+          "id": "versatility",
+          "status": "unknown",
+          "weight": null,
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        },
+        {
+          "id": "urgency",
+          "status": "unknown",
+          "weight": null,
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "market",
+      "factors": [
+        {
+          "id": "competition",
+          "status": "unknown",
+          "weight": null,
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        },
+        {
+          "id": "size",
+          "status": "unknown",
+          "weight": null,
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        },
+        {
+          "id": "supply",
+          "status": "unknown",
+          "weight": null,
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "consumer",
+      "factors": [
+        {
+          "id": "preferences",
+          "status": "unknown",
+          "weight": null,
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        },
+        {
+          "id": "expectations",
+          "status": "unknown",
+          "weight": null,
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        },
+        {
+          "id": "loyalty",
+          "status": "unknown",
+          "weight": null,
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": "economic_conditions",
+      "factors": [
+        {
+          "id": "purchase_power",
+          "status": "unknown",
+          "weight": null,
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        },
+        {
+          "id": "economic_cycle",
+          "status": "unknown",
+          "weight": null,
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        },
+        {
+          "id": "income_distribution",
+          "status": "unknown",
+          "weight": null,
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        },
+        {
+          "id": "inflation",
+          "status": "unknown",
+          "weight": null,
+          "score": null,
+          "reason": "",
+          "evidence": ""
+        }
+      ]
+    }
+  ]
+}

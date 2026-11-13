@@ -1,0 +1,692 @@
+{
+  "scope": "Analysis of existing files only; no reconstruction or creative generation",
+  "coordinates": "original decoded pixel coordinates; origin top left, xyxy excludes right/bottom",
+  "method": "Pillow RGB decoding; exact per-channel median and exact RGB frequency in specified ROI. Lossy WebP samples are observations, not official brand tokens. Text filter only approximates interiors.",
+  "inventory": [
+    {
+      "path": "D:\\Instagram\\imgi_17_707963936_18084993308628783_7398360491893262637_n.webp",
+      "bytes": 92158,
+      "sha256_before": "5970e021b2ef8f28c634ccac23247e9f5f0f7d4ad4ddaf2b21c8e821e3ca470f",
+      "width": 881,
+      "height": 1080,
+      "mode": "RGB",
+      "format": "WEBP",
+      "sha256_after": "5970e021b2ef8f28c634ccac23247e9f5f0f7d4ad4ddaf2b21c8e821e3ca470f",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Instagram\\imgi_18_688585282_18082321415628783_8995682251420149852_n.webp",
+      "bytes": 88536,
+      "sha256_before": "451cab04a1f39c49a14f1f42c5a7cde29bedeafdc9d038a7143910ddc3963f91",
+      "width": 881,
+      "height": 1080,
+      "mode": "RGB",
+      "format": "WEBP",
+      "sha256_after": "451cab04a1f39c49a14f1f42c5a7cde29bedeafdc9d038a7143910ddc3963f91",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Instagram\\imgi_19_684674514_18082062395628783_3833799476138091550_n.webp",
+      "bytes": 75440,
+      "sha256_before": "3f4514a7df2bbeddda431b63283a1bc6ea128a0860215138467d7246e285cec6",
+      "width": 881,
+      "height": 1080,
+      "mode": "RGB",
+      "format": "WEBP",
+      "sha256_after": "3f4514a7df2bbeddda431b63283a1bc6ea128a0860215138467d7246e285cec6",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Instagram\\imgi_20_686526909_18081643154628783_6889047179307321465_n.webp",
+      "bytes": 58852,
+      "sha256_before": "7473b1c54601875b4fdeb55d793b97cb808c41d60b2dbb650ea9bde097fc9c64",
+      "width": 881,
+      "height": 1080,
+      "mode": "RGB",
+      "format": "WEBP",
+      "sha256_after": "7473b1c54601875b4fdeb55d793b97cb808c41d60b2dbb650ea9bde097fc9c64",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Instagram\\imgi_21_672351444_18081390536628783_6967743107277495647_n.webp",
+      "bytes": 97154,
+      "sha256_before": "b4ab8c510b0a33cd95bc389aa754ed4a5b6db94233653cfc6bd101b8c10ee7ab",
+      "width": 1080,
+      "height": 1350,
+      "mode": "RGB",
+      "format": "WEBP",
+      "sha256_after": "b4ab8c510b0a33cd95bc389aa754ed4a5b6db94233653cfc6bd101b8c10ee7ab",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Instagram\\imgi_22_673830813_18081132317628783_8900369978587188687_n.webp",
+      "bytes": 98546,
+      "sha256_before": "e7ff8098af29718db18131d63d0d93cfe1dfd0dc90695707ebdb110c91c2ef30",
+      "width": 864,
+      "height": 1080,
+      "mode": "RGB",
+      "format": "WEBP",
+      "sha256_after": "e7ff8098af29718db18131d63d0d93cfe1dfd0dc90695707ebdb110c91c2ef30",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Instagram\\imgi_23_671057019_18080432750628783_8154191115539680888_n.webp",
+      "bytes": 72694,
+      "sha256_before": "e70ce68852ffae985aa3b26e08412d4d35bf9fbebcecd91f6fd3e4a82d2faf98",
+      "width": 864,
+      "height": 1080,
+      "mode": "RGB",
+      "format": "WEBP",
+      "sha256_after": "e70ce68852ffae985aa3b26e08412d4d35bf9fbebcecd91f6fd3e4a82d2faf98",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Instagram\\imgi_24_672398199_18080182985628783_7851052233747475921_n.webp",
+      "bytes": 79478,
+      "sha256_before": "259ec1eaa44a66e664e64de7910e56dd87d5a37aa62fddd97ae8d7bd1059b58f",
+      "width": 864,
+      "height": 1080,
+      "mode": "RGB",
+      "format": "WEBP",
+      "sha256_after": "259ec1eaa44a66e664e64de7910e56dd87d5a37aa62fddd97ae8d7bd1059b58f",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Instagram\\imgi_25_671178117_18079830227628783_6815191974643297445_n.jpg",
+      "bytes": 77757,
+      "sha256_before": "a642ed5d23376ef8544bef27de8ec3580d9db0322522a89e6388b22694c2644f",
+      "width": 480,
+      "height": 854,
+      "mode": "RGB",
+      "format": "JPEG",
+      "sha256_after": "a642ed5d23376ef8544bef27de8ec3580d9db0322522a89e6388b22694c2644f",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Instagram\\imgi_26_670622435_18079561940628783_7466735532284074631_n.webp",
+      "bytes": 97230,
+      "sha256_before": "c4a5458f2c4302b666ae95779c7160331e7b7804e077622eb79f7a69017a3eb0",
+      "width": 1080,
+      "height": 1324,
+      "mode": "RGB",
+      "format": "WEBP",
+      "sha256_after": "c4a5458f2c4302b666ae95779c7160331e7b7804e077622eb79f7a69017a3eb0",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Instagram\\imgi_27_670921289_18079331678628783_2395034964543996629_n.webp",
+      "bytes": 83768,
+      "sha256_before": "5343d9d5c847ef1b66ebf9b9a6775a0c566c5eda2f2a4ba96b953828ec1924ef",
+      "width": 864,
+      "height": 1080,
+      "mode": "RGB",
+      "format": "WEBP",
+      "sha256_after": "5343d9d5c847ef1b66ebf9b9a6775a0c566c5eda2f2a4ba96b953828ec1924ef",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Instagram\\imgi_28_662494099_18078524393628783_1888137690895974959_n.webp",
+      "bytes": 87674,
+      "sha256_before": "7ec2b2bd1a7f8378baba95c6446b985f758b8fe9893144d1603667e7774e8460",
+      "width": 864,
+      "height": 1080,
+      "mode": "RGB",
+      "format": "WEBP",
+      "sha256_after": "7ec2b2bd1a7f8378baba95c6446b985f758b8fe9893144d1603667e7774e8460",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Instagram\\imgi_29_658526008_18078164690628783_7509465457869267664_n.webp",
+      "bytes": 84368,
+      "sha256_before": "457e0fad12bb1d194b61de7157c5809eed075f159013e9db0d5829bdeff9d0e7",
+      "width": 864,
+      "height": 1080,
+      "mode": "RGB",
+      "format": "WEBP",
+      "sha256_after": "457e0fad12bb1d194b61de7157c5809eed075f159013e9db0d5829bdeff9d0e7",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Instagram\\imgi_30_657355136_18077913167628783_2393025983036076394_n.webp",
+      "bytes": 71124,
+      "sha256_before": "089fec1709527b29f46d8688bcd6d04ff7b1f39652e67d014ccc3a21491182e8",
+      "width": 864,
+      "height": 1080,
+      "mode": "RGB",
+      "format": "WEBP",
+      "sha256_after": "089fec1709527b29f46d8688bcd6d04ff7b1f39652e67d014ccc3a21491182e8",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Instagram\\imgi_31_657997342_18077670644628783_710965522862901684_n.webp",
+      "bytes": 84066,
+      "sha256_before": "5975aaf8729e495678f0e69de9c7375f464672b386116f4d5c95ec3bc35dbdfc",
+      "width": 864,
+      "height": 1080,
+      "mode": "RGB",
+      "format": "WEBP",
+      "sha256_after": "5975aaf8729e495678f0e69de9c7375f464672b386116f4d5c95ec3bc35dbdfc",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Instagram\\imgi_32_656179671_18077289212628783_6745418022262791529_n.webp",
+      "bytes": 80588,
+      "sha256_before": "32760f4b79a3f7f99a729885a09996bdbdc747e7666c2b8b2c767f07a3674c95",
+      "width": 864,
+      "height": 1080,
+      "mode": "RGB",
+      "format": "WEBP",
+      "sha256_after": "32760f4b79a3f7f99a729885a09996bdbdc747e7666c2b8b2c767f07a3674c95",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Instagram\\imgi_33_655924485_18077163935628783_6101619069436987105_n.webp",
+      "bytes": 77520,
+      "sha256_before": "eefa40a6793e8f101c0d3ae33faa2a1cef197839f191d56f30f51842d9d36181",
+      "width": 864,
+      "height": 1080,
+      "mode": "RGB",
+      "format": "WEBP",
+      "sha256_after": "eefa40a6793e8f101c0d3ae33faa2a1cef197839f191d56f30f51842d9d36181",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Instagram\\imgi_34_657393644_18076902623628783_6900544397531967752_n.webp",
+      "bytes": 70578,
+      "sha256_before": "f72c911e7120d2da496876449ae38f6bc2b5e0b9bfcc7f42ba93e6dad8a3fda1",
+      "width": 864,
+      "height": 1080,
+      "mode": "RGB",
+      "format": "WEBP",
+      "sha256_after": "f72c911e7120d2da496876449ae38f6bc2b5e0b9bfcc7f42ba93e6dad8a3fda1",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Instagram\\imgi_35_655915722_18076748666628783_1891040291970957745_n.webp",
+      "bytes": 49696,
+      "sha256_before": "9eae25986253a8475fc7cb22e87a9a7f78139b494345ac44dbce91f62e7adc72",
+      "width": 864,
+      "height": 1080,
+      "mode": "RGB",
+      "format": "WEBP",
+      "sha256_after": "9eae25986253a8475fc7cb22e87a9a7f78139b494345ac44dbce91f62e7adc72",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\Instagram\\imgi_37_652538168_18075917213628783_9090980370308404479_n.webp",
+      "bytes": 89700,
+      "sha256_before": "aa39a994a01fb86976c2e3b36d19384e1a8930c99e3ae232b0839f43db225882",
+      "width": 864,
+      "height": 1080,
+      "mode": "RGB",
+      "format": "WEBP",
+      "sha256_after": "aa39a994a01fb86976c2e3b36d19384e1a8930c99e3ae232b0839f43db225882",
+      "unchanged": true
+    }
+  ],
+  "roi_samples": [
+    {
+      "file": "imgi_32_656179671_18077289212628783_6745418022262791529_n.webp",
+      "region": "green_ribbon",
+      "roi_xyxy_exclusive": [
+        40,
+        660,
+        150,
+        675
+      ],
+      "filter": "all pixels",
+      "pixel_count": 1650,
+      "channel_median_rgb": [
+        1.0,
+        121.0,
+        80.0
+      ],
+      "top_rgb_counts": [
+        [
+          [
+            1,
+            121,
+            80
+          ],
+          1432
+        ],
+        [
+          [
+            2,
+            120,
+            80
+          ],
+          39
+        ],
+        [
+          [
+            0,
+            122,
+            80
+          ],
+          30
+        ],
+        [
+          [
+            4,
+            119,
+            80
+          ],
+          27
+        ]
+      ]
+    },
+    {
+      "file": "imgi_32_656179671_18077289212628783_6745418022262791529_n.webp",
+      "region": "yellow_ribbon",
+      "roi_xyxy_exclusive": [
+        55,
+        800,
+        100,
+        835
+      ],
+      "filter": "all pixels",
+      "pixel_count": 1575,
+      "channel_median_rgb": [
+        249,
+        203,
+        48
+      ],
+      "top_rgb_counts": [
+        [
+          [
+            249,
+            203,
+            48
+          ],
+          944
+        ],
+        [
+          [
+            249,
+            204,
+            46
+          ],
+          158
+        ],
+        [
+          [
+            250,
+            204,
+            49
+          ],
+          93
+        ],
+        [
+          [
+            247,
+            204,
+            48
+          ],
+          66
+        ]
+      ]
+    },
+    {
+      "file": "imgi_32_656179671_18077289212628783_6745418022262791529_n.webp",
+      "region": "white_ribbon",
+      "roi_xyxy_exclusive": [
+        48,
+        885,
+        65,
+        950
+      ],
+      "filter": "all pixels",
+      "pixel_count": 1105,
+      "channel_median_rgb": [
+        255,
+        255,
+        255
+      ],
+      "top_rgb_counts": [
+        [
+          [
+            255,
+            255,
+            255
+          ],
+          1081
+        ],
+        [
+          [
+            253,
+            255,
+            255
+          ],
+          24
+        ]
+      ]
+    },
+    {
+      "file": "imgi_32_656179671_18077289212628783_6745418022262791529_n.webp",
+      "region": "footer_green",
+      "roi_xyxy_exclusive": [
+        5,
+        1045,
+        190,
+        1070
+      ],
+      "filter": "all pixels",
+      "pixel_count": 4625,
+      "channel_median_rgb": [
+        1,
+        121,
+        80
+      ],
+      "top_rgb_counts": [
+        [
+          [
+            1,
+            121,
+            80
+          ],
+          3751
+        ],
+        [
+          [
+            0,
+            122,
+            80
+          ],
+          420
+        ],
+        [
+          [
+            1,
+            121,
+            78
+          ],
+          232
+        ],
+        [
+          [
+            2,
+            120,
+            80
+          ],
+          154
+        ]
+      ]
+    },
+    {
+      "file": "imgi_32_656179671_18077289212628783_6745418022262791529_n.webp",
+      "region": "green_text",
+      "roi_xyxy_exclusive": [
+        110,
+        747,
+        745,
+        839
+      ],
+      "filter": "R<70, G>65, G>1.5R, G>1.15B; isolates green glyph interiors imperfectly",
+      "pixel_count": 9269,
+      "channel_median_rgb": [
+        17,
+        89,
+        35
+      ],
+      "top_rgb_counts": [
+        [
+          [
+            5,
+            91,
+            48
+          ],
+          20
+        ],
+        [
+          [
+            12,
+            91,
+            42
+          ],
+          20
+        ],
+        [
+          [
+            6,
+            91,
+            46
+          ],
+          20
+        ],
+        [
+          [
+            8,
+            90,
+            46
+          ],
+          18
+        ]
+      ]
+    },
+    {
+      "file": "imgi_29_658526008_18078164690628783_7509465457869267664_n.webp",
+      "region": "green_ribbon",
+      "roi_xyxy_exclusive": [
+        45,
+        667,
+        85,
+        702
+      ],
+      "filter": "all pixels",
+      "pixel_count": 1400,
+      "channel_median_rgb": [
+        1.0,
+        121.0,
+        80.0
+      ],
+      "top_rgb_counts": [
+        [
+          [
+            1,
+            121,
+            80
+          ],
+          1276
+        ],
+        [
+          [
+            2,
+            120,
+            80
+          ],
+          72
+        ],
+        [
+          [
+            0,
+            122,
+            80
+          ],
+          52
+        ]
+      ]
+    },
+    {
+      "file": "imgi_29_658526008_18078164690628783_7509465457869267664_n.webp",
+      "region": "yellow_ribbon",
+      "roi_xyxy_exclusive": [
+        320,
+        807,
+        430,
+        823
+      ],
+      "filter": "all pixels",
+      "pixel_count": 1760,
+      "channel_median_rgb": [
+        249.0,
+        203.0,
+        47.0
+      ],
+      "top_rgb_counts": [
+        [
+          [
+            249,
+            203,
+            48
+          ],
+          447
+        ],
+        [
+          [
+            249,
+            204,
+            46
+          ],
+          372
+        ],
+        [
+          [
+            247,
+            205,
+            46
+          ],
+          120
+        ],
+        [
+          [
+            250,
+            204,
+            49
+          ],
+          96
+        ]
+      ]
+    },
+    {
+      "file": "imgi_29_658526008_18078164690628783_7509465457869267664_n.webp",
+      "region": "white_ribbon",
+      "roi_xyxy_exclusive": [
+        47,
+        870,
+        55,
+        938
+      ],
+      "filter": "all pixels",
+      "pixel_count": 544,
+      "channel_median_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "top_rgb_counts": [
+        [
+          [
+            255,
+            255,
+            255
+          ],
+          539
+        ],
+        [
+          [
+            254,
+            254,
+            254
+          ],
+          5
+        ]
+      ]
+    },
+    {
+      "file": "imgi_29_658526008_18078164690628783_7509465457869267664_n.webp",
+      "region": "footer_green",
+      "roi_xyxy_exclusive": [
+        5,
+        1045,
+        190,
+        1070
+      ],
+      "filter": "all pixels",
+      "pixel_count": 4625,
+      "channel_median_rgb": [
+        1,
+        121,
+        80
+      ],
+      "top_rgb_counts": [
+        [
+          [
+            1,
+            121,
+            80
+          ],
+          4600
+        ],
+        [
+          [
+            2,
+            120,
+            82
+          ],
+          19
+        ],
+        [
+          [
+            0,
+            122,
+            78
+          ],
+          6
+        ]
+      ]
+    },
+    {
+      "file": "imgi_29_658526008_18078164690628783_7509465457869267664_n.webp",
+      "region": "green_text",
+      "roi_xyxy_exclusive": [
+        55,
+        730,
+        780,
+        820
+      ],
+      "filter": "R<70, G>65, G>1.5R, G>1.15B; isolates green glyph interiors imperfectly",
+      "pixel_count": 11763,
+      "channel_median_rgb": [
+        11,
+        91,
+        45
+      ],
+      "top_rgb_counts": [
+        [
+          [
+            1,
+            121,
+            80
+          ],
+          846
+        ],
+        [
+          [
+            2,
+            121,
+            78
+          ],
+          56
+        ],
+        [
+          [
+            2,
+            120,
+            80
+          ],
+          39
+        ],
+        [
+          [
+            1,
+            121,
+            78
+          ],
+          39
+        ]
+      ]
+    }
+  ],
+  "all_original_files_unchanged": true
+}

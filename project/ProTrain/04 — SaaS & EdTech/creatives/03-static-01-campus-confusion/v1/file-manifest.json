@@ -1,0 +1,82 @@
+[
+  {
+    "file": "brief-and-review.json",
+    "bytes": 7192,
+    "sha256": "9eec14e2bc977b0d7f21bacd66117d849216bdb7c9860c6705e5e2309c81a782"
+  },
+  {
+    "file": "Creative01V1-phone-preview.png",
+    "bytes": 197671,
+    "sha256": "991aaed54b0e20c4603676ba3e0ebe6449e40eb110b011dc5def36782c8990b2"
+  },
+  {
+    "file": "Creative01V1.html",
+    "bytes": 4339,
+    "sha256": "ce1b5f3295df6d76856983c823ac22394b6e297650996c9a5a34277295c6404a"
+  },
+  {
+    "file": "Creative01V1.png",
+    "bytes": 891409,
+    "sha256": "c66e6e5ba4ffedc24d572f8e77ce2cfa191eab974de6efab3d80280f1b1ee167"
+  },
+  {
+    "file": "image-prompt.txt",
+    "bytes": 2075,
+    "sha256": "686db95a312e7c3bf635a302d18dbe6f666ae309bdaaf357bcc2a1b6fbe2ae8a"
+  },
+  {
+    "file": "README.txt",
+    "bytes": 1614,
+    "sha256": "b3f77d7e860448f420fa9f80cb7a269237bcf186b9d3ab743d5f84d608c06395"
+  },
+  {
+    "file": "render-checks.json",
+    "bytes": 3509,
+    "sha256": "db8cade1e0bb63dcc17bf113678a5ca57d69e8b9574104155e9e3463ac3a4ffb"
+  },
+  {
+    "file": "render.cjs",
+    "bytes": 2754,
+    "sha256": "55cfc6ebb683ddfc515c2b78b1bcd8da66f9281b9ccec259b47afe8032180e4b"
+  },
+  {
+    "file": "assets/cairo-arabic.woff2",
+    "bytes": 30896,
+    "sha256": "748022f50c427456ad66031e855349be3448ee1f05a5f1eb59574ebe0c686749"
+  },
+  {
+    "file": "assets/Cairo-OFL.txt",
+    "bytes": 4473,
+    "sha256": "a4554e1799d42e1405924b61eb0e0722ae1623b1f1f07f995348f96c496362a9"
+  },
+  {
+    "file": "assets/poppins-latin-600-normal.woff2",
+    "bytes": 8000,
+    "sha256": "f4e80d9dfd374d02989b87a27b5ed4cb78fbb177c27f1478e9a8b0afb7513149"
+  },
+  {
+    "file": "assets/poppins-latin-ext-600-normal.woff2",
+    "bytes": 5524,
+    "sha256": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171"
+  },
+  {
+    "file": "assets/Poppins-OFL.txt",
+    "bytes": 4385,
+    "sha256": "6be04893d770899a015649c7aa3b582f871b272f8747a92b78b17c3e5c8b2573"
+  },
+  {
+    "file": "assets/poppins-provenance.json",
+    "bytes": 790,
+    "sha256": "56cb32458ee1547a4f4ef1ad38d18ee9a18c9bea9aeea5c1ce381311bfe9f13c"
+  },
+  {
+    "file": "assets/protrain-original-logo.png",
+    "bytes": 14857,
+    "sha256": "abef7b2488f244b00306eda0ca864f743c47f2e623db8ab8b5cc785021575e46"
+  },
+  {
+    "file": "assets/student-comparing-original.png",
+    "bytes": 2067395,
+    "sha256": "c18ef2580a1c6c91c34b06b67b4597a3c6c11b5e873d31ba1a6c50d057aa850b"
+  }
+]

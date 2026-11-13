@@ -1,0 +1,66 @@
+[
+  {
+    "file": "brief-and-review.json",
+    "unchanged": true
+  },
+  {
+    "file": "Creative01V1-phone-preview.png",
+    "unchanged": true
+  },
+  {
+    "file": "Creative01V1.html",
+    "unchanged": true
+  },
+  {
+    "file": "Creative01V1.png",
+    "unchanged": true
+  },
+  {
+    "file": "image-prompt.txt",
+    "unchanged": true
+  },
+  {
+    "file": "README.txt",
+    "unchanged": true
+  },
+  {
+    "file": "render-checks.json",
+    "unchanged": true
+  },
+  {
+    "file": "render.cjs",
+    "unchanged": true
+  },
+  {
+    "file": "assets/cairo-arabic.woff2",
+    "unchanged": true
+  },
+  {
+    "file": "assets/Cairo-OFL.txt",
+    "unchanged": true
+  },
+  {
+    "file": "assets/poppins-latin-600-normal.woff2",
+    "unchanged": true
+  },
+  {
+    "file": "assets/poppins-latin-ext-600-normal.woff2",
+    "unchanged": true
+  },
+  {
+    "file": "assets/Poppins-OFL.txt",
+    "unchanged": true
+  },
+  {
+    "file": "assets/poppins-provenance.json",
+    "unchanged": true
+  },
+  {
+    "file": "assets/protrain-original-logo.png",
+    "unchanged": true
+  },
+  {
+    "file": "assets/student-comparing-original.png",
+    "unchanged": true
+  }
+]

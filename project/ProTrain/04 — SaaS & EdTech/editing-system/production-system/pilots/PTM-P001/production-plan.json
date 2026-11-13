@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "pilot_id": "PTM-P001",
+  "revision": "plan-v1",
+  "state": "preview_ready_for_owner_feedback",
+  "created_on": "2026-11-13",
+  "product": "ProTrain Match",
+  "script": {
+    "path": "script-v3.txt",
+    "version": "V3",
+    "sha256": "a4fa95bbc17d0fee80cd2376775a075c8b7463b240c26794a2de7455c982e7f0",
+    "selection": "owner_selected",
+    "state": "exact_owner_selected_copy_preserved_in_preview",
+    "text_changes_authorized": false
+  },
+  "storyboard": {
+    "path": "STORYBOARD_V1.md",
+    "revision": 1,
+    "sha256": "643a3fdf418e46bd4305c508fd5815f39d2e092974b6ee337209762816bde2ab",
+    "approved_amendment": "S04–S06 labelled explanatory visuals, owner-approved"
+  },
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "target_duration_seconds": 38,
+    "duration_state": "measured_preview_not_final_approved",
+    "measured_voice_seconds": 35.84,
+    "final_duration_frames": null,
+    "codec_proposal": "h264",
+    "audio_codec_proposal": "aac",
+    "sample_rate_proposal": 48000,
+    "color_policy": "Export metadata yuv420p and bt709 verified; perceptual color review not certified",
+    "preview_duration_seconds": 38,
+    "preview_duration_frames": 1140,
+    "timing_reason": "Measured35.84second narration plus2.16second CTA reading tail; original55second screen budget was provisional, no time stretching",
+    "original_estimated_duration_seconds": 55
+  },
+  "scenes": [
+    {
+      "id": "S01",
+      "estimated_start_seconds": 0,
+      "estimated_end_seconds": 5,
+      "script_ref": "HOOK",
+      "visual_purpose": "Context image / immediate choice confusion",
+      "asset_state": "generated_context_image_available",
+      "measured_start_seconds": 0,
+      "measured_end_seconds": 4.1
+    },
+    {
+      "id": "S02",
+      "estimated_start_seconds": 5,
+      "estimated_end_seconds": 14,
+      "script_ref": "PROBLEM",
+      "visual_purpose": "Labelled explanatory relationship: profile and conditions",
+      "asset_state": "labelled_explanatory_graphic_rendered",
+      "measured_start_seconds": 4.1,
+      "measured_end_seconds": 11.6
+    },
+    {
+      "id": "S03",
+      "estimated_start_seconds": 14,
+      "estimated_end_seconds": 21,
+      "script_ref": "SOLUTION:first_span",
+      "visual_purpose": "Authentic free-profile form",
+      "asset_state": "authentic_public_form_capture_rendered",
+      "measured_start_seconds": 11.6,
+      "measured_end_seconds": 17.3
+    },
+    {
+      "id": "S04",
+      "estimated_start_seconds": 21,
+      "estimated_end_seconds": 30,
+      "script_ref": "SOLUTION:remaining_span",
+      "visual_purpose": "Labelled explanation of report content, not genuine report UI",
+      "asset_state": "owner_approved_labelled_explanation_rendered_real_report_absent",
+      "measured_start_seconds": 17.3,
+      "measured_end_seconds": 22.6
+    },
+    {
+      "id": "S05",
+      "estimated_start_seconds": 30,
+      "estimated_end_seconds": 39,
+      "script_ref": "PRODUCT VALUE:first_span",
+      "visual_purpose": "Labelled explanation of report content, not genuine report UI",
+      "asset_state": "owner_approved_labelled_explanation_rendered_real_report_absent",
+      "measured_start_seconds": 22.6,
+      "measured_end_seconds": 27
+    },
+    {
+      "id": "S06",
+      "estimated_start_seconds": 39,
+      "estimated_end_seconds": 44,
+      "script_ref": "PRODUCT VALUE:remaining_span",
+      "visual_purpose": "Labelled explanation of report content, not genuine report UI",
+      "asset_state": "owner_approved_labelled_explanation_rendered_real_report_absent",
+      "measured_start_seconds": 27,
+      "measured_end_seconds": 30
+    },
+    {
+      "id": "S07",
+      "estimated_start_seconds": 44,
+      "estimated_end_seconds": 55,
+      "script_ref": "CTA",
+      "visual_purpose": "Real entry/offer and branded next action",
+      "asset_state": "branded_cta_with_confirmed_public_url_rendered_live_funnel_untested",
+      "measured_start_seconds": 30,
+      "measured_end_seconds": 38
+    }
+  ],
+  "approvals": {
+    "storyboard": {
+      "status": "approved",
+      "approved_revision": 1,
+      "script_sha256": "a4fa95bbc17d0fee80cd2376775a075c8b7463b240c26794a2de7455c982e7f0",
+      "storyboard_sha256": "643a3fdf418e46bd4305c508fd5815f39d2e092974b6ee337209762816bde2ab",
+      "owner_reply": "موافق على التخطيط",
+      "event_id": "PTM-P001-storyboard-v1-owner-approved"
+    },
+    "paid_services": {
+      "status": "approved",
+      "event_id": "PTM-P001-media-scope-approved",
+      "owner_reply": "موافق على هاد النطاق",
+      "provider_scopes": {
+        "Gemini_TTS": {
+          "max_requests": 2,
+          "script_version": "V3",
+          "purpose": "generic Moroccan Darija narration"
+        },
+        "ImageGen": {
+          "max_requests": 2,
+          "purpose": "context images for approved storyboard"
+        }
+      },
+      "approved_limit": "up to2TTS requests and2contextimage requests; no new subscription",
+      "max_attempts": {
+        "Gemini_TTS": 2,
+        "ImageGen": 2
+      }
+    },
+    "final_creative": {
+      "status": "pending",
+      "artifact_sha256": null
+    },
+    "publication": {
+      "status": "not_authorized",
+      "destination": null,
+      "owner_reply": null
+    },
+    "report_illustration": {
+      "event_id": "PTM-P001-report-illustration-approved",
+      "date_utc": "2026-11-13T04:28:03.549969+00:00",
+      "owner_reply": "موافق على الشرح التوضيحي",
+      "scope": "Replace only unavailable report scenesS04–S06 with explicitly labelled explanatory visuals; preserve authentic form and exactV3copy; no invented productUI/results."
+    }
+  },
+  "asset_generation_allowed": true,
+  "provider_calls_made_this_setup": true,
+  "required_inputs": [
+    "Owner feedback on pronunciation, internal caption timing and editing",
+    "Actual Meta placement preview before launch",
+    "Authentic report capture if future product demonstration is requested"
+  ],
+  "voice": {
+    "candidate": "Gemini generic Kore take01 generated under bounded owner authorization",
+    "recording": "assets/vo-take01.wav",
+    "review_status": "generated; pronunciation/caption review pending",
+    "mix": "assets/voice-mix-v1.wav"
+  },
+  "captions": {
+    "format_proposal": [
+      "Caption JSON",
+      "SRT",
+      "burned-in"
+    ],
+    "timing_status": "candidate, observed section silences; internal phrase alignment pending listening",
+    "asr_status": "Darija ASR not validated; manually corrected phrase alignment is pilot fallback",
+    "file": "assets/captions-v1.srt"
+  },
+  "review": {
+    "technical": "passed_v2_exact_hash",
+    "sampled_visual": "reviewed_no_blocking_defect_observed",
+    "perceptual": "normal_speed_playback_and_listening_pending",
+    "creative": "owner_feedback_pending",
+    "owner": "pending",
+    "platform": "pending"
+  },
+  "artifacts": [
+    {
+      "path": "../../../video-studio/out/ptm-p001-preview-v1.mp4",
+      "kind": "initial_preview",
+      "status": "superseded_for_delivery_by_observed_form_layout_issue",
+      "technical_report": "runs/20261113T044204662563Z-ac9c2ee12df44b039a6b1c38a6900107/technical-report.json",
+      "frame_evidence": "runs/20261113T044204799018Z-frames-6861fb28/frame-evidence.json"
+    },
+    {
+      "path": "../../../video-studio/out/ptm-p001-preview-v2.mp4",
+      "kind": "corrected_preview",
+      "status": "ready_for_owner_feedback",
+      "sha256": "6f540262ea1d3e7e137c8b88d6a31c002c3e66c861752c0b77611fba7b897dcb",
+      "technical_report": "runs/20261113T044652562928Z-7bfcbda4ecb9494cab1a5b2eef4d7a75/technical-report.json",
+      "frame_evidence": "runs/20261113T044652685565Z-frames-83fa22a3/frame-evidence.json",
+      "review": "REVIEW_PREVIEW_V2.md"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-11-13",
+      "event": "Owner supplied Pilot001V3; exact text saved, no generation or publishing approval inferred."
+    },
+    {
+      "date": "2026-11-13",
+      "event": "Owner approved storyboardV1 only. Paid services/publication remain pending; genuine product capture availability clarification requested."
+    },
+    {
+      "date": "2026-11-13",
+      "event": "Owner approved up to2GeminiTTS requests and2ImageGen context images; said authentic captures unavailable and supplied publicLP. No publication or form submission approval."
+    },
+    {
+      "date": "2026-11-13",
+      "event": "TTS take01 generated35.84sec; context image1 generated; authentic public form captured. Report-detail replacement approval requested separately."
+    },
+    {
+      "date": "2026-11-13",
+      "event": "Replace only unavailable report scenesS04–S06 with explicitly labelled explanatory visuals; preserve authentic form and exactV3copy; no invented productUI/results."
+    },
+    {
+      "date": "2026-11-13",
+      "event": "ActualV1QA found form title/badge overlap and smallUI detail; corrected layout and genuine screenshot zoom. V1 preserved, V2 render started. Voice/captions listening still pending."
+    },
+    {
+      "date": "2026-11-13",
+      "event": "V2 rendered at38seconds; exacthash technical QA passed. Controller contact-sheet and independent36-frame review found no blocking sampled visual defect. E020 correction verified. Human listening, internal caption alignment, normal-speed motion, owner acceptance and Meta preview remain pending. V1 and all evidence preserved."
+    }
+  ],
+  "asset_preparation_allowed_after_storyboard": true,
+  "external_paid_generation_allowed": true,
+  "landing_page": "https://protraincompany.com/en/etudier-en-france/campus-france",
+  "authentic_product_assets": {
+    "owner_reply": "مازال ما متوفرش",
+    "public_landing_form": "Actual screenshot saved assets/landing-form-original.jpg viaCUA; no submission",
+    "report_recording": "not supplied",
+    "submission_or_purchase_authorized": false
+  },
+  "edit_plan": "edit-plan-preview-v1.json",
+  "assets": [
+    {
+      "file": "context-student-v1.png",
+      "sha256": "fde040e6d8ee2853d97a9766beed5eebbc7cc572e637572ca7b4c4a4d834d5a3"
+    },
+    {
+      "file": "explanatory-folder-v1.png",
+      "sha256": "3752a39a44e7563b6c0f9546816fb83a1e90421f3d0681e4115e8ea6767b79d7"
+    },
+    {
+      "file": "landing-form-original.jpg",
+      "sha256": "c89d7d65503f2301e7c9171c1a52e58edba9d3813d5559fb90a00c94ce499e46"
+    },
+    {
+      "file": "vo-take01.wav",
+      "sha256": "4112d01122a6d8870d9d8240f27b56e7d728ef2dc15bbaf6d83fc48af4dafce1"
+    },
+    {
+      "file": "voice-mix-v1.wav",
+      "sha256": "465e95853a4fb2676d5634dfeb0b502600c13640ecf1dfc3bb3256f1fce0597a"
+    }
+  ],
+  "provider_usage": {
+    "Gemini_TTS": {
+      "used": 1,
+      "approved_max": 2
+    },
+    "ImageGen": {
+      "used": 2,
+      "approved_max": 2
+    }
+  }
+}

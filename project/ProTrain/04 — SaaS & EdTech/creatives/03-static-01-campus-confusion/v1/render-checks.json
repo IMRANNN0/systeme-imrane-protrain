@@ -1,0 +1,183 @@
+{
+  "dimensions": {
+    "width": 1080,
+    "height": 1350
+  },
+  "fonts": [
+    {
+      "family": "Cairo",
+      "status": "loaded"
+    },
+    {
+      "family": "Poppins",
+      "status": "loaded"
+    },
+    {
+      "family": "Poppins",
+      "status": "unloaded"
+    }
+  ],
+  "text": {
+    "hook": "كتوجد لـCampus France ومحتار فاختيار الـFormations؟",
+    "support": "اكتشف تكوينات مقترحة حسب الملف الدراسي ديالك.",
+    "cta": "شوف جوج Formations مجاناً"
+  },
+  "elements": [
+    {
+      "class": "brand",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 120,
+        "top": 0,
+        "right": 1080,
+        "bottom": 120,
+        "left": 0
+      },
+      "scrollWidth": 1080,
+      "clientWidth": 1080
+    },
+    {
+      "class": "headline",
+      "box": {
+        "x": 0,
+        "y": 120,
+        "width": 1080,
+        "height": 298,
+        "top": 120,
+        "right": 1080,
+        "bottom": 418,
+        "left": 0
+      },
+      "scrollWidth": 1080,
+      "clientWidth": 1080
+    },
+    {
+      "class": "line",
+      "box": {
+        "x": 62,
+        "y": 157,
+        "width": 956,
+        "height": 99.421875,
+        "top": 157,
+        "right": 1018,
+        "bottom": 256.421875,
+        "left": 62
+      },
+      "scrollWidth": 956,
+      "clientWidth": 956
+    },
+    {
+      "class": "line",
+      "box": {
+        "x": 62,
+        "y": 256.421875,
+        "width": 956,
+        "height": 99.421875,
+        "top": 256.421875,
+        "right": 1018,
+        "bottom": 355.84375,
+        "left": 62
+      },
+      "scrollWidth": 956,
+      "clientWidth": 956
+    },
+    {
+      "class": "photo-band",
+      "box": {
+        "x": 0,
+        "y": 418,
+        "width": 1080,
+        "height": 650,
+        "top": 418,
+        "right": 1080,
+        "bottom": 1068,
+        "left": 0
+      },
+      "scrollWidth": 1080,
+      "clientWidth": 1080
+    },
+    {
+      "class": "choices",
+      "box": {
+        "x": 62,
+        "y": 488,
+        "width": 300,
+        "height": 283,
+        "top": 488,
+        "right": 362,
+        "bottom": 771,
+        "left": 62
+      },
+      "scrollWidth": 306,
+      "clientWidth": 300
+    },
+    {
+      "class": "illustration",
+      "box": {
+        "x": 72,
+        "y": 728,
+        "width": 290,
+        "height": 43,
+        "top": 728,
+        "right": 362,
+        "bottom": 771,
+        "left": 72
+      },
+      "scrollWidth": 290,
+      "clientWidth": 290
+    },
+    {
+      "class": "footer",
+      "box": {
+        "x": 0,
+        "y": 1068,
+        "width": 1080,
+        "height": 282,
+        "top": 1068,
+        "right": 1080,
+        "bottom": 1350,
+        "left": 0
+      },
+      "scrollWidth": 1080,
+      "clientWidth": 1080
+    },
+    {
+      "class": "support",
+      "box": {
+        "x": 62,
+        "y": 1089,
+        "width": 956,
+        "height": 115.4375,
+        "top": 1089,
+        "right": 1018,
+        "bottom": 1204.4375,
+        "left": 62
+      },
+      "scrollWidth": 956,
+      "clientWidth": 956
+    },
+    {
+      "class": "cta",
+      "box": {
+        "x": 62,
+        "y": 1224.4375,
+        "width": 956,
+        "height": 88,
+        "top": 1224.4375,
+        "right": 1018,
+        "bottom": 1312.4375,
+        "left": 62
+      },
+      "scrollWidth": 956,
+      "clientWidth": 956
+    }
+  ],
+  "exactCopy": {
+    "hook": true,
+    "support": true,
+    "cta": true
+  },
+  "pageErrors": []
+}

@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "system": [
+    {"name":"git","command":"git","minimum":"2.39","winget":"Git.Git","brew":"git","profile":"core"},
+    {"name":"python","command":"@python","minimum":"3.11","winget":"Python.Python.3.12","brew":"python@3.12","profile":"core"},
+    {"name":"node","command":"node","minimum":"24.0","winget":"OpenJS.NodeJS.LTS","brew":"node@24","profile":"core"},
+    {"name":"npm","command":"npm","minimum":"10.0","bundled_with":"node","profile":"core"},
+    {"name":"ripgrep","command":"rg","minimum":"14.0","winget":"BurntSushi.ripgrep.MSVC","brew":"ripgrep","profile":"core"},
+    {"name":"jq","command":"jq","minimum":"1.7","winget":"jqlang.jq","brew":"jq","profile":"core"},
+    {"name":"github-cli","command":"gh","minimum":"2.40","winget":"GitHub.cli","brew":"gh","profile":"core"},
+    {"name":"ffmpeg","command":"ffmpeg","version_args":["-version"],"minimum":"6.0","winget":"Gyan.FFmpeg","brew":"ffmpeg","profile":"complete"},
+    {"name":"ffprobe","command":"ffprobe","version_args":["-version"],"minimum":"6.0","bundled_with":"ffmpeg","profile":"complete"},
+    {"name":"exiftool","command":"exiftool","version_args":["-ver"],"minimum":"12.70","winget":"OliverBetz.ExifTool","brew":"exiftool","profile":"complete"},
+    {"name":"poppler","command":"pdftoppm","version_args":["-v"],"minimum":"24.0","winget":"oschwartz10612.Poppler","brew":"poppler","profile":"complete"},
+    {"name":"pdfinfo","command":"pdfinfo","version_args":["-v"],"minimum":"24.0","bundled_with":"poppler","profile":"complete"}
+  ],
+  "python": ["graphifyy[gemini,ollama]==0.8.13", "Pillow==13.0.0", "pypdf==6.21.1", "python-docx==1.2.0", "openpyxl==3.1.5", "PyYAML==6.0.3", "reportlab==5.0.1"],
+  "npm_lock":"npm-tools-lock.json",
+  "manual_capabilities": [
+    {"name":"Claude Code","url":"https://code.claude.com/docs/en/setup","reason":"Native host installation and personal authentication; never copy another user's settings/auth."},
+    {"name":"Codex","url":"https://developers.openai.com/codex/cli/","reason":"Optional CLI via locked @openai/codex package, or installed desktop app. Personal account authentication is separate."},
+    {"name":"SEO data services","url":"https://github.com/kabde/seo-skills","reason":"DataForSEO, Firecrawl and other MCP connectors need personal accounts, keys and host-specific connections."},
+    {"name":"Browser and document capabilities","url":"https://developers.openai.com/codex/plugins/","reason":"Host-provided plugins are not portable shell commands; see plugin inventory."}
+  ]
+}

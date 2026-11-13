@@ -1,0 +1,6 @@
+assets/
+creatives/
+editing-system/
+node_modules/
+.env*
+secrets/

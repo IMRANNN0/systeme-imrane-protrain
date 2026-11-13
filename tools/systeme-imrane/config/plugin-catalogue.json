@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "verified_installed_inventory": "codex-plugins-observed.json",
+  "workflow_requirements": "plugin-profiles.json",
+  "policy": "Catalogue of host capabilities, not redistributable runtime packages or credentials. Install/enable through the host's supported plugin mechanism with the recipient's own account.",
+  "preinstalled_system_skills": ["skill-creator", "skill-installer", "openai-docs", "imagegen"],
+  "host_plugins": [
+    {"name":"Product Design","skills":["index","audit","ideate","image-to-code","url-to-code"],"setup":"Codex plugin catalogue; image generation/browser capabilities and recipient permissions required."},
+    {"name":"Sites","skills":["sites","sites-remix"],"setup":"Codex Sites plugin, personal hosting connection; no copied project ids or deployment credentials."},
+    {"name":"Vercel","skills":["vercel-cli","deployments-cicd","domains","env-vars","verification","react-best-practices","ai-sdk","build-agents","workflow","vercel-storage","auth","routing-middleware","vercel-firewall","cdn-caching","runtime-cache","custom-metrics","queues","vercel-functions","vercel-services","vercel-sandbox","vercel-connect","marketplace","bootstrap","ai-gateway","flags-sdk","microfrontends","is-agentic","eve","chat-sdk","vercel-agent","knowledge-update","access-protected-vercel-deployment"],"setup":"Official host plugin or independently authorized Vercel CLI/account; no automatic cloud provisioning."},
+    {"name":"Office and PDFs","skills":["documents","pdf","presentations","spreadsheets","excel-live-control","template-creator"],"setup":"Host-bundled document runtimes/add-ins. Optional local Python media/document packages are documented separately, not a substitute for connected sessions."},
+    {"name":"Pages","skills":["write-page","maintain-space","organize-space","manage-schedules"],"setup":"Codex Pages plugin and personal account permissions."},
+    {"name":"Notion","skills":["notion-database-designer","notion-meeting-intelligence","notion-research-documentation","notion-spec-to-implementation","notion-weekly-project-digest"],"setup":"Notion plugin and recipient OAuth; no workspace data exported."},
+    {"name":"Other host tools","skills":["computer-use","visualize","plugin-management","human-writing","work-pets"],"setup":"Enable available host plugins individually. Some capabilities are Codex-specific and cannot be installed in Claude Code by copying a folder."}
+  ],
+  "excluded_project_overlays": [{"name":"coincarriere-taf-workflow","reason":"Depends on a private project and its business workflow; not a generic architecture dependency."}]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "E-commerce Analysis"
+  short_description: "Reconcile paid orders, returns and contribution"
+  default_prompt: "Use $media-buying-ecommerce-analysis to analyze paid acquisition through retained orders, revenue and contribution."

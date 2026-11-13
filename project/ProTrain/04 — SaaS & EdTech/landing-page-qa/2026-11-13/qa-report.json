@@ -1,0 +1,438 @@
+{
+  "date": "2026-11-13",
+  "timezone": "Africa/Casablanca",
+  "page": "https://protraincompany.com/en/etudier-en-france/campus-france",
+  "status": "READ_ONLY_QA_COMPLETE_IMPLEMENTATION_BLOCKED_BY_MISSING_SOURCE",
+  "original_page": {
+    "headline": "Which programs in France should you choose on Études en France?",
+    "subheadline": "Fill in one short form. We find 7 programs that fit your bac, your grades and your wishes, with the official figures of each one. See 2 of them now, for free.",
+    "identity": "Agency branding; no visible ProTrain Match match in captured body text",
+    "offer": "2 programs free; complete report of 7 programs for 199 DH including VAT; online and PDF, as displayed",
+    "free_selection_detail": "FAQ says the last 2 of the ranked 7 are shown in full, with the other 5 unlocked by payment",
+    "main_cta": {
+      "label": "See my programs",
+      "href": "#o_shortlist_start",
+      "observed": "Same-page navigation reaches the empty first form stage"
+    },
+    "promised_journey": "Profile → 2 free programs and private email link → optional 199 DH unlock → full 7 online/PDF. Only landing, empty first stage, FAQ and navigation inspected; outcomes not exercised.",
+    "form": {
+      "method": "POST",
+      "action": "/en/etudier-en-france/campus-france/start",
+      "stages": [
+        "Profile",
+        "French and grades",
+        "Wishes",
+        "Contact"
+      ],
+      "visually_inspected_stages": [
+        "Profile"
+      ],
+      "other_stages": "DOM structure only; no Next or Submit interaction",
+      "required_default_fields_count": 12,
+      "required_default_fields": [
+        {
+          "id": "o_shortlist_nationality_id",
+          "label": "Nationality *"
+        },
+        {
+          "id": "o_shortlist_country_id",
+          "label": "Country where the student lives *"
+        },
+        {
+          "id": "o_shortlist_current_level",
+          "label": "Current level *"
+        },
+        {
+          "id": "o_shortlist_target_level",
+          "label": "The year you apply for in France *"
+        },
+        {
+          "id": "o_shortlist_bac",
+          "label": "Moroccan bac stream"
+        },
+        {
+          "id": "o_shortlist_average",
+          "label": "Overall average (/20) *"
+        },
+        {
+          "id": "o_shortlist_interest_1",
+          "label": "Field of study *"
+        },
+        {
+          "id": "o_shortlist_first_name",
+          "label": "Student's first name *"
+        },
+        {
+          "id": "o_shortlist_last_name",
+          "label": "Student's last name *"
+        },
+        {
+          "id": "o_shortlist_phone",
+          "label": "WhatsApp number *"
+        },
+        {
+          "id": "o_shortlist_email",
+          "label": "Email *"
+        },
+        {
+          "id": "o_shortlist_accepted",
+          "label": "I accept that ProTrain processes this data to find the programs and to contact me about them, as described in the privacy policy. If the student is under 18, I am their parent or legal guardian."
+        }
+      ],
+      "default_context": "Page-supplied Morocco nationality/residence, Baccalaureate currentlevel and L1 target; not edited",
+      "optional_fields": [
+        "French test level with No test yet default",
+        "Subject grades",
+        "Additional study fields",
+        "Cities",
+        "Licence field when applicable"
+      ]
+    }
+  },
+  "branding": {
+    "applied_changes": [],
+    "proposed_changes": [
+      {
+        "id": "hero-product-identity",
+        "target_selector": "#wrap section.s_protrain_page_header p.text-uppercase.small.fw-bold.mb-2",
+        "operation": "Replace text only",
+        "current": "CAMPUS FRANCE - ÉTUDES EN FRANCE",
+        "proposed": "ProTrain Match by ProTrain Company",
+        "note": "Use existing kicker placement and typography. Existing uppercase CSS may render the text in capitals. Keep the current H1 unchanged."
+      },
+      {
+        "id": "hero-introduction",
+        "target_selector": "#wrap section.s_protrain_page_header p.lead",
+        "operation": "Replace text only",
+        "current": "Fill in one short form. We find 7 programs that fit your bac, your grades and your wishes, with the official figures of each one. See 2 of them now, for free.",
+        "proposed": "ProTrain Match is our academic matching tool. Fill in one short form to find 7 programs that fit your bac, your grades and your wishes, with the official figures of each one. See 2 of them now, for free."
+      },
+      {
+        "id": "form-context",
+        "target_selector": ".o_website_protrain_form_card > p",
+        "target_disambiguation": "Direct helper paragraph immediately after H2 See my programs; exact current text must match",
+        "operation": "Replace text only",
+        "current": "Free: your procedure and 2 programs. You also receive a private link by email to come back later.",
+        "proposed": "With ProTrain Match, your procedure and 2 programs are free. You also receive a private link by email to come back later."
+      },
+      {
+        "id": "report-context",
+        "target_selector": "#o_shortlist_faq_2",
+        "target_disambiguation": "Replace answer paragraph text only, keep question and collapse controls unchanged",
+        "operation": "Replace answer text only",
+        "current": "Your 7 programs ranked for your profile, with for each one the places, the access rate, the place of study, the profile of the admitted students, the reasons why it fits you and its official link. You see the list online and as a PDF.",
+        "proposed": "ProTrain Match gives you your 7 programs ranked for your profile, with for each one the places, the access rate, the place of study, the profile of the admitted students, the reasons why it fits you and its official link. You see the list online and as a PDF."
+      },
+      {
+        "id": "optional-human-consulting",
+        "target_selector": "#o_shortlist_faq_6",
+        "target_disambiguation": "Replace answer paragraph text only, keep question and collapse controls unchanged",
+        "operation": "Replace answer text only",
+        "current": "You enter your wishes on Études en France on your own, or a ProTrain counselor helps you with the application and the interview.",
+        "proposed": "You can use your ProTrain Match list to enter your wishes on Études en France on your own. Human guidance is a separate service from ProTrain Company. If you choose, a counselor can help you with the application and the interview.",
+        "note": "Separates use of the digital list from optional human help. Does not say consulting is included in the report price or invent consulting pricing."
+      }
+    ],
+    "preserved": [
+      "H1: Which programs in France should you choose on Études en France?",
+      "Current application deadline text",
+      "2 programs free",
+      "7 programs in full report",
+      "199 DH including VAT, existing payment and PDF terms",
+      "All CTA labels and hrefs, including See my programs -> #o_shortlist_start",
+      "Form action /en/etudier-en-france/campus-france/start, POST method, field schemas, validation, steps and controls",
+      "Matching, reports, checkout, email links, database and service logic",
+      "Original corporate logo, colors, fonts and components",
+      "Other pages and languages"
+    ]
+  },
+  "source": {
+    "date": "2026-11-13",
+    "task": "Read-only source inventory for ProTrain Match naming on current landing page",
+    "scope": "{{PROTRAIN_PROJECT_ROOT}} only",
+    "live_page": "https://protraincompany.com/en/etudier-en-france/campus-france",
+    "actual_landing_source_found": false,
+    "scoped_inventory_file_count": 1388,
+    "excluded": [
+      "node_modules",
+      ".git",
+      "graphify*",
+      ".codex",
+      ".claude",
+      "memories"
+    ],
+    "checks": [
+      "Scoped filename search for Odoo __manifest__.py/__openerp__.py, controllers/, views/, templates/, package.json and frontend config files",
+      "Scoped source-text search for o_shortlist_start, campus-france/start and exact current H1 returned no matches",
+      "Lane-root directory listing has no .git directory"
+    ],
+    "findings": [
+      {
+        "path": "editing-system/video-studio/package.json",
+        "kind": "Remotion video project",
+        "landing_source": false,
+        "reason": "Scripts target video compositions, rendering and video QA"
+      },
+      {
+        "path": "editing-system/brand/website-source.html",
+        "kind": "Historical downloaded homepage reference",
+        "landing_source": false,
+        "reason": "Archival evidence, not current target landing template"
+      },
+      {
+        "path": "landing-page-qa/2026-11-13/desktop-dom.json",
+        "kind": "Current public page inspection evidence",
+        "landing_source": false,
+        "reason": "Read-only baseline, not server/editable source"
+      }
+    ],
+    "changes_performed": [
+      "This source inventory evidence file only"
+    ],
+    "source_and_production_unchanged": true,
+    "build_lint": {
+      "applicable": false,
+      "reason": "No landing source/project/config available. Remotion check/render scripts do not validate the landing page and were not run."
+    },
+    "next_needed": "The actual editable Odoo module/template source or existing landing source checkout, and its scoped local preview/validation instructions. Do not reconstruct or patch archived downloaded HTML.",
+    "limits": [
+      "No browser operation by worker",
+      "No network calls",
+      "No form interaction or submission",
+      "No matching/report generation/payment/database mutations",
+      "No remote changes, deployment or installation",
+      "No unrelated client reads or global/canonical memory writes"
+    ]
+  },
+  "qa_steps": [
+    {
+      "step": 1,
+      "inspection": "Desktop landing, offer and naming",
+      "result": "Loads; clear benefit and 2/7/199 offer; product name missing",
+      "evidence": [
+        "01-desktop-hero.jpg"
+      ]
+    },
+    {
+      "step": 2,
+      "inspection": "Desktop mainCTA to empty form",
+      "result": "Anchor works; first stage inspected; required marker inconsistency",
+      "evidence": [
+        "02-desktop-empty-form.jpg"
+      ]
+    },
+    {
+      "step": 3,
+      "inspection": "Free/full report and optional consulting FAQ",
+      "result": "Accordions work; free selection and paid report contents explained; separate-service naming proposed",
+      "evidence": [
+        "03-desktop-report-faq.jpg",
+        "faq-offer.json",
+        "faq-consulting.json"
+      ]
+    },
+    {
+      "step": 4,
+      "inspection": "Mobile landing",
+      "result": "390 × 844 reflows; main CTA visible, no horizontal overflow; fixed consultation bar competes with product action",
+      "evidence": [
+        "04-mobile-hero.jpg",
+        "mobile-dom.json"
+      ]
+    },
+    {
+      "step": 5,
+      "inspection": "Mobile empty form",
+      "result": "Single-column controls fit viewport; first 6 controls have 58 px height; later stages not entered",
+      "evidence": [
+        "05-mobile-empty-form.jpg",
+        "mobile-form.json"
+      ]
+    },
+    {
+      "step": 6,
+      "inspection": "Mobile navigation and action destinations",
+      "result": "Menu opens/closes; destinations inspected. Toggle expansion attribute needs review. Telephone/WhatsApp/contact actions not activated.",
+      "evidence": [
+        "06-mobile-navigation.jpg"
+      ]
+    }
+  ],
+  "layout": {
+    "desktop_viewport": {
+      "height": 1000,
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    "mobile_viewport": {
+      "clientWidth": 375,
+      "height": 844,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    "mobile_overflow_elements": [],
+    "mobile_cta_size": {
+      "height": 57.875,
+      "width": 213.046875,
+      "x": 15,
+      "y": 482.375
+    },
+    "coverage_limit": "One desktop and one mobile viewport, not exhaustive device coverage"
+  },
+  "findings": [
+    {
+      "id": "B01",
+      "type": "Branding",
+      "priority": "High",
+      "finding": "No visible ProTrain Match name in the inspected landing text. The visitor sees the agency identity and a matching promise without an explicit product identifier.",
+      "evidence": [
+        "01-desktop-hero.jpg",
+        "04-mobile-hero.jpg",
+        "desktop-dom.json"
+      ],
+      "action": "Apply the five proposed naming-only changes in the actual source when available.",
+      "approval": "Branding scope already authorized; actual source required"
+    },
+    {
+      "id": "C01",
+      "type": "Content accuracy",
+      "priority": "High",
+      "finding": "The hero states a November 15, 2026 Études en France deadline. Campus France Maroc's currently indexed official calendar states December 15, 2026 at 23:59 Moroccan time for the connected formations it lists. The blanket landing date needs verification against the relevant applicant procedure.",
+      "evidence": [
+        "01-desktop-hero.jpg",
+        "04-mobile-hero.jpg"
+      ],
+      "source": "https://www.maroc.campusfrance.org/calendrier-de-la-procedure-de-candidature-20262027",
+      "source_limit": "Official search result consulted on 13 November 2026; direct fetch of the detailed deadline page returned403. This is external content research, separate from captured page UX.",
+      "action": "Confirm the applicable deadline and approve a separate content correction. Do not silently change it in the branding patch.",
+      "approval": "Separate approval required for deadline copy"
+    },
+    {
+      "id": "U01",
+      "type": "Offer separation",
+      "priority": "Medium",
+      "finding": "The landing's report offer is clear, but optional human assistance is only mentioned late in the FAQ. Agency consultation links remain prominent, including the fixed mobile bar.",
+      "evidence": [
+        "04-mobile-hero.jpg",
+        "05-mobile-empty-form.jpg",
+        "faq-consulting.json"
+      ],
+      "action": "Use explicit tool and separate-service wording in the proposed branding copy. Any consultation CTA hierarchy or funnel change needs separate approval.",
+      "approval": "Naming clarification authorized; funnel changes not authorized"
+    },
+    {
+      "id": "A01",
+      "type": "Required-field clarity",
+      "priority": "Low",
+      "finding": "Moroccan bac stream is required in the default Baccalaureate/L1 DOM state, but its visible label lacks the asterisk shown on adjacent required fields.",
+      "evidence": [
+        "02-desktop-empty-form.jpg",
+        "05-mobile-empty-form.jpg",
+        "desktop-dom.json"
+      ],
+      "action": "Consider a label-only required marker correction after approval; do not alter field requirements or validation.",
+      "approval": "Outside the naming-only patch"
+    },
+    {
+      "id": "A02",
+      "type": "Navigation accessibility state",
+      "priority": "Low",
+      "finding": "The mobile offcanvas was visibly open and had role=dialog and aria-modal=true while its toggle still reported aria-expanded=false.",
+      "evidence": [
+        "06-mobile-navigation.jpg"
+      ],
+      "action": "Review the toggle state in the actual shared navigation implementation. Do not modify the shared component under this single-page branding task.",
+      "approval": "Separate shared-navigation scope required"
+    }
+  ],
+  "console": {
+    "captured_errors_and_warnings": [],
+    "result": "No captured warning/error entries in this inspection session",
+    "limit": "This does not establish absence of all errors or validate unvisited results/payment routes"
+  },
+  "local_checks": {
+    "landing_build": "NOT_RUN_SOURCE_UNAVAILABLE",
+    "landing_lint": "NOT_RUN_SOURCE_UNAVAILABLE",
+    "unrelated_video_checks": "Not run; Remotion checks cannot validate this site",
+    "post_change_qa": "NOT_APPLICABLE_NO_BRANDING_IMPLEMENTATION"
+  },
+  "files": {
+    "application_source_modified": [],
+    "audit_artifacts": "Only files in this audit folder were created, plus scoped project continuity notes. The existing website-source archive, videos and unrelated pages were not modified."
+  },
+  "needs": [
+    "Actual editable landing template/module checkout and local preview/build/lint instructions",
+    "Separate approval for deadline correction",
+    "Separate approval for form-label/shared-navigation fixes or CTA/funnel changes",
+    "Branding approval is already provided; no repeat permission needed once source exists"
+  ],
+  "safety": {
+    "personal_data_entered": false,
+    "form_filled": false,
+    "next_clicked": false,
+    "submit_clicked": false,
+    "form_submitted": false,
+    "fake_student_created": false,
+    "matching_triggered": false,
+    "report_generated": false,
+    "payment_made": false,
+    "customer_record_modified": false,
+    "deployed_or_published": false,
+    "remote_content_changed": false
+  },
+  "screenshots": [
+    {
+      "file": "screenshots/01-desktop-hero.jpg",
+      "title": "Desktop landing and original offer",
+      "note": "1440 × 1000 viewport",
+      "saved_file_inspected": true,
+      "sha256": "3fe2f2be4c24a9a3b9e4671b672022d8996b478680f6d07cd1911cff9e3c9d87"
+    },
+    {
+      "file": "screenshots/02-desktop-empty-form.jpg",
+      "title": "Desktop empty first form stage",
+      "note": "No fields edited or Next clicked",
+      "saved_file_inspected": true,
+      "sha256": "bcc88bd7329538ac7136d489e4a912c3020e10d2cae655b42a96750138f5dadb"
+    },
+    {
+      "file": "screenshots/03-desktop-report-faq.jpg",
+      "title": "Expanded complete-report FAQ",
+      "note": "Read-only accordion interaction",
+      "saved_file_inspected": true,
+      "sha256": "84ff3658b735b62720a554f1bbf93545213debfeca3ff0690de9c17745c3ee61"
+    },
+    {
+      "file": "screenshots/04-mobile-hero.jpg",
+      "title": "Mobile landing and main CTA",
+      "note": "390 × 844 viewport",
+      "saved_file_inspected": true,
+      "sha256": "afa63b9fc83e7bab97ca1a863994d40abce8418b44503be0faacf378ce1ab61c"
+    },
+    {
+      "file": "screenshots/05-mobile-empty-form.jpg",
+      "title": "Mobile empty first form stage",
+      "note": "Single-column fields; no input",
+      "saved_file_inspected": true,
+      "sha256": "aa27580b48be7eeaf064fb0ac2a756aaa48f1d9aa0852829cff277cb920bd021"
+    },
+    {
+      "file": "screenshots/06-mobile-navigation.jpg",
+      "title": "Mobile navigation open",
+      "note": "Opened and closed without following action links",
+      "saved_file_inspected": true,
+      "sha256": "01981a5749909af6ac119e325ebe3ce560733e1e44e02e0555e87e13104edd67"
+    }
+  ],
+  "rejected_capture": {
+    "file": "screenshots/07-mobile-full-page.jpg",
+    "reason": "Full-page capture contains unrevealed scroll-animation regions and a fixed-header stitching artifact. Not accepted and not used to infer real page gaps or layout defects."
+  },
+  "limits": [
+    "No source or editable local landing; no local branding edits or after-change screenshots",
+    "No functional form validation, later-stage navigation, matching, delivery or checkout tests because prohibited",
+    "The browser keyboard scroll command reported an automation timeout; subsequent DOM showed scrollY0. Not treated as a website error.",
+    "Desktop screenshots are soft; exact copy/attributes were checked against current DOM. No font-fidelity or full accessibility compliance claim.",
+    "Viewport override reset after responsive inspection"
+  ]
+}

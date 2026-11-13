@@ -1,0 +1,10 @@
+{
+  "provider": "Gemini API",
+  "model": "gemini-3.8-flash-tts",
+  "voice": "Kore",
+  "script": "كتوجد لكامبوس فرانس؟ بروترين ماتش كيقترح عليك تكوينات على حساب ملفك. عمّر ملفك دابا.",
+  "style": "A natural young adult Moroccan woman speaking authentic contemporary Moroccan Darija, Casablanca accent. Friendly, confident, lightly energetic social ad voice, conversational not a newsreader. Do not switch to Modern Standard Arabic, Egyptian or Gulf Arabic. Pronounce Campus France naturally as Moroccan students do and ProTrain Match as بروترين ماتش. Speak clearly at a brisk but unhurried pace, about eight seconds total for this short script. Brief natural pauses at sentence boundaries. Read only the supplied text; no introductions, music, sound effects or added words. Revision: The first take rushed the product name. Clearly separate and enunciate بروترين ماتش (Pro-train Match), with a brief natural pause after the opening question and after the brand name. Give the brand about one second, keeping the remaining sentence conversational. Do not compress or swallow the product syllables. Target seven to eight seconds, no more than nine. Keep Darija consonants natural.",
+  "output": "voice-take2.wav",
+  "bytes": 328348,
+  "mode": "synthetic generic voice, not a clone"
+}

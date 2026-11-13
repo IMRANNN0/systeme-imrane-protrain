@@ -1,0 +1,18 @@
+{
+  "file": "D:/Instagram/imgi_32_656179671_18077289212628783_6745418022262791529_n.webp",
+  "canvas": [864,1080],
+  "method": "Visual inspection of decoded original using view_image. All geometry below is approximate, not extracted editable paths; allow roughly 5–12px around irregular edges.",
+  "coordinate_system": "top-left origin; boxes [left,top,right,bottom]",
+  "logo": {"bbox":[32,30,160,153],"size_approx":[128,123],"canvas_width_fraction":0.148,"description":"Green corporate symbol, ProTrain wordmark and small STUDY ABROAD tagline, no separate opaque logo card"},
+  "subject": {"visible_bbox":[181,153,646,1020],"unobscured_upper_bbox":[181,153,646,630],"description":"Student with passport and black folder; ribbons occlude lower body"},
+  "flag_circles": {"canada":[128,174,189,231],"uk":[253,120,345,212],"italy":[635,161,729,254],"france":[213,271,286,344],"usa":[605,321,686,403]},
+  "ribbons": [
+    {"color":"green","bbox":[24,586,826,742],"approx_corners":[[29,647],[819,586],[826,681],[35,742]],"long_edge_rotation_degrees":-4.4,"nominal_thickness_px":96,"text":"Tu as un problème d’orientation?","text_treatment":"White rounded bold sans; one line; rotated with ribbon"},
+    {"color":"yellow","bbox":[25,686,814,876],"approx_corners":[[47,743],[798,686],[814,815],[37,876]],"long_edge_rotation_degrees":-4.4,"nominal_thickness_px":132,"text":"Tu hésites entre plusieurs / pays ou filières ?","text_treatment":"Dark green bold sans, two centered lines; yellow paper has visible tonal/crumple texture; torn irregular side edges"},
+    {"color":"white","bbox":[33,814,839,1021],"approx_corners":[[36,875],[828,814],[839,960],[49,1021]],"long_edge_rotation_degrees":-4.4,"nominal_thickness_px":146,"text":"ProTrain Company te guide du / début jusqu’à l’admission","text_treatment":"Green bold sans, two centered lines; subtle gray edge shadow and torn side edges"}
+  ],
+  "footer": {"full_bleed_rect_bbox":[0,1035,864,1080],"height_px":45,"raised_center_tab_bbox":[192,1018,670,1080],"raised_tab_description":"Rounded/sloped top corners joining bottom bar; left and right shoulders at y≈1035","contact_content_bbox":[226,1037,642,1059],"treatment":"White phone/globe icons and compact white contact text","visible_contact":"+212 665423321; www.protrain.ma"},
+  "background": "Light gray/white crumpled paper texture; pale green halftone circles principally right side and lower corners; dashed green travel path entering from left and returning near bottom; photographic flag circles have soft shadows",
+  "type_certainty": {"family":"Unconfirmed from flattened raster","observed":"Rounded, heavy sans for ribbons; simpler lighter sans for footer; logo is artwork","limits":"Cairo/Poppins in website documentation do not certify the font used in these Instagram images. No original font metadata or editable source located."},
+  "claim_scope":"Historical wording is observed reference content only. It does not approve admission wording for Match or replace its current brief."
+}

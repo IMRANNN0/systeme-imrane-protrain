@@ -1,0 +1,320 @@
+{
+  "title": "ProTrain — Scripts vidéo pour validation et tournage",
+  "date": "25 octobre 2026",
+  "status": "ARCHIVE - Remplace par BRIEF_CLIENT_CONTENU_ACQUISITION.md : sujets Hajj et acquisition, sans prix dans les videos.",
+  "scripts": [
+    {
+      "id": "T01",
+      "category": "Trust",
+      "title": "Qui vous accompagne chez ProTrain ?",
+      "audience": "Étudiants et parents découvrant l’agence",
+      "objective": "Identifier l’agence, son rôle et les modalités de rencontre.",
+      "duration": "40–50 secondes proposées, selon le débit naturel",
+      "speaker": "Un membre réel de ProTrain, filmé au bureau de Guéliz.",
+      "status": "Agence : texte pour validation et tournage ; destination de contact existante.",
+      "speech": "كتفكر تكمل قرايتك فالخارج، وباغي تعرف مع من غادي تهضر؟ حنا ProTrain، وكالة فـGuéliz بمراكش، كنرافقو الطلبة والوالدين فمشروع الدراسة فالخارج. كنبدأو بفهم المسار الدراسي ديالك، شنو باغي تقرا وفين، والأسئلة اللي خاصها توضيح. حسب الخدمة اللي كتختار، المرافقة كتقدر تشمل orientation، candidatures وdossier de visa étudiant. تقدر تلاقى الفريق فالمكتب، أو تتواصل معانا en ligne، والوالدين يقدرو يشاركو فالإchange.",
+      "prelaunchEnding": "باش تتعرّف على الخدمات وتطلب consultation، دخل للموقع ديال ProTrain، لصفحة Contact. الشروط كتتأكد قبل réservation.",
+      "launchEnding": null,
+      "shots": [
+        {
+          "plan": "Entrée réelle du bureau, puis représentant face caméra pour l’accroche.",
+          "screen": "ProTrain · Guéliz, Marrakech"
+        },
+        {
+          "plan": "Représentant au bureau ; plans de travail de l’équipe réelle, sans dossier personnel visible.",
+          "screen": "Orientation · Candidatures · Visa étudiant"
+        },
+        {
+          "plan": "Échange reconstitué entre membres réels de l’équipe, identifiable comme illustration ; cadrage sans données privées.",
+          "screen": "Sur place ou en ligne · Étudiants et parents"
+        },
+        {
+          "plan": "Retour face caméra, puis carton final avec l’adresse du site et la rubrique Contact.",
+          "screen": "Demander une consultation · protraincompany.com/contactus"
+        }
+      ],
+      "cta": "Découvrir les services puis demander une consultation si pertinent.",
+      "destination": "https://protraincompany.com/contactus",
+      "dependencies": [
+        "Intervenant réellement lié à l’agence et autorisé à la représenter.",
+        "Accès au vrai bureau et accord des personnes filmées.",
+        "Ne pas ajouter de numéro tant que le contact principal n’est pas clarifié."
+      ],
+      "launchEdit": "Sans objet : ce script concerne les services actuels de l’agence, pas Match."
+    },
+    {
+      "id": "T02",
+      "category": "Trust",
+      "title": "Du profil académique à une recommandation expliquée",
+      "audience": "Étudiants et parents qui veulent comprendre la logique de Match",
+      "objective": "Montrer le lien profil → recommandation → raisons et conditions, sans promesse de résultat.",
+      "duration": "35–45 secondes proposées, selon le débit naturel",
+      "speaker": "Un représentant réel de ProTrain en face caméra, avec voix off sur un exemple autorisé.",
+      "status": "Match en préparation : texte prélaunch ; séquences de démonstration à tourner après préparation de l’exemple.",
+      "speech": "شنو العلاقة بين البروفيل الدراسي ديالك وformations اللي غادي يتقترحو عليك؟ ProTrain Match مصمّم باش ينطلق من المعلومات الدراسية اللي كتعطي، بحال نوع الباك، الشعبة والنقط. الفكرة هي تلقى حتى لـ7 formations، وتفهم علاش كل وحدة تقترحات. فالتقرير المقرّر، كل اختيار غادي يكون مع الأسباب، شروط القبول والمسار ديال candidature. هاد الشرح كيساعدك تقرا الاقتراح وتعرف شنو خاصك تراجع قبل القرار، وتناقشو مع الوالدين. الشروط كتبقى مهمة، حيث اقتراح formation بوحدو ما كيضمنش admission.",
+      "prelaunchEnding": "تابع صفحة ProTrain باش تتعرّف على طريقة الخدمة والمحتوى اللي كنحضّروه.",
+      "launchEnding": "تعرّف على محتوى التقرير والثمن فالرابط المخصّص لـProTrain Match، ومن بعد عمّر الـformulaire المجاني إذا العرض مناسب ليك.",
+      "shots": [
+        {
+          "plan": "Représentant réel face caméra au bureau ; accroche sous forme de question.",
+          "screen": "Profil académique → choix expliqués"
+        },
+        {
+          "plan": "Gros plan sur des informations académiques de démonstration, sans coordonnées personnelles.",
+          "screen": "Type de bac · Filière · Notes"
+        },
+        {
+          "plan": "Capture d’un exemple autorisé : souligner la raison puis les conditions d’une recommandation.",
+          "screen": "Pourquoi cette formation ? · Quelles conditions ?"
+        },
+        {
+          "plan": "Retour face caméra pour la fin prélaunch, ou carton de destination lorsque le lancement est prêt.",
+          "screen": "Prélaunch : comprendre la méthode"
+        }
+      ],
+      "cta": "Prélaunch : suivre la page pour comprendre la méthode. Lancement : découvrir l’offre, puis formulaire gratuit.",
+      "destination": "Prélaunch : profil ProTrain diffusant la vidéo. Lancement : future page d’offre Match, uniquement après disponibilité réelle ; aucune URL n’est inventée.",
+      "dependencies": [
+        "Préparer un exemple représentatif du rapport : cas autorisé et anonymisé, ou profil fictif explicitement signalé.",
+        "Les plans du rapport doivent montrer le livrable prévu, pas des résultats inventés présentés comme authentiques.",
+        "Le prélaunch reste sans achat ; la fin lancement dépend de la page, du paiement et de la livraison opérationnels."
+      ],
+      "launchEdit": "Après ouverture effective, remplacer « فالتقرير المقرّر » par « فالتقرير » et « غادي يكون » par « كاين ». Conserver la portée académique et les limites."
+    },
+    {
+      "id": "T03",
+      "category": "Trust",
+      "title": "Gratuit, 199 DH, accompagnement : qu’est-ce qui est prévu ?",
+      "audience": "Étudiants et parents qui souhaitent comprendre le prix et le périmètre",
+      "objective": "Distinguer formulaire gratuit, rapport payant et accompagnement facultatif.",
+      "duration": "35–45 secondes proposées, selon le débit naturel",
+      "speaker": "Un représentant réel de ProTrain, face caméra.",
+      "status": "Match en préparation : offre prévue expliquée, sans appel à acheter maintenant.",
+      "speech": "الـformulaire مجاني، واش حتى الـrapport مجاني؟ فالعرض المقرّر ديال ProTrain Match، تعمير الـformulaire غادي يكون مجاني، ومن بعد التقرير بثمن 199 درهم، مرة وحدة. التقرير مصمّم باش يقترح حتى لـ7 formations حسب البروفيل الدراسي، مع الأسباب، شروط القبول وخطوات candidature. ما كاينش abonnement مقرّر فهاد العرض. وإذا احتجتي مرافقة من ProTrain باش تخدم على الإجراءات، هادي خدمة اختيارية ومنفصلة، ماشي داخلة تلقائياً فـ199 درهم. هاد التوضيح باش تعرف شنو كيتضمّن العرض قبل ما تختار الخدمة اللي مناسبة ليك.",
+      "prelaunchEnding": "تابع الصفحة باش تتعرّف على التفاصيل ديال ProTrain Match اللي كنحضّروه.",
+      "launchEnding": "شوف محتوى العرض والثمن فالرابط المخصّص لـProTrain Match، قبل ما تعمّر الـformulaire المجاني.",
+      "shots": [
+        {
+          "plan": "Face caméra ; poser clairement la question du gratuit et du payant.",
+          "screen": "Formulaire gratuit ≠ rapport gratuit"
+        },
+        {
+          "plan": "Représentant et composition typographique simple, sans faux écran de paiement.",
+          "screen": "Offre prévue · Rapport : 199 DH · Paiement unique"
+        },
+        {
+          "plan": "Plan fixe sur l’intervenant, puis liste lisible des éléments inclus.",
+          "screen": "Jusqu’à 7 formations · Raisons · Conditions · Étapes"
+        },
+        {
+          "plan": "Conclusion face caméra ; séparer visuellement rapport et accompagnement.",
+          "screen": "Accompagnement facultatif et séparé"
+        }
+      ],
+      "cta": "Prélaunch : suivre les explications de l’offre. Lancement : lire le contenu et le prix avant de remplir le formulaire.",
+      "destination": "Prélaunch : profil ProTrain diffusant la vidéo. Lancement : future page Match montrant le prix avant la saisie, une fois disponible.",
+      "dependencies": [
+        "Afficher « Offre prévue · En préparation » dans la version prélaunch.",
+        "Ne pas reprendre les tarifs de consultation de l’agence comme prix Match.",
+        "Le paiement, la livraison et leurs conditions doivent être opérationnels avant activation commerciale."
+      ],
+      "launchEdit": "Après ouverture effective, remplacer « فالعرض المقرّر » par « فالعرض », « غادي يكون مجاني » par « مجاني » et le texte écran « Offre prévue » par « Rapport ». Vérifier que prix et périmètre n’ont pas changé."
+    },
+    {
+      "id": "T04",
+      "category": "Trust",
+      "title": "Est-ce que cela garantit une admission ?",
+      "audience": "Étudiants et parents qui cherchent à comprendre les engagements",
+      "objective": "Clarifier les décisions institutionnelles et distinguer agence, rapport et exécution des candidatures.",
+      "duration": "35–45 secondes proposées, selon le débit naturel",
+      "speaker": "Un représentant réel de ProTrain, au bureau, sans acteur présenté comme client.",
+      "status": "Version mixte agence actuelle et Match en préparation ; statut Match à afficher à l’écran.",
+      "speech": "واش ProTrain ولا ProTrain Match كيضمنو ليا admission؟ الجواب هو لا. قرار القبول كيبقى للمؤسسة، وقرار visa للجهات المختصة. ProTrain كتقدّم خدمات المرافقة حسب الخدمة اللي كتختار، باش تفهم الإجراءات وتوجد الملف ديالك. أما ProTrain Match، فمصمّم باش يعطيك تقرير باختيارات formations حسب البروفيل الدراسي، مع الأسباب، الشروط والخطوات. التقرير بوحدو ما كيدفعش candidatures بلاصتك، والمرافقة خدمة اختيارية ومنفصلة. المهم تعرف الدور ديال كل خدمة، وتقرا شروط كل formation، باش تكون فاهم شنو خاصك تدير من بعد.",
+      "prelaunchEnding": "إلى بغيتي تفهم خدمات الوكالة، شوف الموقع. وللتوضيحات على Match، تابع الصفحة.",
+      "launchEnding": "تعرّف على محتوى Match وحدود الخدمة فالرابط المخصّص للعرض، قبل ما تختار واش مناسب ليك.",
+      "shots": [
+        {
+          "plan": "Face caméra, ton posé, question affichée dès le début.",
+          "screen": "Admission garantie ?"
+        },
+        {
+          "plan": "Intervenant, avec deux lignes d’explication très lisibles.",
+          "screen": "Admission : établissement · Visa : autorités compétentes"
+        },
+        {
+          "plan": "Plans du travail réel de l’agence sans données personnelles, puis typographie distincte pour Match.",
+          "screen": "Agence : accompagnement choisi · Match : rapport de formations"
+        },
+        {
+          "plan": "Conclusion face caméra ; aucun témoignage ni document d’admission utilisé comme garantie.",
+          "screen": "Comprendre le périmètre avant de choisir"
+        }
+      ],
+      "cta": "Prélaunch : découvrir les services actuels sur le site et les explications Match sur la page. Lancement : lire la page d’offre Match.",
+      "destination": "Agence : https://protraincompany.com/ . Prélaunch Match : profil ProTrain. Lancement Match : future page dédiée, une fois prête.",
+      "dependencies": [
+        "Séparer à l’écran les services de l’agence et le futur rapport Match.",
+        "Ne pas conserver « Admission garantie » dans un carton ou un visuel associé.",
+        "Ne pas ajouter d’engagement de dépôt de candidature au rapport."
+      ],
+      "launchEdit": "Après ouverture effective, retirer uniquement l’étiquette « En préparation » de Match si elle n’est plus exacte ; garder les limites et la distinction avec l’accompagnement."
+    },
+    {
+      "id": "A01",
+      "category": "Ads Match",
+      "title": "Choisir des formations, pas seulement accumuler des noms",
+      "audience": "Élève du bac marocain préparant Campus France",
+      "objective": "Faire comprendre l’intérêt d’une sélection expliquée face à l’hésitation entre formations.",
+      "duration": "35–45 secondes proposées, selon le débit naturel",
+      "speaker": "Un représentant réel de ProTrain s’adressant directement à l’étudiant.",
+      "status": "Texte filmable en prélaunch ; activation commerciale non prête.",
+      "speech": "كتوجد لـCampus France، وكل ما كتقلب كتلقى formations خرين؟ إلا بقيتي محتار، السؤال هو: علاش هاد formation بالضبط تقدر تناسب البروفيل الدراسي ديالك؟ ProTrain Match مصمّم باش يساعد تلاميذ الباك فهاد الاختيار. العرض المقرّر كيبدا بـformulaire مجاني، ومن بعد rapport بـ199 درهم، مرة وحدة، فيه حتى لـ7 formations، مع علاش تقترحات، شروط القبول وخطوات candidature. الفكرة هي تكون عندك اختيارات تقدر تفهمها وتراجع شروطها، باش تناقش القرار ديالك على أساس واضح. القبول كيبقى بقرار المؤسسات.",
+      "prelaunchEnding": "تابع صفحة ProTrain باش تفهم كيفاش غادي تخدم هاد الخدمة اللي كنحضّروها.",
+      "launchEnding": "شوف العرض والثمن فالرابط المخصّص لـProTrain Match، ومن بعد عمّر الـformulaire المجاني إذا مناسب ليك.",
+      "shots": [
+        {
+          "plan": "Face caméra, question d’ouverture ; regard direct, sans jeu de panique.",
+          "screen": "Campus France : comment choisir ses formations ?"
+        },
+        {
+          "plan": "Cahier de recherche neutre, sans établissements ou conditions inventés présentés comme recommandations.",
+          "screen": "Comprendre pourquoi une formation est proposée"
+        },
+        {
+          "plan": "Représentant avec récapitulatif typographique du futur rapport.",
+          "screen": "Offre prévue · Jusqu’à 7 formations · Rapport : 199 DH"
+        },
+        {
+          "plan": "Retour face caméra pour la fin choisie.",
+          "screen": "Formulaire gratuit · Paiement unique pour le rapport"
+        }
+      ],
+      "cta": "Prélaunch : suivre les explications. Lancement : découvrir l’offre puis remplir le formulaire gratuit.",
+      "destination": "Prélaunch : profil ProTrain diffusant la vidéo. Lancement : future page d’offre Match uniquement lorsqu’elle est opérationnelle.",
+      "dependencies": [
+        "Ne pas simuler une expérience d’étudiant satisfait.",
+        "La confusion évoquée est une hypothèse de message, pas un comportement observé chez tous les élèves.",
+        "Vérifier la destination et le parcours commercial avant toute activation d’ad."
+      ],
+      "launchEdit": "Après ouverture effective, remplacer « العرض المقرّر » par « العرض » et utiliser la fin lancement. Ne pas ajouter de délai, d’urgence ou de résultat d’admission."
+    },
+    {
+      "id": "A02",
+      "category": "Ads Match",
+      "title": "Un choix que l’étudiant et les parents peuvent discuter",
+      "audience": "Parent participant à la réflexion sur les études",
+      "objective": "Rendre visible la base de discussion, sans supposer que le parent sera le payeur.",
+      "duration": "35–45 secondes proposées, selon le débit naturel",
+      "speaker": "Un représentant réel de ProTrain s’adressant aux parents.",
+      "status": "Texte filmable en prélaunch ; activation commerciale non prête.",
+      "speech": "ملي ولدكم ولا بنتكم كيقول ليكم: بغيت هاد formation، شنو كتحتاجو باش تناقشو الاختيار؟ الأسماء بوحدها ما كتكفيش؛ خاصكم تفهمو الأسباب وشروط القبول. ProTrain Match مصمّم باش يقدّم لتلاميذ الباك اللي كيوجدو لـCampus France حتى لـ7 formations حسب البروفيل الدراسي، مع التفسير والخطوات ديال candidature. فالعرض المقرّر، الـformulaire مجاني، والـrapport بـ199 درهم، مرة وحدة. هاد التقرير يقدر يكون أساس للنقاش بينكم وبين الطالب، مع مراجعة شروط كل اقتراح. التقرير ما كيضمنش admission، والمرافقة خدمة اختيارية ومنفصلة.",
+      "prelaunchEnding": "تابعو صفحة ProTrain باش تتعرّفو على محتوى الخدمة اللي كنحضّروها.",
+      "launchEnding": "شوفو محتوى التقرير والثمن فالرابط المخصّص لـProTrain Match، وناقشوه مع الطالب قبل اختيار الخدمة.",
+      "shots": [
+        {
+          "plan": "Représentant face caméra au bureau, avec un ton d’explication adressé aux parents.",
+          "screen": "Choisir une formation : sur quelle base en discuter ?"
+        },
+        {
+          "plan": "Intervenant et trois mots écrits progressivement, sans faux échange familial présenté comme authentique.",
+          "screen": "Raisons · Conditions · Étapes"
+        },
+        {
+          "plan": "Capture d’un exemple autorisé si disponible ; sinon l’intervenant poursuit en face caméra.",
+          "screen": "Offre prévue · Rapport : 199 DH · Paiement unique"
+        },
+        {
+          "plan": "Conclusion face caméra, dans le même décor réel.",
+          "screen": "Une base de discussion pour l’étudiant et les parents"
+        }
+      ],
+      "cta": "Prélaunch : suivre les explications. Lancement : comprendre le rapport et son prix, puis en discuter avec l’étudiant.",
+      "destination": "Prélaunch : profil ProTrain diffusant la vidéo. Lancement : future page d’offre Match, une fois disponible.",
+      "dependencies": [
+        "Ne pas présenter un acteur comme parent client.",
+        "Le rôle réel du parent et le payeur ne sont pas établis ; le script ne les confond pas.",
+        "Toute utilisation d’un extrait de rapport dépend d’un exemple autorisé et contextualisé."
+      ],
+      "launchEdit": "Après ouverture effective, remplacer « فالعرض المقرّر » par « فالعرض » et utiliser la fin lancement. Maintenir l’étudiant dans la décision."
+    },
+    {
+      "id": "A03",
+      "category": "Ads Match",
+      "title": "Pourquoi un rapport si je peux chercher moi-même ?",
+      "audience": "Étudiant comparant Match à sa propre recherche",
+      "objective": "Expliquer le travail livré et laisser un choix informé, sans dévaloriser la recherche autonome.",
+      "duration": "35–45 secondes proposées, selon le débit naturel",
+      "speaker": "Un représentant réel de ProTrain, face caméra.",
+      "status": "Texte filmable en prélaunch ; activation commerciale non prête.",
+      "speech": "نقدر نقلب على formations بوحدي، علاش نخلص على rapport؟ فعلاً، تقدر تدير البحث ديالك. ProTrain Match مصمّم باش يقدّم اختيار آخر: rapport مبني على البروفيل الدراسي ديالك، فيه حتى لـ7 formations، مع علاش تقترحات، شروط القبول وخطوات candidature. فالعرض المقرّر، الـformulaire مجاني والـrapport بـ199 درهم، مرة وحدة. القيمة اللي خاصك تقيّم هي واش هاد الاختيارات المشروحة مفيدة ليك فالمقارنة والقرار. وتقدر تبقى تراجع المعلومات والشروط بنفسك؛ التقرير ما كيديرش candidatures بلاصتك، والمرافقة خدمة منفصلة.",
+      "prelaunchEnding": "تابع الصفحة باش تفهم شنو داخل فهاد التقرير اللي كنحضّروه.",
+      "launchEnding": "تعرّف على محتوى التقرير والثمن فالرابط المخصّص لـProTrain Match، ومن بعد قرّر واش مناسب للبحث ديالك.",
+      "shots": [
+        {
+          "plan": "Face caméra ; l’intervenant pose explicitement l’objection du prix face à la recherche autonome.",
+          "screen": "Je peux chercher moi-même. Pourquoi un rapport ?"
+        },
+        {
+          "plan": "Notes de recherche neutres sur une table ; aucune marque concurrente ni comparaison de résultats.",
+          "screen": "La recherche autonome reste une possibilité"
+        },
+        {
+          "plan": "Intervenant expliquant le livrable, éventuellement avec un extrait autorisé.",
+          "screen": "Profil académique → sélection expliquée → étapes"
+        },
+        {
+          "plan": "Fin face caméra avec prix de l’offre prévue, sans économie de temps chiffrée.",
+          "screen": "Offre prévue · Rapport : 199 DH · Paiement unique"
+        }
+      ],
+      "cta": "Prélaunch : comprendre le livrable. Lancement : examiner le contenu et le prix avant de décider.",
+      "destination": "Prélaunch : profil ProTrain diffusant la vidéo. Lancement : future page d’offre Match, une fois prête.",
+      "dependencies": [
+        "Ne pas ajouter de défaut concurrent, de gain de temps ou d’économie financière non documentés.",
+        "Éviter un écran de recherche artificiellement chaotique pour dramatiser l’objection.",
+        "Page, paiement et livraison requis avant toute activation commerciale."
+      ],
+      "launchEdit": "Après ouverture effective, remplacer « فالعرض المقرّر » par « فالعرض » et utiliser la fin lancement. Ne pas transformer l’explication en promesse de supériorité."
+    },
+    {
+      "id": "A04",
+      "category": "Ads Match",
+      "title": "Que trouvera-t-on dans le rapport ?",
+      "audience": "Étudiants et parents qui souhaitent voir le livrable avant de choisir",
+      "objective": "Faire comprendre concrètement les quatre éléments du rapport et le prix.",
+      "duration": "35–45 secondes proposées, selon le débit naturel",
+      "speaker": "Voix réelle d’un représentant ProTrain sur un exemple du rapport ; courte apparition possible en ouverture et conclusion.",
+      "status": "Voix off entièrement rédigée ; démonstration dépendante d’un exemple à produire, activation commerciale non prête.",
+      "speech": "قبل ما تختار تقرير على formations، خاصك تعرف شنو غادي تلقى فيه. ProTrain Match مصمّم باش يعطيك حتى لـ7 formations حسب البروفيل الدراسي ديالك. فالتقرير المقرّر، أولاً كتلقى formation المقترحة. ثانياً، الأسباب اللي كتفسّر الاختيار. ثالثاً، شروط القبول اللي خاصك تراجع. ورابعاً، المسار والخطوات ديال candidature، باش تعرف شنو من بعد. هاد المحتوى هو العرض المقرّر بـ199 درهم، مرة وحدة، من بعد formulaire مجاني. المرافقة اختيارية ومنفصلة، والتقرير ما كيضمنش القبول. الهدف تكون فاهم محتوى الخدمة قبل ما تقرّر.",
+      "prelaunchEnding": "تابع الصفحة باش تتعرّف على تفاصيل التقرير اللي كنحضّروه.",
+      "launchEnding": "شوف العرض ومثال التقرير فالرابط المخصّص لـProTrain Match، قبل ما تعمّر الـformulaire المجاني.",
+      "shots": [
+        {
+          "plan": "Ouverture courte face caméra ; titre du rapport sur l’exemple validé.",
+          "screen": "Que contient le rapport ProTrain Match ?"
+        },
+        {
+          "plan": "Capture lisible de l’exemple : montrer une formation puis souligner sa justification.",
+          "screen": "1. Formation proposée · 2. Raisons"
+        },
+        {
+          "plan": "Déplacement lent dans le même exemple : conditions puis étapes ; ne pas inventer de page ou champ non présent.",
+          "screen": "3. Conditions d’admission · 4. Étapes de candidature"
+        },
+        {
+          "plan": "Carton final sobre avec l’offre prévue et la fin prélaunch choisie.",
+          "screen": "Offre prévue · Formulaire gratuit · Rapport : 199 DH, une fois"
+        }
+      ],
+      "cta": "Prélaunch : suivre les explications. Lancement : consulter l’offre et l’exemple, seulement quand ce dernier est réellement disponible.",
+      "destination": "Prélaunch : profil ProTrain diffusant la vidéo. Lancement : future page Match présentant effectivement un exemple, une fois prête.",
+      "dependencies": [
+        "Produire l’exemple avant les plans de démonstration : cas réel autorisé/anonymisé, ou profil fictif portant en permanence une mention explicite.",
+        "Ne pas présenter cet exemple comme une expérience client ou un résultat d’admission.",
+        "La fin lancement mentionnant un exemple exige que celui-ci soit accessible sur la destination.",
+        "Ne pas ajouter de frais de scolarité ni de probabilité d’admission au script ou à l’écran."
+      ],
+      "launchEdit": "Après ouverture effective, remplacer « فالتقرير المقرّر » par « فالتقرير » et « العرض المقرّر » par « العرض ». Utiliser la fin lancement uniquement si l’exemple est consultable."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "created_on": "2026-11-13",
+  "tool": "image_gen.imagegen",
+  "prompt_file": "context-student-v1.prompt.txt",
+  "output": "context-student-v1.png",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a17410-207f-7d73-8880-1433273acd68/exec-1096a40e-b99e-4419-90eb-db11faad1f24.png",
+  "status": "Generated fictional adult student, not a testimonial; creative review pending",
+  "approval": "PTM-P001-media-scope-approved"
+}

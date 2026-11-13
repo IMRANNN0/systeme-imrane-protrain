@@ -1,0 +1,10 @@
+{
+  "provider": "Gemini API",
+  "model": "gemini-3.8-flash-tts",
+  "voice": "Kore",
+  "script": "كتوجد لكامبوس فرانس؟ ProTrain Match كيقترح عليك تكوينات على حساب ملفك. عمّر ملفك دابا.",
+  "style": "Authentic Moroccan Darija woman voice, Casablanca. Warm, confident and conversational, not a fast announcer. Read the Arabic colloquially and the written product name ProTrain Match with clear natural French-English articulation (Pro Train Match), not brotrayn. Separate the opening question, brand introduction and final invitation with short natural pauses. Slow, clear product name. Aim for eight seconds, below nine seconds. No music or extra words.",
+  "output": "voice-take3.wav",
+  "bytes": 351388,
+  "mode": "synthetic generic voice, not a clone"
+}

@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-26",
+  "source": "CREATIVE_STRATEGY_V2_SOURCE_20261026.txt",
+  "pillars": [
+    5,
+    4,
+    5,
+    5
+  ],
+  "batch1": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "batch2": [
+    4,
+    5,
+    13,
+    14
+  ],
+  "batch3": [
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "brief_fields": "Goal,audience,opening,message,proof,visualdirection,CTA,clientresources",
+  "spoken_ad_drafts": [
+    1,
+    2,
+    3
+  ],
+  "free_speaker_briefs": [
+    6,
+    9,
+    10,
+    11,
+    12
+  ],
+  "conditional_real_proof": [
+    7,
+    8
+  ],
+  "language": "Arabic only",
+  "status": "Written review materials; production not executed"
+}

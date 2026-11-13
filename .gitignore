@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.cache/
+.imrane/
+.ashraf/
+.work/
+tmp/
+secrets/
+.env
+.env.*
+auth.json
+settings.local.json
+.DS_Store
+Thumbs.db

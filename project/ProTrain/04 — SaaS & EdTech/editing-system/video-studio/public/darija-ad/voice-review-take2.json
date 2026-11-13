@@ -1,0 +1,35 @@
+{
+  "actual_transcript_arabic": "كتوجد لكامبيس فرنس؟ بروطراين ماتش كيقترح عليك تكوينات على حساب ملفك. عمر ملفك دابا.",
+  "utterances": [
+    {
+      "start_seconds": 0.0,
+      "end_seconds": 2.0,
+      "text": "كتوجد لكامبيس فرنس؟"
+    },
+    {
+      "start_seconds": 2.0,
+      "end_seconds": 4.6,
+      "text": "بروطراين ماتش كيقترح عليك تكوينات على حساب ملفك."
+    },
+    {
+      "start_seconds": 4.6,
+      "end_seconds": 6.0,
+      "text": "عمر ملفك دابا."
+    }
+  ],
+  "dialect_observations": "The voice demonstrates a naturally authentic Moroccan Darija accent with appropriate phrasal cadence and natural colloquial phrasing ('كتوجد', 'على حساب', 'عمر ملفك دابا'). It sounds distinctly native Moroccan rather than MSA, Egyptian, or Levantine/Gulf dialect.",
+  "mispronunciations_or_unnatural_words": [
+    {
+      "word": "بروطراين ماتش (Pro Train Match)",
+      "issue": "The brand name articulation is slightly rushed and forced, though understandable in context."
+    }
+  ],
+  "added_or_missing_or_unintelligible_words": "None. Every word is clearly articulated without dropouts.",
+  "pace_assessment": "Appropriate commercial pace for a short promo ad, concise and energetic.",
+  "audible_noise_or_clipping": "Clean recording with no significant background noise, audio clipping, or distortion.",
+  "usable_for_short_ad": true,
+  "concrete_changes_needed": [
+    "Slightly smooth out the pronunciation of foreign brand names ('Pro Train Match') to make them sound more fluent within the Darija sentence structure."
+  ],
+  "review_method": "gemini-3.5-flash audio-capable model assessed actual WAV; not a human listening verdict"
+}

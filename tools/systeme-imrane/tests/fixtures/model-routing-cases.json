@@ -1,0 +1,292 @@
+[
+  {
+    "name": "typo",
+    "prompt": "Corrige cette faute d’orthographe.",
+    "route": "mechanical_safe",
+    "failures": 0
+  },
+  {
+    "name": "git status",
+    "prompt": "Affiche le statut Git.",
+    "route": "mechanical_safe",
+    "failures": 0
+  },
+  {
+    "name": "extract",
+    "prompt": "Extract a list of these names.",
+    "route": "mechanical_safe",
+    "failures": 0
+  },
+  {
+    "name": "local margin",
+    "prompt": "Corrige la marge de ce bloc.",
+    "route": "fast_safe",
+    "failures": 0
+  },
+  {
+    "name": "label",
+    "prompt": "Modifie le libellé du bouton.",
+    "route": "fast_safe",
+    "failures": 0
+  },
+  {
+    "name": "isolated component",
+    "prompt": "Implémente un seul composant avec ses tests.",
+    "route": "focused_safe",
+    "failures": 0
+  },
+  {
+    "name": "function fix",
+    "prompt": "Corrige une seule fonction, le résultat attendu est défini.",
+    "route": "focused_safe",
+    "failures": 0
+  },
+  {
+    "name": "page implementation",
+    "prompt": "Ajoute une page catégorie avec ses tests et le routage Astro.",
+    "route": "balanced_safe",
+    "failures": 0
+  },
+  {
+    "name": "bounded multiple files",
+    "prompt": "Add a page template and tests.",
+    "route": "balanced_safe",
+    "failures": 0
+  },
+  {
+    "name": "architecture",
+    "prompt": "Revois l'architecture du projet.",
+    "route": "standard_safe",
+    "failures": 0
+  },
+  {
+    "name": "all projects",
+    "prompt": "Corrige la couleur dans tous les projets.",
+    "route": "standard_safe",
+    "failures": 0
+  },
+  {
+    "name": "uncertain bug",
+    "prompt": "Corrige une fonction dont la cause inconnue produit un bug intermittent.",
+    "route": "standard_safe",
+    "failures": 0
+  },
+  {
+    "name": "coupled",
+    "prompt": "Fix a single component across multiple services.",
+    "route": "standard_safe",
+    "failures": 0
+  },
+  {
+    "name": "unknown",
+    "prompt": "Fais le nécessaire.",
+    "route": "standard_safe",
+    "failures": 0
+  },
+  {
+    "name": "empty",
+    "prompt": "",
+    "route": "standard_safe",
+    "failures": 0
+  },
+  {
+    "name": "long narrow",
+    "prompt": "Corrige la marge de ce bloc. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. Contrainte visuelle locale. ",
+    "route": "fast_safe",
+    "failures": 0
+  },
+  {
+    "name": "auth one line",
+    "prompt": "Change juste une ligne dans l'authentification.",
+    "route": "deep_safe",
+    "failures": 0
+  },
+  {
+    "name": "migration",
+    "prompt": "Migrate this database schema.",
+    "route": "deep_safe",
+    "failures": 0
+  },
+  {
+    "name": "deep review",
+    "prompt": "Fais un audit complet de l'architecture et de Graphify.",
+    "route": "deep_safe",
+    "failures": 0
+  },
+  {
+    "name": "credential",
+    "prompt": "Renomme une variable de credentials.",
+    "route": "deep_safe",
+    "failures": 0
+  },
+  {
+    "name": "manual mechanical",
+    "prompt": "[route:mechanical] Audit complet.",
+    "route": "mechanical_safe",
+    "failures": 0
+  },
+  {
+    "name": "manual simple",
+    "prompt": "[route:simple] Vérifie le libellé.",
+    "route": "fast_safe",
+    "failures": 0
+  },
+  {
+    "name": "manual luna",
+    "prompt": "[route:luna] Vérifie le libellé.",
+    "route": "fast_safe",
+    "failures": 0
+  },
+  {
+    "name": "manual bounded",
+    "prompt": "[route:focused] Travaille sur ce composant.",
+    "route": "focused_safe",
+    "failures": 0
+  },
+  {
+    "name": "manual balanced",
+    "prompt": "[route:balanced] Ajoute une page.",
+    "route": "balanced_safe",
+    "failures": 0
+  },
+  {
+    "name": "manual sol",
+    "prompt": "[route:sol] Examine ce cas.",
+    "route": "standard_safe",
+    "failures": 0
+  },
+  {
+    "name": "legacy terra",
+    "prompt": "[route:terra] Examine ce cas.",
+    "route": "standard_safe",
+    "failures": 0
+  },
+  {
+    "name": "manual critical",
+    "prompt": "[route:deep] Examine ce cas.",
+    "route": "deep_safe",
+    "failures": 0
+  },
+  {
+    "name": "unknown tag",
+    "prompt": "[route:no_such_model] Corrige la marge.",
+    "route": "standard_safe",
+    "failures": 0
+  },
+  {
+    "name": "continue",
+    "prompt": "continue",
+    "route": "focused_safe",
+    "previous": {
+      "route": "focused_safe",
+      "failure_count": 0,
+      "session_id": "test"
+    },
+    "failures": 0
+  },
+  {
+    "name": "continue accented",
+    "prompt": "ok, fais ça",
+    "route": "fast_safe",
+    "previous": {
+      "route": "fast_safe",
+      "failure_count": 0,
+      "session_id": "test"
+    },
+    "failures": 0
+  },
+  {
+    "name": "first failure",
+    "prompt": "Toujours pas.",
+    "route": "fast_safe",
+    "previous": {
+      "route": "fast_safe",
+      "failure_count": 0,
+      "session_id": "test"
+    },
+    "failures": 1
+  },
+  {
+    "name": "second failure",
+    "prompt": "Même problème.",
+    "route": "deep_safe",
+    "previous": {
+      "route": "fast_safe",
+      "failure_count": 1,
+      "session_id": "test"
+    },
+    "failures": 2
+  },
+  {
+    "name": "new risk on failure",
+    "prompt": "Toujours pas : cela touche les permissions.",
+    "route": "deep_safe",
+    "previous": {
+      "route": "fast_safe",
+      "failure_count": 0,
+      "session_id": "test"
+    },
+    "failures": 1
+  },
+  {
+    "name": "new task reset",
+    "prompt": "Corrige la marge du bloc.",
+    "route": "fast_safe",
+    "previous": {
+      "route": "deep_safe",
+      "failure_count": 2,
+      "session_id": "test"
+    },
+    "failures": 0
+  },
+  {
+    "name": "cross session",
+    "prompt": "continue",
+    "route": "standard_safe",
+    "previous": {
+      "route": "fast_safe",
+      "failure_count": 1,
+      "session_id": "another"
+    },
+    "failures": 0
+  },
+  {
+    "name": "broken prior",
+    "prompt": "continue",
+    "route": "standard_safe",
+    "previous": {
+      "route": "missing",
+      "failure_count": 8,
+      "session_id": "test"
+    },
+    "failures": 0
+  },
+  {
+    "name": "explicit reset",
+    "prompt": "[route:simple] Corrige le bloc.",
+    "route": "fast_safe",
+    "previous": {
+      "route": "deep_safe",
+      "failure_count": 2,
+      "session_id": "test"
+    },
+    "failures": 0
+  },
+  {
+    "name": "unknown tag continuation floor",
+    "prompt": "[route:unknown] Toujours pas.",
+    "route": "standard_safe",
+    "previous": {
+      "route": "fast_safe",
+      "failure_count": 0,
+      "session_id": "test"
+    },
+    "failures": 1
+  },
+  {
+    "name": "unknown tag keeps critical risk",
+    "prompt": "[route:unknown] Corrige les permissions.",
+    "route": "deep_safe",
+    "failures": 0
+  }
+]

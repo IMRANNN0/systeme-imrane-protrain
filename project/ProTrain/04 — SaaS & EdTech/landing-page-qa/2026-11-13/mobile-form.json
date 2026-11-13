@@ -1,0 +1,105 @@
+{
+  "url": "https://protraincompany.com/en/etudier-en-france/campus-france#o_shortlist_start",
+  "viewport": {
+    "scrollWidth": 375,
+    "width": 390
+  },
+  "visibleButtons": [
+    {
+      "text": "Next ",
+      "type": "button"
+    }
+  ],
+  "visibleInputs": [
+    {
+      "box": {
+        "bottom": 482.96875,
+        "height": 58,
+        "left": 40,
+        "right": 335,
+        "top": 424.96875,
+        "width": 295,
+        "x": 40,
+        "y": 424.96875
+      },
+      "id": "o_shortlist_nationality_id",
+      "label": "Nationality *",
+      "required": true
+    },
+    {
+      "box": {
+        "bottom": 556.96875,
+        "height": 58,
+        "left": 40,
+        "right": 335,
+        "top": 498.96875,
+        "width": 295,
+        "x": 40,
+        "y": 498.96875
+      },
+      "id": "o_shortlist_country_id",
+      "label": "Country where the student lives *",
+      "required": true
+    },
+    {
+      "box": {
+        "bottom": 630.96875,
+        "height": 58,
+        "left": 40,
+        "right": 335,
+        "top": 572.96875,
+        "width": 295,
+        "x": 40,
+        "y": 572.96875
+      },
+      "id": "o_shortlist_current_level",
+      "label": "Current level *",
+      "required": true
+    },
+    {
+      "box": {
+        "bottom": 704.96875,
+        "height": 58,
+        "left": 40,
+        "right": 335,
+        "top": 646.96875,
+        "width": 295,
+        "x": 40,
+        "y": 646.96875
+      },
+      "id": "o_shortlist_target_level",
+      "label": "The year you apply for in France *",
+      "required": true
+    },
+    {
+      "box": {
+        "bottom": 778.96875,
+        "height": 58,
+        "left": 40,
+        "right": 335,
+        "top": 720.96875,
+        "width": 295,
+        "x": 40,
+        "y": 720.96875
+      },
+      "id": "o_shortlist_bac",
+      "label": "Moroccan bac stream",
+      "required": true
+    },
+    {
+      "box": {
+        "bottom": 852.96875,
+        "height": 58,
+        "left": 40,
+        "right": 335,
+        "top": 794.96875,
+        "width": 295,
+        "x": 40,
+        "y": 794.96875
+      },
+      "id": "o_shortlist_average",
+      "label": "Overall average (/20) *",
+      "required": true
+    }
+  ]
+}

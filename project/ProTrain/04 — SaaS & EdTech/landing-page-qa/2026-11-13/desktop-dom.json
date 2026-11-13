@@ -1,0 +1,3161 @@
+{
+  "brandingMentions": null,
+  "forms": [
+    {
+      "action": "/en/etudier-en-france/campus-france/start",
+      "fields": [
+        {
+          "disabled": false,
+          "id": "o_shortlist_company_website",
+          "label": "Website",
+          "name": "company_website",
+          "required": false,
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_nationality_id",
+          "label": "Nationality *",
+          "name": "nationality_id",
+          "options": [
+            {
+              "selected": false,
+              "text": ""
+            },
+            {
+              "selected": false,
+              "text": "Afghanistan"
+            },
+            {
+              "selected": false,
+              "text": "Albania"
+            },
+            {
+              "selected": false,
+              "text": "Algeria"
+            },
+            {
+              "selected": false,
+              "text": "American Samoa"
+            },
+            {
+              "selected": false,
+              "text": "Andorra"
+            },
+            {
+              "selected": false,
+              "text": "Angola"
+            },
+            {
+              "selected": false,
+              "text": "Anguilla"
+            },
+            {
+              "selected": false,
+              "text": "Antarctica"
+            },
+            {
+              "selected": false,
+              "text": "Antigua and Barbuda"
+            },
+            {
+              "selected": false,
+              "text": "Argentina"
+            },
+            {
+              "selected": false,
+              "text": "Armenia"
+            },
+            {
+              "selected": false,
+              "text": "Aruba"
+            },
+            {
+              "selected": false,
+              "text": "Australia"
+            },
+            {
+              "selected": false,
+              "text": "Austria"
+            },
+            {
+              "selected": false,
+              "text": "Azerbaijan"
+            },
+            {
+              "selected": false,
+              "text": "Bahamas"
+            },
+            {
+              "selected": false,
+              "text": "Bahrain"
+            },
+            {
+              "selected": false,
+              "text": "Bangladesh"
+            },
+            {
+              "selected": false,
+              "text": "Barbados"
+            },
+            {
+              "selected": false,
+              "text": "Belarus"
+            },
+            {
+              "selected": false,
+              "text": "Belgium"
+            },
+            {
+              "selected": false,
+              "text": "Belize"
+            },
+            {
+              "selected": false,
+              "text": "Benin"
+            },
+            {
+              "selected": false,
+              "text": "Bermuda"
+            },
+            {
+              "selected": false,
+              "text": "Bhutan"
+            },
+            {
+              "selected": false,
+              "text": "Bolivia"
+            },
+            {
+              "selected": false,
+              "text": "Bonaire, Sint Eustatius and Saba"
+            },
+            {
+              "selected": false,
+              "text": "Bosnia and Herzegovina"
+            },
+            {
+              "selected": false,
+              "text": "Botswana"
+            },
+            {
+              "selected": false,
+              "text": "Bouvet Island"
+            },
+            {
+              "selected": false,
+              "text": "Brazil"
+            },
+            {
+              "selected": false,
+              "text": "British Indian Ocean Territory"
+            },
+            {
+              "selected": false,
+              "text": "Brunei Darussalam"
+            },
+            {
+              "selected": false,
+              "text": "Bulgaria"
+            },
+            {
+              "selected": false,
+              "text": "Burkina Faso"
+            },
+            {
+              "selected": false,
+              "text": "Burundi"
+            },
+            {
+              "selected": false,
+              "text": "Cambodia"
+            },
+            {
+              "selected": false,
+              "text": "Cameroon"
+            },
+            {
+              "selected": false,
+              "text": "Canada"
+            },
+            {
+              "selected": false,
+              "text": "Cape Verde"
+            },
+            {
+              "selected": false,
+              "text": "Cayman Islands"
+            },
+            {
+              "selected": false,
+              "text": "Central African Republic"
+            },
+            {
+              "selected": false,
+              "text": "Chad"
+            },
+            {
+              "selected": false,
+              "text": "Chile"
+            },
+            {
+              "selected": false,
+              "text": "China"
+            },
+            {
+              "selected": false,
+              "text": "Christmas Island"
+            },
+            {
+              "selected": false,
+              "text": "Cocos (Keeling) Islands"
+            },
+            {
+              "selected": false,
+              "text": "Colombia"
+            },
+            {
+              "selected": false,
+              "text": "Comoros"
+            },
+            {
+              "selected": false,
+              "text": "Congo (DRC)"
+            },
+            {
+              "selected": false,
+              "text": "Congo (Republic)"
+            },
+            {
+              "selected": false,
+              "text": "Cook Islands"
+            },
+            {
+              "selected": false,
+              "text": "Costa Rica"
+            },
+            {
+              "selected": false,
+              "text": "Croatia"
+            },
+            {
+              "selected": false,
+              "text": "Cuba"
+            },
+            {
+              "selected": false,
+              "text": "Curaçao"
+            },
+            {
+              "selected": false,
+              "text": "Cyprus"
+            },
+            {
+              "selected": false,
+              "text": "Czech Republic"
+            },
+            {
+              "selected": false,
+              "text": "Côte d'Ivoire"
+            },
+            {
+              "selected": false,
+              "text": "Denmark"
+            },
+            {
+              "selected": false,
+              "text": "Djibouti"
+            },
+            {
+              "selected": false,
+              "text": "Dominica"
+            },
+            {
+              "selected": false,
+              "text": "Dominican Republic"
+            },
+            {
+              "selected": false,
+              "text": "Ecuador"
+            },
+            {
+              "selected": false,
+              "text": "Egypt"
+            },
+            {
+              "selected": false,
+              "text": "El Salvador"
+            },
+            {
+              "selected": false,
+              "text": "Equatorial Guinea"
+            },
+            {
+              "selected": false,
+              "text": "Eritrea"
+            },
+            {
+              "selected": false,
+              "text": "Estonia"
+            },
+            {
+              "selected": false,
+              "text": "Eswatini"
+            },
+            {
+              "selected": false,
+              "text": "Ethiopia"
+            },
+            {
+              "selected": false,
+              "text": "Falkland Islands"
+            },
+            {
+              "selected": false,
+              "text": "Faroe Islands"
+            },
+            {
+              "selected": false,
+              "text": "Fiji"
+            },
+            {
+              "selected": false,
+              "text": "Finland"
+            },
+            {
+              "selected": false,
+              "text": "France"
+            },
+            {
+              "selected": false,
+              "text": "French Guiana"
+            },
+            {
+              "selected": false,
+              "text": "French Polynesia"
+            },
+            {
+              "selected": false,
+              "text": "French Southern Territories"
+            },
+            {
+              "selected": false,
+              "text": "Gabon"
+            },
+            {
+              "selected": false,
+              "text": "Gambia"
+            },
+            {
+              "selected": false,
+              "text": "Georgia"
+            },
+            {
+              "selected": false,
+              "text": "Germany"
+            },
+            {
+              "selected": false,
+              "text": "Ghana"
+            },
+            {
+              "selected": false,
+              "text": "Gibraltar"
+            },
+            {
+              "selected": false,
+              "text": "Greece"
+            },
+            {
+              "selected": false,
+              "text": "Greenland"
+            },
+            {
+              "selected": false,
+              "text": "Grenada"
+            },
+            {
+              "selected": false,
+              "text": "Guadeloupe"
+            },
+            {
+              "selected": false,
+              "text": "Guam"
+            },
+            {
+              "selected": false,
+              "text": "Guatemala"
+            },
+            {
+              "selected": false,
+              "text": "Guernsey"
+            },
+            {
+              "selected": false,
+              "text": "Guinea"
+            },
+            {
+              "selected": false,
+              "text": "Guinea-Bissau"
+            },
+            {
+              "selected": false,
+              "text": "Guyana"
+            },
+            {
+              "selected": false,
+              "text": "Haiti"
+            },
+            {
+              "selected": false,
+              "text": "Heard Island and McDonald Islands"
+            },
+            {
+              "selected": false,
+              "text": "Holy See (Vatican City State)"
+            },
+            {
+              "selected": false,
+              "text": "Honduras"
+            },
+            {
+              "selected": false,
+              "text": "Hong Kong"
+            },
+            {
+              "selected": false,
+              "text": "Hungary"
+            },
+            {
+              "selected": false,
+              "text": "Iceland"
+            },
+            {
+              "selected": false,
+              "text": "India"
+            },
+            {
+              "selected": false,
+              "text": "Indonesia"
+            },
+            {
+              "selected": false,
+              "text": "Iran"
+            },
+            {
+              "selected": false,
+              "text": "Iraq"
+            },
+            {
+              "selected": false,
+              "text": "Ireland"
+            },
+            {
+              "selected": false,
+              "text": "Isle of Man"
+            },
+            {
+              "selected": false,
+              "text": "Israel"
+            },
+            {
+              "selected": false,
+              "text": "Italy"
+            },
+            {
+              "selected": false,
+              "text": "Jamaica"
+            },
+            {
+              "selected": false,
+              "text": "Japan"
+            },
+            {
+              "selected": false,
+              "text": "Jersey"
+            },
+            {
+              "selected": false,
+              "text": "Jordan"
+            },
+            {
+              "selected": false,
+              "text": "Kazakhstan"
+            },
+            {
+              "selected": false,
+              "text": "Kenya"
+            },
+            {
+              "selected": false,
+              "text": "Kiribati"
+            },
+            {
+              "selected": false,
+              "text": "Kosovo"
+            },
+            {
+              "selected": false,
+              "text": "Kuwait"
+            },
+            {
+              "selected": false,
+              "text": "Kyrgyzstan"
+            },
+            {
+              "selected": false,
+              "text": "Laos"
+            },
+            {
+              "selected": false,
+              "text": "Latvia"
+            },
+            {
+              "selected": false,
+              "text": "Lebanon"
+            },
+            {
+              "selected": false,
+              "text": "Lesotho"
+            },
+            {
+              "selected": false,
+              "text": "Liberia"
+            },
+            {
+              "selected": false,
+              "text": "Libya"
+            },
+            {
+              "selected": false,
+              "text": "Liechtenstein"
+            },
+            {
+              "selected": false,
+              "text": "Lithuania"
+            },
+            {
+              "selected": false,
+              "text": "Luxembourg"
+            },
+            {
+              "selected": false,
+              "text": "Macau"
+            },
+            {
+              "selected": false,
+              "text": "Madagascar"
+            },
+            {
+              "selected": false,
+              "text": "Malawi"
+            },
+            {
+              "selected": false,
+              "text": "Malaysia"
+            },
+            {
+              "selected": false,
+              "text": "Maldives"
+            },
+            {
+              "selected": false,
+              "text": "Mali"
+            },
+            {
+              "selected": false,
+              "text": "Malta"
+            },
+            {
+              "selected": false,
+              "text": "Marshall Islands"
+            },
+            {
+              "selected": false,
+              "text": "Martinique"
+            },
+            {
+              "selected": false,
+              "text": "Mauritania"
+            },
+            {
+              "selected": false,
+              "text": "Mauritius"
+            },
+            {
+              "selected": false,
+              "text": "Mayotte"
+            },
+            {
+              "selected": false,
+              "text": "Mexico"
+            },
+            {
+              "selected": false,
+              "text": "Micronesia"
+            },
+            {
+              "selected": false,
+              "text": "Moldova"
+            },
+            {
+              "selected": false,
+              "text": "Monaco"
+            },
+            {
+              "selected": false,
+              "text": "Mongolia"
+            },
+            {
+              "selected": false,
+              "text": "Montenegro"
+            },
+            {
+              "selected": false,
+              "text": "Montserrat"
+            },
+            {
+              "selected": true,
+              "text": "Morocco"
+            },
+            {
+              "selected": false,
+              "text": "Mozambique"
+            },
+            {
+              "selected": false,
+              "text": "Myanmar"
+            },
+            {
+              "selected": false,
+              "text": "Namibia"
+            },
+            {
+              "selected": false,
+              "text": "Nauru"
+            },
+            {
+              "selected": false,
+              "text": "Nepal"
+            },
+            {
+              "selected": false,
+              "text": "Netherlands"
+            },
+            {
+              "selected": false,
+              "text": "New Caledonia"
+            },
+            {
+              "selected": false,
+              "text": "New Zealand"
+            },
+            {
+              "selected": false,
+              "text": "Nicaragua"
+            },
+            {
+              "selected": false,
+              "text": "Niger"
+            },
+            {
+              "selected": false,
+              "text": "Nigeria"
+            },
+            {
+              "selected": false,
+              "text": "Niue"
+            },
+            {
+              "selected": false,
+              "text": "Norfolk Island"
+            },
+            {
+              "selected": false,
+              "text": "North Korea"
+            },
+            {
+              "selected": false,
+              "text": "North Macedonia"
+            },
+            {
+              "selected": false,
+              "text": "Northern Ireland"
+            },
+            {
+              "selected": false,
+              "text": "Northern Mariana Islands"
+            },
+            {
+              "selected": false,
+              "text": "Norway"
+            },
+            {
+              "selected": false,
+              "text": "Oman"
+            },
+            {
+              "selected": false,
+              "text": "Pakistan"
+            },
+            {
+              "selected": false,
+              "text": "Palau"
+            },
+            {
+              "selected": false,
+              "text": "Panama"
+            },
+            {
+              "selected": false,
+              "text": "Papua New Guinea"
+            },
+            {
+              "selected": false,
+              "text": "Paraguay"
+            },
+            {
+              "selected": false,
+              "text": "Peru"
+            },
+            {
+              "selected": false,
+              "text": "Philippines"
+            },
+            {
+              "selected": false,
+              "text": "Pitcairn Islands"
+            },
+            {
+              "selected": false,
+              "text": "Poland"
+            },
+            {
+              "selected": false,
+              "text": "Portugal"
+            },
+            {
+              "selected": false,
+              "text": "Puerto Rico"
+            },
+            {
+              "selected": false,
+              "text": "Qatar"
+            },
+            {
+              "selected": false,
+              "text": "Romania"
+            },
+            {
+              "selected": false,
+              "text": "Russian Federation"
+            },
+            {
+              "selected": false,
+              "text": "Rwanda"
+            },
+            {
+              "selected": false,
+              "text": "Réunion"
+            },
+            {
+              "selected": false,
+              "text": "Saint Barthélémy"
+            },
+            {
+              "selected": false,
+              "text": "Saint Helena, Ascension and Tristan da Cunha"
+            },
+            {
+              "selected": false,
+              "text": "Saint Kitts and Nevis"
+            },
+            {
+              "selected": false,
+              "text": "Saint Lucia"
+            },
+            {
+              "selected": false,
+              "text": "Saint Martin (French part)"
+            },
+            {
+              "selected": false,
+              "text": "Saint Pierre and Miquelon"
+            },
+            {
+              "selected": false,
+              "text": "Saint Vincent and the Grenadines"
+            },
+            {
+              "selected": false,
+              "text": "Samoa"
+            },
+            {
+              "selected": false,
+              "text": "San Marino"
+            },
+            {
+              "selected": false,
+              "text": "Saudi Arabia"
+            },
+            {
+              "selected": false,
+              "text": "Senegal"
+            },
+            {
+              "selected": false,
+              "text": "Serbia"
+            },
+            {
+              "selected": false,
+              "text": "Seychelles"
+            },
+            {
+              "selected": false,
+              "text": "Sierra Leone"
+            },
+            {
+              "selected": false,
+              "text": "Singapore"
+            },
+            {
+              "selected": false,
+              "text": "Sint Maarten (Dutch part)"
+            },
+            {
+              "selected": false,
+              "text": "Slovakia"
+            },
+            {
+              "selected": false,
+              "text": "Slovenia"
+            },
+            {
+              "selected": false,
+              "text": "Solomon Islands"
+            },
+            {
+              "selected": false,
+              "text": "Somalia"
+            },
+            {
+              "selected": false,
+              "text": "South Africa"
+            },
+            {
+              "selected": false,
+              "text": "South Georgia and the South Sandwich Islands"
+            },
+            {
+              "selected": false,
+              "text": "South Korea"
+            },
+            {
+              "selected": false,
+              "text": "South Sudan"
+            },
+            {
+              "selected": false,
+              "text": "Spain"
+            },
+            {
+              "selected": false,
+              "text": "Sri Lanka"
+            },
+            {
+              "selected": false,
+              "text": "State of Palestine"
+            },
+            {
+              "selected": false,
+              "text": "Sudan"
+            },
+            {
+              "selected": false,
+              "text": "Suriname"
+            },
+            {
+              "selected": false,
+              "text": "Svalbard and Jan Mayen"
+            },
+            {
+              "selected": false,
+              "text": "Sweden"
+            },
+            {
+              "selected": false,
+              "text": "Switzerland"
+            },
+            {
+              "selected": false,
+              "text": "Syria"
+            },
+            {
+              "selected": false,
+              "text": "São Tomé and Príncipe"
+            },
+            {
+              "selected": false,
+              "text": "Taiwan"
+            },
+            {
+              "selected": false,
+              "text": "Tajikistan"
+            },
+            {
+              "selected": false,
+              "text": "Tanzania"
+            },
+            {
+              "selected": false,
+              "text": "Thailand"
+            },
+            {
+              "selected": false,
+              "text": "Timor-Leste"
+            },
+            {
+              "selected": false,
+              "text": "Togo"
+            },
+            {
+              "selected": false,
+              "text": "Tokelau"
+            },
+            {
+              "selected": false,
+              "text": "Tonga"
+            },
+            {
+              "selected": false,
+              "text": "Trinidad and Tobago"
+            },
+            {
+              "selected": false,
+              "text": "Tunisia"
+            },
+            {
+              "selected": false,
+              "text": "Turkmenistan"
+            },
+            {
+              "selected": false,
+              "text": "Turks and Caicos Islands"
+            },
+            {
+              "selected": false,
+              "text": "Tuvalu"
+            },
+            {
+              "selected": false,
+              "text": "Türkiye"
+            },
+            {
+              "selected": false,
+              "text": "USA Minor Outlying Islands"
+            },
+            {
+              "selected": false,
+              "text": "Uganda"
+            },
+            {
+              "selected": false,
+              "text": "Ukraine"
+            },
+            {
+              "selected": false,
+              "text": "United Arab Emirates"
+            },
+            {
+              "selected": false,
+              "text": "United Kingdom"
+            },
+            {
+              "selected": false,
+              "text": "United States"
+            },
+            {
+              "selected": false,
+              "text": "Uruguay"
+            },
+            {
+              "selected": false,
+              "text": "Uzbekistan"
+            },
+            {
+              "selected": false,
+              "text": "Vanuatu"
+            },
+            {
+              "selected": false,
+              "text": "Venezuela"
+            },
+            {
+              "selected": false,
+              "text": "Vietnam"
+            },
+            {
+              "selected": false,
+              "text": "Virgin Islands (British)"
+            },
+            {
+              "selected": false,
+              "text": "Virgin Islands (USA)"
+            },
+            {
+              "selected": false,
+              "text": "Wallis and Futuna"
+            },
+            {
+              "selected": false,
+              "text": "Western Sahara"
+            },
+            {
+              "selected": false,
+              "text": "Yemen"
+            },
+            {
+              "selected": false,
+              "text": "Zambia"
+            },
+            {
+              "selected": false,
+              "text": "Zimbabwe"
+            },
+            {
+              "selected": false,
+              "text": "Åland Islands"
+            }
+          ],
+          "required": true,
+          "tag": "SELECT",
+          "type": "select-one"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_country_id",
+          "label": "Country where the student lives *",
+          "name": "country_id",
+          "options": [
+            {
+              "selected": false,
+              "text": ""
+            },
+            {
+              "selected": false,
+              "text": "Afghanistan"
+            },
+            {
+              "selected": false,
+              "text": "Albania"
+            },
+            {
+              "selected": false,
+              "text": "Algeria"
+            },
+            {
+              "selected": false,
+              "text": "American Samoa"
+            },
+            {
+              "selected": false,
+              "text": "Andorra"
+            },
+            {
+              "selected": false,
+              "text": "Angola"
+            },
+            {
+              "selected": false,
+              "text": "Anguilla"
+            },
+            {
+              "selected": false,
+              "text": "Antarctica"
+            },
+            {
+              "selected": false,
+              "text": "Antigua and Barbuda"
+            },
+            {
+              "selected": false,
+              "text": "Argentina"
+            },
+            {
+              "selected": false,
+              "text": "Armenia"
+            },
+            {
+              "selected": false,
+              "text": "Aruba"
+            },
+            {
+              "selected": false,
+              "text": "Australia"
+            },
+            {
+              "selected": false,
+              "text": "Austria"
+            },
+            {
+              "selected": false,
+              "text": "Azerbaijan"
+            },
+            {
+              "selected": false,
+              "text": "Bahamas"
+            },
+            {
+              "selected": false,
+              "text": "Bahrain"
+            },
+            {
+              "selected": false,
+              "text": "Bangladesh"
+            },
+            {
+              "selected": false,
+              "text": "Barbados"
+            },
+            {
+              "selected": false,
+              "text": "Belarus"
+            },
+            {
+              "selected": false,
+              "text": "Belgium"
+            },
+            {
+              "selected": false,
+              "text": "Belize"
+            },
+            {
+              "selected": false,
+              "text": "Benin"
+            },
+            {
+              "selected": false,
+              "text": "Bermuda"
+            },
+            {
+              "selected": false,
+              "text": "Bhutan"
+            },
+            {
+              "selected": false,
+              "text": "Bolivia"
+            },
+            {
+              "selected": false,
+              "text": "Bonaire, Sint Eustatius and Saba"
+            },
+            {
+              "selected": false,
+              "text": "Bosnia and Herzegovina"
+            },
+            {
+              "selected": false,
+              "text": "Botswana"
+            },
+            {
+              "selected": false,
+              "text": "Bouvet Island"
+            },
+            {
+              "selected": false,
+              "text": "Brazil"
+            },
+            {
+              "selected": false,
+              "text": "British Indian Ocean Territory"
+            },
+            {
+              "selected": false,
+              "text": "Brunei Darussalam"
+            },
+            {
+              "selected": false,
+              "text": "Bulgaria"
+            },
+            {
+              "selected": false,
+              "text": "Burkina Faso"
+            },
+            {
+              "selected": false,
+              "text": "Burundi"
+            },
+            {
+              "selected": false,
+              "text": "Cambodia"
+            },
+            {
+              "selected": false,
+              "text": "Cameroon"
+            },
+            {
+              "selected": false,
+              "text": "Canada"
+            },
+            {
+              "selected": false,
+              "text": "Cape Verde"
+            },
+            {
+              "selected": false,
+              "text": "Cayman Islands"
+            },
+            {
+              "selected": false,
+              "text": "Central African Republic"
+            },
+            {
+              "selected": false,
+              "text": "Chad"
+            },
+            {
+              "selected": false,
+              "text": "Chile"
+            },
+            {
+              "selected": false,
+              "text": "China"
+            },
+            {
+              "selected": false,
+              "text": "Christmas Island"
+            },
+            {
+              "selected": false,
+              "text": "Cocos (Keeling) Islands"
+            },
+            {
+              "selected": false,
+              "text": "Colombia"
+            },
+            {
+              "selected": false,
+              "text": "Comoros"
+            },
+            {
+              "selected": false,
+              "text": "Congo (DRC)"
+            },
+            {
+              "selected": false,
+              "text": "Congo (Republic)"
+            },
+            {
+              "selected": false,
+              "text": "Cook Islands"
+            },
+            {
+              "selected": false,
+              "text": "Costa Rica"
+            },
+            {
+              "selected": false,
+              "text": "Croatia"
+            },
+            {
+              "selected": false,
+              "text": "Cuba"
+            },
+            {
+              "selected": false,
+              "text": "Curaçao"
+            },
+            {
+              "selected": false,
+              "text": "Cyprus"
+            },
+            {
+              "selected": false,
+              "text": "Czech Republic"
+            },
+            {
+              "selected": false,
+              "text": "Côte d'Ivoire"
+            },
+            {
+              "selected": false,
+              "text": "Denmark"
+            },
+            {
+              "selected": false,
+              "text": "Djibouti"
+            },
+            {
+              "selected": false,
+              "text": "Dominica"
+            },
+            {
+              "selected": false,
+              "text": "Dominican Republic"
+            },
+            {
+              "selected": false,
+              "text": "Ecuador"
+            },
+            {
+              "selected": false,
+              "text": "Egypt"
+            },
+            {
+              "selected": false,
+              "text": "El Salvador"
+            },
+            {
+              "selected": false,
+              "text": "Equatorial Guinea"
+            },
+            {
+              "selected": false,
+              "text": "Eritrea"
+            },
+            {
+              "selected": false,
+              "text": "Estonia"
+            },
+            {
+              "selected": false,
+              "text": "Eswatini"
+            },
+            {
+              "selected": false,
+              "text": "Ethiopia"
+            },
+            {
+              "selected": false,
+              "text": "Falkland Islands"
+            },
+            {
+              "selected": false,
+              "text": "Faroe Islands"
+            },
+            {
+              "selected": false,
+              "text": "Fiji"
+            },
+            {
+              "selected": false,
+              "text": "Finland"
+            },
+            {
+              "selected": false,
+              "text": "France"
+            },
+            {
+              "selected": false,
+              "text": "French Guiana"
+            },
+            {
+              "selected": false,
+              "text": "French Polynesia"
+            },
+            {
+              "selected": false,
+              "text": "French Southern Territories"
+            },
+            {
+              "selected": false,
+              "text": "Gabon"
+            },
+            {
+              "selected": false,
+              "text": "Gambia"
+            },
+            {
+              "selected": false,
+              "text": "Georgia"
+            },
+            {
+              "selected": false,
+              "text": "Germany"
+            },
+            {
+              "selected": false,
+              "text": "Ghana"
+            },
+            {
+              "selected": false,
+              "text": "Gibraltar"
+            },
+            {
+              "selected": false,
+              "text": "Greece"
+            },
+            {
+              "selected": false,
+              "text": "Greenland"
+            },
+            {
+              "selected": false,
+              "text": "Grenada"
+            },
+            {
+              "selected": false,
+              "text": "Guadeloupe"
+            },
+            {
+              "selected": false,
+              "text": "Guam"
+            },
+            {
+              "selected": false,
+              "text": "Guatemala"
+            },
+            {
+              "selected": false,
+              "text": "Guernsey"
+            },
+            {
+              "selected": false,
+              "text": "Guinea"
+            },
+            {
+              "selected": false,
+              "text": "Guinea-Bissau"
+            },
+            {
+              "selected": false,
+              "text": "Guyana"
+            },
+            {
+              "selected": false,
+              "text": "Haiti"
+            },
+            {
+              "selected": false,
+              "text": "Heard Island and McDonald Islands"
+            },
+            {
+              "selected": false,
+              "text": "Holy See (Vatican City State)"
+            },
+            {
+              "selected": false,
+              "text": "Honduras"
+            },
+            {
+              "selected": false,
+              "text": "Hong Kong"
+            },
+            {
+              "selected": false,
+              "text": "Hungary"
+            },
+            {
+              "selected": false,
+              "text": "Iceland"
+            },
+            {
+              "selected": false,
+              "text": "India"
+            },
+            {
+              "selected": false,
+              "text": "Indonesia"
+            },
+            {
+              "selected": false,
+              "text": "Iran"
+            },
+            {
+              "selected": false,
+              "text": "Iraq"
+            },
+            {
+              "selected": false,
+              "text": "Ireland"
+            },
+            {
+              "selected": false,
+              "text": "Isle of Man"
+            },
+            {
+              "selected": false,
+              "text": "Israel"
+            },
+            {
+              "selected": false,
+              "text": "Italy"
+            },
+            {
+              "selected": false,
+              "text": "Jamaica"
+            },
+            {
+              "selected": false,
+              "text": "Japan"
+            },
+            {
+              "selected": false,
+              "text": "Jersey"
+            },
+            {
+              "selected": false,
+              "text": "Jordan"
+            },
+            {
+              "selected": false,
+              "text": "Kazakhstan"
+            },
+            {
+              "selected": false,
+              "text": "Kenya"
+            },
+            {
+              "selected": false,
+              "text": "Kiribati"
+            },
+            {
+              "selected": false,
+              "text": "Kosovo"
+            },
+            {
+              "selected": false,
+              "text": "Kuwait"
+            },
+            {
+              "selected": false,
+              "text": "Kyrgyzstan"
+            },
+            {
+              "selected": false,
+              "text": "Laos"
+            },
+            {
+              "selected": false,
+              "text": "Latvia"
+            },
+            {
+              "selected": false,
+              "text": "Lebanon"
+            },
+            {
+              "selected": false,
+              "text": "Lesotho"
+            },
+            {
+              "selected": false,
+              "text": "Liberia"
+            },
+            {
+              "selected": false,
+              "text": "Libya"
+            },
+            {
+              "selected": false,
+              "text": "Liechtenstein"
+            },
+            {
+              "selected": false,
+              "text": "Lithuania"
+            },
+            {
+              "selected": false,
+              "text": "Luxembourg"
+            },
+            {
+              "selected": false,
+              "text": "Macau"
+            },
+            {
+              "selected": false,
+              "text": "Madagascar"
+            },
+            {
+              "selected": false,
+              "text": "Malawi"
+            },
+            {
+              "selected": false,
+              "text": "Malaysia"
+            },
+            {
+              "selected": false,
+              "text": "Maldives"
+            },
+            {
+              "selected": false,
+              "text": "Mali"
+            },
+            {
+              "selected": false,
+              "text": "Malta"
+            },
+            {
+              "selected": false,
+              "text": "Marshall Islands"
+            },
+            {
+              "selected": false,
+              "text": "Martinique"
+            },
+            {
+              "selected": false,
+              "text": "Mauritania"
+            },
+            {
+              "selected": false,
+              "text": "Mauritius"
+            },
+            {
+              "selected": false,
+              "text": "Mayotte"
+            },
+            {
+              "selected": false,
+              "text": "Mexico"
+            },
+            {
+              "selected": false,
+              "text": "Micronesia"
+            },
+            {
+              "selected": false,
+              "text": "Moldova"
+            },
+            {
+              "selected": false,
+              "text": "Monaco"
+            },
+            {
+              "selected": false,
+              "text": "Mongolia"
+            },
+            {
+              "selected": false,
+              "text": "Montenegro"
+            },
+            {
+              "selected": false,
+              "text": "Montserrat"
+            },
+            {
+              "selected": true,
+              "text": "Morocco"
+            },
+            {
+              "selected": false,
+              "text": "Mozambique"
+            },
+            {
+              "selected": false,
+              "text": "Myanmar"
+            },
+            {
+              "selected": false,
+              "text": "Namibia"
+            },
+            {
+              "selected": false,
+              "text": "Nauru"
+            },
+            {
+              "selected": false,
+              "text": "Nepal"
+            },
+            {
+              "selected": false,
+              "text": "Netherlands"
+            },
+            {
+              "selected": false,
+              "text": "New Caledonia"
+            },
+            {
+              "selected": false,
+              "text": "New Zealand"
+            },
+            {
+              "selected": false,
+              "text": "Nicaragua"
+            },
+            {
+              "selected": false,
+              "text": "Niger"
+            },
+            {
+              "selected": false,
+              "text": "Nigeria"
+            },
+            {
+              "selected": false,
+              "text": "Niue"
+            },
+            {
+              "selected": false,
+              "text": "Norfolk Island"
+            },
+            {
+              "selected": false,
+              "text": "North Korea"
+            },
+            {
+              "selected": false,
+              "text": "North Macedonia"
+            },
+            {
+              "selected": false,
+              "text": "Northern Ireland"
+            },
+            {
+              "selected": false,
+              "text": "Northern Mariana Islands"
+            },
+            {
+              "selected": false,
+              "text": "Norway"
+            },
+            {
+              "selected": false,
+              "text": "Oman"
+            },
+            {
+              "selected": false,
+              "text": "Pakistan"
+            },
+            {
+              "selected": false,
+              "text": "Palau"
+            },
+            {
+              "selected": false,
+              "text": "Panama"
+            },
+            {
+              "selected": false,
+              "text": "Papua New Guinea"
+            },
+            {
+              "selected": false,
+              "text": "Paraguay"
+            },
+            {
+              "selected": false,
+              "text": "Peru"
+            },
+            {
+              "selected": false,
+              "text": "Philippines"
+            },
+            {
+              "selected": false,
+              "text": "Pitcairn Islands"
+            },
+            {
+              "selected": false,
+              "text": "Poland"
+            },
+            {
+              "selected": false,
+              "text": "Portugal"
+            },
+            {
+              "selected": false,
+              "text": "Puerto Rico"
+            },
+            {
+              "selected": false,
+              "text": "Qatar"
+            },
+            {
+              "selected": false,
+              "text": "Romania"
+            },
+            {
+              "selected": false,
+              "text": "Russian Federation"
+            },
+            {
+              "selected": false,
+              "text": "Rwanda"
+            },
+            {
+              "selected": false,
+              "text": "Réunion"
+            },
+            {
+              "selected": false,
+              "text": "Saint Barthélémy"
+            },
+            {
+              "selected": false,
+              "text": "Saint Helena, Ascension and Tristan da Cunha"
+            },
+            {
+              "selected": false,
+              "text": "Saint Kitts and Nevis"
+            },
+            {
+              "selected": false,
+              "text": "Saint Lucia"
+            },
+            {
+              "selected": false,
+              "text": "Saint Martin (French part)"
+            },
+            {
+              "selected": false,
+              "text": "Saint Pierre and Miquelon"
+            },
+            {
+              "selected": false,
+              "text": "Saint Vincent and the Grenadines"
+            },
+            {
+              "selected": false,
+              "text": "Samoa"
+            },
+            {
+              "selected": false,
+              "text": "San Marino"
+            },
+            {
+              "selected": false,
+              "text": "Saudi Arabia"
+            },
+            {
+              "selected": false,
+              "text": "Senegal"
+            },
+            {
+              "selected": false,
+              "text": "Serbia"
+            },
+            {
+              "selected": false,
+              "text": "Seychelles"
+            },
+            {
+              "selected": false,
+              "text": "Sierra Leone"
+            },
+            {
+              "selected": false,
+              "text": "Singapore"
+            },
+            {
+              "selected": false,
+              "text": "Sint Maarten (Dutch part)"
+            },
+            {
+              "selected": false,
+              "text": "Slovakia"
+            },
+            {
+              "selected": false,
+              "text": "Slovenia"
+            },
+            {
+              "selected": false,
+              "text": "Solomon Islands"
+            },
+            {
+              "selected": false,
+              "text": "Somalia"
+            },
+            {
+              "selected": false,
+              "text": "South Africa"
+            },
+            {
+              "selected": false,
+              "text": "South Georgia and the South Sandwich Islands"
+            },
+            {
+              "selected": false,
+              "text": "South Korea"
+            },
+            {
+              "selected": false,
+              "text": "South Sudan"
+            },
+            {
+              "selected": false,
+              "text": "Spain"
+            },
+            {
+              "selected": false,
+              "text": "Sri Lanka"
+            },
+            {
+              "selected": false,
+              "text": "State of Palestine"
+            },
+            {
+              "selected": false,
+              "text": "Sudan"
+            },
+            {
+              "selected": false,
+              "text": "Suriname"
+            },
+            {
+              "selected": false,
+              "text": "Svalbard and Jan Mayen"
+            },
+            {
+              "selected": false,
+              "text": "Sweden"
+            },
+            {
+              "selected": false,
+              "text": "Switzerland"
+            },
+            {
+              "selected": false,
+              "text": "Syria"
+            },
+            {
+              "selected": false,
+              "text": "São Tomé and Príncipe"
+            },
+            {
+              "selected": false,
+              "text": "Taiwan"
+            },
+            {
+              "selected": false,
+              "text": "Tajikistan"
+            },
+            {
+              "selected": false,
+              "text": "Tanzania"
+            },
+            {
+              "selected": false,
+              "text": "Thailand"
+            },
+            {
+              "selected": false,
+              "text": "Timor-Leste"
+            },
+            {
+              "selected": false,
+              "text": "Togo"
+            },
+            {
+              "selected": false,
+              "text": "Tokelau"
+            },
+            {
+              "selected": false,
+              "text": "Tonga"
+            },
+            {
+              "selected": false,
+              "text": "Trinidad and Tobago"
+            },
+            {
+              "selected": false,
+              "text": "Tunisia"
+            },
+            {
+              "selected": false,
+              "text": "Turkmenistan"
+            },
+            {
+              "selected": false,
+              "text": "Turks and Caicos Islands"
+            },
+            {
+              "selected": false,
+              "text": "Tuvalu"
+            },
+            {
+              "selected": false,
+              "text": "Türkiye"
+            },
+            {
+              "selected": false,
+              "text": "USA Minor Outlying Islands"
+            },
+            {
+              "selected": false,
+              "text": "Uganda"
+            },
+            {
+              "selected": false,
+              "text": "Ukraine"
+            },
+            {
+              "selected": false,
+              "text": "United Arab Emirates"
+            },
+            {
+              "selected": false,
+              "text": "United Kingdom"
+            },
+            {
+              "selected": false,
+              "text": "United States"
+            },
+            {
+              "selected": false,
+              "text": "Uruguay"
+            },
+            {
+              "selected": false,
+              "text": "Uzbekistan"
+            },
+            {
+              "selected": false,
+              "text": "Vanuatu"
+            },
+            {
+              "selected": false,
+              "text": "Venezuela"
+            },
+            {
+              "selected": false,
+              "text": "Vietnam"
+            },
+            {
+              "selected": false,
+              "text": "Virgin Islands (British)"
+            },
+            {
+              "selected": false,
+              "text": "Virgin Islands (USA)"
+            },
+            {
+              "selected": false,
+              "text": "Wallis and Futuna"
+            },
+            {
+              "selected": false,
+              "text": "Western Sahara"
+            },
+            {
+              "selected": false,
+              "text": "Yemen"
+            },
+            {
+              "selected": false,
+              "text": "Zambia"
+            },
+            {
+              "selected": false,
+              "text": "Zimbabwe"
+            },
+            {
+              "selected": false,
+              "text": "Åland Islands"
+            }
+          ],
+          "required": true,
+          "tag": "SELECT",
+          "type": "select-one"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_current_level",
+          "label": "Current level *",
+          "name": "current_level",
+          "options": [
+            {
+              "selected": false,
+              "text": ""
+            },
+            {
+              "selected": true,
+              "text": "Baccalaureate"
+            },
+            {
+              "selected": false,
+              "text": "Licence 1"
+            },
+            {
+              "selected": false,
+              "text": "Licence 2"
+            },
+            {
+              "selected": false,
+              "text": "Licence 3"
+            },
+            {
+              "selected": false,
+              "text": "Licence pro"
+            },
+            {
+              "selected": false,
+              "text": "BUT"
+            },
+            {
+              "selected": false,
+              "text": "Master 1"
+            },
+            {
+              "selected": false,
+              "text": "Master 2"
+            }
+          ],
+          "required": true,
+          "tag": "SELECT",
+          "type": "select-one"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_target_level",
+          "label": "The year you apply for in France *",
+          "name": "target_level",
+          "options": [
+            {
+              "selected": false,
+              "text": ""
+            },
+            {
+              "selected": true,
+              "text": "First year after the bac (L1)"
+            },
+            {
+              "selected": false,
+              "text": "Licence 2"
+            },
+            {
+              "selected": false,
+              "text": "Licence 3"
+            },
+            {
+              "selected": false,
+              "text": "Master 1"
+            },
+            {
+              "selected": false,
+              "text": "Master 2"
+            }
+          ],
+          "required": true,
+          "tag": "SELECT",
+          "type": "select-one"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_bac",
+          "label": "Moroccan bac stream",
+          "name": "bac",
+          "options": [
+            {
+              "selected": true,
+              "text": ""
+            },
+            {
+              "selected": false,
+              "text": "Mathematical sciences (A or B)"
+            },
+            {
+              "selected": false,
+              "text": "Physical sciences (PC)"
+            },
+            {
+              "selected": false,
+              "text": "Life and earth sciences (SVT)"
+            },
+            {
+              "selected": false,
+              "text": "Agronomic sciences"
+            },
+            {
+              "selected": false,
+              "text": "Electrical sciences and technologies (STE)"
+            },
+            {
+              "selected": false,
+              "text": "Mechanical sciences and technologies (STM)"
+            },
+            {
+              "selected": false,
+              "text": "Economic sciences"
+            },
+            {
+              "selected": false,
+              "text": "Accounting and management sciences"
+            },
+            {
+              "selected": false,
+              "text": "Letters"
+            },
+            {
+              "selected": false,
+              "text": "Human sciences"
+            },
+            {
+              "selected": false,
+              "text": "Applied arts"
+            },
+            {
+              "selected": false,
+              "text": "Sharia sciences"
+            },
+            {
+              "selected": false,
+              "text": "Arabic language"
+            },
+            {
+              "selected": false,
+              "text": "Vocational bac"
+            },
+            {
+              "selected": false,
+              "text": "Another diploma (not Moroccan)"
+            }
+          ],
+          "required": true,
+          "tag": "SELECT",
+          "type": "select-one"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_average",
+          "label": "Overall average (/20) *",
+          "name": "average",
+          "required": true,
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_licence_field",
+          "label": "Field of your licence",
+          "name": "licence_field",
+          "required": false,
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "disabled": false,
+          "id": "",
+          "label": "",
+          "name": "",
+          "required": false,
+          "tag": "BUTTON",
+          "type": "button"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_french_level_none",
+          "label": "No test yet",
+          "name": "french_level",
+          "required": false,
+          "tag": "INPUT",
+          "type": "radio"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_french_level_a1",
+          "label": "A1",
+          "name": "french_level",
+          "required": false,
+          "tag": "INPUT",
+          "type": "radio"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_french_level_a2",
+          "label": "A2",
+          "name": "french_level",
+          "required": false,
+          "tag": "INPUT",
+          "type": "radio"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_french_level_b1",
+          "label": "B1",
+          "name": "french_level",
+          "required": false,
+          "tag": "INPUT",
+          "type": "radio"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_french_level_b2",
+          "label": "B2",
+          "name": "french_level",
+          "required": false,
+          "tag": "INPUT",
+          "type": "radio"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_french_level_c1",
+          "label": "C1",
+          "name": "french_level",
+          "required": false,
+          "tag": "INPUT",
+          "type": "radio"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_french_level_c2",
+          "label": "C2",
+          "name": "french_level",
+          "required": false,
+          "tag": "INPUT",
+          "type": "radio"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_grade_math",
+          "label": "Mathematics",
+          "name": "grade_math",
+          "required": false,
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_grade_physics",
+          "label": "Physics-chemistry",
+          "name": "grade_physics",
+          "required": false,
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_grade_svt",
+          "label": "SVT",
+          "name": "grade_svt",
+          "required": false,
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_grade_economics",
+          "label": "Economics",
+          "name": "grade_economics",
+          "required": false,
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_grade_management",
+          "label": "Accounting and management",
+          "name": "grade_management",
+          "required": false,
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_grade_history",
+          "label": "History and geography",
+          "name": "grade_history",
+          "required": false,
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_grade_philosophy",
+          "label": "Philosophy",
+          "name": "grade_philosophy",
+          "required": false,
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_grade_french",
+          "label": "French",
+          "name": "grade_french",
+          "required": false,
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_grade_english",
+          "label": "English",
+          "name": "grade_english",
+          "required": false,
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "disabled": false,
+          "id": "",
+          "label": "",
+          "name": "",
+          "required": false,
+          "tag": "BUTTON",
+          "type": "button"
+        },
+        {
+          "disabled": false,
+          "id": "",
+          "label": "",
+          "name": "",
+          "required": false,
+          "tag": "BUTTON",
+          "type": "button"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_interest_1",
+          "label": "Field of study *",
+          "name": "interest_1",
+          "options": [
+            {
+              "selected": true,
+              "text": ""
+            },
+            {
+              "selected": false,
+              "text": "Comptabilité Contrôle et Audit"
+            },
+            {
+              "selected": false,
+              "text": "Droit des affaires"
+            },
+            {
+              "selected": false,
+              "text": "Droit financier"
+            },
+            {
+              "selected": false,
+              "text": "Développeur Full Stack"
+            },
+            {
+              "selected": false,
+              "text": "Engineering"
+            },
+            {
+              "selected": false,
+              "text": "Génie logiciel"
+            },
+            {
+              "selected": false,
+              "text": "Informatique"
+            },
+            {
+              "selected": false,
+              "text": "Ingénierie mécanique"
+            },
+            {
+              "selected": false,
+              "text": "International Baccalauréate"
+            },
+            {
+              "selected": false,
+              "text": "MIAGE"
+            },
+            {
+              "selected": false,
+              "text": "ingénierie logicielle"
+            },
+            {
+              "selected": false,
+              "text": "Computer Science"
+            },
+            {
+              "selected": false,
+              "text": "Business and Management"
+            },
+            {
+              "selected": false,
+              "text": "Economics and Finance"
+            },
+            {
+              "selected": false,
+              "text": "Law"
+            },
+            {
+              "selected": false,
+              "text": "Medicine and Health"
+            },
+            {
+              "selected": false,
+              "text": "Architecture and Design"
+            },
+            {
+              "selected": false,
+              "text": "Natural Sciences"
+            },
+            {
+              "selected": false,
+              "text": "Social Sciences"
+            },
+            {
+              "selected": false,
+              "text": "Arts and Humanities"
+            }
+          ],
+          "required": true,
+          "tag": "SELECT",
+          "type": "select-one"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_interest_2",
+          "label": "Another field (optional)",
+          "name": "interest_2",
+          "options": [
+            {
+              "selected": true,
+              "text": ""
+            },
+            {
+              "selected": false,
+              "text": "Comptabilité Contrôle et Audit"
+            },
+            {
+              "selected": false,
+              "text": "Droit des affaires"
+            },
+            {
+              "selected": false,
+              "text": "Droit financier"
+            },
+            {
+              "selected": false,
+              "text": "Développeur Full Stack"
+            },
+            {
+              "selected": false,
+              "text": "Engineering"
+            },
+            {
+              "selected": false,
+              "text": "Génie logiciel"
+            },
+            {
+              "selected": false,
+              "text": "Informatique"
+            },
+            {
+              "selected": false,
+              "text": "Ingénierie mécanique"
+            },
+            {
+              "selected": false,
+              "text": "International Baccalauréate"
+            },
+            {
+              "selected": false,
+              "text": "MIAGE"
+            },
+            {
+              "selected": false,
+              "text": "ingénierie logicielle"
+            },
+            {
+              "selected": false,
+              "text": "Computer Science"
+            },
+            {
+              "selected": false,
+              "text": "Business and Management"
+            },
+            {
+              "selected": false,
+              "text": "Economics and Finance"
+            },
+            {
+              "selected": false,
+              "text": "Law"
+            },
+            {
+              "selected": false,
+              "text": "Medicine and Health"
+            },
+            {
+              "selected": false,
+              "text": "Architecture and Design"
+            },
+            {
+              "selected": false,
+              "text": "Natural Sciences"
+            },
+            {
+              "selected": false,
+              "text": "Social Sciences"
+            },
+            {
+              "selected": false,
+              "text": "Arts and Humanities"
+            }
+          ],
+          "required": false,
+          "tag": "SELECT",
+          "type": "select-one"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_interest_3",
+          "label": "Another field (optional)",
+          "name": "interest_3",
+          "options": [
+            {
+              "selected": true,
+              "text": ""
+            },
+            {
+              "selected": false,
+              "text": "Comptabilité Contrôle et Audit"
+            },
+            {
+              "selected": false,
+              "text": "Droit des affaires"
+            },
+            {
+              "selected": false,
+              "text": "Droit financier"
+            },
+            {
+              "selected": false,
+              "text": "Développeur Full Stack"
+            },
+            {
+              "selected": false,
+              "text": "Engineering"
+            },
+            {
+              "selected": false,
+              "text": "Génie logiciel"
+            },
+            {
+              "selected": false,
+              "text": "Informatique"
+            },
+            {
+              "selected": false,
+              "text": "Ingénierie mécanique"
+            },
+            {
+              "selected": false,
+              "text": "International Baccalauréate"
+            },
+            {
+              "selected": false,
+              "text": "MIAGE"
+            },
+            {
+              "selected": false,
+              "text": "ingénierie logicielle"
+            },
+            {
+              "selected": false,
+              "text": "Computer Science"
+            },
+            {
+              "selected": false,
+              "text": "Business and Management"
+            },
+            {
+              "selected": false,
+              "text": "Economics and Finance"
+            },
+            {
+              "selected": false,
+              "text": "Law"
+            },
+            {
+              "selected": false,
+              "text": "Medicine and Health"
+            },
+            {
+              "selected": false,
+              "text": "Architecture and Design"
+            },
+            {
+              "selected": false,
+              "text": "Natural Sciences"
+            },
+            {
+              "selected": false,
+              "text": "Social Sciences"
+            },
+            {
+              "selected": false,
+              "text": "Arts and Humanities"
+            }
+          ],
+          "required": false,
+          "tag": "SELECT",
+          "type": "select-one"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_cities",
+          "label": "Cities in France (optional)",
+          "name": "cities",
+          "required": false,
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "disabled": false,
+          "id": "",
+          "label": "",
+          "name": "",
+          "required": false,
+          "tag": "BUTTON",
+          "type": "button"
+        },
+        {
+          "disabled": false,
+          "id": "",
+          "label": "",
+          "name": "",
+          "required": false,
+          "tag": "BUTTON",
+          "type": "button"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_filled_by_student",
+          "label": "I am the student",
+          "name": "filled_by",
+          "required": false,
+          "tag": "INPUT",
+          "type": "radio"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_filled_by_parent",
+          "label": "I am a parent",
+          "name": "filled_by",
+          "required": false,
+          "tag": "INPUT",
+          "type": "radio"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_first_name",
+          "label": "Student's first name *",
+          "name": "first_name",
+          "required": true,
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_last_name",
+          "label": "Student's last name *",
+          "name": "last_name",
+          "required": true,
+          "tag": "INPUT",
+          "type": "text"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_phone",
+          "label": "WhatsApp number *",
+          "name": "phone",
+          "required": true,
+          "tag": "INPUT",
+          "type": "tel"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_email",
+          "label": "Email *",
+          "name": "email",
+          "required": true,
+          "tag": "INPUT",
+          "type": "email"
+        },
+        {
+          "disabled": false,
+          "id": "o_shortlist_accepted",
+          "label": "\n                                                    I accept that ProTrain processes this data to find the programs and to contact me about them, as described in the privacy policy. If the student is under 18, I am their parent or legal guardian.\n                                                ",
+          "name": "accepted",
+          "required": true,
+          "tag": "INPUT",
+          "type": "checkbox"
+        },
+        {
+          "disabled": false,
+          "id": "",
+          "label": "",
+          "name": "",
+          "required": false,
+          "tag": "BUTTON",
+          "type": "submit"
+        },
+        {
+          "disabled": false,
+          "id": "",
+          "label": "",
+          "name": "",
+          "required": false,
+          "tag": "BUTTON",
+          "type": "button"
+        }
+      ],
+      "id": "o_shortlist_start_form",
+      "method": "post"
+    }
+  ],
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Which programs in France should you choose on Études en France?"
+    },
+    {
+      "tag": "H2",
+      "text": "What you get"
+    },
+    {
+      "tag": "H2",
+      "text": "How it works"
+    },
+    {
+      "tag": "H3",
+      "text": "1. Your profile"
+    },
+    {
+      "tag": "H3",
+      "text": "2. Two programs free"
+    },
+    {
+      "tag": "H3",
+      "text": "3. Your 7 programs"
+    },
+    {
+      "tag": "H2",
+      "text": "See my programs"
+    },
+    {
+      "tag": "H2",
+      "text": "Questions"
+    }
+  ],
+  "images": [
+    {
+      "alt": "ProTrain",
+      "height": 127,
+      "loaded": true,
+      "width": 141
+    },
+    {
+      "alt": "ProTrain",
+      "height": 127,
+      "loaded": true,
+      "width": 141
+    },
+    {
+      "alt": "ProTrain",
+      "height": 0,
+      "loaded": false,
+      "width": 0
+    }
+  ],
+  "links": [
+    {
+      "href": "/en",
+      "text": null
+    },
+    {
+      "href": "/en",
+      "text": "Home"
+    },
+    {
+      "href": "/en/services",
+      "text": "Services"
+    },
+    {
+      "href": "#",
+      "text": "Destinations"
+    },
+    {
+      "href": "/en/destinations",
+      "text": "Compare all destinations"
+    },
+    {
+      "href": "/en/destinations/france",
+      "text": "Study in France"
+    },
+    {
+      "href": "/en/destinations/espagne",
+      "text": "Study in Spain"
+    },
+    {
+      "href": "/en/destinations/canada",
+      "text": "Study in Canada"
+    },
+    {
+      "href": "/en/destinations/royaume-uni",
+      "text": "Study in the UK"
+    },
+    {
+      "href": "/en/destinations/etats-unis",
+      "text": "Study in the USA"
+    },
+    {
+      "href": "/en/destinations/allemagne",
+      "text": "Study in Germany"
+    },
+    {
+      "href": "/en/destinations/chine",
+      "text": "Study in China"
+    },
+    {
+      "href": "/en/destinations/malaisie",
+      "text": "Study in Malaysia"
+    },
+    {
+      "href": "/en/destinations/finlande",
+      "text": "Study in Finland"
+    },
+    {
+      "href": "/en/destinations/turquie",
+      "text": "Study in Turkey"
+    },
+    {
+      "href": "/en/comment-ca-marche",
+      "text": "How it works"
+    },
+    {
+      "href": "/en/blog",
+      "text": "Blog"
+    },
+    {
+      "href": "/en/faq",
+      "text": "FAQ"
+    },
+    {
+      "href": "/en/a-propos",
+      "text": "About"
+    },
+    {
+      "href": "/ar/etudier-en-france/campus-france",
+      "text": "\n                         الْعَرَبيّة\n                    "
+    },
+    {
+      "href": "/en/etudier-en-france/campus-france",
+      "text": "\n                        English (US)\n                    "
+    },
+    {
+      "href": "/etudier-en-france/campus-france",
+      "text": "\n                         Français\n                    "
+    },
+    {
+      "href": "/es/etudier-en-france/campus-france",
+      "text": "\n                         Español\n                    "
+    },
+    {
+      "href": "/web/login",
+      "text": "Sign in"
+    },
+    {
+      "href": "/en/contactus",
+      "text": "Contact us"
+    },
+    {
+      "href": "/en",
+      "text": "\n            \n            \n        "
+    },
+    {
+      "href": "/en",
+      "text": "\n            Home\n        "
+    },
+    {
+      "href": "/en/services",
+      "text": "\n            Services\n        "
+    },
+    {
+      "href": "#",
+      "text": "\n            Destinations\n        "
+    },
+    {
+      "href": "/en/comment-ca-marche",
+      "text": "\n            How it works\n        "
+    },
+    {
+      "href": "/en/blog",
+      "text": "\n            Blog\n        "
+    },
+    {
+      "href": "/en/faq",
+      "text": "\n            FAQ\n        "
+    },
+    {
+      "href": "/en/a-propos",
+      "text": "\n            About\n        "
+    },
+    {
+      "href": "/ar/etudier-en-france/campus-france",
+      "text": "\n                         الْعَرَبيّة\n                    "
+    },
+    {
+      "href": "/en/etudier-en-france/campus-france",
+      "text": "\n                        English (US)\n                    "
+    },
+    {
+      "href": "/etudier-en-france/campus-france",
+      "text": "\n                         Français\n                    "
+    },
+    {
+      "href": "/es/etudier-en-france/campus-france",
+      "text": "\n                         Español\n                    "
+    },
+    {
+      "href": "/web/login",
+      "text": "Sign in"
+    },
+    {
+      "href": "/en/contactus",
+      "text": "Contact us"
+    },
+    {
+      "href": "#o_shortlist_start",
+      "text": "See my programs"
+    },
+    {
+      "href": "/en/politique-de-confidentialite",
+      "text": "privacy policy"
+    },
+    {
+      "href": "/en",
+      "text": "ProTrain"
+    },
+    {
+      "href": "/en/website/social/facebook",
+      "text": "Facebook"
+    },
+    {
+      "href": "/en/website/social/instagram",
+      "text": "Instagram"
+    },
+    {
+      "href": "/en/services#orientation",
+      "text": "Orientation and program selection"
+    },
+    {
+      "href": "/en/services#admission",
+      "text": "University applications"
+    },
+    {
+      "href": "/en/services#visa",
+      "text": "Student visa file"
+    },
+    {
+      "href": "/en/services#tests",
+      "text": "Language and test preparation"
+    },
+    {
+      "href": "/en/services#arrival",
+      "text": "Housing and arrival"
+    },
+    {
+      "href": "/en/services#parents",
+      "text": "Follow-up for parents"
+    },
+    {
+      "href": "/en/destinations/france",
+      "text": "Study in France"
+    },
+    {
+      "href": "/en/destinations/espagne",
+      "text": "Study in Spain"
+    },
+    {
+      "href": "/en/destinations/canada",
+      "text": "Study in Canada"
+    },
+    {
+      "href": "/en/destinations/royaume-uni",
+      "text": "Study in the UK"
+    },
+    {
+      "href": "/en/destinations/etats-unis",
+      "text": "Study in the USA"
+    },
+    {
+      "href": "/en/destinations/allemagne",
+      "text": "Study in Germany"
+    },
+    {
+      "href": "/en/destinations/chine",
+      "text": "Study in China"
+    },
+    {
+      "href": "tel:+212664542166",
+      "text": "+212 664-542166"
+    },
+    {
+      "href": "tel:+212524421829",
+      "text": "+212 524 421 829"
+    },
+    {
+      "href": "mailto:contact@protraincompany.com",
+      "text": "contact@protraincompany.com"
+    },
+    {
+      "href": "https://wa.me/212664542166",
+      "text": "Chat on WhatsApp"
+    },
+    {
+      "href": "/en/a-propos",
+      "text": "About ProTrain"
+    },
+    {
+      "href": "/en/comment-ca-marche",
+      "text": "How it works"
+    },
+    {
+      "href": "/en/faq",
+      "text": "FAQ"
+    },
+    {
+      "href": "/en/blog",
+      "text": "Study abroad guides"
+    },
+    {
+      "href": "/en/contactus",
+      "text": "Contact"
+    },
+    {
+      "href": "/en/contactus",
+      "text": "Book a consultation"
+    },
+    {
+      "href": "https://www.africodex.com/",
+      "text": "AFRICODEX"
+    },
+    {
+      "href": "/ar/etudier-en-france/campus-france",
+      "text": "الْعَرَبيّة"
+    },
+    {
+      "href": "/en/etudier-en-france/campus-france",
+      "text": "English (US)"
+    },
+    {
+      "href": "/etudier-en-france/campus-france",
+      "text": "Français"
+    },
+    {
+      "href": "/es/etudier-en-france/campus-france",
+      "text": "Español"
+    },
+    {
+      "href": "/en/politique-de-confidentialite",
+      "text": "Privacy policy"
+    },
+    {
+      "href": "/en/mentions-legales",
+      "text": "Legal notice"
+    },
+    {
+      "href": "/en/terms",
+      "text": "Terms and conditions"
+    }
+  ],
+  "title": "Campus France: which programs to choose? | ProTrain",
+  "url": "https://protraincompany.com/en/etudier-en-france/campus-france",
+  "viewport": {
+    "height": 1000,
+    "scrollWidth": 1425,
+    "width": 1440
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "provider": "Gemini API",
+  "model": "gemini-3.8-flash-tts",
+  "voice": "Kore",
+  "script_sha256": "a4fa95bbc17d0fee80cd2376775a075c8b7463b240c26794a2de7455c982e7f0",
+  "exact_spoken_text": "باغي تدفع لـCampus France، ولكن محتار فاختيار الـFormations؟\n\nراه ماشي غير اسم الجامعة اللي مهم. كل Formation عندها شروط، وخاصك تشوف واش كتوافق الملف الدراسي ديالك.\n\nوهنا كيجي دور ProTrain Match. كتعمّر المعلومات الدراسية ديالك مجاناً، وكتقدر تطلب Rapport مخصص فيه حتى لسبعة Formations مقترحة حسب ملفك.\n\nومع كل Formation، كتلقى علاش تقترحات ليك، شنو شروط القبول، وشنو الخطوات اللي خاصك تراجع قبل الترشيح.\n\nعمّر ملفك مجاناً فـProTrain Match، وشوف عرض التقرير الكامل قبل ما تقرر تشريه.",
+  "style": "A natural adult Moroccan woman, authentic contemporary Moroccan Darija with Casablanca pronunciation. Warm, credible and conversational, explaining calmly to a student; no shouting and no formal Arabic newsreader style. Preserve every supplied word exactly, including the Latin brand and academic terms. Pronounce Campus France and Formation naturally as Moroccan students use them; ProTrain Match clearly as Pro Train Match, with a brief pause around its first mention. The words مجاناً refer to filling the profile, not the full report. Read the full script, complete all sentence tails, and do not add an introduction, music or extra words. Give the question, explanation, product value and final invitation natural short pauses. Aim for a clear unhurried educational ad delivery around45to55seconds if natural; do not force a slow robotic cadence or rush to fit a target.",
+  "output": "vo-take01.wav",
+  "duration_seconds": 35.84,
+  "status": "generated, awaiting pronunciation and creative review",
+  "voice_type": "generic synthetic, not cloned"
+}

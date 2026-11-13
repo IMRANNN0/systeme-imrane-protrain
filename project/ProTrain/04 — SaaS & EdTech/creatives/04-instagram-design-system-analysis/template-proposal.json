@@ -1,0 +1,90 @@
+{
+  "status": "PROPOSED_REFERENCE_AWAITING_IMRAN_APPROVAL",
+  "date": "2026-11-13",
+  "authorized_scope": "Analysis and proposal only. Stop before reconstruction or Creative01V4.",
+  "reference": {
+    "path": "D:/Instagram/imgi_32_656179671_18077289212628783_6745418022262791529_n.webp",
+    "sha256": "32760f4b79a3f7f99a729885a09996bdbdc747e7666c2b8b2c767f07a3674c95",
+    "size": [
+      864,
+      1080
+    ],
+    "id": 32
+  },
+  "selection_reason": "Existing orientation-confusion subject, surrounding choices and three substantial text ribbons. Yellow and white ribbons already support two lines. One actual composition; no merging with #29 bubbles or photo-family gradients.",
+  "output_if_approved": {
+    "size": [
+      1080,
+      1350
+    ],
+    "uniform_scale": 1.25,
+    "phone_review": [
+      360,
+      450
+    ]
+  },
+  "locked": [
+    "Canvas ratio and uniform scaling; no stretch or automatic crop",
+    "Original corporate logo artwork, natural aspect ratio and measured upper-left anchor",
+    "Paper texture, pale halftone dots, dashed route, z-order and soft shadows from #32 only",
+    "Three torn ribbons: green/yellow/white order, geometry, rotation, overlapping and internal margins",
+    "Typography hierarchy, weights and sizes once identified and approved; no automatic font shrinking",
+    "Main-image mask/anchor and five badge geometries, positions, count and shadows",
+    "Footer silhouette, icons and current reference contact content unless Imran explicitly approves an exception"
+  ],
+  "variable_slots": {
+    "hook": {
+      "text": "كتوجد لـCampus France ومحتار فاختيار الـFormations؟",
+      "proposed_region": "green ribbon"
+    },
+    "promise": {
+      "text": "عمّر ملفك الدراسي، واكتشف جوج تكوينات مقترحة مع معلومات تساعدك تفهم اختياراتك.",
+      "proposed_region": "yellow ribbon, existing two-line region"
+    },
+    "cta": {
+      "text": "شوف جوج Formations مجاناً",
+      "proposed_region": "white ribbon, existing text treatment; no new button"
+    },
+    "main_image": {
+      "scope": "One student visual within the measured subject region; foreground overlap remains unchanged. No generated or extracted asset prepared in this phase."
+    },
+    "choice_badge_contents": {
+      "status": "REQUIRES_APPROVAL",
+      "scope": "Replace country-flag imagery with illustrative academic-choice content; retain five original circles and their geometry. No badge labels/icons selected or created yet. Not actual recommendations."
+    }
+  },
+  "unresolved": [
+    "Exact Instagram font families, font sizes and numeric weights cannot be recovered reliably from flattened raster; source file or designer font metadata needed.",
+    "Website Cairo/Poppins are verified existing brand candidates, not certified Instagram fonts; Arabic companion and weight require approval.",
+    "Current long mixed-script hook may not fit original one-line green ribbon at locked type scale. No layout or font-size change is authorized silently.",
+    "Five country flags communicate multiple destinations; leaving them unchanged would conflict with France-only program matching. Badge content adaptation is proposed only.",
+    "Reference footer www.protrain.ma and phone are historical visible contact details; their current suitability for the Match funnel was not verified here. No changes made.",
+    "The reference has no Match product label. Corporate logo stays unchanged; any new editable Match identifier and its placement need an explicit approved exception to the locked reference.",
+    "Original high-resolution/vector logo, isolated student photo, clean paper/halftone/route layers and exact torn-edge paths were not located. Faithful reconstruction would be approximate without them."
+  ],
+  "proposed_future_layers": [
+    "00_reference — immutable original and hash, hidden from export",
+    "10_background — locked paper, halftone and route",
+    "20_subject — replaceable bitmap in locked mask and anchor",
+    "30_choices — five locked badge frames; approved variable interiors only",
+    "40_logo — original corporate asset unchanged; no invented logo",
+    "50_ribbons — locked paper shapes, colors, rotation, shadow and z-order",
+    "60_copy — editable hook/promise/CTA with explicit RTL and isolated French runs",
+    "70_footer — locked original geometry and contact artwork"
+  ],
+  "future_preflight": [
+    "Get reference/slot/exception approval before reconstructing or generating V4.",
+    "Render original reference wording first, compare side by side and with an opacity overlay; report geometry/color/type deviations. No misleading similarity score.",
+    "Only then insert exact approved Match copy and designated variable assets.",
+    "Validate mixed-script visual reading order and manual line breaks at 1080×1350 and 360×450, not source strings alone.",
+    "Reject overflow, clipping or unreadable copy. Stop for a specific decision instead of changing words, shrinking text or altering locked geometry.",
+    "Inspect logo fidelity, selected-reference colors, badge semantics, offer accuracy and all introduced elements.",
+    "Hash originals again. Preserve previous versions. Deliver editable source and PNG for Imran review; no Creative02 or launch."
+  ],
+  "claims": {
+    "basis": "Latest owner copy and saved landing-page read-only inspection from 2026-11-13",
+    "free_entry": "Two programs after profile entry; paid complete report remains separate",
+    "limits": "No form/matching/report/payment exercised. Original reference admission/accompaniment wording is not a Match claim. No price in the ad."
+  },
+  "production_performed": false
+}

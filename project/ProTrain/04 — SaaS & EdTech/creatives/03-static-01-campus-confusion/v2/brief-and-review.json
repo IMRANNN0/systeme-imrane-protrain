@@ -1,0 +1,149 @@
+{
+  "creative": "Creative01V2",
+  "date": "2026-11-13",
+  "status": "AWAITING_IMRAN",
+  "design_count": 1,
+  "authority": "Latest owner V2 revision brief, active-creative.json. V1 promising but NOT APPROVED.",
+  "prior_version": {
+    "unchanged": true,
+    "png_sha256": "c66e6e5ba4ffedc24d572f8e77ce2cfa191eab974de6efab3d80280f1b1ee167",
+    "check": "v1-preservation-check.json verifies all16 original manifest-listed files still match their original hashes; historical reports not rewritten"
+  },
+  "copy": {
+    "hook_lines": [
+      "كتوجد لـCampus France؟",
+      "ومحتار فاختيار الـFormations؟"
+    ],
+    "support": "عمّر ملفك الدراسي وشوف جوج تكوينات مقترحة مجاناً.",
+    "cta": "شوف جوج Formations مجاناً"
+  },
+  "audience": "Moroccan adult students preparing Campus France, uncertain about academic choices; motivation hypothesis, not validated research",
+  "objective": "Purchase of full paid academic report",
+  "destination": "https://protraincompany.com/en/etudier-en-france/campus-france#o_shortlist_start",
+  "claim_source": "Owner brief and root fresh public-page read; see landing-claim-check.json. This worker performed no external page interactions or matching.",
+  "offer": "Two free suggested formations after filling academic profile; full report paid. No price displayed.",
+  "budget": "Unconfirmed",
+  "visual_argument": "Student visibly comparing at a laptop, with three secondary generic academic-domain cards labelled مثال توضيحي. Larger supporting instruction identifies profile entry and the free next step. Illustration is not proof of real Match results.",
+  "composition_metrics": {
+    "canvas": [
+      1080,
+      1350
+    ],
+    "photo_band": {
+      "height": 480,
+      "canvas_height_percent": 35.5556,
+      "prior_height": 650,
+      "prior_percent": 48.1481
+    },
+    "photo_display": {
+      "width": 850,
+      "original_pixels": [
+        1536,
+        1024
+      ],
+      "placement": "Right aligned, top -8px within band; lower desktop cropped, head/eyes/both hands preserved"
+    },
+    "support": {
+      "font_size": 55,
+      "phone_360_equivalent": 18.3333,
+      "prior_font": 39,
+      "prior_phone_equivalent": 13,
+      "lines": 2,
+      "automatic_wrapping": false
+    },
+    "hook": {
+      "font_size": 61,
+      "lines": 2,
+      "automatic_wrapping": false,
+      "run_gaps": 12,
+      "visual_order_from_right": [
+        "Arabic phrase",
+        "French phrase LTR",
+        "Arabic questionmark"
+      ]
+    },
+    "cta": {
+      "background": "#F2A541",
+      "text": "#0F2A1F",
+      "contrast": 7.4629613693,
+      "height": 98,
+      "bottom_margin": 45,
+      "font": 42,
+      "run_gaps": 13
+    },
+    "logo": {
+      "display_width": 94,
+      "native_width": 141,
+      "unchanged": true
+    }
+  },
+  "technical_checks": {
+    "render_check_file": "render-checks.json",
+    "exact_copy": true,
+    "exact_hook_lines": true,
+    "visual_geometry": "All3 manual rows have correct right-to-left run positions, gaps12/13px, all runs within62px horizontal margins, no overlap",
+    "visual_inspection": {
+      "full_png": true,
+      "phone_png": true,
+      "comparison_png": true,
+      "arabic": "Connected Cairo letterforms, each Arabic prefix clearly separated from French; both questionmarks at left ends after French runs in right-to-left reading; Campus France remains LTR",
+      "support": "Two fixed readable Arabic lines, no clipping; task instruction is much more prominent",
+      "photo": "Head, gaze, trackpad hand and other hand preserved",
+      "comparison": "V1 and V2 placed at original1080x1350, labelled accurately"
+    },
+    "fonts": "Cairo loaded and Poppins Latin600 loaded. LatinExt600 included and unused for Latin1 accented labels.",
+    "page_errors": [],
+    "render_mode": "Offline installed Chrome using existing Playwright, Sharp phone downsample",
+    "no_dependency_install": true,
+    "no_new_imagegen": true,
+    "no_price": true,
+    "no_guarantees": true
+  },
+  "persuasion_review": {
+    "strengths": [
+      "The specific owner headline remains first read",
+      "Bigger task-based support explains what to do and names two free suggestions",
+      "Less photo dominance gives the message greater weight",
+      "Visible illustrative qualifier differentiates conceptual cards from product results"
+    ],
+    "limitations": [
+      "No actual matching recommendation or report is shown; profile-to-suggestion mechanism stated, not demonstrated",
+      "Generic domain cards represent possible areas rather than actual personalized results",
+      "Corporate embedded tagline remains too small at phone size, while main ProTrain Match name is readable",
+      "Owner has not approved V2 and purchase performance is untested"
+    ]
+  },
+  "lesson_disposition": {
+    "PT01": "Exact specific Campus France uncertainty hook retained as owner asked, with first-line questionmark added.",
+    "PT02": "Mechanism remains text description, not visual proof. Authorized awareness scope.",
+    "PT03": "Active student role retained, reduced visual dominance.",
+    "PT04": "Three compact identifiable domain cards retained; labelled illustrative.",
+    "PT05": "No generic kicker or decorative underline; qualifier explains asset role.",
+    "PT06": "Minimal coherent choice scene, no stock study-abroad symbols or fake interface.",
+    "PT07": "Photo650 to480, support39 to55, main hierarchy inspected at360px.",
+    "PT08": "Exact two-free CTA matches owner-confirmed free-entry offer; full report remains paid.",
+    "PT09": "No claimed actual recommendation/report proof; no proof fabricated.",
+    "PT10": "Original supplied logo and editable text retained; creative approval remains pending.",
+    "PT11": "Prior visual-review false positive acknowledged. Explicit isolated runs, measured placement, actual full/phone inspection; no claim textContent alone proves readability."
+  },
+  "source_assets": {
+    "logo_sha256": "abef7b2488f244b00306eda0ca864f743c47f2e623db8ab8b5cc785021575e46",
+    "photo_sha256": "c18ef2580a1c6c91c34b06b67b4597a3c6c11b5e873d31ba1a6c50d057aa850b",
+    "photo": "Unchanged generated V1 original, no new generation. original-photo-prompt.txt retained",
+    "fonts": "Cairo/Poppins original local files with OFL license text, Poppins source provenance included",
+    "logo_rights": "User-supplied client-owned corporate asset"
+  },
+  "sources_consulted": [
+    "Component AGENTS.md",
+    "Static ad creative system SKILL.md",
+    "Current protrain-lessons.json including PT11",
+    "Current active-creative.json V2",
+    "Brand README.md and palette",
+    "Root latest owner handoff",
+    "v2/landing-claim-check.json"
+  ],
+  "publication": "None",
+  "other_creatives": "No Creative02 or variants",
+  "video_files_modified": false,
+  "next_action": "Imran reviews one V2 and V1/V2 comparison; await approval."
+}

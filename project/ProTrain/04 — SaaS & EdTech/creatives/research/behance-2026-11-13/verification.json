@@ -1,0 +1,177 @@
+{
+  "date": "2026-11-13",
+  "artifact": "index.html",
+  "sha256": "b556e5c4ceb45a3f0557b9d4d34cf5b74f7385371fca275265b0058ba26fb0e2",
+  "bytes": 1990964,
+  "scope": "Research/art direction only; no ad source or export modified",
+  "direct_projects_opened": 11,
+  "selected_projects_visually_inspected": 6,
+  "reference_assets": [
+    {
+      "reference": "R1",
+      "file": "assets/01-study-abroad-board.webp",
+      "source": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/99b989255105915.6a96e9aea173a.jpg",
+      "sha256": "cd0d16a98641c4f9d59d44bf27b714cc88c2beaddc1f56af5945d77e4dc67592",
+      "bytes": 300808,
+      "format": "WEBP",
+      "method": "Browser-observed page asset, saved by pageAssets.bundle; copied unchanged"
+    },
+    {
+      "reference": "R2",
+      "file": "assets/02-billnest.webp",
+      "source": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/b69d61232871905.68a4e95816177.jpg",
+      "sha256": "202d75097a498a8b4b1f48a05f12a5b6579049715fa383469aac89ff2145fa97",
+      "bytes": 123014,
+      "format": "WEBP",
+      "method": "Browser-observed page asset, saved by pageAssets.bundle; copied unchanged"
+    },
+    {
+      "reference": "R2",
+      "file": "assets/02-billnest-mechanism.webp",
+      "source": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/d2cf51232871905.68a4e958168d7.jpg",
+      "sha256": "ee775804fd61dda88fb3383a114c43ed0af49faee910eaf6b1ae17f988c0dd62",
+      "bytes": 117152,
+      "format": "WEBP",
+      "method": "Browser-observed page asset, saved by pageAssets.bundle; copied unchanged"
+    },
+    {
+      "reference": "R3",
+      "file": "assets/03-nexustech.webp",
+      "source": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/8ab60f226965199.683783010c4ab.png",
+      "sha256": "a5a95db2fdd79c3a348bf481109889d56d7211a737aa28fd90d391aece35d9f9",
+      "bytes": 102728,
+      "format": "WEBP",
+      "method": "Browser-observed page asset, saved by pageAssets.bundle; copied unchanged"
+    },
+    {
+      "reference": "R3",
+      "file": "assets/03-nexustech-question.webp",
+      "source": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/2d396e226965199.683783010cbe2.png",
+      "sha256": "e709bb67e8ee5563a6e9022b6b0fd1876cc8e76b5cb0500fb7bcd38e2b6a734f",
+      "bytes": 83048,
+      "format": "WEBP",
+      "method": "Browser-observed page asset, saved by pageAssets.bundle; copied unchanged"
+    },
+    {
+      "reference": "R4",
+      "file": "assets/04-education.webp",
+      "source": "https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/8e43c5243839279.698a35eabe625.jpg",
+      "sha256": "679d1342abdf223a3589c98decc71f90d3ba4e75793195433bc198356419aa6a",
+      "bytes": 131828,
+      "format": "WEBP",
+      "method": "Browser-observed page asset, saved by pageAssets.bundle; copied unchanged"
+    },
+    {
+      "reference": "R5",
+      "file": "assets/05-design-studio.webp",
+      "source": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/c7a64b242909515.69772ec4c074e.png",
+      "sha256": "f1cca86707a477b0890006e6090346ed8369272220935bcb364fc2cd0e72bcd9",
+      "bytes": 100166,
+      "format": "WEBP",
+      "method": "Browser-observed page asset, saved by pageAssets.bundle; copied unchanged"
+    },
+    {
+      "reference": "R6",
+      "file": "assets/06-kab-system.webp",
+      "source": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/059878223891583.6800f03513111.jpg",
+      "sha256": "900a582789bb6252db1517e07477b065c9ff0730ae9da5df3ee9caf6456062ad",
+      "bytes": 239138,
+      "format": "WEBP",
+      "method": "Browser-observed page asset, saved by pageAssets.bundle; copied unchanged"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "7c9b91c19eed6525a9b28224c11af0f9d08761256182bdb5504c880800ec12c9"
+    },
+    {
+      "path": "editing-system/brand/README.md",
+      "sha256": "3fb6e743ed97014518f79c449df1c93fea2db24809daeb80709d86d61e23a7d6"
+    },
+    {
+      "path": "editing-system/brand/protrain-palette.json",
+      "sha256": "9e26b7e4203c34d3bc960701cce596c0d4fd6c30860a1cebd462f7f3f66b5caa"
+    },
+    {
+      "path": "PROTRAIN_MATCH_CONTEXTE.md",
+      "sha256": "a548be0d8ddaf9de07af73d3783dc8b38bc658f0d967dc3b53cb5b191327d422"
+    },
+    {
+      "path": "creatives/static-ad-system/active-creative.json",
+      "sha256": "d4bac848b0ec68e752adbe9080e47ffc4f1ede9f1eabf72deffa86cc6e00634e"
+    },
+    {
+      "path": "creatives/static-ad-system/six-concepts.json",
+      "sha256": "0c8c5c8af33ade796290ebe2f7701f51ee130ce83c498e191c506ef5b54e113f"
+    },
+    {
+      "path": "creatives/static-ad-system/batch-01-briefs.html",
+      "sha256": "a71de3527c8b8a5d1db2a14fa1feec8e9451fc89d77e356b050201d9dfbf3933"
+    }
+  ],
+  "report_validation": {
+    "references": 6,
+    "directions": 3,
+    "external_render_dependencies": 0,
+    "all_selected_direct_links_present": true,
+    "image_assets_valid_webp": true,
+    "standalone_images_and_fonts_embedded": true
+  },
+  "browser_review": {
+    "method": "CUA in-app browser via temporary localhost-only server scoped to research directory",
+    "desktop": {
+      "width": 1280,
+      "document_scroll_width": 1265,
+      "observed": "Header, reference analysis, enlarged SaaS and KAB previews, and three-direction comparison inspected"
+    },
+    "phone": {
+      "width": 390,
+      "document_scroll_width": 375,
+      "expanded_reference_notes": 6,
+      "secondary_image_width": 339,
+      "secondary_parent_width": 339,
+      "observed": "Reference section inspected; expanded images fit their containers"
+    },
+    "narrow": {
+      "width": 320,
+      "document_scroll_width": 305,
+      "overflow_in_checked_ref_direction_status_swatch_system_groups": [],
+      "observed": "Palette/source-state note and Arabic/Latin type sample inspected; tables intentionally scroll within their wrappers"
+    },
+    "interactions": [
+      "Expand/collapse all reference notes",
+      "Open/close source preview dialog",
+      "Dialog source link targets correct project",
+      "Section navigation"
+    ],
+    "viewport_restored": true,
+    "limitations": [
+      "Browser FontFaceSet iteration returned no entries; exact font-load status not claimed. Embedded font assets and computed Cairo/Poppins family declarations confirmed; visible Arabic and Latin sample inspected.",
+      "Print layout not visually inspected; HTML is the primary deliverable.",
+      "No paid-report conversion or live payment-flow test performed."
+    ]
+  },
+  "independent_content_review": {
+    "worker": "/root/art_direction_review",
+    "result": "Passed with responsive secondary-image sizing, approval-label correction and verification-file completion; first two fixed and this file supplies the third",
+    "scope": "Content and metadata only; root performed browser checks"
+  },
+  "ad_preservation": {
+    "v1": {
+      "path": "{{PROTRAIN_PROJECT_ROOT}}\\04 — SaaS & EdTech\\creatives\\03-static-01-campus-confusion\\v1\\Creative01V1.png",
+      "sha256": "c66e6e5ba4ffedc24d572f8e77ce2cfa191eab974de6efab3d80280f1b1ee167",
+      "matches_recorded": true
+    },
+    "v2": {
+      "path": "{{PROTRAIN_PROJECT_ROOT}}\\04 — SaaS & EdTech\\creatives\\03-static-01-campus-confusion\\v2\\Creative01V2.png",
+      "sha256": "80af3a38fb10a22e89a25963ed6acdfbc779a187e49989cbcb6ca46d74dd0e83",
+      "matches_recorded": true
+    }
+  },
+  "prior_lesson_nodes_semantically_unchanged": true,
+  "pending": "Imran selects or revises the proposed direction; no production, alternative or Creative 02 before approval",
+  "source_state_note": "Current unrendered messaging update discovered during research and reconciled in report. Historical handoff/two-line V2 distinction retained; no copy applied to ads.",
+  "approval_status": "AWAITING_IMRAN",
+  "no_publication": true
+}

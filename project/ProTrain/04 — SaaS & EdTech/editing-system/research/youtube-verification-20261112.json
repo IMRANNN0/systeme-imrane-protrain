@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-12",
+  "videos": 12,
+  "youtube_titles_and_channels": "12/12 verified with YouTube oEmbed",
+  "shortlist_links_match_metadata": true,
+  "content_basis": "Original indexed YouTube descriptions and creator websites. Nate original description/chapters read in Chrome. Arabic video full original description unavailable.",
+  "review": "One read-only native worker found transferable workflows, verified original titles and identified main Herk repository.",
+  "limitations": [
+    "No complete viewing of every video",
+    "Nate transcript export unavailable",
+    "No new software installed or tested during research",
+    "No claim of equivalent mascot animation or ad performance"
+  ],
+  "artifacts": [
+    "YOUTUBE_EDITING_SHORTLIST.md",
+    "youtube-metadata-20261112.json"
+  ]
+}

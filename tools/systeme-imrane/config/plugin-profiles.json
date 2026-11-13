@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "note": "Plugin names are Codex capabilities, not pip/npm dependencies. Account login, availability and permissions must be checked on the recipient's host. No plugin is needed for the portable core.",
+  "profiles": {
+    "core": {"description":"Governance, memory, hooks, model advice and scoped Graphify", "recommended":[], "one_of":[]},
+    "publisher-design": {"description":"Faithful web design, browser-based visual review and code review", "recommended":["product-design","code-review"], "one_of":[["browser","unified-computer-use","chrome","app-69d669e1d5c88191957786fbcd38b411"]]},
+    "editorial": {"description":"Reader-facing prose and document/PDF review; local Humanizer remains a separate skill", "recommended":["humanwriting","documents","pdf"], "one_of":[]},
+    "office": {"description":"Word/PDF/table/presentation artefacts when the task actually needs them", "recommended":["documents","pdf","spreadsheets","presentations","template-creator"], "one_of":[]},
+    "vercel-hosting": {"description":"Only for projects explicitly hosted on Vercel", "recommended":["vercel"], "one_of":[]},
+    "sites-hosting": {"description":"Only for projects explicitly built/published with OpenAI Sites", "recommended":["sites"], "one_of":[]},
+    "notion-operations": {"description":"Only when Notion is an authorized project data source", "recommended":["notion"], "one_of":[]}
+  },
+  "optional_other_workflows": ["canva","pages","app-6938a7d323f48191aeabaf579802bf45","app-6a54e4fb251081919c813b534af63ddf","visualize","openai-templates"],
+  "not_required_for_project_system": ["work-pets"],
+  "host_integrations": ["codex-app-tools","computer-use"],
+  "mcp_not_codex_plugin_claims": ["AFbooster","Canonry","OpenSERP","Screaming Frog","DataForSEO","Firecrawl"]
+}

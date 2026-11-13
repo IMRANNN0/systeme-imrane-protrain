@@ -1,0 +1,483 @@
+ها هو Master Recap ديال Marketing Strategy ديال ProTrain Company وProTrain Match، من الأول حتى للـContent Planning وMeta Ads Strategy اللي خدمنا عليهم.
+
+غادي نفرق بين جوج مشاريع باش ما نخلطوش:
+
+- ProTrain Company: الشركة الأم، خدمات التوجيه والمواكبة للدراسة بالخارج، بتموقع Premium.
+- ProTrain Match: الأبليكاسيون اللي كتحلل الملف الدراسي وكتعطي Rapport personnalisé مدفوع.
+
+هاد الملخص فيه القرارات اللي تأكدات، والاقتراحات التسويقية اللي وجدناها، والنقط اللي مازال خاصها Validation.
+
+# 1. Business Understanding
+
+## ProTrain Company
+
+Services:
+
+- Orientation & Admission aux études à l'étranger
+- Accompagnement personnalisé
+- Séjours linguistiques
+- Forums & événements
+- ProTrain Match — SaaS / EdTech
+
+Positioning: Premium Academic Guidance & International Education Support.
+
+الفكرة ماشي ننافسو على أرخص ثمن، ولكن على الثقة، جودة الخدمة، الخبرة، ووضوح المواكبة.
+
+5 نقاط القوة اللي تأكدات عندنا:
+
+1. Partenariats directs مع مؤسسات تعليمية.
+2. Résultats d'admission موثقة.
+3. Conseiller dédié لكل طالب.
+4. Suivi régulier مع الطالب والوالدين.
+5. Accompagnement après admission.
+
+هاد النقاط كتخص خدمات ProTrain Company. ماشي بالضرورة كلشي داخل فـRapport ديال ProTrain Match.
+
+# 2. ProTrain Match — Product & Business Model
+
+| Élément                | التفاصيل                                         |
+| ---------------------- | ------------------------------------------------ |
+| Product                | Application d'orientation académique             |
+| Target initial         | طلبة مغاربة كيحضرو لـCampus France               |
+| Fonction               | Matching بين Profil académique وFormations       |
+| Output                 | حتى لـ7 Formations مقترحة                        |
+| Rapport                | أسباب الاختيار، شروط القبول، خطوات الترشيح       |
+| Prix                   | 199 DH / Rapport                                 |
+| Business Model         | B2C — One-time Purchase                          |
+| Acquisition secondaire | Upsell نحو Accompagnement ProTrain               |
+| Parcoursup             | Segment وحملة مستقلة                             |
+| Status                 | تجارب أولية؛ Payment وValidation النهائية باقيين |
+
+Value Proposition الأساسية:
+
+«ProTrain Match كتعاون الطالب يختار Formations مناسبة للملف الدراسي ديالو، ويفهم علاش تقترحات عليه وكيفاش يترشح ليها.»
+
+ما كنبيعوش AI، كنبيعو Clarity in Academic Decision-Making.
+
+# 3. Buyer Personas
+
+## Persona A — Student
+
+Moroccan Student — Campus France
+
+Needs: يعرف Formations المناسبة للمستوى والنقط والمسار ديالو.
+
+Wants: يكمل قرايتو ففرنسا، ويختار مؤسسات مزيانة.
+
+Demand: حل عملي كيعاونُه يحدد الاختيارات ويفهمها.
+
+Pain Points: الحيرة، كثرة المعلومات، الخوف من الاختيار الخاطئ، ضياع الوقت.
+
+Objections: «علاش نخلص؟ واش ما نقدرش نقلب فـGoogle أو ChatGPT؟»
+
+Buying Triggers: قرب موعد الترشيح، عدم وضوح الاختيارات، الحاجة للمقارنة.
+
+## Persona B — Parent
+
+Moroccan Parent — Decision Influencer / Potential Payer
+
+Needs: يطمئن على الاختيارات الدراسية ديال ولدو.
+
+Wants: مستقبل دراسي مزيان وقرار مبني على معلومات.
+
+Demand: خدمة موثوقة وواضحة، بثمن مفهوم.
+
+Pain Points: الخوف من الرفض، ضياع الفرص، المعلومات غير الموثوقة.
+
+Objections: «واش النتائج دقيقة؟ شكون وراء التطبيق؟ واش كاين ضمان؟»
+
+Buying Triggers: الثقة فالحاج، Demo، تقرير نموذجي، مصادر واضحة.
+
+مهم: مازال ما تأكدناش واش الطالب ولا الوالد هو اللي غادي يخلص أكثر. هادي فرضية خاصنا نختبروها.
+
+# 4. Customer Behavior
+
+اتفقنا أن قرار الدراسة بالخارج عندو High Involvement & High Perceived Risk.
+
+| Dimension | Student                              | Parent                          |
+| --------- | ------------------------------------ | ------------------------------- |
+| Rational  | شروط القبول، التخصص، الملاءمة        | الموثوقية، النتائج، جودة الخدمة |
+| Emotional | الطموح، الخوف من الرفض               | القلق، الاطمئنان، المستقبل      |
+| Research  | Google، مواقع المؤسسات، Social Media | البحث، المقارنة، الاستشارة      |
+| Decision  | كيقترح أو كيختار                     | ممكن يوافق أو يموّل             |
+| Barrier   | عدم الثقة فالنتيجة                   | عدم الثقة فالمنتج الجديد        |
+
+## Buying Decision Process — 5 Stages
+
+1. Problem Recognition: الطالب ما عارفش شنو Formations يختار.
+2. Information Search: كيقلب على المؤسسات والشروط.
+3. Evaluation of Alternatives: كيقارن بين البحث بوحدو، Agence، وProTrain Match.
+4. Purchase Decision: كيعمر Profil وكيقرر واش يخلص 199 DH.
+5. Post-Purchase Evaluation: كيشوف واش التقرير واضح، مفيد، وقابل للاستعمال.
+
+# 5. Value Creation & Positioning
+
+|                 | ProTrain Company                  | ProTrain Match                 |
+| --------------- | --------------------------------- | ------------------------------ |
+| Customer Job    | التوجيه والمواكبة للدراسة بالخارج | اختيار Formations مناسبة       |
+| Pain Reliever   | Conseiller، Suivi، Expertise      | تقليل الحيرة وتجميع المعلومات  |
+| Gain Creator    | مواكبة شخصية طوال المسار          | Rapport واضح ومفسر             |
+| Differentiation | الخبرة والخدمات البشرية           | Automated Data-Driven Matching |
+| Value           | الثقة والمواكبة                   | وضوح الاختيارات قبل الترشيح    |
+
+ProTrain Match ماشي بديل كامل لخدمات ProTrain Company.
+
+التقرير كيساعد فالاختيار، أما Accompagnement فهو خدمة أخرى للطلبة اللي محتاجين المساعدة فتنفيذ الإجراءات.
+
+# 6. Customer Journey & Marketing Funnel
+
+Awareness — TOF
+
+Educational Reels · Problem Awareness · El Haj Videos
+
+Consideration — MOF
+
+Trust · Demo · Social Proof · Comparisons · FAQ
+
+Conversion — BOF
+
+Landing Page · Formulaire · Payment · Rapport
+
+Retention & Upsell
+
+Satisfaction · Accompagnement · Referrals
+
+## Audience Temperature
+
+| Audience  | Situation                      | Tactic                            |
+| --------- | ------------------------------ | --------------------------------- |
+| Cold      | ما كيعرفش ProTrain             | Problem/Solution + Education      |
+| Warm      | شاف فيديو أو زار الصفحة        | Trust + Demo + Proof              |
+| Hot       | بدا Formulaire أو وصل Payment  | Objection Handling + Conversion   |
+| In-Market | كيقلب فعلياً على Campus France | Direct Offer + Relevant Messaging |
+
+# 7. Marketing Angles اللي خدمنا عليهم
+
+| Angle                 | الرسالة                                   | المرحلة |
+| --------------------- | ----------------------------------------- | ------- |
+| Fear of Wrong Choice  | ممكن تختار Formation ما مناسبةش لملفك     | TOF     |
+| Confusion / Overwhelm | اختيارات كثيرة وما عارفش منين تبدا        | TOF     |
+| Personalized Matching | اللي مناسب لصاحبك ماشي بالضرورة مناسب ليك | TOF     |
+| Problem / Solution    | عندك مشكل فالاختيار، والتقرير كيساعدك     | TOF     |
+| Time Saving           | نقص الوقت ديال البحث والمقارنة            | TOF/MOF |
+| Product Demo          | شوف كيفاش كتخدم الأبليكاسيون              | TOF/MOF |
+| Authority             | تجربة الحاج وخبرة ProTrain                | MOF     |
+| Social Proof          | نتائج وشهادات حقيقية موثقة                | MOF     |
+| Trust & Transparency  | كيفاش كتخرج التوصيات وعلى شنو مبنية       | MOF     |
+| Comparison            | شنو كيضيف التقرير على البحث بوحدك؟        | MOF     |
+| Value Justification   | علاش التقرير يستاهل الأداء؟               | BOF     |
+| Complete Your Profile | رجع كمل المعلومات ديالك                   | BOF     |
+| Purchase Confidence   | شنو غادي تاخد، واش كاين ضمان للقبول؟      | BOF     |
+| Parent Reassurance    | عاون ولدك يختار على أساس واضح             | TOF/MOF |
+
+# 8. Creative Strategy — 19 Videos
+
+هاد اللائحة كانت خطة الإنتاج الموسعة اللي اقترحناها.
+
+## Prospecting — 3 Videos
+
+| #  | Creative                    |
+| -- | --------------------------- |
+| 01 | Fear of Wrong Choice        |
+| 02 | Personalized Matching       |
+| 03 | Product Demo / How It Works |
+
+كنا خدمنا Scripts ديال هاد الثلاثة، وفيهم Talking Head وScreen Recording.
+
+Hooks اللي اخترنا:
+
+Script 01: «واش عارف بلي ممكن تختار مدرسة ففرنسا، ومن بعد تكتاشف أنها ما مناسبةش للملف ديالك؟»
+
+Script 02: «علاش شي مدرسة ففرنسا تقدر تكون مناسبة لصاحبك، ولكن ماشي بالضرورة مناسبة ليك؟»
+
+Script 03: «باغي تكمل قرايتك ففرنسا، ولكن ما عارفش شنو المدارس اللي تقدر تكون مناسبة ليك؟ آجي نوريك كيفاش تقدر تستعمل ProTrain…»
+
+## Authority & Trust — 4 Videos
+
+| #  | Creative                         |
+| -- | -------------------------------- |
+| 04 | Who Is El Haj?                   |
+| 05 | Verified Student Success Stories |
+| 06 | Behind the Scenes                |
+| 07 | Why Trust ProTrain?              |
+
+## Educational & Profile Growth — 7 Videos
+
+| #  | Creative                                |
+| -- | --------------------------------------- |
+| 08 | 3 Mistakes When Choosing French Schools |
+| 09 | Université vs Grande École              |
+| 10 | How to Choose the Right Institution     |
+| 11 | Grades & Academic Profile               |
+| 12 | Application Mistakes                    |
+| 13 | Lessons from El Haj Since 2009          |
+| 14 | Top 3 Student Questions                 |
+
+## Retargeting — 5 Videos
+
+| #  | Creative                  | Audience            |
+| -- | ------------------------- | ------------------- |
+| 15 | Trust & Transparency      | Warm                |
+| 16 | Why ProTrain?             | Warm                |
+| 17 | Complete Your Profile     | Form Abandoners     |
+| 18 | Value Justification       | Checkout Abandoners |
+| 19 | Purchase Confidence / FAQ | Checkout Abandoners |
+
+First Shooting Batch المقترح: 10 فيديوهات — 3 Prospecting، 3 Authority، و4 Educational.
+
+# 9. Content Planning الأخير
+
+من بعد زدنا واحد اللائحة جديدة فيها 16 عنوان، متوافقة مع الاستراتيجية، ولكن ماشي هي نفس لائحة 19 فيديو.
+
+## 10 فيديوهات ديال الحاج
+
+1. شكون هو الحاج وشنو الدور ديال بروترين؟
+2. باغي تقرا ففرنسا: منين تبدا؟
+3. اسم المؤسسة بوحدو كافي باش تختار؟
+4. كيفاش تقرا شروط القبول؟
+5. كيفاش ترتّب وتقارن اختياراتك؟
+6. لقيتي معلومات مختلفة: شنو تعتمد؟
+7. كيفاش الوالدين يعاونو الطالب فالاختيار؟
+8. كيفاش تقرا توصية داخل التقرير؟
+9. واش تقرير التوصيات كيضمن القبول؟
+10. شنو الفرق بين التقرير والمرافقة؟
+
+## 6 فيديوهات ديال فريق المونتاج
+
+1. اختيارات كثيرة… على شنو غادي تختار؟
+2. علاش هاد التكوين تقترح لملفك الدراسي؟
+3. نقدر نقلب بوحدي: شنو كيضيف ليا التقرير؟
+4. شنو داخل تقرير بروترين ماتش؟
+5. كيفاش تستعمل التقرير للمقارنة بين الاختيارات؟
+6. كيفاش يساعد التقرير الطالب والوالدين يفهمو الاختيارات؟
+
+## Content Pillars
+
+- Educational: معلومات ونصائح للطلبة.
+- Authority: الحاج والخبرة ديالو.
+- Social Proof: شهادات ونتائج موثقة.
+- Product Education: شرح الأبليكاسيون والتقرير.
+
+# 10. Student vs Parent Messaging Matrix
+
+| Élément   | Student                 | Parent                      |
+| --------- | ----------------------- | --------------------------- |
+| Problem   | ما عارفش شنو يختار      | خايف ولدو يختار غلط         |
+| Benefit   | وضوح الاختيارات         | الاطمئنان على القرار        |
+| Objection | علاش نخلص وعندي Google؟ | واش التقرير موثوق؟          |
+| Proof     | Demo + Sample Rapport   | El Haj + Sources + Evidence |
+| CTA       | عمّر Profil ديالك       | اكتشف كيفاش تعاون ولدك      |
+
+الهدف هو نختبرو شكون كيتفاعل وكيشري أكثر، مع الحفاظ على نفس العرض.
+
+# 11. Meta Ads Strategy
+
+## Phase A — Trust Building
+
+قبل البيع، نوجدو Instagram ديال ProTrain:
+
+- Bio واضحة.
+- Highlights: Résultats، Témoignages، Équipe، France، FAQ.
+- 3 Pinned Reels: الحاج، قصة نجاح موثقة، Demo.
+- Educational Videos بوجه الحاج.
+- اختبار Profile Visits Ads بميزانية محدودة.
+
+كنا هضرنا على هدف 5K–10K Followers، ولكن ماشي شرط باش نبدأو Sales. المهم الثقة وجودة الجمهور.
+
+## Phase B — Prospecting / Sales
+
+Initial Testing Structure المقترحة:
+
+| Setting           | Plan                                            |
+| ----------------- | ----------------------------------------------- |
+| Platform          | Meta Ads                                        |
+| Objective         | Sales                                           |
+| Optimization      | Purchase                                        |
+| Audience          | Morocco — Broad مع Self-Selection عبر Creatives |
+| Campaign Focus    | Campus France                                   |
+| Initial Creatives | Wrong Choice / Matching / Demo                  |
+| Landing Page      | ProTrain Match                                  |
+| Conversion        | Paid Report                                     |
+
+ملاحظة: ما نطلقوش Purchase Campaign حتى Payment وReport Delivery وPurchase Tracking يخدمو مزيان.
+
+## Phase C — Retargeting
+
+Warm Audience:
+
+- Instagram Engagers
+- Video Viewers
+- Website Visitors اللي ما بداوش الفورم
+
+Messaging: Trust، Demo، Why ProTrain.
+
+Hot Audience:
+
+- Form Starters اللي ما كملوش
+- Checkout Abandoners
+
+Messaging: Complete Profile، Value Justification، Purchase Confidence.
+
+Retargeting كيبدا ملي يكون عندنا حجم Audience كافي، مع استثناء Purchasers واحترام الموافقات على التواصل.
+
+## Phase D — Optimization & Scaling
+
+نحللو:
+
+- Creative Performance
+- Funnel Drop-off
+- Purchase Conversion
+- CPA
+- Revenue
+- Report Delivery Success
+
+ونزيدو Budget غير إلا النتائج كتسمح اقتصادياً.
+
+# 12. Landing Page & CRO
+
+الـLanding Page اللي خططنا ليها خاصها تجاوب على:
+
+1. شنو هو ProTrain Match؟
+2. شكون موجه ليه؟
+3. كيفاش كتخدم الأبليكاسيون؟
+4. شنو غادي ناخد داخل Rapport؟
+5. علاش هاد التوصيات مناسبة لملفي؟
+6. شنو الفرق بينها وبين Google أو ChatGPT؟
+7. واش التقرير كيضمن القبول؟ لا.
+8. واش Accompagnement داخل فالثمن؟ لا، خدمة مستقلة.
+9. شحال الثمن؟ 199 DH.
+10. شنو كيوقع من بعد الدفع؟
+
+CRO Elements: Sample Rapport، Screen Recording، Trust Signals، FAQ، CTA واضح، Formulaire بسيط، وتجربة Mobile مزيانة.
+
+# 13. Tracking & Measurement
+
+Conversion Funnel
+
+Landing Page View
+
+Form Start
+
+Form Complete
+
+Checkout Start
+
+Purchase Confirmed
+
+Report Delivered
+
+Tracking Tools المقترحين:
+
+- Meta Pixel
+- Conversions API
+- GA4
+- UTM Parameters
+- Purchase Value + Currency
+- Report Delivery Status
+
+KPIs:
+
+| KPI                      | علاش                   |
+| ------------------------ | ---------------------- |
+| CTR                      | جاذبية Creative        |
+| LPV                      | جودة Traffic           |
+| Form Completion Rate     | سهولة Formulaire       |
+| Checkout Conversion Rate | قابلية الشراء          |
+| Cost per Purchase        | تكلفة اكتساب العميل    |
+| Revenue / ROAS           | الأداء التجاري         |
+| Report Delivery Success  | جودة الخدمة بعد الشراء |
+
+North Star Metric: عدد التقارير المدفوعة والمسلمة بنجاح، مع CPA مستدام.
+
+# 14. خطة العمل كاملة — 14 Stages
+
+01
+
+Business Understanding
+
+02
+
+Market & Competitor Research
+
+03
+
+Segmentation & Customer Behavior
+
+04
+
+Value Proposition & Positioning
+
+05
+
+Customer Journey & Awareness
+
+06
+
+Marketing Approaches & Tactics
+
+07
+
+Creative Strategy
+
+08
+
+Creative Production
+
+En cours
+
+09
+
+Landing Pages & CRO
+
+À faire
+
+10
+
+Tracking & Analytics
+
+À faire
+
+11
+
+Media Planning & Budget
+
+À faire
+
+12
+
+Testing & Launch
+
+À faire
+
+13
+
+Optimization & Scaling
+
+À faire
+
+14
+
+Retention / Upsell / LTV
+
+À faire
+
+«Done» هنا كتعني أننا خدمنا المرحلة على مستوى التخطيط، ماشي أن كل فرضية تصادقات أو أن التنفيذ سالا.
+
+## 15. شنو مازال خاصنا نحسمو؟
+
+- Validation موثقة ديال Matching والـRapport.
+- طريقة حساب Admission Probability، إلا كانت موجودة.
+- تحديد Final Form Fields.
+- Save Progress وRegeneration Policy.
+- جاهزية Payment وReport Delivery.
+- Date de lancement.
+- Budget ديال Testing.
+- Sample Rapport حقيقي للتصوير.
+- الأدلة والتصريحات المسموح استعمالها فالإعلانات.
+- استعداد الطلبة أو الوالدين للأداء بـ199 DH.
+
+فين وصلنا دابا؟
+
+الـStrategy، Buyer Personas، Value Creation، Customer Behavior، Journey، Angles، Funnel، وContent Planning عندنا عليهم أساس منظم.
+
+المرحلة اللي خاصنا نركزو عليها دابا هي Creative Production: نختارو الفيديوهات اللي غادي تتصور أولاً، ونحددو لكل فيديو Hook، Message، Proof، CTA، والمرحلة ديالو فـFunnel، ومن بعد نوجدو Landing Page وTracking للإطلاق.

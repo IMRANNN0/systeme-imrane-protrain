@@ -1,0 +1,17 @@
+/* ProTrain public-channel reference, 2026-11-13. IG samples approximate; extensions proposed. */
+:root {
+  --protrain-primary: #0A6B43;
+  --protrain-secondary: #F2A541;
+  --protrain-dark: #0F2A1F;
+  --protrain-light: #F6F4EE;
+  --protrain-white: #FFFFFF;
+  --protrain-body: #212529;
+  --protrain-social-green: #017A51;
+  --protrain-social-yellow: #F9CB2F;
+  --protrain-comparison-blue: #1E3A5F;
+  --protrain-soft-green: #E7F3ED;
+  --protrain-font-latin: "Poppins", Arial, sans-serif;
+  --protrain-font-arabic: "Cairo", Arial, sans-serif;
+}
+.protrain-arabic { font-family: var(--protrain-font-arabic); letter-spacing: normal; direction: rtl; }
+.protrain-latin { font-family: var(--protrain-font-latin); }

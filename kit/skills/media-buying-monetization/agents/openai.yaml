@@ -1,0 +1,4 @@
+interface:
+  display_name: "Monetization et pricing"
+  short_description: "Coûts, rentabilité et scénarios de prix étayés"
+  default_prompt: "Utilise $media-buying-monetization pour analyser les coûts, le pricing et les scénarios financiers de cette offre."

@@ -1,0 +1,10 @@
+{
+  "created_on": "2026-11-13",
+  "tool": "image_gen.imagegen",
+  "prompt_file": "explanatory-folder-v1.prompt.txt",
+  "output": "explanatory-folder-v1.png",
+  "source": "C:/Users/Administrator/.codex/generated_images/01a17410-207f-7d73-8880-1433273acd68/exec-9a7578ad-6b7a-407d-9eca-1660ef40cc25.png",
+  "status": "Physical paper metaphor, not actual product report or interface",
+  "required_disclosure": "شرح توضيحي",
+  "approval": "PTM-P001-report-illustration-approved"
+}

@@ -1,0 +1,24 @@
+{
+  "actual_spoken_transcript": "كاتوجد لكامبوس فرانس؟ بروترين ماتش كيقترح عليك تكوينات على حساب ملفك. عمر ملفك دابا.",
+  "observed_scene_timing": "00:00-00:02 (Scene 1), 00:02-00:05 (Scene 2), 00:05-00:09 (Scene 3)",
+  "arabic_text_readability_and_shaping": "Excellent. High contrast, modern sans-serif font, correct Arabic shaping, and clear diacritics where used.",
+  "text_overflow_or_unintended_wrap": "None. Text is well-padded within the background containers.",
+  "visual_hierarchy": "Clear. The brand logo is prominent at the top-left, with the hook text in a high-visibility green bar clearly leading the viewer's eye.",
+  "motion_and_cut_pacing": "Consistent. The transitions are simple, matching the speed of the narration without being jarring.",
+  "voice_dialect_and_pronunciation": "Clear Moroccan Darija. Natural cadence, suitable for the local student demographic.",
+  "voice_intelligibility_noise_and_distortion": "High. No background noise or technical distortion detected.",
+  "speech_to_visual_sync": "Tight. The text on-screen matches the spoken content effectively.",
+  "ending_CTA_reading_time": "Adequate. At 00:05 to 00:09, there is enough time for the user to process the CTA before the loop.",
+  "concrete_defects": [
+    {
+      "timestamp": "00:00",
+      "severity": "Minor",
+      "reason": "The word 'كاتوجد' (Are you preparing) could be misinterpreted as 'كـتـوجـد' due to the tight spacing between the 'ت' and 'و' in some mobile viewports, though it is legible here.",
+      "fix": "Increase character tracking slightly for better readability on smaller screens."
+    }
+  ],
+  "acceptable_as_short_production_test": true,
+  "limits_of_your_review": "Review is restricted to technical observation of visual elements, audio quality, and linguistic accuracy. It does not assess the ad's marketing effectiveness or ROI.",
+  "review_method": "gemini-3.1-flash-lite multimodal analysis of actual exported MP4, including audio; not a human playback verdict",
+  "source_file": "{{PROTRAIN_PROJECT_ROOT}}\\04 — SaaS & EdTech\\editing-system\\video-studio\\out\\protrain-darija-ad-v1.mp4"
+}

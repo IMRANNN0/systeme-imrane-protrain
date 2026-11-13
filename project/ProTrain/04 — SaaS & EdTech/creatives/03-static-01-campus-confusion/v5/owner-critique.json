@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-13",
+  "status": "OWNER_DISSATISFIED_NOT_APPROVED",
+  "artifact": "Creative01V5.png",
+  "sha256": "92d8f90749b0417159971294c1b9c4d42a8d7bcfd132890e1820c345bc5720cf",
+  "actual_full_and_phone_reinspected": true,
+  "findings": [
+    "Generated object replacement changes asset origin but leaves the weak visual argument: five floating subject symbols do not clarify how a profile relates to proposed formations.",
+    "Passport and dominant portrait signal general study-abroad or visa support more strongly than the specific academic matching tool.",
+    "Student photo, miniature still-life cutouts, white badge containers and paper/dotted collage lack a sufficiently coherent relationship in this execution; this is not a blanket rejection of ProTrain identity.",
+    "Three heavy tilted text bands compete at mobile scale; the long promise is dense and the CTA has large visual weight.",
+    "Arabic/French reading order remains decipherable and was inspected; typography is still optically awkward and heavy. Do not falsely reclassify correct bidi as broken.",
+    "Match label and field captions are too small to establish product recognition at phone size.",
+    "White CTA ribbon resembles another statement; telephone and historical website footer introduce competing action cues."
+  ],
+  "controller_responsibility": "Previous review emphasized technical fidelity and bounded pixel changes, and underweighted persuasion, optical hierarchy and complete composition before delivery. Isolated micro-fixes were delivered without resolving the overall creative problem.",
+  "independent_review": "Native bounded reviewer independently viewed full and phone exports and returned the same priority concerns.",
+  "scope": "Critique and retained feedback only. No artwork edits, generation, copy rewrite, new layout, Creative02 or publication authorized/performed.",
+  "still_valid_evidence": "V5 does use actual ImageGen raster assets, preserves exact copy and original fixed pixels, and retains existing identity. These technical facts do not establish creative approval or performance."
+}

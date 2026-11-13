@@ -1,0 +1,105 @@
+{
+  "updated_on": "2026-11-13",
+  "creative": "01 — Campus France Confusion",
+  "status": "V5_OWNER_DISSATISFIED_CRITIQUE_COMPLETE",
+  "authoritative_source": "Latest owner requests generating the five visual assets as images and then inserting them into the existing creative",
+  "supersedes": "Previous active messaging only; historical V1/V2 evidence and V2 awaiting-Imran approval remain unchanged",
+  "objective": "Purchase — paid academic report",
+  "size": [
+    1080,
+    1350
+  ],
+  "hook": "كتوجد لـCampus France ومحتار فاختيار الـFormations؟",
+  "cta": "شوف جوج Formations مجاناً",
+  "visual": "Fictional realistic Moroccan adult student18–24 actively comparing academic choices at laptop; subtle illustrative formation cards",
+  "logo_source": "D:/Campus France_ which programs to choose_ _ ProTrain/imgi_2_0x128.png",
+  "logo_sha256": "abef7b2488f244b00306eda0ca864f743c47f2e623db8ab8b5cc785021575e46",
+  "proof_scope": "Conceptual choices, not actual matching output or report evidence",
+  "approval_gate": "Imran approves Creative01before anyCreative02 or alternative production",
+  "prohibited": [
+    "Price",
+    "Admission guarantees",
+    "Invented official logo",
+    "Publication",
+    "Campaign launch",
+    "Multiple variations"
+  ],
+  "prior_version": {
+    "version": "V1",
+    "status": "NOT_APPROVED_REVISION_REQUESTED",
+    "export": "creatives/03-static-01-campus-confusion/v1/Creative01V1.png",
+    "sha256": "c66e6e5ba4ffedc24d572f8e77ce2cfa191eab974de6efab3d80280f1b1ee167"
+  },
+  "promise": "عمّر ملفك الدراسي، واكتشف جوج تكوينات مقترحة مع معلومات تساعدك تفهم اختياراتك.",
+  "messaging_framework": "HOOK → PROMISE → CTA",
+  "messaging_status": "Current exact hook/promise/CTA rendered in V4; prior versions preserved",
+  "production_authorization": "Same Creative01 revision: actual ImageGen images replace SVG academic symbols; no new layout, alternatives, Creative02 or publication",
+  "last_rendered_candidate": {
+    "version": "V2",
+    "status": "V2_DELIVERED_AWAITING_IMRAN_APPROVAL",
+    "output_folder": "creatives/03-static-01-campus-confusion/v2",
+    "hook": "كتوجد لـCampus France؟\nومحتار فاختيار الـFormations؟",
+    "support": "عمّر ملفك الدراسي وشوف جوج تكوينات مقترحة مجاناً.",
+    "cta": "شوف جوج Formations مجاناً",
+    "revision_requirements": [
+      "Two fixed hook lines with controlled visual RTL/LTR ordering",
+      "Reduce student photo dominance",
+      "Increase supporting copy readability at phone scale",
+      "Retain and verify source-based CTA colors",
+      "Cards visibly illustrative",
+      "V1 vs V2 comparison; preserve V1",
+      "Await Imran approval, no Creative02 or publishing"
+    ],
+    "export": "creatives/03-static-01-campus-confusion/v2/Creative01V2.png",
+    "editable_source": "creatives/03-static-01-campus-confusion/v2/Creative01V2-editable-source.zip",
+    "comparison": "creatives/03-static-01-campus-confusion/v2/Creative01V1-vs-V2-comparison.png",
+    "sha256": "80af3a38fb10a22e89a25963ed6acdfbc779a187e49989cbcb6ca46d74dd0e83",
+    "review": "creatives/03-static-01-campus-confusion/v2/independent-review.json",
+    "scope_note": "Historical V2 render and copy. Its two manual hook lines and first-line question mark are implementation history, not constraints on current messaging."
+  },
+  "reference_system_request": {
+    "recorded_on": "2026-11-13",
+    "status": "REFERENCE32_AUTHORIZED_FOR_ONE_PREVIEW_V4_DELIVERED_AWAITING_REVIEW",
+    "owner_instruction": "Reverse engineer D:/Instagram existing identity; select one existing reference; first deliver analysis/fixed-vs-variable/template proposal/missing assets and stop before reconstruction or V4.",
+    "proposed_reference": "D:/Instagram/imgi_32_656179671_18077289212628783_6745418022262791529_n.webp",
+    "report": "creatives/04-instagram-design-system-analysis/design-system-analysis.html",
+    "proposal": "creatives/04-instagram-design-system-analysis/template-proposal.json",
+    "approval_scope": "Owner said OK create a preview to check design fidelity. This is production permission, not final creative/campaign approval.",
+    "copy": "Exact current hook/promise/CTA rendered in V4 and preserved byte-for-byte visually in V5 outside circles",
+    "prior_versions": "Historical V1/V2 preserved. Prior technical checks do not approve them or the proposed reference."
+  },
+  "current_preview": {
+    "version": "V5",
+    "export": "creatives/03-static-01-campus-confusion/v5/Creative01V5.png",
+    "source": "creatives/03-static-01-campus-confusion/v5/Creative01V5.html",
+    "sha256": "92d8f90749b0417159971294c1b9c4d42a8d7bcfd132890e1820c345bc5720cf",
+    "status": "OWNER_DISSATISFIED_NOT_APPROVED",
+    "method": "Five actual ImageGen transparent PNG objects composited into existing academic circles; no code-drawn academic symbols",
+    "provenance": "creatives/03-static-01-campus-confusion/v5/imagegen-provenance.json",
+    "limits": [
+      "Info object is smallest in locked circle; tiny field names remain secondary at phone size.",
+      "Objects are illustrative generated assets, not real Match recommendations or product proof.",
+      "Existing hybrid raster plate, source softness, brand fallback fonts and historical footer limitations remain."
+    ],
+    "owner_critique": "creatives/03-static-01-campus-confusion/v5/owner-critique.json"
+  },
+  "previous_previews": [
+    {
+      "version": "V4",
+      "export": "creatives/03-static-01-campus-confusion/v4/Creative01V4.png",
+      "source": "creatives/03-static-01-campus-confusion/v4/Creative01V4.html",
+      "sha256": "8a98387030518d91ba457deaffa3a1b154017335ee0ab35af54055f8ab5e1f5b",
+      "status": "AWAITING_IMRAN_REVIEW",
+      "method": "Hybrid original unchanged reference raster plate plus code-native editable copy/supporting overlays",
+      "limits": [
+        "Hybrid source: text, field symbols, label and clearing vectors editable; original photo/background/logo/ribbon edges/footer remain a flattened raster plate.",
+        "Cairo/Poppins are documented brand fallbacks, not verified original Instagram typefaces; type size/line count adapted explicitly for exact mixed-script copy.",
+        "Circle labels, corporate tagline and Match label remain secondary at phone size; small pictograms provide field context.",
+        "Reference photo is864x1080 scaled uniformly to1080x1350; original softness remains.",
+        "Historical phone/www.protrain.ma footer retained; not confirmed as appropriate current Match destination. This is a review preview, not launch-ready campaign material.",
+        "Matching mechanism is expressed by copy; no real report/product output or purchase-performance proof."
+      ]
+    }
+  ],
+  "latest_request_scope": "Honest critique only after owner dissatisfaction; no new artwork or layout authorized by this turn"
+}

@@ -1,0 +1,374 @@
+{
+  "dimensions": {
+    "width": 1080,
+    "height": 1350
+  },
+  "fonts": [
+    {
+      "family": "Cairo",
+      "status": "loaded"
+    },
+    {
+      "family": "Poppins",
+      "status": "loaded"
+    },
+    {
+      "family": "Poppins",
+      "status": "unloaded"
+    }
+  ],
+  "text": {
+    "hookLines": [
+      "كتوجد لـCampus France؟",
+      "ومحتار فاختيار الـFormations؟"
+    ],
+    "hook": "كتوجد لـCampus France؟ ومحتار فاختيار الـFormations؟",
+    "support": "عمّر ملفك الدراسي وشوف جوج تكوينات مقترحة مجاناً.",
+    "cta": "شوف جوج Formations مجاناً"
+  },
+  "rows": [
+    {
+      "class": "manual-row hook-line",
+      "box": {
+        "x": 62,
+        "y": 160,
+        "width": 956,
+        "height": 98.8125,
+        "top": 160,
+        "right": 1018,
+        "bottom": 258.8125,
+        "left": 62
+      },
+      "runs": [
+        {
+          "text": "كتوجد لـ",
+          "dir": "rtl",
+          "unicodeBidi": "isolate",
+          "box": {
+            "x": 791.859375,
+            "y": 160,
+            "width": 226.140625,
+            "height": 98.8125,
+            "top": 160,
+            "right": 1018,
+            "bottom": 258.8125,
+            "left": 791.859375
+          }
+        },
+        {
+          "text": "Campus France",
+          "dir": "ltr",
+          "unicodeBidi": "isolate",
+          "box": {
+            "x": 314.9375,
+            "y": 165,
+            "width": 464.921875,
+            "height": 92.890625,
+            "top": 165,
+            "right": 779.859375,
+            "bottom": 257.890625,
+            "left": 314.9375
+          }
+        },
+        {
+          "text": "؟",
+          "dir": "rtl",
+          "unicodeBidi": "isolate",
+          "box": {
+            "x": 274.875,
+            "y": 160,
+            "width": 28.0625,
+            "height": 98.8125,
+            "top": 160,
+            "right": 302.9375,
+            "bottom": 258.8125,
+            "left": 274.875
+          }
+        }
+      ]
+    },
+    {
+      "class": "manual-row hook-line",
+      "box": {
+        "x": 62,
+        "y": 258.8125,
+        "width": 956,
+        "height": 98.8125,
+        "top": 258.8125,
+        "right": 1018,
+        "bottom": 357.625,
+        "left": 62
+      },
+      "runs": [
+        {
+          "text": "ومحتار فاختيار الـ",
+          "dir": "rtl",
+          "unicodeBidi": "isolate",
+          "box": {
+            "x": 555.796875,
+            "y": 258.8125,
+            "width": 462.203125,
+            "height": 98.8125,
+            "top": 258.8125,
+            "right": 1018,
+            "bottom": 357.625,
+            "left": 555.796875
+          }
+        },
+        {
+          "text": "Formations",
+          "dir": "ltr",
+          "unicodeBidi": "isolate",
+          "box": {
+            "x": 210.765625,
+            "y": 263.8125,
+            "width": 333.03125,
+            "height": 92.890625,
+            "top": 263.8125,
+            "right": 543.796875,
+            "bottom": 356.703125,
+            "left": 210.765625
+          }
+        },
+        {
+          "text": "؟",
+          "dir": "rtl",
+          "unicodeBidi": "isolate",
+          "box": {
+            "x": 170.703125,
+            "y": 258.8125,
+            "width": 28.0625,
+            "height": 98.8125,
+            "top": 258.8125,
+            "right": 198.765625,
+            "bottom": 357.625,
+            "left": 170.703125
+          }
+        }
+      ]
+    },
+    {
+      "class": "manual-row cta-line",
+      "box": {
+        "x": 255.953125,
+        "y": 1216.5,
+        "width": 568.09375,
+        "height": 79,
+        "top": 1216.5,
+        "right": 824.046875,
+        "bottom": 1295.5,
+        "left": 255.953125
+      },
+      "runs": [
+        {
+          "text": "شوف جوج ",
+          "dir": "rtl",
+          "unicodeBidi": "isolate",
+          "box": {
+            "x": 618.15625,
+            "y": 1216.5,
+            "width": 205.890625,
+            "height": 79,
+            "top": 1216.5,
+            "right": 824.046875,
+            "bottom": 1295.5,
+            "left": 618.15625
+          }
+        },
+        {
+          "text": "Formations",
+          "dir": "ltr",
+          "unicodeBidi": "isolate",
+          "box": {
+            "x": 375.84375,
+            "y": 1228.5,
+            "width": 229.3125,
+            "height": 59,
+            "top": 1228.5,
+            "right": 605.15625,
+            "bottom": 1287.5,
+            "left": 375.84375
+          }
+        },
+        {
+          "text": " مجاناً",
+          "dir": "rtl",
+          "unicodeBidi": "isolate",
+          "box": {
+            "x": 255.953125,
+            "y": 1216.5,
+            "width": 106.890625,
+            "height": 79,
+            "top": 1216.5,
+            "right": 362.84375,
+            "bottom": 1295.5,
+            "left": 255.953125
+          }
+        }
+      ]
+    }
+  ],
+  "photoBand": {
+    "x": 0,
+    "y": 440,
+    "width": 1080,
+    "height": 480,
+    "top": 440,
+    "right": 1080,
+    "bottom": 920,
+    "left": 0
+  },
+  "photo": {
+    "x": 230,
+    "y": 432,
+    "width": 850,
+    "height": 566.65625,
+    "top": 432,
+    "right": 1080,
+    "bottom": 998.65625,
+    "left": 230
+  },
+  "support": {
+    "box": {
+      "x": 62,
+      "y": 951,
+      "width": 956,
+      "height": 176,
+      "top": 951,
+      "right": 1018,
+      "bottom": 1127,
+      "left": 62
+    },
+    "fontSize": "55px",
+    "lines": [
+      {
+        "text": "عمّر ملفك الدراسي وشوف",
+        "box": {
+          "x": 62,
+          "y": 951,
+          "width": 956,
+          "height": 88,
+          "top": 951,
+          "right": 1018,
+          "bottom": 1039,
+          "left": 62
+        },
+        "overflow": false
+      },
+      {
+        "text": "جوج تكوينات مقترحة مجاناً.",
+        "box": {
+          "x": 62,
+          "y": 1039,
+          "width": 956,
+          "height": 88,
+          "top": 1039,
+          "right": 1018,
+          "bottom": 1127,
+          "left": 62
+        },
+        "overflow": false
+      }
+    ]
+  },
+  "cta": {
+    "box": {
+      "x": 62,
+      "y": 1207,
+      "width": 956,
+      "height": 98,
+      "top": 1207,
+      "right": 1018,
+      "bottom": 1305,
+      "left": 62
+    },
+    "background": "rgb(242, 165, 65)",
+    "color": "rgb(15, 42, 31)"
+  },
+  "nowrap": true,
+  "images": [
+    {
+      "source": "assets/protrain-original-logo.png",
+      "complete": true,
+      "naturalWidth": 141,
+      "naturalHeight": 127,
+      "box": {
+        "x": 62,
+        "y": 17.671875,
+        "width": 94,
+        "height": 84.65625,
+        "top": 17.671875,
+        "right": 156,
+        "bottom": 102.328125,
+        "left": 62
+      }
+    },
+    {
+      "source": "assets/student-comparing-original.png",
+      "complete": true,
+      "naturalWidth": 1536,
+      "naturalHeight": 1024,
+      "box": {
+        "x": 230,
+        "y": 432,
+        "width": 850,
+        "height": 566.65625,
+        "top": 432,
+        "right": 1080,
+        "bottom": 998.65625,
+        "left": 230
+      }
+    }
+  ],
+  "exactCopy": {
+    "hook": true,
+    "support": true,
+    "cta": true
+  },
+  "exactHookLines": true,
+  "visualRunGeometry": [
+    {
+      "class": "manual-row hook-line",
+      "rightToLeftSequence": true,
+      "gaps": [
+        12,
+        12
+      ],
+      "insideCanvas": true
+    },
+    {
+      "class": "manual-row hook-line",
+      "rightToLeftSequence": true,
+      "gaps": [
+        12,
+        12
+      ],
+      "insideCanvas": true
+    },
+    {
+      "class": "manual-row cta-line",
+      "rightToLeftSequence": true,
+      "gaps": [
+        13,
+        13
+      ],
+      "insideCanvas": true
+    }
+  ],
+  "pageErrors": [],
+  "photoSharePercent": 35.55555555555556,
+  "supportAt360Px": 18.333333333333332,
+  "ctaContrast": 7.462961369301725,
+  "ctaBackgroundPixel": {
+    "x": 80,
+    "y": 1240,
+    "rgb": [
+      242,
+      165,
+      65
+    ],
+    "hex": "#F2A541"
+  },
+  "pngSha256": "80af3a38fb10a22e89a25963ed6acdfbc779a187e49989cbcb6ca46d74dd0e83",
+  "v1ComparisonCopySha256": "c66e6e5ba4ffedc24d572f8e77ce2cfa191eab974de6efab3d80280f1b1ee167"
+}

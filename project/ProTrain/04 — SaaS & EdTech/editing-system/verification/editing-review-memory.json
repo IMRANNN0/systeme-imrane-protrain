@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-13",
+  "scope": "Owner-requested reusable editing notes; client-specific details retained locally",
+  "validation": {
+    "frontmatter": "passed with existing js-yaml parser",
+    "official_python_validator": "Attempted, unavailable because PyYAML absent; no dependency installed",
+    "independent_scenarios": [
+      "script forthcoming",
+      "approved script and photos without product UI",
+      "changed export hash and limited perceptual review",
+      "technical rerun overwrites review state"
+    ],
+    "independent_result": "No client data leakage or invented approval gates; illustrations, provisional audio and checkpoint scope clarified"
+  },
+  "files": [
+    {
+      "path": "{{IMRANE_WORKSPACE_ROOT}}\\.agents\\skills\\performance-video-editing\\SKILL.md",
+      "sha256": "917b2309a339efed1794030d29eea7714148f2f8251908a5d286d3f45a135e10"
+    },
+    {
+      "path": "{{IMRANE_WORKSPACE_ROOT}}\\.agents\\skills\\performance-video-editing\\references\\production-review.md",
+      "sha256": "2b69802df1b75db8f3fabd2da12859c67c7b3838f47b12a04fe4c4184dfae58f"
+    },
+    {
+      "path": "{{IMRANE_WORKSPACE_ROOT}}/AGENTS.md",
+      "sha256": "9f34d2ee8204c3b1fa4d1f3832181fa773a13c9335b89132b6cb7f6e4b83127e"
+    }
+  ]
+}

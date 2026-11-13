@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-13",
+  "concept": "03",
+  "objective": "Purchase",
+  "method": "Installed static-ad-creative-system applied before generation",
+  "consulted": [
+    "{{IMRANE_WORKSPACE_ROOT}}\\.agents\\skills\\static-ad-creative-system\\SKILL.md",
+    "protrain-lessons.json",
+    "six-concepts.json",
+    "../../editing-system/brand/README.md"
+  ],
+  "hook_source": "شنو كتلقى داخل Rapport ديال ProTrain Match؟",
+  "hook_proposal": "علاش تقترح عليك هاد التكوين؟",
+  "visual_argument": "Let the viewer inspect an actual recommendation and the explanation attached to it",
+  "composition": "Dominant real report crop and exact editable text, original corporate logo plus Match product label, one next action",
+  "sources_ready": [
+    "Corporate logo",
+    "Brand tokens",
+    "Cairo Arabic font"
+  ],
+  "required_before_production": [
+    "Genuine report screenshot/PDF",
+    "Actual destination flow to select a truthful CTA"
+  ],
+  "source_handling": "Inspect the supplied asset; retain genuine report text and omit personal details from the ad",
+  "next_action": "Read actual supplied report, select one clear recommendation reason and finalize the concept before creating pixels",
+  "status": "WAITING_FOR_PRODUCT_EVIDENCE",
+  "images_generated": 0,
+  "budget": "Unspecified; does not block creative preparation",
+  "launch_authorized": false
+}

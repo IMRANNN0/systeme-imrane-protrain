@@ -1,0 +1,4 @@
+interface:
+  display_name: "Système Imrane"
+  short_description: "Gouvernance et installation multi-projets portable"
+  default_prompt: "Utilise $systeme-imrane pour préparer et vérifier mon espace de travail multi-projets."

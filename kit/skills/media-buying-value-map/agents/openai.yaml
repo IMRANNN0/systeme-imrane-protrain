@@ -1,0 +1,4 @@
+interface:
+  display_name: "Value Map"
+  short_description: "Capacités, matching Jobs/Pains/Gains et fit"
+  default_prompt: "Utilise $media-buying-value-map pour relier l'offre aux priorités du Customer Profile et expliciter les preuves et écarts du fit."

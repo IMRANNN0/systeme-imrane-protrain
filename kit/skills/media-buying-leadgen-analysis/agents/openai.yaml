@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lead Generation Analysis"
+  short_description: "Analyze paid leads through mature CRM outcomes"
+  default_prompt: "Use $media-buying-leadgen-analysis to analyze lead cohorts, downstream outcomes and contribution from the authorized evidence."

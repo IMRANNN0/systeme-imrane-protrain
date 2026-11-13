@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-12",
+  "skill": {
+    "repository": "https://github.com/remotion-dev/skills",
+    "commit": "7e541aa4d7361dfaca0780a565a47307eb7bdfbb",
+    "version": "4.0.543",
+    "installed_folder": "{{IMRANE_WORKSPACE_ROOT}}/.agents/skills/remotion-best-practices",
+    "verified_files": 148,
+    "relative_links_checked": 144,
+    "broken_links": 0,
+    "source_lock": "{{IMRANE_WORKSPACE_ROOT}}/.agents/local-skill-locks/remotion-best-practices.json",
+    "license": "No standalone license at pinned skills revision; local installation explicitly documented upstream."
+  },
+  "runtime": {
+    "folder": "{{PROTRAIN_PROJECT_ROOT}}\\04 \u2014 SaaS & EdTech\\editing-system\\video-studio",
+    "remotion": "4.0.543",
+    "react": "19.3.1",
+    "typescript": "7.0.2",
+    "dependency_install": "npm install --ignore-scripts; exact direct dependencies and package-lock.json",
+    "check": "passed",
+    "versions": "all Remotion packages aligned",
+    "studio_url": "http://localhost:3000/InstallationCheck",
+    "studio_checked": "Chrome preview and subtitle edit persisted to Root.tsx",
+    "windows_path_fix": "Package scripts invoke node CLI directly to support ampersand in folder name."
+  },
+  "render": {
+    "file": "{{PROTRAIN_PROJECT_ROOT}}\\04 \u2014 SaaS & EdTech\\editing-system\\video-studio\\out\\installation-check.mp4",
+    "sha256": "8516c07ae2a293c0713f16a32d0ec757f172d5e5a51edb9f444f41f1deaa8cfd",
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "30/1",
+          "nb_frames": "90",
+          "side_data_list": [
+            {}
+          ]
+        }
+      ],
+      "format": {
+        "duration": "3.000000",
+        "size": "64745"
+      }
+    },
+    "full_decode": "passed",
+    "image": "{{PROTRAIN_PROJECT_ROOT}}\\04 \u2014 SaaS & EdTech\\editing-system\\video-studio\\out\\installation-check.png",
+    "visual_review": "Controller and independent worker saw connected, correctly ordered, legible Arabic without clipping.",
+    "audio": "No audio by design; synchronization and mixed-direction numerals untested."
+  },
+  "review": {
+    "worker": "/root/remotion_install_review",
+    "outcome": "passed, no blocking findings"
+  },
+  "scope": "Local installation and technical verification. No actual advertisement or campaign."
+}

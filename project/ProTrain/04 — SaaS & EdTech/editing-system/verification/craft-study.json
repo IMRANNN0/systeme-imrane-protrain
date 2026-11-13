@@ -1,0 +1,187 @@
+{
+  "file": "{{PROTRAIN_PROJECT_ROOT}}\\04 \u2014 SaaS & EdTech\\editing-system\\video-studio\\out\\craft-study.mp4",
+  "sha256": "63dbd04ae33ebd6ff5c75006ac627a8ff386f511b629eca64f07f4aab6ef0807",
+  "metadata": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.640028",
+        "width": 1080,
+        "height": 1920,
+        "coded_width": 1088,
+        "coded_height": 1920,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "9:16",
+        "pix_fmt": "yuvj420p",
+        "level": 40,
+        "color_range": "pc",
+        "color_space": "bt470bg",
+        "chroma_location": "center",
+        "field_order": "progressive",
+        "refs": 4,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/90000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 810000,
+        "duration": "9.000000",
+        "bit_rate": "1135983",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "270",
+        "nb_read_frames": "270",
+        "extradata_size": 51,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler"
+        },
+        "side_data_list": [
+          {
+            "side_data_type": "ICC Profile"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 2048,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 432144,
+        "duration": "9.003000",
+        "bit_rate": "317363",
+        "nb_frames": "424",
+        "nb_read_frames": "422",
+        "extradata_size": 2,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "{{PROTRAIN_PROJECT_ROOT}}\\04 \u2014 SaaS & EdTech\\editing-system\\video-studio\\out\\craft-study.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "9.003000",
+      "size": "1648634",
+      "bit_rate": "1464964",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf61.7.100",
+        "comment": "Made with Remotion 4.0.543"
+      }
+    }
+  },
+  "full_decode": "passed",
+  "frames": [
+    0,
+    41,
+    47,
+    59,
+    66,
+    78,
+    90,
+    107,
+    108,
+    143,
+    144,
+    180,
+    269
+  ],
+  "audio": {
+    "source": "Original locally synthesized paper-action fixture, no voice",
+    "correlation": 0.9992612270113516,
+    "peak": 0.1339728683233261,
+    "listening": "pending"
+  },
+  "visual_review": {
+    "controller": "Passed13 actual decoded-frame samples including concealment, lift, reveal and stable ending; Arabic joined; no title or pencil collision after correction.",
+    "scope": "360x640 sampled frames; not full-speed perceived playback"
+  },
+  "independent_review": {
+    "worker": "/root/editing_craft_relearn",
+    "status": "passed sampled-frame QA",
+    "blocking_findings": [],
+    "remaining": [
+      "Rigid flat-plane lift and largely blank notebooks remain schematic",
+      "No user taste approval",
+      "Full-speed perceived motion and listening not reviewed"
+    ]
+  },
+  "scope": "Unapproved style study, not a finished client advertisement"
+}

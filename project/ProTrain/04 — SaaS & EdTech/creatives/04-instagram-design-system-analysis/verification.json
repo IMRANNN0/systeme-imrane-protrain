@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "20_originals_hash_preserved": true,
+    "reference_hash_matches": true,
+    "single_reference_not_reconstructed": true,
+    "all_json_parses": true,
+    "all_report_links_exist": true,
+    "exact_copy_documented": true
+  },
+  "missing_links": [],
+  "status": "PASS",
+  "scope": "Analysis document/data integrity only. No V4 output or RTL/mobile creative QA performed."
+}

@@ -1,0 +1,164 @@
+{
+  "reviewed_on": "2026-11-13",
+  "status": "Extracted working reference, not a supplied official brand manual",
+  "website": {
+    "source": "https://protraincompany.com/",
+    "evidence": "website-inline.css + website.css + observed computed styles",
+    "confidence": "exact CSS values",
+    "colors": [
+      {
+        "key": "primary",
+        "name": "Primary green",
+        "hex": "#0A6B43",
+        "role": "Links, icons, green identity",
+        "css": "--o-color-1"
+      },
+      {
+        "key": "secondary",
+        "name": "Amber",
+        "hex": "#F2A541",
+        "role": "Primary CTA and highlights",
+        "css": "--o-color-2"
+      },
+      {
+        "key": "dark",
+        "name": "Forest dark",
+        "hex": "#0F2A1F",
+        "role": "Dark backgrounds, footer",
+        "css": "--o-color-5"
+      },
+      {
+        "key": "light",
+        "name": "Ivory",
+        "hex": "#F6F4EE",
+        "role": "Light backgrounds",
+        "css": "--o-color-3"
+      },
+      {
+        "key": "white",
+        "name": "White",
+        "hex": "#FFFFFF",
+        "role": "Surfaces and reversed text",
+        "css": "--o-color-4"
+      },
+      {
+        "key": "body",
+        "name": "Body neutral",
+        "hex": "#212529",
+        "role": "Supporting body text",
+        "css": "--body-color"
+      }
+    ]
+  },
+  "instagram": {
+    "source": "https://www.instagram.com/protrain_company/",
+    "confidence": "Visual samples and JPEG pixel estimates, not original design tokens",
+    "colors": [
+      {
+        "key": "social_green",
+        "name": "Instagram green",
+        "hex": "#017A51",
+        "role": "Approximate encoded-image sample",
+        "source": "https://www.instagram.com/protrain_company/p/DX_uGqHiPWb/"
+      },
+      {
+        "key": "social_yellow",
+        "name": "Instagram yellow",
+        "hex": "#F9CB2F",
+        "role": "Approximate encoded-image sample",
+        "source": "https://www.instagram.com/protrain_company/p/DX6hfjqiCOO/"
+      }
+    ]
+  },
+  "proposed_extensions": {
+    "status": "Optional proposals, not extracted or approved",
+    "colors": [
+      {
+        "key": "comparison_blue",
+        "name": "Muted navy",
+        "hex": "#1E3A5F",
+        "role": "Optional second profile / comparison"
+      },
+      {
+        "key": "soft_green",
+        "name": "Soft mint",
+        "hex": "#E7F3ED",
+        "role": "Optional quiet background / label"
+      }
+    ]
+  },
+  "typography": {
+    "latin": {
+      "family": "Poppins",
+      "weights": [
+        400,
+        500,
+        600,
+        700
+      ]
+    },
+    "arabic": {
+      "family": "Cairo",
+      "variable_weight_range": [
+        200,
+        1000
+      ]
+    },
+    "source": "Website @font-face declarations, unicode ranges and computed font stack",
+    "instagram_font": "Unconfirmed from raster examples",
+    "font_files_downloaded": false
+  },
+  "recommended_text_pairs": [
+    {
+      "background": "#0A6B43",
+      "text": "#FFFFFF",
+      "contrast_ratio": 6.57
+    },
+    {
+      "background": "#F2A541",
+      "text": "#0F2A1F",
+      "contrast_ratio": 7.46
+    },
+    {
+      "background": "#017A51",
+      "text": "#FFFFFF",
+      "contrast_ratio": 5.38
+    },
+    {
+      "background": "#F9CB2F",
+      "text": "#0F2A1F",
+      "contrast_ratio": 9.93
+    },
+    {
+      "background": "#1E3A5F",
+      "text": "#FFFFFF",
+      "contrast_ratio": 11.5
+    },
+    {
+      "background": "#E7F3ED",
+      "text": "#0F2A1F",
+      "contrast_ratio": 13.45
+    }
+  ],
+  "style_observations": {
+    "website": [
+      "Deep green hero with subtle texture/glow",
+      "Amber CTA with dark text",
+      "Pale backgrounds, white surfaces",
+      "Study/travel photography"
+    ],
+    "instagram": [
+      "Study photography",
+      "Angled torn-edge green/white/yellow text strips",
+      "Green graduation-cap logo at top-left",
+      "Mint dotted texture and dashed flight route",
+      "Contact footer, green or white depending on sample"
+    ]
+  },
+  "logo": {
+    "file": "protrain-logo-site.png",
+    "source": "https://protraincompany.com/web/image/website/1/logo/0x128/ProTrain?unique=a9253c0",
+    "rule": "Use original artwork unchanged; this downloaded preview is not a vector master"
+  },
+  "scope": "Palette, typography and style only. Website copy changes do not revise approved product terms or ad claims."
+}

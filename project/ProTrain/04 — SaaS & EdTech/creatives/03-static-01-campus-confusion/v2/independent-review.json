@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-13",
+  "reviewer": "Root controller independent of execution worker",
+  "artifact": "Creative01V2.png",
+  "sha256": "80af3a38fb10a22e89a25963ed6acdfbc779a187e49989cbcb6ca46d74dd0e83",
+  "actual_outputs_viewed": [
+    "Full1080x1350PNG",
+    "Phone360x450PNG",
+    "V1vsV2comparisonPNG"
+  ],
+  "visual_reading_review": {
+    "line1": "Fromright: كتوجد لـ thenLTRCampus France thenArabicquestionmark atleft",
+    "line2": "Fromright: ومحتار فاختيار الـ thenLTRFormations thenArabicquestionmark atleft",
+    "cta": "Fromright: شوف جوج thenLTRFormations then مجاناً",
+    "font_shaping": "ConnectedArabic andFrenchwordorder inspected inactualexports",
+    "limitation": "Visualassessment is independent review, not ownerapproval; exactstrings/geometryalone are insufficient"
+  },
+  "verified": {
+    "size": [
+      1080,
+      1350
+    ],
+    "exact_requested_copy": true,
+    "manual_two_line_layout": true,
+    "original_logo_preserved": true,
+    "original_photo_preserved": true,
+    "V1_png_preserved": true,
+    "CTA_amber_pixel": "#F2A541",
+    "CTA_forest_text": "#0F2A1F",
+    "contrast": 7.46,
+    "source_ZIP_complete": true
+  },
+  "hierarchy": {
+    "photo_band_height": {
+      "V1": 650,
+      "V2": 480
+    },
+    "photo_width": {
+      "V1": 1080,
+      "V2": 850
+    },
+    "support_font_px": {
+      "V1": 39,
+      "V2": 55
+    },
+    "phone_support_px": 18.33
+  },
+  "self_audit": {
+    "strengths": [
+      "Explicitseparatedlanguageandpunctuationruns",
+      "Supportlargerandreadableatphonefeedscale",
+      "Lessphotodominancewithhands/facepreserved",
+      "Originalbrandcolors/assetspreservedandcardslabelledillustrative"
+    ],
+    "weaknesses": [
+      "Compactbrandtagline/cardlabelarestillsecondaryatsmallfeedsize",
+      "Genericdomaincardsillustratechoiceoverloadratherthanactualmatching",
+      "Paidpurchaseeffectivenessuntested"
+    ]
+  },
+  "approval": "AWAITING_IMRAN",
+  "no_new_image_generation": true,
+  "no_Creative02_or_publication": true
+}

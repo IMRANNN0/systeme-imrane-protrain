@@ -1,0 +1,26 @@
+{
+  "selected_prototype": "protrain-match-profile-a01-v3-final.png",
+  "status": "REJECTED_BY_OWNER - historical prototype only",
+  "method": "Built-in ImageGen generation and targeted ImageGen edits only for final PNG",
+  "generation_prompt": "protrain-match-profile-a01-v1-prompt.txt",
+  "edit_prompt": "protrain-match-profile-a01-v3-prompt.txt",
+  "review": "v3 visually inspected: corporate logo removed, all Arabic/Latin copy correct and readable; explanatory folder motif retained",
+  "superseded_files": [
+    "protrain-match-profile-a01-v1.png",
+    "protrain-match-profile-a01-v1-brand-layer.py",
+    "protrain-match-profile-a01-v1-brief.json",
+    "protrain-match-profile-a01-v1-generated.png",
+    "protrain-match-profile-a01-v2-generated.png"
+  ],
+  "verification": {
+    "copy": "Visually correct connected Arabic; approved exact headline/support/CTA and Latin product name",
+    "format": "(1122, 1402) approximately 4:5",
+    "visual": "Photoreal synthetic adult student and explanatory folder motif",
+    "exclusions": "No offers, prices, deadline, programs, marks, probabilities, testimonials or actual-report UI",
+    "logo": "Corporate logo omitted; no fabricated or redrawn corporate logo remains. ProTrain Match product name retained.",
+    "publication": "None"
+  },
+  "original_imagegen_metadata_path": "No separate metadata file returned; original generated PNG paths recorded in review JSON",
+  "original_final_png": "C:/Users/Administrator/.codex/generated_images/01a1d2fd-907a-7172-8da2-b396a2fa59bc/exec-780d185c-ff0d-4321-af60-0f75c1ba6da9.png",
+  "owner_feedback_record": "../static-ad-system/protrain-lessons.json"
+}

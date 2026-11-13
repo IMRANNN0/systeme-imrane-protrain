@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-13",
+  "task": "Read-only source inventory for ProTrain Match naming on current landing page",
+  "scope": "{{PROTRAIN_PROJECT_ROOT}} only",
+  "live_page": "https://protraincompany.com/en/etudier-en-france/campus-france",
+  "actual_landing_source_found": false,
+  "scoped_inventory_file_count": 1388,
+  "excluded": [
+    "node_modules",
+    ".git",
+    "graphify*",
+    ".codex",
+    ".claude",
+    "memories"
+  ],
+  "checks": [
+    "Scoped filename search for Odoo __manifest__.py/__openerp__.py, controllers/, views/, templates/, package.json and frontend config files",
+    "Scoped source-text search for o_shortlist_start, campus-france/start and exact current H1 returned no matches",
+    "Lane-root directory listing has no .git directory"
+  ],
+  "findings": [
+    {
+      "path": "editing-system/video-studio/package.json",
+      "kind": "Remotion video project",
+      "landing_source": false,
+      "reason": "Scripts target video compositions, rendering and video QA"
+    },
+    {
+      "path": "editing-system/brand/website-source.html",
+      "kind": "Historical downloaded homepage reference",
+      "landing_source": false,
+      "reason": "Archival evidence, not current target landing template"
+    },
+    {
+      "path": "landing-page-qa/2026-11-13/desktop-dom.json",
+      "kind": "Current public page inspection evidence",
+      "landing_source": false,
+      "reason": "Read-only baseline, not server/editable source"
+    }
+  ],
+  "changes_performed": [
+    "This source inventory evidence file only"
+  ],
+  "source_and_production_unchanged": true,
+  "build_lint": {
+    "applicable": false,
+    "reason": "No landing source/project/config available. Remotion check/render scripts do not validate the landing page and were not run."
+  },
+  "next_needed": "The actual editable Odoo module/template source or existing landing source checkout, and its scoped local preview/validation instructions. Do not reconstruct or patch archived downloaded HTML.",
+  "limits": [
+    "No browser operation by worker",
+    "No network calls",
+    "No form interaction or submission",
+    "No matching/report generation/payment/database mutations",
+    "No remote changes, deployment or installation",
+    "No unrelated client reads or global/canonical memory writes"
+  ]
+}

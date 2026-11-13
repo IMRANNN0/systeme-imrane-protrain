@@ -1,0 +1,34 @@
+{
+  "verified_on": "2026-11-13",
+  "landing_url": "https://protraincompany.com/en/etudier-en-france/campus-france",
+  "method": "Fresh public-page GET through web tool; no form interaction or matching call",
+  "claims": [
+    {
+      "ad": "Academic profile is used for program suggestions",
+      "landing": "Lead and How it works describe bac, grades, French level and study wishes",
+      "status": "CONSISTENT_WITH_DISPLAYED_OFFER"
+    },
+    {
+      "ad": "Two suggested programs free",
+      "landing": "Page says2programsfree,7inthecompletepaidreport;FAQspecifieslast2ofranked7",
+      "status": "CONSISTENT_WITH_DISPLAYED_OFFER"
+    },
+    {
+      "ad": "Fill in academic profile",
+      "landing": "Existingfourstageprofileform",
+      "status": "CONSISTENT_WITH_PAGE_STRUCTURE"
+    }
+  ],
+  "limits": [
+    "Offer and publiccopy verified, not actual matching results/payment/delivery",
+    "No admission or report-free guarantee added",
+    "Price omitted from artwork per ownerbrief"
+  ],
+  "brand_check": {
+    "source": "editing-system/brand/protrain-palette.json; exact existingwebsiteCSSvalues, not a supplied formalbrandmanual",
+    "cta_background": "#F2A541",
+    "cta_text": "#0F2A1F",
+    "contrast_ratio": 7.46,
+    "decision": "Retain existing source-based amber/forest pair; no new brandcolor"
+  }
+}

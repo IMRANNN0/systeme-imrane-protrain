@@ -1,0 +1,17 @@
+attrs==26.1.0
+flatbuffers==25.12.19
+jsonschema==4.26.0
+jsonschema-specifications==2025.9.1
+numpy==2.5.4
+onnxruntime==1.32.0
+opencv-python-headless==4.14.0.94
+packaging==26.3
+pillow==13.0.0
+protobuf==7.36.2
+PyYAML==6.0.3
+rea-video @ file:///{{PROTRAIN_PROJECT_ROOT}}/04%20%E2%80%94%20SaaS%20%26%20EdTech/editing-system/tools/rea-video/source
+referencing==0.37.0
+rpds-py==2026.9.1
+setuptools==84.2.1
+videomd==1.2.0
+wheel==0.48.0

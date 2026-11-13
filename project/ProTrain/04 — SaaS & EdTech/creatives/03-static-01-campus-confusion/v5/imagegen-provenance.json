@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-13",
+  "method": "Built-in ImageGen, five independent transparent photographic assets; no SVG academic symbols",
+  "transparent_background": true,
+  "entries": [
+    {
+      "id": "info",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1d2f3-a838-7523-97d4-75970fa8b0a1\\exec-2558d3a6-fa77-42a7-b915-7dac5a62c377.png",
+      "destination": "{{PROTRAIN_PROJECT_ROOT}}/04 — SaaS & EdTech/creatives/03-static-01-campus-confusion/v5/assets/generated-info.png",
+      "prompt": "Photorealistic studio still-life cutout asset for a Moroccan education advertisement, not an icon drawing. One clearly recognizable real object, authentic material and subtle wear, softly lit from upper left, near-frontal three-quarter view, sharp natural detail, restrained forest-green #017950 accents, cream and neutral materials. Object fills about 78 percent of a square composition, fully visible with generous transparent margin; compact silhouette recognizable at tiny thumbnail size. Genuinely transparent background with alpha. Natural contact shadow only, no floor or backdrop. No text, letters, logos, badges, circles, infographic, vector lines, outline icon, cartoon, plastic toy, glossy CGI or surrounding decoration. A single open contemporary laptop, dark forest-green metal case, neutral cream keys, blank dark screen without any interface, front three-quarter angle. It represents computer studies; show only the laptop."
+    },
+    {
+      "id": "sciences",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1d2f3-a838-7523-97d4-75970fa8b0a1\\exec-374bc7f4-0f54-47e7-9bd9-71be57c6f677.png",
+      "destination": "{{PROTRAIN_PROJECT_ROOT}}/04 — SaaS & EdTech/creatives/03-static-01-campus-confusion/v5/assets/generated-sciences.png",
+      "prompt": "Photorealistic studio still-life cutout asset for a Moroccan education advertisement, not an icon drawing. One clearly recognizable real object, authentic material and subtle wear, softly lit from upper left, near-frontal three-quarter view, sharp natural detail, restrained forest-green #017950 accents, cream and neutral materials. Object fills about 78 percent of a square composition, fully visible with generous transparent margin; compact silhouette recognizable at tiny thumbnail size. Genuinely transparent background with alpha. Natural contact shadow only, no floor or backdrop. No text, letters, logos, badges, circles, infographic, vector lines, outline icon, cartoon, plastic toy, glossy CGI or surrounding decoration. A single real clear glass Erlenmeyer laboratory flask containing a small amount of translucent green liquid. Realistic glass rim, optical reflections and transparency; upright frontal view, simple easily recognized triangular silhouette."
+    },
+    {
+      "id": "droit",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1d2f3-a838-7523-97d4-75970fa8b0a1\\exec-9dd9b78d-ce17-4e1d-a1ce-41f68326609c.png",
+      "destination": "{{PROTRAIN_PROJECT_ROOT}}/04 — SaaS & EdTech/creatives/03-static-01-campus-confusion/v5/assets/generated-droit.png",
+      "prompt": "Photorealistic studio still-life cutout asset for a Moroccan education advertisement, not an icon drawing. One clearly recognizable real object, authentic material and subtle wear, softly lit from upper left, near-frontal three-quarter view, sharp natural detail, restrained forest-green #017950 accents, cream and neutral materials. Object fills about 78 percent of a square composition, fully visible with generous transparent margin; compact silhouette recognizable at tiny thumbnail size. Genuinely transparent background with alpha. Natural contact shadow only, no floor or backdrop. No text, letters, logos, badges, circles, infographic, vector lines, outline icon, cartoon, plastic toy, glossy CGI or surrounding decoration. A small real antique-brass balance scale used as a symbol of law, with two evenly balanced pans and one compact dark forest-green base. Restrained matte brass and realistic metal craftsmanship, near frontal symmetric view, no extra objects."
+    },
+    {
+      "id": "gestion",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1d2f3-a838-7523-97d4-75970fa8b0a1\\exec-d91e31a0-fcce-4902-adbb-9683ea86b5b9.png",
+      "destination": "{{PROTRAIN_PROJECT_ROOT}}/04 — SaaS & EdTech/creatives/03-static-01-campus-confusion/v5/assets/generated-gestion.png",
+      "prompt": "Photorealistic studio still-life cutout asset for a Moroccan education advertisement, not an icon drawing. One clearly recognizable real object, authentic material and subtle wear, softly lit from upper left, near-frontal three-quarter view, sharp natural detail, restrained forest-green #017950 accents, cream and neutral materials. Object fills about 78 percent of a square composition, fully visible with generous transparent margin; compact silhouette recognizable at tiny thumbnail size. Genuinely transparent background with alpha. Natural contact shadow only, no floor or backdrop. No text, letters, logos, badges, circles, infographic, vector lines, outline icon, cartoon, plastic toy, glossy CGI or surrounding decoration. A single real physical desktop calculator with dark forest-green case, off-white tactile keys and a blank neutral LCD. No readable digits, text, company logo or financial values. Near frontal elevated view, compact familiar silhouette."
+    },
+    {
+      "id": "lettres",
+      "source": "C:\\Users\\Administrator\\.codex\\generated_images\\01a1d2f3-a838-7523-97d4-75970fa8b0a1\\exec-c1376c04-7234-409e-af8d-bfb0d9ffd4da.png",
+      "destination": "{{PROTRAIN_PROJECT_ROOT}}/04 — SaaS & EdTech/creatives/03-static-01-campus-confusion/v5/assets/generated-lettres.png",
+      "prompt": "Photorealistic studio still-life cutout asset for a Moroccan education advertisement, not an icon drawing. One clearly recognizable real object, authentic material and subtle wear, softly lit from upper left, near-frontal three-quarter view, sharp natural detail, restrained forest-green #017950 accents, cream and neutral materials. Object fills about 78 percent of a square composition, fully visible with generous transparent margin; compact silhouette recognizable at tiny thumbnail size. Genuinely transparent background with alpha. Natural contact shadow only, no floor or backdrop. No text, letters, logos, badges, circles, infographic, vector lines, outline icon, cartoon, plastic toy, glossy CGI or surrounding decoration. A single real open hardcover book with dark forest-green cloth cover, gently curved cream paper pages. Slightly elevated frontal view showing open pages and cover edges, blank pages with no readable text. Real paper grain and cloth weave, no extra objects."
+    }
+  ]
+}

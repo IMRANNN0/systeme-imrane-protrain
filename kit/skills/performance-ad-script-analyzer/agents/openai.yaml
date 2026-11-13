@@ -1,0 +1,4 @@
+interface:
+  display_name: "Performance Ad Script Analyzer"
+  short_description: "Audit hooks, retention, persuasion and creative tests"
+  default_prompt: "Use $performance-ad-script-analyzer to critique this video ad script in the twelve-section format."

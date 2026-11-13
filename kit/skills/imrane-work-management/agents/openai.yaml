@@ -1,0 +1,4 @@
+interface:
+  display_name: "Imrane Work Management"
+  short_description: "Scoped briefs, delivery evidence and reviewed lessons"
+  default_prompt: "Use $imrane-work-management to organize this assignment and complete it with appropriate evidence."

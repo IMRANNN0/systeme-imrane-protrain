@@ -1,0 +1,13 @@
+{
+  "status": "prototype-requires-logo-resolution",
+  "tool": "built-in image_gen__imagegen",
+  "file": "protrain-match-profile-a01-v2-generated.png",
+  "original": "C:/Users/Administrator/.codex/generated_images/01a1d2fd-907a-7172-8da2-b396a2fa59bc/exec-2ee3cec4-aaf1-4fae-97a4-f53c229bb1b2.png",
+  "dimensions": [
+    1122,
+    1402
+  ],
+  "copy": "All Arabic/Latin copy visually matches approved prompt; no offers/dates/invented reports",
+  "limitation": "ImageGen targeted edit still redrew logo rather than preserving supplied original pixels",
+  "superseded": "v1.png and its brand-layer.py were native compositing attempts superseded by this ImageGen workflow; do not treat as approved final"
+}

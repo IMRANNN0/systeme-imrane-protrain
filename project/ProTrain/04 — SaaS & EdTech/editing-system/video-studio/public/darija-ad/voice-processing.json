@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-13",
+  "source": "voice-take3.wav",
+  "output": "voice-final.wav",
+  "filter": "highpass=f=70,lowpass=f=8000,loudnorm=I=-16:TP=-1.5:LRA=7",
+  "sample_rate": 48000,
+  "source_duration_seconds": 7.16,
+  "purpose": "Reduce low rumble/high-frequency noise and constrain peaks; no time stretch or sentence trimming",
+  "loudnorm_report": {"output_i": -16.30, "output_tp": -1.50, "output_lra": 0.70},
+  "listening_scope": "Synthetic audio assessed by audio-capable Gemini model; no human listening verdict"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "protrain-portable-creative-tools",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Optional portable renderer for existing local ProTrain HTML creatives",
+  "scripts": {
+    "render:static": "node tools/render-static.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

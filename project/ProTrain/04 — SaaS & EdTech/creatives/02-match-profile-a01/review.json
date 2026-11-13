@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-13",
+  "reviewer": "root controller, independent from producing worker",
+  "stage": "delivery of first local review prototype",
+  "mode": "light",
+  "selected_image": "protrain-match-profile-a01-v3-final.png",
+  "method": "built-in ImageGen",
+  "dimensions": [
+    1122,
+    1402
+  ],
+  "bytes": 1866980,
+  "sha256": "e567c71b5b2eb07547f1185b94529829ad6d91e8f8c4c4a2002c5062a4f24905",
+  "observed_checks": {
+    "arabic": "Headline, kicker, support and CTA are correct, connected, readable and contained",
+    "identity": "ProTrain Match product name retained; corporate logo omitted after inaccurate generated logo was rejected",
+    "composition": "Student photograph and conceptual folder illustration; no actual product screenshot implied",
+    "claims": "No fabricated grades, programs, results, admission guarantees, testimonial, deadline or free offer",
+    "palette": "Green, ivory and amber consistent visually with supplied brand direction; generated pixels are not exact CSS tokens"
+  },
+  "limitations": [
+    "Synthetic illustrative student",
+    "No real report supplied or shown",
+    "Corporate logo omitted",
+    "Native font family cannot be certified in a generated raster",
+    "Conversion performance untested"
+  ],
+  "next_action": "Owner reviews this creative direction; then test chosen version using completed profiles and confirmed purchases",
+  "publication": "None",
+  "owner_status": "REJECTED_BY_OWNER",
+  "owner_feedback_record": "../static-ad-system/protrain-lessons.json",
+  "status_note": "Earlier technical checks remain historical evidence; creative direction rejected by owner. Do not reuse as an approved visual reference."
+}

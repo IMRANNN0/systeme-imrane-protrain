@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-13",
+  "page": "https://protraincompany.com/en/etudier-en-france/campus-france",
+  "status": "PROPOSED_ONLY_NOT_APPLIED",
+  "limitation": "Actual editable landing source is unavailable locally. No website source or live content has been changed.",
+  "identity": "ProTrain Match by ProTrain Company",
+  "language": "English, matching inspected /en/ page",
+  "evidence": [
+    "desktop-dom.json",
+    "branding-targets.json",
+    "faq-consulting.json",
+    "faq-offer.json"
+  ],
+  "scope": "Five text-node-only branding edits within the existing page. Reuse existing design system and original corporate logo.",
+  "edits": [
+    {
+      "id": "hero-product-identity",
+      "target_selector": "#wrap section.s_protrain_page_header p.text-uppercase.small.fw-bold.mb-2",
+      "operation": "Replace text only",
+      "current": "CAMPUS FRANCE - ÉTUDES EN FRANCE",
+      "proposed": "ProTrain Match by ProTrain Company",
+      "note": "Use existing kicker placement and typography. Existing uppercase CSS may render the text in capitals. Keep the current H1 unchanged."
+    },
+    {
+      "id": "hero-introduction",
+      "target_selector": "#wrap section.s_protrain_page_header p.lead",
+      "operation": "Replace text only",
+      "current": "Fill in one short form. We find 7 programs that fit your bac, your grades and your wishes, with the official figures of each one. See 2 of them now, for free.",
+      "proposed": "ProTrain Match is our academic matching tool. Fill in one short form to find 7 programs that fit your bac, your grades and your wishes, with the official figures of each one. See 2 of them now, for free."
+    },
+    {
+      "id": "form-context",
+      "target_selector": ".o_website_protrain_form_card > p",
+      "target_disambiguation": "Direct helper paragraph immediately after H2 See my programs; exact current text must match",
+      "operation": "Replace text only",
+      "current": "Free: your procedure and 2 programs. You also receive a private link by email to come back later.",
+      "proposed": "With ProTrain Match, your procedure and 2 programs are free. You also receive a private link by email to come back later."
+    },
+    {
+      "id": "report-context",
+      "target_selector": "#o_shortlist_faq_2",
+      "target_disambiguation": "Replace answer paragraph text only, keep question and collapse controls unchanged",
+      "operation": "Replace answer text only",
+      "current": "Your 7 programs ranked for your profile, with for each one the places, the access rate, the place of study, the profile of the admitted students, the reasons why it fits you and its official link. You see the list online and as a PDF.",
+      "proposed": "ProTrain Match gives you your 7 programs ranked for your profile, with for each one the places, the access rate, the place of study, the profile of the admitted students, the reasons why it fits you and its official link. You see the list online and as a PDF."
+    },
+    {
+      "id": "optional-human-consulting",
+      "target_selector": "#o_shortlist_faq_6",
+      "target_disambiguation": "Replace answer paragraph text only, keep question and collapse controls unchanged",
+      "operation": "Replace answer text only",
+      "current": "You enter your wishes on Études en France on your own, or a ProTrain counselor helps you with the application and the interview.",
+      "proposed": "You can use your ProTrain Match list to enter your wishes on Études en France on your own. Human guidance is a separate service from ProTrain Company. If you choose, a counselor can help you with the application and the interview.",
+      "note": "Separates use of the digital list from optional human help. Does not say consulting is included in the report price or invent consulting pricing."
+    }
+  ],
+  "unchanged": [
+    "H1: Which programs in France should you choose on Études en France?",
+    "Current application deadline text",
+    "2 programs free",
+    "7 programs in full report",
+    "199 DH including VAT, existing payment and PDF terms",
+    "All CTA labels and hrefs, including See my programs -> #o_shortlist_start",
+    "Form action /en/etudier-en-france/campus-france/start, POST method, field schemas, validation, steps and controls",
+    "Matching, reports, checkout, email links, database and service logic",
+    "Original corporate logo, colors, fonts and components",
+    "Other pages and languages"
+  ],
+  "implementation_gate": "Requires actual editable target template/source. Do not patch archival HTML, clone production or mutate the live website.",
+  "verification_plan": [
+    "Inspect source diff to confirm only these five existing text nodes changed",
+    "Render locally on desktop and mobile with empty form; inspect label wrapping and hierarchy",
+    "Compare CTA href/action/method/field schema and visible 2/7/199 terms against saved baseline without entering data or submitting",
+    "Use applicable project build/lint only after authentic source and instructions exist"
+  ],
+  "performed_checks": [
+    "Current proposed target text cross-checked against saved DOM evidence",
+    "Proposed copy reviewed with humanizer guidance: no new benefit, guarantee, discount or business term",
+    "No implementation, functional test, form fill, submit, report creation, payment or database operation performed"
+  ],
+  "controller_review": "Reviewed against current DOM. Added explicit academic-tool identification and separate-service wording from user brief; no changes applied."
+}

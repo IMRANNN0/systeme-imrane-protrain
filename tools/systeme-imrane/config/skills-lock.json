@@ -1,0 +1,636 @@
+{
+  "schema": 1,
+  "audited_at": "2026-10-20T00:51:41.822409+00:00",
+  "inventory_count": 68,
+  "skills": [
+    {
+      "name": "ad-arbitrage-operations",
+      "status": "unresolved",
+      "reason": "Local installation has no verifiable upstream provenance; not redistributed or auto-installed."
+    },
+    {
+      "name": "animate",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "emilkowalski/skills",
+      "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+      "license": "MIT",
+      "url": "https://github.com/emilkowalski/skills",
+      "path": "skills/animate"
+    },
+    {
+      "name": "animate-expo",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "emilkowalski/skills",
+      "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+      "license": "MIT",
+      "url": "https://github.com/emilkowalski/skills",
+      "path": "skills/animate-expo"
+    },
+    {
+      "name": "animation-vocabulary",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "emilkowalski/skills",
+      "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+      "license": "MIT",
+      "url": "https://github.com/emilkowalski/skills",
+      "path": "skills/animation-vocabulary"
+    },
+    {
+      "name": "apple-design",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "emilkowalski/skills",
+      "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+      "license": "MIT",
+      "url": "https://github.com/emilkowalski/skills",
+      "path": "skills/apple-design"
+    },
+    {
+      "name": "ask-sonner",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "emilkowalski/skills",
+      "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+      "license": "MIT",
+      "url": "https://github.com/emilkowalski/skills",
+      "path": "skills/ask-sonner"
+    },
+    {
+      "name": "astro-publisher-system",
+      "status": "unresolved",
+      "reason": "Local installation has no verifiable upstream provenance; not redistributed or auto-installed."
+    },
+    {
+      "name": "blog-starter",
+      "status": "unresolved",
+      "reason": "Local installation has no verifiable upstream provenance; not redistributed or auto-installed."
+    },
+    {
+      "name": "canonry",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "Canonry/canonry",
+      "commit": "a8a9bc46d91e010e07852a948cac50fc2995e664",
+      "license": "MIT",
+      "url": "https://github.com/Canonry/canonry",
+      "path": "skills/canonry"
+    },
+    {
+      "name": "clean-user-facing-text",
+      "status": "unresolved",
+      "reason": "Local installation has no verifiable upstream provenance; not redistributed or auto-installed."
+    },
+    {
+      "name": "dp-ad-angles-google",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-ad-angles-google"
+    },
+    {
+      "name": "dp-ad-angles-meta",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-ad-angles-meta"
+    },
+    {
+      "name": "dp-blog-article",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-blog-article"
+    },
+    {
+      "name": "dp-blog-strategy",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-blog-strategy"
+    },
+    {
+      "name": "dp-business-profile",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-business-profile"
+    },
+    {
+      "name": "dp-competitor-analysis",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-competitor-analysis"
+    },
+    {
+      "name": "dp-copy-review",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-copy-review"
+    },
+    {
+      "name": "dp-ebook-cover",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-ebook-cover"
+    },
+    {
+      "name": "dp-email-sequence",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-email-sequence"
+    },
+    {
+      "name": "dp-export-pdf",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-export-pdf"
+    },
+    {
+      "name": "dp-landing-page",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-landing-page"
+    },
+    {
+      "name": "dp-launch",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-launch"
+    },
+    {
+      "name": "dp-lead-magnet-create",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-lead-magnet-create"
+    },
+    {
+      "name": "dp-market-research",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-market-research"
+    },
+    {
+      "name": "dp-mediaplan",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-mediaplan"
+    },
+    {
+      "name": "dp-playbook-audit",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-playbook-audit"
+    },
+    {
+      "name": "dp-playbook-create",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-playbook-create"
+    },
+    {
+      "name": "dp-playbook-section",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-playbook-section"
+    },
+    {
+      "name": "dp-playbook-sync",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-playbook-sync"
+    },
+    {
+      "name": "dp-sales-funnel",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-sales-funnel"
+    },
+    {
+      "name": "dp-social-caption",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-social-caption"
+    },
+    {
+      "name": "dp-tracking-setup",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-tracking-setup"
+    },
+    {
+      "name": "dp-upsell-strategy",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/dp-createur",
+      "commit": "0cf80efa15049e9366eb72493473df344e1cea3b",
+      "license": "MIT",
+      "url": "https://github.com/kabde/dp-createur",
+      "path": "skills/dp-upsell-strategy"
+    },
+    {
+      "name": "emil-design-eng",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "emilkowalski/skills",
+      "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+      "license": "MIT",
+      "url": "https://github.com/emilkowalski/skills",
+      "path": "skills/emil-design-eng"
+    },
+    {
+      "name": "find-animation-opportunities",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "emilkowalski/skills",
+      "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+      "license": "MIT",
+      "url": "https://github.com/emilkowalski/skills",
+      "path": "skills/find-animation-opportunities"
+    },
+    {
+      "name": "graphify",
+      "status": "package",
+      "reason": "Install through the pinned package/runtime, not an invented SKILL.md path.",
+      "repo": "Graphify-Labs/graphify",
+      "commit": "4c95d02cbb3901956491e81695f32ae56bd851d6",
+      "license": "MIT",
+      "url": "https://github.com/Graphify-Labs/graphify"
+    },
+    {
+      "name": "humanizer",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "blader/humanizer",
+      "commit": "8c307f367c91bd974002f10f2be2965d642c13df",
+      "license": "MIT",
+      "url": "https://github.com/blader/humanizer",
+      "path": "."
+    },
+    {
+      "name": "impeccable",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "pbakaus/impeccable",
+      "commit": "46b822f7dda9f7dba799a9c7776fdc19b3a93559",
+      "license": "Apache-2.0",
+      "url": "https://github.com/pbakaus/impeccable",
+      "path": ".agents/skills/impeccable"
+    },
+    {
+      "name": "improve-animations",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "emilkowalski/skills",
+      "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+      "license": "MIT",
+      "url": "https://github.com/emilkowalski/skills",
+      "path": "skills/improve-animations"
+    },
+    {
+      "name": "mobile-native",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "emilkowalski/skills",
+      "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+      "license": "MIT",
+      "url": "https://github.com/emilkowalski/skills",
+      "path": "skills/mobile-native"
+    },
+    {
+      "name": "pick-ui-library",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "emilkowalski/skills",
+      "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+      "license": "MIT",
+      "url": "https://github.com/emilkowalski/skills",
+      "path": "skills/pick-ui-library"
+    },
+    {
+      "name": "prototype",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "emilkowalski/skills",
+      "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+      "license": "MIT",
+      "url": "https://github.com/emilkowalski/skills",
+      "path": "skills/prototype"
+    },
+    {
+      "name": "publisher-content-production",
+      "status": "unresolved",
+      "reason": "Local installation has no verifiable upstream provenance; not redistributed or auto-installed."
+    },
+    {
+      "name": "publisher-editorial-architecture",
+      "status": "unresolved",
+      "reason": "Local installation has no verifiable upstream provenance; not redistributed or auto-installed."
+    },
+    {
+      "name": "publisher-monetization-design",
+      "status": "unresolved",
+      "reason": "Local installation has no verifiable upstream provenance; not redistributed or auto-installed."
+    },
+    {
+      "name": "publisher-niche-validation",
+      "status": "unresolved",
+      "reason": "Local installation has no verifiable upstream provenance; not redistributed or auto-installed."
+    },
+    {
+      "name": "remove-ai-marks",
+      "status": "unresolved",
+      "reason": "Local installation has no verifiable upstream provenance; not redistributed or auto-installed."
+    },
+    {
+      "name": "review-animations",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "emilkowalski/skills",
+      "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+      "license": "MIT",
+      "url": "https://github.com/emilkowalski/skills",
+      "path": "skills/review-animations"
+    },
+    {
+      "name": "score-offer",
+      "status": "unresolved",
+      "reason": "Local installation has no verifiable upstream provenance; not redistributed or auto-installed."
+    },
+    {
+      "name": "seo",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/seo-skills",
+      "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+      "license": "MIT",
+      "url": "https://github.com/kabde/seo-skills",
+      "path": "skills/seo"
+    },
+    {
+      "name": "seo-audit",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/seo-skills",
+      "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+      "license": "MIT",
+      "url": "https://github.com/kabde/seo-skills",
+      "path": "skills/seo-audit"
+    },
+    {
+      "name": "seo-brand-voice",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/seo-skills",
+      "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+      "license": "MIT",
+      "url": "https://github.com/kabde/seo-skills",
+      "path": "skills/seo-brand-voice"
+    },
+    {
+      "name": "seo-cluster",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/seo-skills",
+      "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+      "license": "MIT",
+      "url": "https://github.com/kabde/seo-skills",
+      "path": "skills/seo-cluster"
+    },
+    {
+      "name": "seo-content",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/seo-skills",
+      "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+      "license": "MIT",
+      "url": "https://github.com/kabde/seo-skills",
+      "path": "skills/seo-content"
+    },
+    {
+      "name": "seo-dataforseo",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/seo-skills",
+      "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+      "license": "MIT",
+      "url": "https://github.com/kabde/seo-skills",
+      "path": "extensions/dataforseo/skills/seo-dataforseo"
+    },
+    {
+      "name": "seo-firecrawl",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/seo-skills",
+      "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+      "license": "MIT",
+      "url": "https://github.com/kabde/seo-skills",
+      "path": "extensions/firecrawl/skills/seo-firecrawl"
+    },
+    {
+      "name": "seo-geo",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/seo-skills",
+      "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+      "license": "MIT",
+      "url": "https://github.com/kabde/seo-skills",
+      "path": "skills/seo-geo"
+    },
+    {
+      "name": "seo-image-gen",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/seo-skills",
+      "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+      "license": "MIT",
+      "url": "https://github.com/kabde/seo-skills",
+      "path": "extensions/banana/skills/seo-image-gen"
+    },
+    {
+      "name": "seo-images",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/seo-skills",
+      "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+      "license": "MIT",
+      "url": "https://github.com/kabde/seo-skills",
+      "path": "skills/seo-images"
+    },
+    {
+      "name": "seo-outline-article",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/seo-skills",
+      "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+      "license": "MIT",
+      "url": "https://github.com/kabde/seo-skills",
+      "path": "skills/seo-outline-article"
+    },
+    {
+      "name": "seo-page",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/seo-skills",
+      "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+      "license": "MIT",
+      "url": "https://github.com/kabde/seo-skills",
+      "path": "skills/seo-page"
+    },
+    {
+      "name": "seo-schema",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/seo-skills",
+      "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+      "license": "MIT",
+      "url": "https://github.com/kabde/seo-skills",
+      "path": "skills/seo-schema"
+    },
+    {
+      "name": "seo-technical",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/seo-skills",
+      "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+      "license": "MIT",
+      "url": "https://github.com/kabde/seo-skills",
+      "path": "skills/seo-technical"
+    },
+    {
+      "name": "seo-write-article",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "kabde/seo-skills",
+      "commit": "74f52b3646de54a1815cd57e5d726fbc1e2d402a",
+      "license": "MIT",
+      "url": "https://github.com/kabde/seo-skills",
+      "path": "skills/seo-write-article"
+    },
+    {
+      "name": "taste-skill",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "Leonxlnx/taste-skill",
+      "commit": "63aba5f43b5056758b15bbe7d683da8c86a7a7ad",
+      "license": "MIT",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "path": "skills/taste-skill"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "commit": "56ea9cf174ed86786187daa9de0e6247cb0747e4",
+      "license": "MIT",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "path": ".claude/skills/ui-ux-pro-max"
+    },
+    {
+      "name": "unlazy",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "Leonxlnx/unlazy",
+      "commit": "16671491f6679ad9378f52604d3bc2415b4120c7",
+      "license": "MIT",
+      "url": "https://github.com/Leonxlnx/unlazy",
+      "path": "."
+    },
+    {
+      "name": "write-swift",
+      "status": "github",
+      "reason": "Pinned verified public upstream; local adaptations are not silently copied.",
+      "repo": "emilkowalski/skills",
+      "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+      "license": "MIT",
+      "url": "https://github.com/emilkowalski/skills",
+      "path": "skills/write-swift"
+    }
+  ]
+}

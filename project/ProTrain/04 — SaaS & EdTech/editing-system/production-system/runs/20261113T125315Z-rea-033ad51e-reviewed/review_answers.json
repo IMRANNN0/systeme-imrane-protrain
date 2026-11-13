@@ -1,0 +1,204 @@
+{
+  "by": "Codex sampled-frame and source-provenance review; no listening",
+  "shots": [
+    {
+      "id": "shot_001",
+      "time": "0.00-4.10",
+      "label_probs": {
+        "still_motion": 0.95,
+        "code_render": 0.05
+      },
+      "image_source": "ai_image",
+      "evidence": [
+        "Actual first/mid/end frames show a held pose while framing changes.",
+        "Source provenance: context-student-v1.png is a generated still; Pilot001.tsx animates it. No video-generation shot was used."
+      ],
+      "description": "Fictional student photograph with a subtle whole-image push-in; independent Arabic title and caption overlays.",
+      "narrative": {
+        "role": "hook",
+        "point": "Identify the formation-choice problem"
+      },
+      "embedded_assets": [
+        {
+          "kind": "ai_image",
+          "is_real_material": false,
+          "description": "Source-provenance review; no licensed external reference footage."
+        }
+      ],
+      "ai_edits": [],
+      "same_clip_as": null,
+      "replication": {
+        "image_prompt": "",
+        "video_prompt": "",
+        "video_prompt_en": ""
+      }
+    },
+    {
+      "id": "shot_002",
+      "time": "4.10-11.60",
+      "label_probs": {
+        "code_render": 0.95,
+        "still_motion": 0.05
+      },
+      "image_source": "graphic",
+      "evidence": [
+        "Flat ivory/green/amber vector and text layout visible in inspected export.",
+        "Explanation badge is visible; this is not an actual matching result."
+      ],
+      "description": "Ivory explanatory graphic connects the academic profile with formation conditions.",
+      "narrative": {
+        "role": "context",
+        "point": "Explain why the academic profile and conditions must be compared"
+      },
+      "embedded_assets": [
+        {
+          "kind": "logo",
+          "is_real_material": true,
+          "description": "Source-provenance review; no licensed external reference footage."
+        }
+      ],
+      "ai_edits": [],
+      "same_clip_as": null,
+      "replication": {
+        "image_prompt": "",
+        "video_prompt": "",
+        "video_prompt_en": ""
+      }
+    },
+    {
+      "id": "shot_003",
+      "time": "11.60-17.30",
+      "label_probs": {
+        "code_render": 0.95,
+        "still_motion": 0.05
+      },
+      "image_source": "screenshot",
+      "evidence": [
+        "Real source screenshot and its provenance are saved in the pilot assets.",
+        "Only selected empty fields are displayed; no successful submission is shown."
+      ],
+      "description": "Green title and free-profile badge above a genuine cropped form screenshot.",
+      "narrative": {
+        "role": "information",
+        "point": "Show the free academic-profile entry step"
+      },
+      "embedded_assets": [
+        {
+          "kind": "screenshot",
+          "is_real_material": true,
+          "description": "Source-provenance review; no licensed external reference footage."
+        }
+      ],
+      "ai_edits": [],
+      "same_clip_as": null,
+      "replication": {
+        "image_prompt": "",
+        "video_prompt": "",
+        "video_prompt_en": ""
+      }
+    },
+    {
+      "id": "shot_004",
+      "time": "17.30-30.00",
+      "label_probs": {
+        "code_render": 0.95,
+        "still_motion": 0.05
+      },
+      "image_source": "ai_image",
+      "evidence": [
+        "Actual first/mid/end frames show the same folder image with changing reason/conditions/steps typography.",
+        "Source provenance confirms a generated still image, not a real report screenshot."
+      ],
+      "description": "Physical-folder still illustration with sequential report-value text and a persistent explanation badge.",
+      "narrative": {
+        "role": "information",
+        "point": "Explain the proposed report contents without pretending to display a real result"
+      },
+      "embedded_assets": [
+        {
+          "kind": "ai_image",
+          "is_real_material": false,
+          "description": "Source-provenance review; no licensed external reference footage."
+        }
+      ],
+      "ai_edits": [],
+      "same_clip_as": null,
+      "replication": {
+        "image_prompt": "",
+        "video_prompt": "",
+        "video_prompt_en": ""
+      }
+    },
+    {
+      "id": "shot_005",
+      "time": "30.00-38.00",
+      "label_probs": {
+        "code_render": 0.95,
+        "still_motion": 0.05
+      },
+      "image_source": "graphic",
+      "evidence": [
+        "Actual ending frames show free-profile CTA, purchase-choice qualifier and real landing destination."
+      ],
+      "description": "Green end card separates free-profile entry, full-report offer and purchase choice.",
+      "narrative": {
+        "role": "cta",
+        "point": "Invite the viewer to complete the profile and inspect the paid report offer"
+      },
+      "embedded_assets": [
+        {
+          "kind": "logo",
+          "is_real_material": true,
+          "description": "Source-provenance review; no licensed external reference footage."
+        }
+      ],
+      "ai_edits": [],
+      "same_clip_as": null,
+      "replication": {
+        "image_prompt": "",
+        "video_prompt": "",
+        "video_prompt_en": ""
+      }
+    }
+  ],
+  "aspects": {
+    "editing": {
+      "editing": "Hard visual changes at4.1,11.6,17.3,30seconds; smaller text changes inside the report section."
+    },
+    "format": {
+      "format": "Narrated vertical software explainer; not an approved professional reference style."
+    }
+  },
+  "story": {
+    "summary": "A Moroccan academic-matching explainer using still-image camera movement, code typography and a genuine form crop.",
+    "hook": "0–4.1s uses a student-choice image and a direct formation-choice question.",
+    "highlights": [
+      "4.1–11.6s makes the profile/conditions relationship visible.",
+      "11.6–17.3s shows genuine form pixels.",
+      "17.3–30s labels report content as explanatory rather than genuine results."
+    ]
+  },
+  "cast": {
+    "style": "Ivory, forest green and amber; Cairo Arabic typography; original logo.",
+    "characters": [
+      {
+        "id": "A",
+        "name": "Fictional adult student illustration",
+        "kind": "person",
+        "look": "Green overshirt at an ivory study desk",
+        "role": "Context only, not a testimonial",
+        "voice": "Not the speaker; generic TTS narration is separate",
+        "shots": [
+          1
+        ]
+      }
+    ],
+    "scenes": [],
+    "props": []
+  },
+  "packaging": {
+    "stickers": [],
+    "text": [],
+    "missed": []
+  }
+}

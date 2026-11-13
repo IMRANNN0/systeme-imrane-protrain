@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "verified_on": "2026-10-20",
+  "name": "codex-sol-luna-6",
+  "routes": {
+    "mechanical_safe": {
+      "codex_model": "gpt-6-luna",
+      "reasoning_effort": "low"
+    },
+    "fast_safe": {
+      "codex_model": "gpt-6-luna",
+      "reasoning_effort": "medium"
+    },
+    "focused_safe": {
+      "codex_model": "gpt-6-luna",
+      "reasoning_effort": "high"
+    },
+    "balanced_safe": {
+      "codex_model": "gpt-6.1-sol",
+      "reasoning_effort": "low"
+    },
+    "standard_safe": {
+      "codex_model": "gpt-6.1-sol",
+      "reasoning_effort": "medium"
+    },
+    "deep_safe": {
+      "codex_model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    }
+  }
+}
